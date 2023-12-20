@@ -102,7 +102,9 @@ function App() {
             return (
               <div key={answer.questionId}>
                 <h4>{question.text}</h4>
-                {question.questionURL && <img src={question.questionURL} alt="Pregunta" />}
+                {question.questionURL && (
+                  <img src={question.questionURL} alt="Pregunta" style={{ maxWidth: '100%' }} />
+                )}
                 <p>Tu respuesta: {selectedOption.text}</p>
                 <p>Respuesta correcta: {correctOption.text}</p>
               </div>
