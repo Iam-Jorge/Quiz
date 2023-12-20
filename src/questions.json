@@ -598,6 +598,191 @@
     ]
   },
   {
+    "examName": "Ex-Ene-22",
+    "questions": [
+      {
+        "text": "En una comunicación IP multicast los participantes...",
+        "options": [
+          { "id": 0, "text": "Están acoplados en espacio y tiempo.", "isCorrect": false },
+          { "id": 1, "text": "Están desacoplados en espacio y tiempo.", "isCorrect": false },
+          { "id": 2, "text": "Están desacoplados en espacio y acoplados en tiempo.", "isCorrect": true },
+          { "id": 3, "text": "Están acoplados en espacio y desacoplados en tiempo.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes frases define mejor el concepto de evento?",
+        "options": [
+          { "id": 0, "text": "Ejecución de un fragmento de código remoto que retorna una respuesta síncrona.", "isCorrect": false },
+          { "id": 1, "text": "Ejecución de un fragmento de código remoto que retorna una respuesta asíncrona.", "isCorrect": false },
+          { "id": 2, "text": "Comunicación de datos entre dos objetos distribuidos cualesquiera.", "isCorrect": false },
+          { "id": 3, "text": "Difusión de una notificación con un valor asociado.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Cuál es el modelo de comunicación más adecuado para un sistema de estaciones meteorológicas que informan sobre temperatura viento y presión a un conjunto indeterminado y dinámico de posibles clientes?",
+        "options": [
+          { "id": 0, "text": "Polling a una base de datos.", "isCorrect": false },
+          { "id": 1, "text": "Un sistema publicador-subscriptor.", "isCorrect": true },
+          { "id": 2, "text": "Un sistema de ficheros distribuido.", "isCorrect": false },
+          { "id": 3, "text": "RPC o RMI.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué quiere decir que el emisor y el receptor en un sistema de comunicación indirecta están desacoplados en tiempo?",
+        "options": [
+          { "id": 0, "text": "Emisor y receptor no necesitan existir al mismo tiempo", "isCorrect": true },
+          { "id": 1, "text": "Emisor no necesita conocer la identidad del receptor y viceversa", "isCorrect": false },
+          { "id": 2, "text": "Emisor y receptor necesitan existir al mismo tiempo", "isCorrect": false },
+          { "id": 3, "text": "Emisor necesita conocer la identidad del receptor y viceversa", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué modelo de comunicación indirecta implica conocer los identificadores de los destinatarios del mensaje que enviamos?",
+        "options": [
+          { "id": 0, "text": "Comunicación en grupo", "isCorrect": false },
+          { "id": 1, "text": "Colas de mensajes", "isCorrect": false },
+          { "id": 2, "text": "Ninguno", "isCorrect": true },
+          { "id": 3, "text": "Modelo de memoria distribuida compartida", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál es una interpretación correcta del concepto de «causalidad potencial»?",
+        "options": [
+          { "id": 0, "text": "Si un evento es un efecto su causa le precede en la historia de eventos.", "isCorrect": true },
+          { "id": 1, "text": "Si un evento tiene la capacidad de causar otro deberá considerarse posterior.", "isCorrect": false },
+          { "id": 2, "text": "Dos eventos en distintos nodos nunca tienen relación de orden.", "isCorrect": false },
+          { "id": 3, "text": "Define ambos componentes de los relojes lógicos de orden total.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En una sincronización mediante el algoritmo de Cristian un cliente manda un mensaje de sincronización a un servidor con su hora de cliente de Tc=10:00:00 le llega un mensaje de vuelta a las 10:00:20 con la hora de servidor de Ts=10:00:05 ¿Qué hora debe configurar como objetivo para sincronizarse? ¿Qué error máximo está cometiendo?",
+        "options": [
+          { "id": 0, "text": "10:00:15 10 segundos", "isCorrect": true },
+          { "id": 1, "text": "10:00:05 10 segundos", "isCorrect": false },
+          { "id": 2, "text": "10:00:05 20 segundos", "isCorrect": false },
+          { "id": 3, "text": "10:00:25 10 segundos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Señale qué afirmación es correcta para el concepto de corte consistente:",
+        "options": [
+          { "id": 0, "text": "Al corte consistente es suficiente con incluir las causas e ignorar cualquier efecto", "isCorrect": false },
+          { "id": 1, "text": "Al corte consistente le pueden faltar efectos pero no causas", "isCorrect": true },
+          { "id": 2, "text": "Un corte consistente siempre tiene la causa y su efecto incluido", "isCorrect": false },
+          { "id": 3, "text": "Al corte consistente le pueden faltar causas pero no efectos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué indica el sesgo (skew)?",
+        "options": [
+          { "id": 0, "text": "La diferencia instantánea entre dos relojes lógicos.", "isCorrect": false },
+          { "id": 1, "text": "La diferencia instantánea entre dos relojes físicos.", "isCorrect": true },
+          { "id": 2, "text": "Diferencia entre el valor actual y pasado de un reloj lógico.", "isCorrect": false },
+          { "id": 3, "text": "La tasa de cambio de un reloj de cristal de cuarzo.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál es la relación que existe entre el reloj físico y el lógico en un mismo computador?",
+        "options": [
+          { "id": 0, "text": "El reloj lógico tiene aproximadamente la mitad de deriva que el físico.", "isCorrect": false },
+          { "id": 1, "text": "El reloj lógico es mucho más preciso porque puede interpolar valores entre dos ticks del reloj físico.", "isCorrect": false },
+          { "id": 2, "text": "Al reloj lógico se le aplica una restricción sobre el máximo valor de sesgo.", "isCorrect": false },
+          { "id": 3, "text": "No existe ninguna relación entre ambos relojes.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En un problema de exclusión mutua centralizada necesita implementar un acceso por orden de petición en el acceso a la sección crítica ¿Qué algoritmo de los siguientes garantiza el orden?",
+        "options": [
+          { "id": 0, "text": "Servidor central", "isCorrect": false },
+          { "id": 1, "text": "Anillo con testigo", "isCorrect": false },
+          { "id": 2, "text": "Ricart y Agrawala", "isCorrect": true },
+          { "id": 3, "text": "Todos los algoritmos garantizan el orden", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Determine el tipo de problema específico que le ayuda a resolver el algoritmo de Chang y Roberts:",
+        "options": [
+          { "id": 0, "text": "Elección de coordinador", "isCorrect": true },
+          { "id": 1, "text": "Consenso", "isCorrect": false },
+          { "id": 2, "text": "Acuerdo", "isCorrect": false },
+          { "id": 3, "text": "Exclusión mutua", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Determine el tipo de problema que le ayuda a resolver el algoritmo de anillo:",
+        "options": [
+          { "id": 0, "text": "Consenso", "isCorrect": false },
+          { "id": 1, "text": "Multidifusión", "isCorrect": false },
+          { "id": 2, "text": "Consistencia interactiva", "isCorrect": false },
+          { "id": 3, "text": "Depende hay dos algoritmos 'de anillo': uno exclusión mutua y otro para elección de coordinador", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Desde el punto de vista de un sistema distribuido con alta escalabilidad sin fallos ¿cuál es el aspecto más débil del algoritmo de exclusión mutua con servidor central?",
+        "options": [
+          { "id": 0, "text": "El servidor representa un cuello de botella.", "isCorrect": true },
+          { "id": 1, "text": "Limitaciones en el tamaño de la cola de peticiones.", "isCorrect": false },
+          { "id": 2, "text": "En entornos de alta escalabilidad no proporciona liveness.", "isCorrect": false },
+          { "id": 3, "text": "En entornos de alta escalabilidad el alto número de mensajes para entrar y salir de la región crítica.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "De las situaciones siguientes ¿cuál requiere un mecanismo de exclusión mutua distribuida?",
+        "options": [
+          { "id": 0, "text": "Una impresora compartida.", "isCorrect": false },
+          { "id": 1, "text": "Un broker de propagación de eventos.", "isCorrect": false },
+          { "id": 2, "text": "El control de una grúa robotizada desde una estación base y varios operarios en planta.", "isCorrect": true },
+          { "id": 3, "text": "Un sistema de ficheros distribuido que dispone de implementaciones para diferentes sistemas operativos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué afirmación es falsa para la replicación?",
+        "options": [
+          { "id": 0, "text": "Mejora la tolerancia a fallos.", "isCorrect": false },
+          { "id": 1, "text": "Simplifica la consistencia de datos.", "isCorrect": true },
+          { "id": 2, "text": "Incrementa la disponibilidad del sistema distribuido.", "isCorrect": false },
+          { "id": 3, "text": "Puede mejorar el tiempo de respuesta en el acceso a los datos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Qué factores pueden afectar a la ventana de inconsistencia",
+        "options": [
+          { "id": 0, "text": "Carga de los sistemas.", "isCorrect": false },
+          { "id": 1, "text": "Retardo en las comunicaciones.", "isCorrect": false },
+          { "id": 2, "text": "Retardo en las comunicaciones y carga de los sistemas.", "isCorrect": false },
+          { "id": 3, "text": "Retardo en las comunicaciones carga de los sistemas y número de réplicas.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En qué modelo de replicación una actualización de un dato X se tiene que ver instantáneamente",
+        "options": [
+          { "id": 0, "text": "Lineal", "isCorrect": false },
+          { "id": 1, "text": "Estricta", "isCorrect": true },
+          { "id": 2, "text": "Secuencial", "isCorrect": false },
+          { "id": 3, "text": "En sistemas asíncronos no se puede propagar de forma instantánea (tiempo de los mensajes)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Complete la siguiente frase: 'La disponibilidad es inversamente proporcional a...'",
+        "options": [
+          { "id": 0, "text": "La carga del sistema", "isCorrect": true },
+          { "id": 1, "text": "La redundancia del sistema", "isCorrect": false },
+          { "id": 2, "text": "El coste del sistema", "isCorrect": false },
+          { "id": 3, "text": "La fiabilidad del sistema", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué es un sistema tolerante a fallos?",
+        "options": [
+          { "id": 0, "text": "Sistema que persigue la consistencia de la información.", "isCorrect": false },
+          { "id": 1, "text": "Sistema muy robusto en el que no se producen fallos de ningún tipo.", "isCorrect": false },
+          { "id": 2, "text": "Sistema que cumple con todas las especificaciones del sistema en presencia de cualquier tipo de fallo.", "isCorrect": false },
+          { "id": 3, "text": "Sistema que permite la ejecución continuada del sistema posiblemente degradada aún en presencia de fallos.", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
     "examName": "Otros examenes",
     "questions": [
       {
