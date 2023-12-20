@@ -1,51 +1,38 @@
 [
   {
-    "examName": "Historia de EE. UU.",
+    "examName": "Ex-Jun-23",
     "questions": [
       {
-        "text": "What is the capital of America?",
+        "text": "Marca cuál de las siguientes afirmaciones es cierta:",
+        "options": [
+          { "id": 0, "text": "En comunicación indirecta existe un desacoplamiento en espacio y tiempo entre los participantes.", "isCorrect": true },
+          { "id": 1, "text": "Implementar comunicación indirecta es apropiado para la difusión de eventos, pero cuando los receptores son bien conocidos y no suelen cambiar.", "isCorrect": false },
+          { "id": 2, "text": "En comunicación indirecta se utiliza un intermediario y todas las partes de la comunicación deben estar en ejecución.", "isCorrect": false },
+          { "id": 3, "text": "RMI implementa comunicación indirecta.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál es el modelo de comunicación más adecuado para un sistema de estaciones meteorológicas que informan sobre  [2p] ¿Cuál es el modelo de comunicación más adecuado para un sistema de estaciones meteorológicas que informan sobre temperatura, viento y presión a un conjunto indeterminado y dinámico de posibles clientes?",
+        "options": [
+          { "id": 0, "text": " Polling a una base de datos.", "isCorrect": false },
+          { "id": 1, "text": " Un sistema publicador-subscriptor", "isCorrect": true },
+          { "id": 2, "text": "Un sistema de ficheros distribuido.", "isCorrect": true },
+          { "id": 3, "text": "RPC o RMI.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Otro examene",
+    "questions": [
+      {
+        "text": "Prueba imagen",
         "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX1Q1.JPG",
         "options": [
-          { "id": 0, "text": "New York City", "isCorrect": false },
-          { "id": 1, "text": "Boston", "isCorrect": false },
-          { "id": 2, "text": "Santa Fe", "isCorrect": false },
-          { "id": 3, "text": "Washington DC", "isCorrect": true }
-        ]
-      },
-      {
-        "text": "What year was the Constitution of America written?",
-        "options": [
-          { "id": 0, "text": "1787", "isCorrect": true },
-          { "id": 1, "text": "1776", "isCorrect": false },
-          { "id": 2, "text": "1774", "isCorrect": false },
-          { "id": 3, "text": "1826", "isCorrect": false }
-        ]
-      },
-      {
-        "text": "Who was the second president of the US?",
-        "options": [
-          { "id": 0, "text": "John Adams", "isCorrect": true },
-          { "id": 1, "text": "Paul Revere", "isCorrect": false },
-          { "id": 2, "text": "Thomas Jefferson", "isCorrect": false },
-          { "id": 3, "text": "Benjamin Franklin", "isCorrect": false }
-        ]
-      },
-      {
-        "text": "What is the largest state in the US?",
-        "options": [
-          { "id": 0, "text": "California", "isCorrect": false },
-          { "id": 1, "text": "Alaska", "isCorrect": true },
-          { "id": 2, "text": "Texas", "isCorrect": false },
-          { "id": 3, "text": "Montana", "isCorrect": false }
-        ]
-      },
-      {
-        "text": "Which of the following countries DO NOT border the US?",
-        "options": [
-          { "id": 0, "text": "Canada", "isCorrect": false },
-          { "id": 1, "text": "Russia", "isCorrect": true },
-          { "id": 2, "text": "Cuba", "isCorrect": true },
-          { "id": 3, "text": "Mexico", "isCorrect": false }
+          { "id": 0, "text": "a", "isCorrect": false },
+          { "id": 1, "text": "b", "isCorrect": false },
+          { "id": 2, "text": "c", "isCorrect": false },
+          { "id": 3, "text": "d", "isCorrect": true }
         ]
       }
     ]

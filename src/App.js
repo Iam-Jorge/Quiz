@@ -14,6 +14,20 @@ function App() {
     setExams(examsData);
   }, []);
 
+  const shuffleArray = (array) => {
+    let currentIndex = array.length, randomIndex;
+
+    while (currentIndex !== 0) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+
+    return array;
+  }
+
   const startExam = (exam) => {
     setSelectedExam(exam);
     setScore(0);
@@ -51,13 +65,15 @@ function App() {
 
   const renderQuestionCard = () => {
     const question = selectedExam.questions[currentQuestion];
+    const shuffledOptions = shuffleArray([...question.options]);
+
     return (
       <div className="question-card">
         <h2>Pregunta: {currentQuestion + 1} / {selectedExam.questions.length}</h2>
         <h3 className="question-text">{question.text}</h3>
         {question.questionURL && <img src={question.questionURL} alt="Question" />}
         <ul>
-          {question.options.map((option) => (
+          {shuffledOptions.map((option) => (
             <li key={option.id} onClick={() => optionClicked(option.isCorrect, option.id)}>
               {option.text}
             </li>
