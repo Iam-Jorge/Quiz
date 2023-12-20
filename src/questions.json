@@ -292,8 +292,7 @@
         ]
       },
       {
-        "text": " Considere un sistema distribuido formado por 5 procesos con PIDs 1, 2, 3, 4 y 5. Si el sistema usa exclusión mutua con servidor central y los procesos 4, 5 y 1 envían un mensaje al coordinador, en ese orden, ¿cuántos mensajes son necesarios para que el proceso 5 logre entrar en la sección crítica?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-1.JPG",
+        "text": "Considere un sistema distribuido formado por 5 procesos con PIDs 1, 2, 3, 4 y 5. Si el sistema usa exclusión mutua con servidor central y los procesos 4, 5 y 1 envían un mensaje al coordinador, en ese orden, ¿cuántos mensajes son necesarios para que el proceso 5 logre entrar en la sección crítica?",
         "options": [
           { "id": 0, "text": "5", "isCorrect": false },
           { "id": 1, "text": "8", "isCorrect": false },
