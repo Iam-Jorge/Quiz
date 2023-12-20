@@ -58,7 +58,7 @@
       },
       {
         "text": "La figura de la izquierda representa el diagrama de eventos de un SD formado por tres procesos. Para cada evento se muestra su estado local, asumiendo que el valor inicial es 0 para todos los procesos. El diagrama de la derecha (que contiene un error) es el diagrama de transición de estados globales correspondiente: ¿Cuál sería el valor del reloj lógico vectorial del tercer evento de P2?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Jun-23.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-23.JPG",
         "options": [
           { "id": 0, "text": "(1,3,1) ", "isCorrect": false },
           { "id": 1, "text": "(2,3,1) ", "isCorrect": false },
@@ -68,7 +68,7 @@
       },
       {
         "text": "¿Cuántos eventos han ocurrido en el estado global S031?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Jun-23.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-23.JPG",
         "options": [
           { "id": 0, "text": "2", "isCorrect": false },
           { "id": 1, "text": "4", "isCorrect": true },
@@ -78,7 +78,7 @@
       },
       {
         "text": "¿Cuáles son los valores de a, b y c después de ocurrir el segundo evento de P3?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Jun-23.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-23.JPG",
         "options": [
           { "id": 0, "text": "a=3, b=3, c=2", "isCorrect": false },
           { "id": 1, "text": "a=3, b=2, c=2", "isCorrect": false },
@@ -234,7 +234,7 @@
       },
       {
         "text": "La figura de la izquierda representa el diagrama de eventos de un SD formado por tres procesos. Para cada evento se muestra su estado local, asumiendo que el valor inicial es 0 para todos los procesos. El diagrama de la derecha (que contiene un error) es el diagrama de transición de estados globales correspondiente: ¿Cuál sería el valor del reloj lógico vectorial del segundo evento de P3?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-1.JPG",
         "options": [
           { "id": 0, "text": "(3,2,2) ", "isCorrect": true },
           { "id": 1, "text": "(3,1,2)", "isCorrect": false },
@@ -244,7 +244,7 @@
       },
       {
         "text": "¿Cuántos eventos han ocurrido en el estado global S221?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-1.JPG",
         "options": [
           { "id": 0, "text": "2", "isCorrect": false },
           { "id": 1, "text": "4", "isCorrect": false },
@@ -254,7 +254,7 @@
       },
       {
         "text": "¿Cuáles son los valores de a, b y c después de ocurrir el segundo evento de P1?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-1.JPG",
         "options": [
           { "id": 0, "text": "a=2, b=2, c=1", "isCorrect": false },
           { "id": 1, "text": " a=2, b=3, c=1", "isCorrect": false },
@@ -264,7 +264,7 @@
       },
       {
         "text": "Dada la función g = a + c > b, ¿cuáles serían los resultados de evaluar los predicados «posiblemente(g)» y «definitivamente(g)»?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-1.JPG",
         "options": [
           { "id": 0, "text": "false, false", "isCorrect": false },
           { "id": 1, "text": "false, true", "isCorrect": false },
@@ -274,7 +274,7 @@
       },
       {
         "text": " ¿Qué transición se ha omitido en el diagrama de transición de estados globales?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-1.JPG",
         "options": [
           { "id": 0, "text": "S030 - S130", "isCorrect": true },
           { "id": 1, "text": "S011 - S111", "isCorrect": false },
@@ -293,7 +293,7 @@
       },
       {
         "text": " Considere un sistema distribuido formado por 5 procesos con PIDs 1, 2, 3, 4 y 5. Si el sistema usa exclusión mutua con servidor central y los procesos 4, 5 y 1 envían un mensaje al coordinador, en ese orden, ¿cuántos mensajes son necesarios para que el proceso 5 logre entrar en la sección crítica?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-1.JPG",
         "options": [
           { "id": 0, "text": "5", "isCorrect": false },
           { "id": 1, "text": "8", "isCorrect": false },
@@ -303,7 +303,7 @@
       },
       {
         "text": "¿Cuántos mensajes son necesarios si el coordinador priorizase las peticiones de menor a mayor PID, es decir, atiende primero al proceso de menor PID? Suponga que todos los mensajes se reciben al mismo tiempo.",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-2.JPG",
         "options": [
           { "id": 0, "text": "5", "isCorrect": false },
           { "id": 1, "text": "8", "isCorrect": true },
@@ -340,7 +340,7 @@
       },
       {
         "text": "En el ejemplo anterior, si se usara el algoritmo de García-Molina y asumiendo que no ocurre ningún error durante el proceso de elección, ¿cuál sería el número de mensajes enviados en total por todos los procesos en el peor de los casos?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-3.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-3.JPG",
         "options": [
           { "id": 0, "text": "Menos de 12", "isCorrect": false },
           { "id": 1, "text": "12", "isCorrect": false },
