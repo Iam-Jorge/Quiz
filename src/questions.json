@@ -92,7 +92,7 @@
           { "id": 0, "text": "false, false", "isCorrect": false },
           { "id": 1, "text": "false, true", "isCorrect": false },
           { "id": 2, "text": "true, false", "isCorrect": false },
-          { "id": 3, "text": "true, tru", "isCorrect": true }
+          { "id": 3, "text": "true, true", "isCorrect": true }
         ]
       },
       {
