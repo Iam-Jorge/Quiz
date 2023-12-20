@@ -4,6 +4,7 @@
     "questions": [
       {
         "text": "What is the capital of America?",
+        "questionURL": "images/EX1Q1.jpg",
         "options": [
           { "id": 0, "text": "New York City", "isCorrect": false },
           { "id": 1, "text": "Boston", "isCorrect": false },
