@@ -97,11 +97,12 @@ function App() {
           const question = selectedExam.questions[answer.questionId];
           const selectedOption = question.options.find(option => option.id === answer.selectedOptionId);
           const correctOption = question.options.find(option => option.isCorrect);
-
+  
           if (!selectedOption.isCorrect) {
             return (
               <div key={answer.questionId}>
                 <h4>{question.text}</h4>
+                {question.questionURL && <img src={question.questionURL} alt="Pregunta" />}
                 <p>Tu respuesta: {selectedOption.text}</p>
                 <p>Respuesta correcta: {correctOption.text}</p>
               </div>
