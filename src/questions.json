@@ -985,7 +985,7 @@
         "text": "¿Qué proporciona un sistema con consistencia estricta?",
         "options": [
           { "id": 0, "text": "La marca de tiempo en qué se actualizó cualquier recurso replicado.", "isCorrect": false },
-          { "id": 1, "text": "Siempre está disponible el último valor proporcionado a cualquier recurso.", "isCorrect": false },
+          { "id": 1, "text": "Siempre está disponible el último valor proporcionado a cualquier recurso.", "isCorrect": true },
           { "id": 2, "text": "El orden de las lecturas debe coincidir estrictamente con el orden de las escrituras.", "isCorrect": false },
           { "id": 3, "text": "El sistema informa explícitamente si no puede proporcionar el valor de la última escritura.", "isCorrect": false }
         ]
