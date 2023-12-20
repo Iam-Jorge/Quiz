@@ -4,7 +4,7 @@
     "questions": [
       {
         "text": "What is the capital of America?",
-        "questionURL": "images/EX1Q1.jpg",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX1Q1.JPG",
         "options": [
           { "id": 0, "text": "New York City", "isCorrect": false },
           { "id": 1, "text": "Boston", "isCorrect": false },
