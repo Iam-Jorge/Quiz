@@ -14,10 +14,172 @@
       {
         "text": "¿Cuál es el modelo de comunicación más adecuado para un sistema de estaciones meteorológicas que informan sobre  [2p] ¿Cuál es el modelo de comunicación más adecuado para un sistema de estaciones meteorológicas que informan sobre temperatura, viento y presión a un conjunto indeterminado y dinámico de posibles clientes?",
         "options": [
-          { "id": 0, "text": " Polling a una base de datos.", "isCorrect": false },
-          { "id": 1, "text": " Un sistema publicador-subscriptor", "isCorrect": true },
+          { "id": 0, "text": "Polling a una base de datos.", "isCorrect": false },
+          { "id": 1, "text": "Un sistema publicador-subscriptor", "isCorrect": true },
           { "id": 2, "text": "Un sistema de ficheros distribuido.", "isCorrect": true },
           { "id": 3, "text": "RPC o RMI.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué modelo de comunicación indirecta implica conocer los identificadores de los destinatarios del mensaje que enviamos?",
+        "options": [
+          { "id": 0, "text": "Comunicación en grupo", "isCorrect": false },
+          { "id": 1, "text": "Colas de mensajes", "isCorrect": false },
+          { "id": 2, "text": "Ninguno.", "isCorrect": true },
+          { "id": 3, "text": "Modelo de memoria distribuida compartida", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Marca la afirmación correcta en relación a los sistemas de propagación de eventos de publicación–subscripción basados en broker:",
+        "options": [
+          { "id": 0, "text": "Los publicadores no conocen las referencias de los subscriptores.", "isCorrect": true },
+          { "id": 1, "text": "Cada publicador es responsable de almacenar las referencias de sus subscriptores.", "isCorrect": false },
+          { "id": 2, "text": "Cada subscriptor es responsable de almacenar las referencias de sus publicadores.          ", "isCorrect": false },
+          { "id": 3, "text": "Cada pareja publicador-subscriptor es única y está identificada unívocamente.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿En qué caso NO es adecuado a priori el uso de un middleware de colas de mensajes distribuidas?",
+        "options": [
+          { "id": 0, "text": "Emisores y receptores no están activos al mismo tiempo.", "isCorrect": false },
+          { "id": 1, "text": " Los receptores se encuentran dispersos en múltiples nodos de la red.", "isCorrect": false },
+          { "id": 2, "text": " Los emisores esperan los resultados del cómputo realizado en los receptores.", "isCorrect": true },
+          { "id": 3, "text": "Se desea persistencia de los mensajes.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "IceStorm es un sistema de propagación de eventos basado en...",
+        "options": [
+          { "id": 0, "text": "contenid", "isCorrect": false },
+          { "id": 1, "text": "tipo", "isCorrect": false },
+          { "id": 2, "text": "canal", "isCorrect": true },
+          { "id": 3, "text": "Ninguno de los otros", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La figura de la izquierda representa el diagrama de eventos de un SD formado por tres procesos. Para cada evento se muestra su estado local, asumiendo que el valor inicial es 0 para todos los procesos. El diagrama de la derecha (que contiene un error) es el diagrama de transición de estados globales correspondiente: ¿Cuál sería el valor del reloj lógico vectorial del tercer evento de P2?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Jun-23.JPG",
+        "options": [
+          { "id": 0, "text": "(1,3,1) ", "isCorrect": false },
+          { "id": 1, "text": "(2,3,1) ", "isCorrect": false },
+          { "id": 2, "text": "(0,3,0)", "isCorrect": true },
+          { "id": 3, "text": "(1,2,1)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuántos eventos han ocurrido en el estado global S031?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Jun-23.JPG",
+        "options": [
+          { "id": 0, "text": "2", "isCorrect": false },
+          { "id": 1, "text": "4", "isCorrect": true },
+          { "id": 2, "text": "5", "isCorrect": false },
+          { "id": 3, "text": "No es determinista", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuáles son los valores de a, b y c después de ocurrir el segundo evento de P3?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Jun-23.JPG",
+        "options": [
+          { "id": 0, "text": "a=3, b=3, c=2", "isCorrect": false },
+          { "id": 1, "text": "a=3, b=2, c=2", "isCorrect": false },
+          { "id": 2, "text": "a=3, b=indeterminado, c=2", "isCorrect": true },
+          { "id": 3, "text": "No es determinista", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " Dada la función f = a + b == c + 1, ¿cuáles serían los resultados de evaluar los predicados «posiblemente(f)» y«definitivamente(f)»?",
+        "options": [
+          { "id": 0, "text": "false, false", "isCorrect": false },
+          { "id": 1, "text": "false, true", "isCorrect": false },
+          { "id": 2, "text": "true, false", "isCorrect": false },
+          { "id": 3, "text": "true, tru", "isCorrect": true }
+        ]
+      },
+      {
+        "text": " Un diagrama de estados globales consistentes tiene dos propiedades fundamentales ¿cuál de las siguientes NO es una de ellas?",
+        "options": [
+          { "id": 0, "text": "En un estado, haber almacenado recepción de mensajes, pero no su envío.", "isCorrect": true },
+          { "id": 1, "text": " El estado almacenado es alcanzable desde el estado inicial.", "isCorrect": false },
+          { "id": 2, "text": " El estado final es alcanzable desde el estado almacenado.", "isCorrect": false }
+        ]
+      },{
+        "text": " Sea un cliente y un servidor ejecutando el algoritmo de Cristian, tras el proceso de sincronización, el cliente actualiza a Tc=12:00:00, en ese mismo instante, observamos el tiempo del servidor y es Ts=12:00:01, ¿Qué hora original tenía el cliente antes del proceso de sincronización?",
+        "options": [
+          { "id": 0, "text": "12:00:01", "isCorrect": false },
+          { "id": 1, "text": "12:00:02", "isCorrect": false },
+          { "id": 2, "text": "12:00:00:05", "isCorrect": false },
+          { "id": 3, "text": "Ninguna respuesta es válida", "isCorrect": true }
+        ]
+      },{
+        "text": "Disponemos de un sistema distribuido formado por 10 procesos (P1-P10). P5 está actuando como servidor central para exclusión mutua, pero debido a un fallo del nodo, el proceso termina inesperadamente. ¿Qué opción considera más adecuada para decidir qué proceso debe desempeñar ahora esa función teniendo en cuenta que todos ellos tienen la capacidad de hacerlo?",
+        "options": [
+          { "id": 0, "text": "El siguiente: P6", "isCorrect": false },
+          { "id": 1, "text": "El anterior: P7.", "isCorrect": false },
+          { "id": 2, "text": "Deberían ejecutar un algoritmo de elección.", "isCorrect": true },
+          { "id": 3, "text": " Deberían esperar a que P5 esté activo de nuevo", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué implica «multicast causal»?",
+        "options": [
+          { "id": 0, "text": "Los mensajes enviados por un proceso llegarán a en el mismo orden que fueron enviados.", "isCorrect": false },
+          { "id": 1, "text": "Si existe una relación causal entre el envío de dos mensajes multicast, su recepción respeta ese mismo orden.", "isCorrect": true },
+          { "id": 2, "text": "Todos los mensajes recibidos por un proceso del grupo son confirmados individualmente al emisor.", "isCorrect": false },
+          { "id": 3, "text": "Todos las la entregas correspondiente a un mismo envío llegarán a la vez a todos los procesos del grupo.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Si ejecutamos el algoritmo de Ricart y Agrawala en una red que soporta multicast, la cantidad de mensajes para acceder a la sección crítica...",
+        "options": [
+          { "id": 0, "text": "aumenta", "isCorrect": false },
+          { "id": 1, "text": "disminuye", "isCorrect": true },
+          { "id": 2, "text": "no varía", "isCorrect": false },
+          { "id": 3, "text": "depende de qué proceso ostenta el testigo", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " ¿A qué se refiere la propiedad «liveness» cuando se aplica a un algoritmo de exclusión mutua distribuida?",
+        "options": [
+          { "id": 0, "text": "Asegura que no habrá inanición o deadlock.", "isCorrect": true },
+          { "id": 1, "text": "Asegura que solo un proceso podrán entrar en la CS.", "isCorrect": false },
+          { "id": 2, "text": "Asegura que los procesos obtendrán acceso a la CS en el mismo orden que lo pidieron.", "isCorrect": false },
+          { "id": 3, "text": "Asegura que la CS fue liberada antes de otorgar permiso a otro proceso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El algoritmo de Ricart and Agrawala se basa en:",
+        "options": [
+          { "id": 0, "text": "Relojes lógicos y soporte multicast.", "isCorrect": true },
+          { "id": 1, "text": "La necesidad de elegir un nuevo coordinador.", "isCorrect": false },
+          { "id": 2, "text": "El paso continuo de un testigo.", "isCorrect": false },
+          { "id": 3, "text": "La creación de subconjuntos de voto.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En el contexto de la replicación ¿a qué nos referimos con «particiones de red»?",
+        "options": [
+          { "id": 0, "text": "Situaciones en que grupo de una o más réplicas pierden conectividad con el resto.", "isCorrect": true },
+          { "id": 1, "text": "Al modo en que se organiza el espacio de almacenamiento local dentro de cada réplica.", "isCorrect": false },
+          { "id": 2, "text": "Agrupaciones arbitarias de las réplicas para ofrecer mejor redundancia.", "isCorrect": false },
+          { "id": 3, "text": "Es solo una forma de referirse a las subredes que forman la red de nodos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " ¿Cuál de las siguientes no se encuadra en el concepto de «replicación»?",
+        "options": [
+          { "id": 0, "text": "Múltiples nodos con servidores que mantienen de forma consistente copias de los mismos datos.", "isCorrect": false },
+          { "id": 1, "text": " Los servidores que gestionan los datos replicados están conectados mediante una red.", "isCorrect": false },
+          { "id": 2, "text": " Idealemente, el cliente debería ser plenamente consciente con qué servidor está contactando.", "isCorrect": true },
+          { "id": 3, "text": "Los nodos replicados pueden ofrecer un servicio en lugar de datos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " ¿Cuál de las siguientes estrategias de replicación ofrece mayor consistencia?",
+        "options": [
+          { "id": 0, "text": "Replicación asíncrona", "isCorrect": false },
+          { "id": 1, "text": "Consistencia eventual", "isCorrect": false },
+          { "id": 2, "text": "Basados en transacciones", "isCorrect": true },
+          { "id": 3, "text": "Ordenación débil", "isCorrect": false }
         ]
       }
     ]
@@ -33,6 +195,15 @@
           { "id": 1, "text": "b", "isCorrect": false },
           { "id": 2, "text": "c", "isCorrect": false },
           { "id": 3, "text": "d", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "",
+        "options": [
+          { "id": 0, "text": "", "isCorrect": false },
+          { "id": 1, "text": "", "isCorrect": false },
+          { "id": 2, "text": "", "isCorrect": false },
+          { "id": 3, "text": "", "isCorrect": false }
         ]
       }
     ]
