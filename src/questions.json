@@ -185,7 +185,7 @@
     ]
   },
   {
-    "examName": "Ex-ene-23",
+    "examName": "Ex-Ene-23",
     "questions": [
       {
         "text": "¿Con qué mecanismo proporcionado por ZeroC Ice está relacionada la técnica de procesamiento «working queue» habitualen los middlewares de colas de mensajes distribuidas?",
@@ -399,6 +399,200 @@
           { "id": 1, "text": "El cliente reparte equitativamente sus peticiones entre las réplicas conocidas.", "isCorrect": false },
           { "id": 2, "text": "El planificador decide en qué momento ejecutar las peticiones para haya un equilibrio de carga a lo largo del tiempo.", "isCorrect": false },
           { "id": 3, "text": "Ajustando constantemente el porcentaje de uso de las CPUs disponibles para evitar sobrecargas.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Ex-Jun-22",
+    "questions": [
+      {
+        "text": "RabbitMQ usa un modelo de comunicación indirecta del tipo:",
+        "options": [
+          { "id": 0, "text": "Sistema basado en eventos distribuidos.", "isCorrect": false },
+          { "id": 1, "text": "Cola de mensajes.", "isCorrect": true },
+          { "id": 2, "text": "Memoria distribuida.", "isCorrect": false },
+          { "id": 3, "text": "Comunicación uno a uno.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Marca la afirmación correcta en relación a los sistemas de propagación de eventos de publicación–subscripción basados en broker:",
+        "options": [
+          { "id": 0, "text": "Los publicadores no conocen las referencias de los subscriptores.", "isCorrect": true },
+          { "id": 1, "text": "Cada publicador es responsable de almacenar las referencias de sus subscriptores.", "isCorrect": false },
+          { "id": 2, "text": "Cada subscriptor es responsable de almacenar las referencias de sus publicadores.", "isCorrect": false },
+          { "id": 3, "text": "Cada pareja publicador-subscriptor es única y está identificada unívocamente.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál sería la definición más acertada de un sistema de colas de mensajes distribuidas?",
+        "options": [
+          { "id": 0, "text": "El emisor coloca sus mensajes en una cola genérica el broker los clasifica y responde al emisor.", "isCorrect": false },
+          { "id": 1, "text": "Un broker central determina el receptor de cada mensaje de la cola distribuida.", "isCorrect": true },
+          { "id": 2, "text": "Varios receptores reciben copias del mismo mensaje.", "isCorrect": false },
+          { "id": 3, "text": "No hay diferencias sustanciales con un sistema publicador-subscriptor.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes NO se considera un mecanismo de comunicación indirecta?",
+        "options": [
+          { "id": 0, "text": "Comunicación de grupos", "isCorrect": false },
+          { "id": 1, "text": "Sistemas de propagación de eventos", "isCorrect": false },
+          { "id": 2, "text": "Llamada a procedimiento remoto", "isCorrect": true },
+          { "id": 3, "text": "Memoria compartida distribuida", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes frases define mejor el concepto de 'evento'?",
+        "options": [
+          { "id": 0, "text": "Difusión de una notificación con un valor asociado.", "isCorrect": true },
+          { "id": 1, "text": "Comunicación de datos entre dos objetos distribuidos cualesquiera.", "isCorrect": false },
+          { "id": 2, "text": "Ejecución de un fragmento de código remoto que retorna una respuesta síncrona.", "isCorrect": false },
+          { "id": 3, "text": "Ejecución de un fragmento de código remoto que retorna una respuesta asíncrona.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué trata de acotar el cálculo que se aplica en el algoritmo de Cristian?",
+        "options": [
+          { "id": 0, "text": "El error causado por un ancho de banda asimético.", "isCorrect": false },
+          { "id": 1, "text": "El error causado por la latencia de la red.", "isCorrect": true },
+          { "id": 2, "text": "La cantidad de mensajes necesarios para la sincronización de un grupo.", "isCorrect": false },
+          { "id": 3, "text": "El número de nodos que forma parte del grupo de réplicas.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En la ejecución del algoritmo de Cristian el tiempo de respuesta que percibe un computador es de 8 segundos y el servidor envía Ts=10:25:07. ¿Cuál es el tiempo al que podría actualizar su hora el cliente?",
+        "options": [
+          { "id": 0, "text": "10:25:11", "isCorrect": true },
+          { "id": 1, "text": "10:25:15", "isCorrect": false },
+          { "id": 2, "text": "09:59:59", "isCorrect": false },
+          { "id": 3, "text": "Habría que conocer la hora del cliente.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En la ejecución del algoritmo de Cristian el tiempo de respuesta que percibe un computador es de 8 segundos y el servidor envía Ts=10:25:07. ¿Cuál es el tiempo al que podría actualizar su hora el cliente?",
+        "options": [
+          { "id": 0, "text": "10:25:11", "isCorrect": true },
+          { "id": 1, "text": "10:25:15", "isCorrect": false },
+          { "id": 2, "text": "09:59:59", "isCorrect": false },
+          { "id": 3, "text": "Habría que conocer la hora del cliente.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál es una interpretación correcta del concepto de 'causalidad potencial'?",
+        "options": [
+          { "id": 0, "text": "Si un evento es un efecto su causa le precede en la historia de eventos.", "isCorrect": true },
+          { "id": 1, "text": "Si un evento tiene la capacidad de causar otro deberá considerarse posterior.", "isCorrect": false },
+          { "id": 2, "text": "Dos eventos en distintos nodos nunca tienen relación de orden.", "isCorrect": false },
+          { "id": 3, "text": "Define ambos componentes de los relojes lógicos de orden total.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Por qué la detección de terminación de un algoritmo distribuido requiere determinar el estado global?",
+        "options": [
+          { "id": 0, "text": "Los procesos involucrados podrían estar des-sincronizados.", "isCorrect": false },
+          { "id": 1, "text": "No se requiere cuando el algoritmo distribuido es asíncrono.", "isCorrect": false },
+          { "id": 2, "text": "Una invocación en tránsito podría implicar que el algoritmo continúa.", "isCorrect": true },
+          { "id": 3, "text": "Es necesario determinar el orden causal de todos los mensajes involucrados.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Marca la afirmación FALSA en relación a los relojes software:",
+        "options": [
+          { "id": 0, "text": "Su valor se determina a partir de un reloj lógico.", "isCorrect": true },
+          { "id": 1, "text": "Su valor se obtiene a partir de un dispositivo hardware local.", "isCorrect": false },
+          { "id": 2, "text": "Dos relojes software sin relación pueden tener el mismo valor.", "isCorrect": false },
+          { "id": 3, "text": "Se aplican procedimientos específicos para asegurar que no se producen saltos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un sistema con 18 nodos se configura mediante una red de comunicaciones por satélite mediante un contrato de pago por uso (10 euros por MB) a continuación se configura un algoritmo de exclusión mutua para controlar el acceso a una sección crítica. Durante el primer mes de funcionamiento ningún nodo accede a la sección crítica ¿Qué algoritmo implicaría un coste mayor?",
+        "options": [
+          { "id": 0, "text": "Anillo", "isCorrect": true },
+          { "id": 1, "text": "Servidor Central", "isCorrect": false },
+          { "id": 2, "text": "Ricart Agrawala", "isCorrect": false },
+          { "id": 3, "text": "Si no hay acceso a la sección crítica todos los algoritmos habrían tenido el mismo coste.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un problema de exclusión mutua centralizada, necesita implementar un acceso por orden de petición en el acceso a la sección crítica ¿Qué algoritmo de los siguientes garantiza el orden?",
+        "options": [
+          { "id": 0, "text": "Servidor central", "isCorrect": false },
+          { "id": 1, "text": "Anillo con testigo", "isCorrect": false },
+          { "id": 2, "text": "Ricart y Agrawala", "isCorrect": true },
+          { "id": 3, "text": "Todos los algoritmos garantizan el orden", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Determine el tipo de problema que le ayuda a resolver el algoritmo de anillo:",
+        "options": [
+          { "id": 0, "text": "Consenso", "isCorrect": false },
+          { "id": 1, "text": "Multidifusión", "isCorrect": false },
+          { "id": 2, "text": "Consistencia interactiva", "isCorrect": false },
+          { "id": 3, "text": "Depende, hay dos algoritmos «de anillo»: uno de exclusión mutua y otro para elección de coordinador", "isCorrect": true }
+        ]
+      },
+      {
+        "text": " Construir un sistema que emplea multidifusión sobre el protocolo IP, implica la utilización de:",
+        "options": [
+          { "id": 0, "text": "SNMP", "isCorrect": false },
+          { "id": 1, "text": "TCP", "isCorrect": false },
+          { "id": 2, "text": "UDP", "isCorrect": true },
+          { "id": 3, "text": "RPC", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " En un sistema distribuido con 4 procesos y un recurso compartido R, ningún proceso quiere acceso a R en el instante 0. En el instante 1, el proceso P1 solicita acceso a R. En cuanto a número de mensajes ¿cuál de los siguientes algoritmos es más eficiente para conseguir la exclusión mutua en ausencia de fallos?",
+        "options": [
+          { "id": 0, "text": "Servidor Central", "isCorrect": true },
+          { "id": 1, "text": "Anillo (formado por P2->P3->P4->P1->P2 y el token en P3)", "isCorrect": false },
+          { "id": 2, "text": "Ricart y Agrawala (con soporte multicast real)", "isCorrect": false },
+          { "id": 3, "text": "García Molina (con soporte multicast real)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál es el comportamiento ideal que persigue la replicación?",
+        "options": [
+          { "id": 0, "text": "Mantener varias copias idénticas de un recurso o servicio en varios nodos.", "isCorrect": true },
+          { "id": 1, "text": "Llevar un registro detallado de los accesos concurrentes a un mismo recurso.", "isCorrect": false },
+          { "id": 2, "text": "Acotar el tiempo de acceso a las copias secundarias de un servicio para evitar inanición.", "isCorrect": false },
+          { "id": 3, "text": "Impedir el acceso concurrente de varios clientes a un recurso compartido para así evitar inconsistencias", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " ¿Por qué decimos que la replicación reduce la latencia?",
+        "options": [
+          { "id": 0, "text": "No es cierto. La latencia crece linealmente con el número de réplicas.", "isCorrect": false },
+          { "id": 1, "text": "El tiempo de sincronización de las réplicas está acotado y converge con el tiempo.", "isCorrect": false },
+          { "id": 2, "text": "Si las réplicas se distribuyen geográficamente, la latencia media desde los clientes se reduce", "isCorrect": true },
+          { "id": 3, "text": "El balanceador de carga ofrece al cliente un acceso prioritario en función de la carga de los nodos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes no es una característica considerada por el teorema CAP?",
+        "options": [
+          { "id": 0, "text": "Consistencia de datos", "isCorrect": false },
+          { "id": 1, "text": "Disponibilidad del sistema", "isCorrect": false },
+          { "id": 2, "text": "Ventana de inconsistencia estricta", "isCorrect": true },
+          { "id": 3, "text": "Tolerancia a las particiones de red", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué dice el modelo de «consistencia eventual»?",
+        "options": [
+          { "id": 0, "text": "El programador es responsable de actualizar las copias en base a un modelo líder-seguidores", "isCorrect": false },
+          { "id": 1, "text": "Todas las réplicas deben ser sincronizadas inmediatamente después de cualquier acceso a una de las réplicas.", "isCorrect": false },
+          { "id": 2, "text": "Si no se hacen escrituras nuevas sobre un recurso dado, todos los accesos devolverán eventualmente el último valor escrito.", "isCorrect": true },
+          { "id": 3, "text": " Requiere de un protocolo de transacción distribuidas para garantizar la coherencia entre réplicas, especialmente ante particiones en la red.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué es la «ventana de inconsistencia» (inconsistency window)?",
+        "options": [
+          { "id": 0, "text": "Es el plazo en el que la réplica permite nuevas operaciones de escritura sin afectar al valor persistente almacenado.", "isCorrect": false },
+          { "id": 1, "text": "El plazo que transcurre entre una escritura y el momento es que está garantizado que se puede acceder al último valor.", "isCorrect": true },
+          { "id": 2, "text": "El tamaño mínimo del buffer de envío que garantiza que todas las réplicas se podrán actualizar en el tiempo solicitado", "isCorrect": false },
+          { "id": 3, "text": "El conjunto de operaciones de lectura/escritura que puede manejar el gestor de réplicas antes de que se actualice un recurso.", "isCorrect": false }
         ]
       }
     ]
