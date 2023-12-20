@@ -1011,6 +1011,243 @@
     ]
   },
   {
+    "examName": "Ex-Ene-21",
+    "questions": [
+      {
+        "text": " ¿Qué afirmación es falsa para la replicación?",
+        "options": [
+          { "id": 0, "text": "Puede mejorar el tiempo de respuesta en el acceso a los datos.", "isCorrect": false },
+          { "id": 1, "text": "Mejora la tolerancia a fallos.", "isCorrect": false },
+          { "id": 2, "text": "Incrementa la disponibilidad del sistema distribuido.", "isCorrect": false },
+          { "id": 3, "text": "Simplifica la consistencia de datos.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Qué factores pueden afectar a la ventana de inconsistencia",
+        "options": [
+          { "id": 0, "text": "Retardo en las comunicaciones, carga de los sistemas y número de réplicas.", "isCorrect": true },
+          { "id": 1, "text": "Retardo en las comunicaciones y carga de los sistemas.", "isCorrect": false },
+          { "id": 2, "text": "Retardo en las comunicaciones.", "isCorrect": false },
+          { "id": 3, "text": "Carga de los sistemas.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " En un conjunto de 7 réplicas, decide implementar un protocolo de consistencia Quorum ¿qué asignación de número de réplicas a grupos de lectura/escritura le vale?",
+        "options": [
+          { "id": 0, "text": "Escritura 3, Lectura 3.", "isCorrect": false },
+          { "id": 1, "text": "Escritura 2, Lectura 5.", "isCorrect": false },
+          { "id": 2, "text": "Escritura 1, Lectura 6.", "isCorrect": false },
+          { "id": 3, "text": "Escritura 4, Lectura 7.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "",
+        "options": [
+          { "id": 0, "text": "", "isCorrect": false },
+          { "id": 1, "text": "", "isCorrect": false },
+          { "id": 2, "text": "", "isCorrect": false },
+          { "id": 3, "text": "", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " ¿En qué modelo de log de replicación, una actualización de la versión de la base de datos en solo una de las réplicas, puede causar problemas?",
+        "options": [
+          { "id": 0, "text": "Log basado en sentencias/declaraciones (Statement-based).", "isCorrect": false },
+          { "id": 1, "text": "Log basado en lógica (Logical-base).", "isCorrect": false },
+          { "id": 2, "text": "Log basado en adelanto de escritura (write-ahead).", "isCorrect": true },
+          { "id": 3, "text": " En ningún caso hay problema mientras la base de datos (Oracle, Mysql, etc.) sea la misma.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " ¿En qué modelo de log de replicación, una sentencia SQL con una referencia a un número aleatorio, puede causar problemas?",
+        "options": [
+          { "id": 0, "text": "Log basado en adelanto de escritura (Write-ahead).", "isCorrect": false },
+          { "id": 1, "text": "Log basado en sentencias/declaraciones (Statement-based).", "isCorrect": true },
+          { "id": 2, "text": "Log basado en lógica (Logical-base).", "isCorrect": false },
+          { "id": 3, "text": "En ningún caso hay problema.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En qué modelo de replicación, una actualización de un dato X se tiene que ver instantáneamente",
+        "options": [
+          { "id": 0, "text": "Secuencial", "isCorrect": false },
+          { "id": 1, "text": "Estricta", "isCorrect": true },
+          { "id": 2, "text": "Lineal", "isCorrect": false },
+          { "id": 3, "text": "En sistemas asíncronos no se puede propagar de forma instantánea (tiempo de los mensajes)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Considere el siguiente conjunto de eventos que tienen lugar en los procesos p1, p2 y p3 de un sistema distribuido:  ¿Cuál es el valor del reloj lógico (RL) de los eventos e, j y n?:",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-1.JPG",
+        "options": [
+          { "id": 0, "text": "RL(e)=5; RL(j)=6; RL(n)=7", "isCorrect": false },
+          { "id": 1, "text": "RL(e)=7; RL(j)=7; RL(n)=8", "isCorrect": false },
+          { "id": 2, "text": "RL(e)=6 ; RL(j)=7; RL(n)=6", "isCorrect": true },
+          { "id": 3, "text": "RL(e)=6; RL(j)=6; RL(n)=6", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " ¿Cuál es el valor del reloj vectorial de los eventos e, j y n?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-1.JPG",
+        "options": [
+          { "id": 0, "text": "RV(e)=[6,6,4]; RV(j)=[6,4,3]; RV(n)=[5,4,5]", "isCorrect": false },
+          { "id": 1, "text": "RV(e)=[5,3,2]; RV(j)=[5,5,2]; RV(n)=[1,4,4]", "isCorrect": true },
+          { "id": 2, "text": "RV(e)=[5,4,3]; RV(j)=[6,5,3] ; RV(n)=[5,4,3]", "isCorrect": false },
+          { "id": 3, "text": "RV(e)=[6,3,4]; RV(j)=[6,5,4] ; RV(n)=[3,5,5]", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " Si el valor del reloj vectorial de dos eventos a y b son RV(a)=[1,2,3] y RV(b)=[3,2,1], entonces:",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-1.JPG",
+        "options": [
+          { "id": 0, "text": "a->b", "isCorrect": false },
+          { "id": 1, "text": "b->a", "isCorrect": false },
+          { "id": 2, "text": "a y b son concurrentes", "isCorrect": true },
+          { "id": 3, "text": "RV(a) = RV(b)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " Sea un corte C=[h1,h2,h3] donde h1, h2 y h3 son los prefijos de historia de p1, p2 y p3, respectivamente, definidos como h1=[a,b,c] y h3=[k,l,m,n], ¿cuál sería un prefijo de historia h2 válido para que C sea un corte consistente?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-1.JPG",
+        "options": [
+          { "id": 0, "text": " h2 = [f,g]", "isCorrect": false },
+          { "id": 1, "text": "h2 = [f,g,h]", "isCorrect": false },
+          { "id": 2, "text": "h2 = [f,g,h,i]", "isCorrect": true },
+          { "id": 3, "text": " No es posible definir un prefijo de historia h2 tal que C sea consistente", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " Considere el siguiente diagrama de estados globales:  El estado S21 es un estado global..:",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "options": [
+          { "id": 0, "text": "inconsistente.", "isCorrect": false },
+          { "id": 1, "text": "consistente e inalcanzable.", "isCorrect": false },
+          { "id": 2, "text": "consistente y alcanzable.", "isCorrect": true },
+          { "id": 3, "text": "inconsistente e inalcanzable.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Suponga que se evalúa un cierto predicado global P sobre este diagrama con el siguiente resultado: P(S00)=F, P(S01)=F, P(S10)=T, P(S11)=F,P(S21)=F, P(S22)=F, P(S32)=T, con F=False y T=True ¿cuál sería el resultado de evaluar definitivamente P?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "options": [
+          { "id": 0, "text": "True", "isCorrect": true },
+          { "id": 1, "text": "False", "isCorrect": false },
+          { "id": 2, "text": "Indefinido", "isCorrect": false },
+          { "id": 3, "text": "No se puede saber con la información proporcionada en el enunciado.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Que indica la propiedad liveness en los algoritmos de exclusión mutua distribuida?",
+        "options": [
+          { "id": 0, "text": "Cualquier proceso que solicite acceso al recurso lo obtendrá en algún momento.", "isCorrect": true },
+          { "id": 1, "text": "Si hay un proceso utilizando el recurso, ningún otro proceso puede obtener acceso.", "isCorrect": false },
+          { "id": 2, "text": "Cualquier proceso correcto (vivo) tiene permiso para solicitar acceso al recurso.", "isCorrect": false },
+          { "id": 3, "text": "Todos los procesos de un grupo dado tienen permiso para acceder a todos los recursos del grupo.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "",
+        "options": [
+          { "id": 0, "text": "", "isCorrect": false },
+          { "id": 1, "text": "", "isCorrect": false },
+          { "id": 2, "text": "", "isCorrect": false },
+          { "id": 3, "text": "", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " Respecto a su eficiencia ¿cuál es la diferencia principal entre los algoritmos de anillo para exclusión mutua y para elección?",
+        "options": [
+          { "id": 0, "text": "El algoritmo de elección requiere menos mensajes.", "isCorrect": false },
+          { "id": 1, "text": "El algoritmo de exclusión mutua requiere menos mensajes.", "isCorrect": false },
+          { "id": 2, "text": "El de elección solo consume recursos cuando un proceso lo dispara, el de exclusión mutua los consume constantemente.", "isCorrect": true },
+          { "id": 3, "text": " El de exclusión mutua solo consume recursos cuando un proceso lo dispara, el de elección los consume constantemente.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué implica «multicast FIFO»?",
+        "options": [
+          { "id": 0, "text": "Los mensajes enviados por un proceso llegarán a en el mismo orden que fueron enviados.", "isCorrect": false },
+          { "id": 1, "text": "Si existe una relación causal entre dos mensajes multicast, su recepción respeta ese mismo orden.", "isCorrect": false },
+          { "id": 2, "text": "Todos los mensajes recibidos por un proceso del grupo son confirmados individualmente al emisor.", "isCorrect": false },
+          { "id": 3, "text": "Todos las la entregas correspondiente a un mismo envío llegarán a la vez a todos los procesos del grupo.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál es la finalidad de un algoritmo de «consenso»?",
+        "options": [
+          { "id": 0, "text": "Decidir qué proceso determina el valor correcto de la variable de decisión.", "isCorrect": false },
+          { "id": 1, "text": "Al terminar, todos los procesos llegan al mismo valor correcto en la variable de decisión.", "isCorrect": true },
+          { "id": 2, "text": "Al terminar, todos los procesos conocen los valores propuestos por todos los procesos del grupo.", "isCorrect": false },
+          { "id": 3, "text": "Comprobar que todos los procesos correctos obtienen acceso a la variable de decisión determinada por el coordinador.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué es el «vector de decisión» en un problema de consistencia interactiva?",
+        "options": [
+          { "id": 0, "text": "Los datos de entrada del algoritmo.", "isCorrect": false },
+          { "id": 1, "text": "El reloj vectorial que acuerdan todos los miembros del grupo.", "isCorrect": false },
+          { "id": 2, "text": "El conjunto de valores propuestos por cada proceso participante.", "isCorrect": true },
+          { "id": 3, "text": "La secuencia de todos los valores propuestos hasta llegar al acuerdo.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué opción es mas escalable, a priori, en el desarrollo de un sistema distribuido?",
+        "options": [
+          { "id": 0, "text": " Comunicación indirecta", "isCorrect": true },
+          { "id": 1, "text": "RPC", "isCorrect": false },
+          { "id": 2, "text": "RMI", "isCorrect": false },
+          { "id": 3, "text": "odas tienen similares prestaciones en cuanto a escalabilidad", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué módelos de invocación se podrían implementar con RabbitMQ?",
+        "options": [
+          { "id": 0, "text": "Comunicación indirecta", "isCorrect": false },
+          { "id": 1, "text": "RPC", "isCorrect": false },
+          { "id": 2, "text": "RMI", "isCorrect": false },
+          { "id": 3, "text": "RabbitMQ puede implementar/emular los modelos de comunicación a), b) y c)", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En una comunicación IP multicast, los participantes...",
+        "options": [
+          { "id": 0, "text": "Están acoplados en espacio y tiempo.", "isCorrect": false },
+          { "id": 1, "text": "Están desacoplados en espacio y tiempo.", "isCorrect": false },
+          { "id": 2, "text": "Están desacoplados en espacio y acoplados en tiempo.", "isCorrect": true },
+          { "id": 3, "text": " Están acoplados en espacio y desacoplados en tiempo.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El mecanismo que implementa el enrutado de mensajes a los consumidores en RabbitMQ se denomina:",
+        "options": [
+          { "id": 0, "text": "Es un mecanismo de las colas.", "isCorrect": false },
+          { "id": 1, "text": "Se implementa en los publicadores.", "isCorrect": false },
+          { "id": 2, "text": "Se implementa en los consumidores.", "isCorrect": false },
+          { "id": 3, "text": "Exchanges.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": " Está implementando un sistema de comunicación indirecta con ZeroC Ice. ¿Quién es mas lógico que implemente la siguiente interfaz?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-3.JPG",
+        "options": [
+          { "id": 0, "text": "El publicador", "isCorrect": false },
+          { "id": 1, "text": "El consumidor", "isCorrect": false },
+          { "id": 2, "text": "El broker", "isCorrect": true },
+          { "id": 3, "text": "El broker y el consumidor", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál es el modelo de comunicación más adecuado para un sistema de estaciones meteorológicas que informan sobre peratura, viento y presión a un conjunto indeterminado y dinámico de posibles clientes?",
+        "options": [
+          { "id": 0, "text": "Polling a una base de datos.", "isCorrect": false },
+          { "id": 1, "text": "Un sistema publicador-subscriptor.", "isCorrect": true },
+          { "id": 2, "text": "Un sistema de ficheros distribuido.", "isCorrect": false },
+          { "id": 3, "text": "RPC o RMI.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
     "examName": "Otros examenes",
     "questions": [
       {
