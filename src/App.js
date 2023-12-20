@@ -28,6 +28,11 @@ function App() {
     return array;
   }
 
+  const goToMainMenu = () => {
+    setSelectedExam(null);
+    setShowResults(false);
+  };
+
   const startExam = (exam) => {
     setSelectedExam(exam);
     setScore(0);
@@ -66,12 +71,9 @@ function App() {
   const renderQuestionCard = () => {
     const question = selectedExam.questions[currentQuestion];
     const shuffledOptions = shuffleArray([...question.options]);
-  
+
     return (
       <div className="question-card">
-        {/* Botón para volver al menú de selección de exámenes */}
-        <button onClick={chooseAnotherExam}>Volver al menú</button>
-  
         <h2>Pregunta: {currentQuestion + 1} / {selectedExam.questions.length}</h2>
         <h3 className="question-text">{question.text}</h3>
         {question.questionURL && <img src={question.questionURL} alt="Question" />}
@@ -115,7 +117,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Sistemas Distribuidos</h1>
+      <h1 onClick={goToMainMenu} style={{ cursor: 'pointer' }}>
+        Sistemas Distribuidos
+      </h1>
       {selectedExam ? (
         showResults ? renderResults() : renderQuestionCard()
       ) : (
