@@ -783,6 +783,234 @@
     ]
   },
   {
+    "examName": "Ex-Jun-21",
+    "questions": [
+      {
+        "text": "Una sección crítica es:",
+        "options": [
+          { "id": 0, "text": "Un fragmento de código cuyo acceso concurrente por los procesos puede provocar problemas de seguridad.", "isCorrect": false },
+          { "id": 1, "text": "Un fragmento de código cuyo acceso concurrente por los procesos puede provocar condiciones de carrera.", "isCorrect": true },
+          { "id": 2, "text": "Un proceso cuya ejecución concurrente con otros procesos del sistema puede provocar resultados erróneos.", "isCorrect": false },
+          { "id": 3, "text": "Un subconjunto de procesos cuya ejecución concurrente debe evitarse para mantener la consistencia del sistema.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Antes de proteger la sección crítica distribuida el sistema distribuido debe elegir un coordinador mediante algún algoritmo de elección. Suponga que el proceso i=7 inicia el proceso de elección. Indique cuál de las siguientes opciones representa un resultado válido tras aplicar un algoritmo de elección del coordinador.",
+        "options": [
+          { "id": 0, "text": "El coordinador es i=1 número de mensajes tras aplicar el algoritmo del bully es 14", "isCorrect": false },
+          { "id": 1, "text": "El coordinador es i=10 número de mensajes tras aplicar el algoritmo del bully es 23", "isCorrect": false },
+          { "id": 2, "text": "El coordinador es i=10 número de mensajes tras aplicar el algoritmo del anillo es 23", "isCorrect": false },
+          { "id": 3, "text": "b) y c) son correctas", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Una vez elegido el coordinador se produce el acceso concurrente a la sección crítica por parte de los procesos i=3, 6 y 9. ¿Cuántos mensajes serían necesarios en el algoritmo centralizado para que el proceso 9 pueda entrar en la sección crítica suponiendo que el orden en que el coordinador da acceso es 3, 6 y 9?",
+        "options": [
+          { "id": 0, "text": "8", "isCorrect": true },
+          { "id": 1, "text": "9", "isCorrect": false },
+          { "id": 2, "text": "5", "isCorrect": false },
+          { "id": 3, "text": "6", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Suponga ahora que se quiere proteger el acceso a la sección crítica (SC) empleando el algoritmo de Ricart y Agrawala. Los procesos i=4 e i=5 con marcas de tiempo 10 y 7 respectivamente tratan de acceder simultáneamente a la SC ¿cuántos mensajes serían necesarios para que el proceso 4 puede acceder a la SC?",
+        "options": [
+          { "id": 0, "text": "18", "isCorrect": false },
+          { "id": 1, "text": "9", "isCorrect": false },
+          { "id": 2, "text": "20", "isCorrect": false },
+          { "id": 3, "text": "36", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Dado el siguiente conjunto de eventos: Si a ->e y e->i, ¿cuál de los siguientes órdenes especifica un orden causal?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-1.JPG",
+        "options": [
+          { "id": 0, "text": "p1 entrega m2,m1,m3, p2 entrega m1,m2,m3, p3 entrega m1,m2,m3", "isCorrect": false },
+          { "id": 1, "text": "p1 entrega m1,m2,m3, p2 entrega m3,m2,m1, p3 entrega m1,m2,m3", "isCorrect": false },
+          { "id": 2, "text": "p1 entrega m1,m2,m3, p2 entrega m1,m3,m2, p3 entrega m3,m1,m2", "isCorrect": true },
+          { "id": 3, "text": "p1 entrega m1,m2,m3, p2 entrega m3,m2,m1, p3 entrega m3,m1,m2", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " Si a ->e y e ->i, ¿Cuál de los siguientes órdenes especifica un orden total?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-1.JPG",
+        "options": [
+          { "id": 0, "text": "p1 entrega m2,m1,m3, p2 entrega m1,m2,m3, p3 entrega m1,m2,m3", "isCorrect": false },
+          { "id": 1, "text": "p1 entrega m1,m2,m3, p2 entrega m3,m2,m1, p3 entrega m1,m2,m3", "isCorrect": false },
+          { "id": 2, "text": "p1 entrega m1,m2,m3, p2 entrega m3,m2,m1, p3 entrega m3,m1,m2", "isCorrect": false },
+          { "id": 3, "text": "p1 entrega m1,m2,m3, p2 entrega m1,m2,m3, p3 entrega m1,m2,m3", "isCorrect": true }
+        ]
+      },
+      {
+        "text": " Utilizando un sistema de comunicación indirecto basado en eventos, donde el gestor de eventos almacena eventos, ¿qué se requiere, como mínimo, para el envío de un evento?",
+        "options": [
+          { "id": 0, "text": "Que el publicador y el gestor de eventos estén acoplados temporalmente.", "isCorrect": true },
+          { "id": 1, "text": "Que el publicador y el subscriptor estén acoplados temporalmente.", "isCorrect": false },
+          { "id": 2, "text": "Que el subscriptor y el gestor de eventos estén acoplados temporalmente.", "isCorrect": false },
+          { "id": 3, "text": "Que el publicador, subscriptor y gestor de eventos estén acoplados temporalmente.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " En RabbitMQ, ¿cómo se implementan las políticas de enrutado de los mensajes a las distintas colas?",
+        "options": [
+          { "id": 0, "text": "Los publicadores especifican las colas destino.", "isCorrect": false },
+          { "id": 1, "text": "Las propias colas tienen sus filtros asociados.", "isCorrect": false },
+          { "id": 2, "text": "Los Exchanges o intercambiadores las implementan.", "isCorrect": true },
+          { "id": 3, "text": "Los consumidores, al declarar las colas a las que se subscriben.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " En RabbitMQ ¿podría usar Protocol Buffers de google para codificar mensajes a las colas?",
+        "options": [
+          { "id": 0, "text": "No", "isCorrect": false },
+          { "id": 1, "text": "Si", "isCorrect": true },
+          { "id": 2, "text": "Depende del tamaño del mensaje", "isCorrect": false },
+          { "id": 3, "text": "Solo a partir de la versión 3", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Los sistemas de comunicación indirecta son adecuados para...",
+        "options": [
+          { "id": 0, "text": "... aplicaciones que mantienen la conexión durando mucho tiempo.", "isCorrect": false },
+          { "id": 1, "text": "... nodos de cómputo para procesamiento masivo por lotes en grandes grids", "isCorrect": false },
+          { "id": 2, "text": "... aplicaciones con un gran número de usuarios que consumen información esporádicamente.", "isCorrect": true },
+          { "id": 3, "text": "... cualquier tipo de aplicación.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué modelo de comunicación indirecta implica conocer los identificadores de los destinatarios del mensaje que enviamos",
+        "options": [
+          { "id": 0, "text": "Comunicación en grupo", "isCorrect": false },
+          { "id": 1, "text": "Colas de mensajes", "isCorrect": false },
+          { "id": 2, "text": "Ninguno", "isCorrect": true },
+          { "id": 3, "text": "Modelo de memoria distribuida compartida", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Que propiedades nos dificulta elegir como modelo de comunicación un esquema indirecto?",
+        "options": [
+          { "id": 0, "text": "Diseminación de los mensajes", "isCorrect": false },
+          { "id": 1, "text": "Escalabilidad", "isCorrect": false },
+          { "id": 2, "text": "Tiempo real en las comunicaciones", "isCorrect": true },
+          { "id": 3, "text": "Desacoplamiento", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El siguiente diagrama representa la ejecución de un sistema distribuido, donde S000 es el estado global inicial  ¿Cuántos procesos están implicados en la ejecución del sistema distribuido representado en el diagrama?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "options": [
+          { "id": 0, "text": "5", "isCorrect": false },
+          { "id": 1, "text": "10", "isCorrect": false },
+          { "id": 2, "text": "2", "isCorrect": false },
+          { "id": 3, "text": "3", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En el estado global S311, ¿cuántos eventos han ocurrido?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "options": [
+          { "id": 0, "text": "5", "isCorrect": true },
+          { "id": 1, "text": "8", "isCorrect": false },
+          { "id": 2, "text": "2", "isCorrect": false },
+          { "id": 3, "text": "No se puede saber", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " ¿Cuál sería el resultado de evaluar el predicado «definitivamente X» si el estado global S111 se evalúa como True y el resto de estados se evalúan como False?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "options": [
+          { "id": 0, "text": "True", "isCorrect": true },
+          { "id": 1, "text": "False", "isCorrect": false },
+          { "id": 2, "text": "No se puede saber", "isCorrect": false },
+          { "id": 3, "text": "Depende del estado inicial", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Indique cuál sería una posible ejecución de este sistema distribuido:",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "options": [
+          { "id": 0, "text": "S000 ->S001 ->S011 ->S111 ->S211 ->S311", "isCorrect": false },
+          { "id": 1, "text": "S000 ->S010 ->S011 ->S112", "isCorrect": false },
+          { "id": 2, "text": "S000 ->S001 ->S011 ->S111 ->S121", "isCorrect": false },
+          { "id": 3, "text": "a) y b) son ciertas", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "El estado global S221 es:",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "options": [
+          { "id": 0, "text": "Inconsistente.", "isCorrect": true },
+          { "id": 1, "text": "Consistente.", "isCorrect": false },
+          { "id": 2, "text": "Consistente pero inalcanzable.", "isCorrect": false },
+          { "id": 3, "text": "No pertenece a la ejecución del Sistema Distribuido.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " En una sincronización mediante el algoritmo de Cristian, un cliente envía un mensaje de sincronización a un servidor con Tc=15:01:30. El mensaje de respuesta del servidor llega a las 15:01.40 con Ts=15:01:05, ¿Qué hora debe fijar el cliente como objetivo para sincronizarse? ¿Qué error está cometiendo?",
+        "options": [
+          { "id": 0, "text": "15:01:10, e = 5 segundos", "isCorrect": true },
+          { "id": 1, "text": "15:01:15, e = 5 segundos", "isCorrect": false },
+          { "id": 2, "text": "15:01:45, e = 10 segundos", "isCorrect": false },
+          { "id": 3, "text": "15:01:20, e = 10 segundos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Cuando se aplica un algoritmo de sincronización externa a un grupo de procesos en una LAN...",
+        "options": [
+          { "id": 0, "text": "Es determinante la latencia entre los procesos del grupo.", "isCorrect": false },
+          { "id": 1, "text": "El ancho de banda hacia el servidor delimita la precisión", "isCorrect": false },
+          { "id": 2, "text": "El error es mayor conforme crece el número de procesos del grupo.", "isCorrect": false },
+          { "id": 3, "text": "Todas las afirmaciones son falsas.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Qué consecuencia tiene la replicación?",
+        "options": [
+          { "id": 0, "text": "Aumenta la latencia.", "isCorrect": false },
+          { "id": 1, "text": "Incrementa la disponibilidad.", "isCorrect": true },
+          { "id": 2, "text": "Reduce las opciones de escalabilidad.", "isCorrect": false },
+          { "id": 3, "text": "Simplifica la consistencia.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cómo se consigue normalmente el «balanceo de carga»?",
+        "options": [
+          { "id": 0, "text": "El sistema redirige las peticiones de los clientes a las distintas réplicas disponibles.", "isCorrect": true },
+          { "id": 1, "text": "El cliente reparte equitativamente sus peticiones entre las réplicas conocidas.", "isCorrect": false },
+          { "id": 2, "text": "El planificador decide en qué momento ejecutar las peticiones para haya un equilibrio de carga a lo largo del tiempo.", "isCorrect": false },
+          { "id": 3, "text": "Ajustando constantemente el porcentaje de uso de las CPUs disponibles para evitar sobrecargas.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué proporciona un sistema con consistencia estricta?",
+        "options": [
+          { "id": 0, "text": "La marca de tiempo en qué se actualizó cualquier recurso replicado.", "isCorrect": false },
+          { "id": 1, "text": "Siempre está disponible el último valor proporcionado a cualquier recurso.", "isCorrect": false },
+          { "id": 2, "text": "El orden de las lecturas debe coincidir estrictamente con el orden de las escrituras.", "isCorrect": false },
+          { "id": 3, "text": "El sistema informa explícitamente si no puede proporcionar el valor de la última escritura.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué es la «ventana de inconsistencia» (inconsistency window)?",
+        "options": [
+          { "id": 0, "text": "Es el plazo en el que la réplica permite nuevas operaciones de escritura sin afectar al valor persistente almacenado.", "isCorrect": false },
+          { "id": 1, "text": "El plazo que transcurre entre una escritura y el momento es que está garantizado que se puede acceder al último valor.", "isCorrect": true },
+          { "id": 2, "text": " El tamaño mínimo del buffer de envío que garantiza que todas las réplicas se podrán actualizar en el tiempo solicitado.", "isCorrect": false },
+          { "id": 3, "text": " El conjunto de operaciones de lectura/escritura que puede manejar el gestor de réplicas antes de que se actualice un recurso", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " ¿Cuál es la estrategia más simple para implementar consistencia débil (weak)?",
+        "options": [
+          { "id": 0, "text": "Las operaciones se realizan sobre el leader, y éste se encarga de actualizar los (followers).", "isCorrect": true },
+          { "id": 1, "text": "Un sistema de réplicas basado en quorum con un mínimo 2R copias de lectura y W copias de escritura.", "isCorrect": false },
+          { "id": 2, "text": "El cliente actualiza todas las réplicas de forma simultánea mediando invocaciones concurrentes.", "isCorrect": false },
+          { "id": 3, "text": "Se utiliza un protocolo two phase commit protocol.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
     "examName": "Otros examenes",
     "questions": [
       {
