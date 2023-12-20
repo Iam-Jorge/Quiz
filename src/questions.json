@@ -185,7 +185,227 @@
     ]
   },
   {
-    "examName": "Otro examene",
+    "examName": "Ex-ene-23",
+    "questions": [
+      {
+        "text": "¿Con qué mecanismo proporcionado por ZeroC Ice está relacionada la técnica de procesamiento «working queue» habitualen los middlewares de colas de mensajes distribuidas?",
+        "options": [
+          { "id": 0, "text": "Batched invocations", "isCorrect": false },
+          { "id": 1, "text": "Asynchronous Method Dispatch", "isCorrect": true },
+          { "id": 2, "text": "Asynchronous Method Invocation", "isCorrect": false },
+          { "id": 3, "text": "No hay un ningún mencanismo relacionado", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes medios de comunicación podríamos considerar que se encuentra desacoplado en espacio, pero acoplado en tiempo?",
+        "options": [
+          { "id": 0, "text": "RMI", "isCorrect": false },
+          { "id": 1, "text": "MQTT", "isCorrect": false },
+          { "id": 2, "text": "IP multicast", "isCorrect": true },
+          { "id": 3, "text": "Ninguno cumple lo indicado", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué caracteriza al modelo de suscripción «topic based» en un sistema de publicación-suscripción?",
+        "options": [
+          { "id": 0, "text": "Depende de la clase (tipo) de los mensajes.", "isCorrect": false },
+          { "id": 1, "text": "El «topic» aparece como un campo de los mensajes.", "isCorrect": true },
+          { "id": 2, "text": "El «topic» es un nombre de una lista disponible en el broker.", "isCorrect": false },
+          { "id": 3, "text": "La suscripción indica el rango de valores en los que está interesado.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un sistema de publicación-suscripción ¿Cuál es el principal inconveniente de un broker centralizado respecto a uno descentralizado?",
+        "options": [
+          { "id": 0, "text": "Poca escalabiliad.", "isCorrect": true },
+          { "id": 1, "text": "Su implementación es más compleja.", "isCorrect": false },
+          { "id": 2, "text": "Dificultad para garantizar propiedades extremo a extremo, como seguridad.", "isCorrect": false },
+          { "id": 3, "text": "No implica inconvenientes adicionales.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " Con la configuración más básica, en las colas de mensajes distribuidas cuando se envía un mensaje a una cola en la que hay varios suscriptores ¿cuántos de ellos lo reciben?",
+        "options": [
+          { "id": 0, "text": "ninguno", "isCorrect": false },
+          { "id": 1, "text": "1", "isCorrect": true },
+          { "id": 2, "text": "todos", "isCorrect": false },
+          { "id": 3, "text": "Aquellos que no han recibido ningún mensaje previo", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La figura de la izquierda representa el diagrama de eventos de un SD formado por tres procesos. Para cada evento se muestra su estado local, asumiendo que el valor inicial es 0 para todos los procesos. El diagrama de la derecha (que contiene un error) es el diagrama de transición de estados globales correspondiente: ¿Cuál sería el valor del reloj lógico vectorial del segundo evento de P3?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-1.JPG",
+        "options": [
+          { "id": 0, "text": "(3,2,2) ", "isCorrect": true },
+          { "id": 1, "text": "(3,1,2)", "isCorrect": false },
+          { "id": 2, "text": "(0,3,1)", "isCorrect": false },
+          { "id": 3, "text": " (0,1,2)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuántos eventos han ocurrido en el estado global S221?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-1.JPG",
+        "options": [
+          { "id": 0, "text": "2", "isCorrect": false },
+          { "id": 1, "text": "4", "isCorrect": false },
+          { "id": 2, "text": "5", "isCorrect": true },
+          { "id": 3, "text": "No es determinista", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuáles son los valores de a, b y c después de ocurrir el segundo evento de P1?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-1.JPG",
+        "options": [
+          { "id": 0, "text": "a=2, b=2, c=1", "isCorrect": false },
+          { "id": 1, "text": " a=2, b=3, c=1", "isCorrect": false },
+          { "id": 2, "text": "a=2, b=2, c=indeterminado", "isCorrect": false },
+          { "id": 3, "text": "No es determinista", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Dada la función g = a + c > b, ¿cuáles serían los resultados de evaluar los predicados «posiblemente(g)» y «definitivamente(g)»?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-1.JPG",
+        "options": [
+          { "id": 0, "text": "false, false", "isCorrect": false },
+          { "id": 1, "text": "false, true", "isCorrect": false },
+          { "id": 2, "text": "true, false", "isCorrect": false },
+          { "id": 3, "text": "true, true", "isCorrect": true }
+        ]
+      },
+      {
+        "text": " ¿Qué transición se ha omitido en el diagrama de transición de estados globales?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-1.JPG",
+        "options": [
+          { "id": 0, "text": "S030 - S130", "isCorrect": true },
+          { "id": 1, "text": "S011 - S111", "isCorrect": false },
+          { "id": 2, "text": "S321 - S332", "isCorrect": false },
+          { "id": 3, "text": "S130 - S221", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Desde el punto de vista de un sistema distribuido con alta escalabilidad tolerante a fallos, ¿cuál es el aspecto mas débil del algoritmo de exclusión mutua con servidor central?",
+        "options": [
+          { "id": 0, "text": "El servidor representa un cuello de botella", "isCorrect": true },
+          { "id": 1, "text": "Limitaciones en el tamaño de la cola de peticiones.", "isCorrect": false },
+          { "id": 2, "text": "En entornos de alta escalabilidad no proporciona liveness.", "isCorrect": false },
+          { "id": 3, "text": "En entornos de alta escalabilidad, el alto número de mensajes para entrar y salir de la sección crítica", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " Considere un sistema distribuido formado por 5 procesos con PIDs 1, 2, 3, 4 y 5. Si el sistema usa exclusión mutua con servidor central y los procesos 4, 5 y 1 envían un mensaje al coordinador, en ese orden, ¿cuántos mensajes son necesarios para que el proceso 5 logre entrar en la sección crítica?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-1.JPG",
+        "options": [
+          { "id": 0, "text": "5", "isCorrect": false },
+          { "id": 1, "text": "8", "isCorrect": false },
+          { "id": 2, "text": "9", "isCorrect": false },
+          { "id": 3, "text": "No se puede saber", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Cuántos mensajes son necesarios si el coordinador priorizase las peticiones de menor a mayor PID, es decir, atiende primero al proceso de menor PID? Suponga que todos los mensajes se reciben al mismo tiempo.",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-2.JPG",
+        "options": [
+          { "id": 0, "text": "5", "isCorrect": false },
+          { "id": 1, "text": "8", "isCorrect": true },
+          { "id": 2, "text": "9", "isCorrect": false },
+          { "id": 3, "text": "No se puede saber", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " Si el sistema utilizase exclusión mutua basada en anillo con testigo, ¿cuántos mensajes deben enviarse para conceder el acceso a la sección crítica al proceso 5? Asuma que el anillo se ordena de menor a mayor PID, que el token se encuentra en el proceso 3 y que el token se mueve en el sentido de menor a mayor PID:",
+        "options": [
+          { "id": 0, "text": "1", "isCorrect": false },
+          { "id": 1, "text": "2", "isCorrect": true },
+          { "id": 2, "text": "3", "isCorrect": false },
+          { "id": 3, "text": "4", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Siendo N el número de procesos, ¿cuál es el número de mensajes que se utiliza el algoritmo de Ricart y Agrawala para entrar (sin considerar la salida de ningún proceso) en la sección crítica?",
+        "options": [
+          { "id": 0, "text": "N mensajes", "isCorrect": false },
+          { "id": 1, "text": "2*(N-1)", "isCorrect": true },
+          { "id": 2, "text": "2 mensajes", "isCorrect": false },
+          { "id": 3, "text": "2*sqrt(N)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " Considere un sistema distribuido formado por 4 procesos con IDs 1, 2, 3 y 4. Se quiere seleccionar uno de los procesos como coordinador del sistema utilizando el algoritmo basado en anillo de Chang y Roberts. Asuma que el ID de cada proceso se corresponde con su identificador a efectos de la elección: ¿Cuántos mensajes se enviarán, en el peor caso, para completar la elección?",
+        "options": [
+          { "id": 0, "text": "7", "isCorrect": false },
+          { "id": 1, "text": "8", "isCorrect": false },
+          { "id": 2, "text": "15", "isCorrect": false },
+          { "id": 3, "text": "11", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En el ejemplo anterior, si se usara el algoritmo de García-Molina y asumiendo que no ocurre ningún error durante el proceso de elección, ¿cuál sería el número de mensajes enviados en total por todos los procesos en el peor de los casos?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX-Ene-23-3.JPG",
+        "options": [
+          { "id": 0, "text": "Menos de 12", "isCorrect": false },
+          { "id": 1, "text": "12", "isCorrect": false },
+          { "id": 2, "text": "13", "isCorrect": false },
+          { "id": 3, "text": "Más de 13", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Qué características del sistema distribuido tiene en consideración el algoritmo de García-Molina no existe en el algoritmo de Chang y Roberts?",
+        "options": [
+          { "id": 0, "text": "El tamaño del sistema distribuido.", "isCorrect": false },
+          { "id": 1, "text": "El identificador de cada proceso es desconocido para los demás procesos.", "isCorrect": false },
+          { "id": 2, "text": "Tolerancia a fallos en los procesos.", "isCorrect": true },
+          { "id": 3, "text": "Todas las anteriores son correctas.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes no es una característica considerada por el teorema CAP?",
+        "options": [
+          { "id": 0, "text": "Consistencia de datos", "isCorrect": false },
+          { "id": 1, "text": "Disponibilidad del sistema", "isCorrect": false },
+          { "id": 2, "text": "Ventana de inconsistencia estricta", "isCorrect": true },
+          { "id": 3, "text": "Tolerancia a las particiones de red", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " ¿Qué es la «ventana de inconsistencia» (inconsistency window)?",
+        "options": [
+          { "id": 0, "text": "Es el plazo en el que la réplica permite nuevas operaciones de escritura sin afectar al valor persistente almacenado.", "isCorrect": false },
+          { "id": 1, "text": "El plazo que transcurre entre una escritura y el momento es que está garantizado que se puede acceder al último valor.", "isCorrect": true },
+          { "id": 2, "text": "El tamaño mínimo del buffer de envío que garantiza que todas las réplicas se podrán actualizar en el tiempo solicitado.", "isCorrect": false },
+          { "id": 3, "text": "El conjunto de operaciones de lectura/escritura que puede manejar el gestor de réplicas antes de que se actualice un recurso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Escoja la definición más ajustada a protocolo líder/seguidores",
+        "options": [
+          { "id": 0, "text": "Protocolo para conseguir consistencia débil en el que todos los nodos pueden actuar como líder o seguidor en cada transacción.", "isCorrect": false },
+          { "id": 1, "text": "Protocolo para conseguir consistencia fuerte dónde un nodo tiene un rol distinguido del resto.", "isCorrect": false },
+          { "id": 2, "text": " Protocolo para conseguir consistencia débil dónde un nodo tiene un rol distinguido del resto.", "isCorrect": true },
+          { "id": 3, "text": " Protocolo para conseguir consistencia débil donde los nodos seguidores almacenan una copia parcial del líder", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Para un conjunto de 6 nodos, se define un método de votación (quorum) y usted debe definir el número de copias de lectura (R) y el número de copias de escritura (W) ¿qué números propondría para garantizar la consistencia?",
+        "options": [
+          { "id": 0, "text": "R=3, W=4", "isCorrect": true },
+          { "id": 1, "text": "R=2, W=3", "isCorrect": false },
+          { "id": 2, "text": "R=4, W=2", "isCorrect": false },
+          { "id": 3, "text": "R=3, W=3", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cómo se consigue normalmente el «balanceo de carga»?",
+        "options": [
+          { "id": 0, "text": "El sistema redirige las peticiones de los clientes a las distintas réplicas disponibles.", "isCorrect": true },
+          { "id": 1, "text": "El cliente reparte equitativamente sus peticiones entre las réplicas conocidas.", "isCorrect": false },
+          { "id": 2, "text": "El planificador decide en qué momento ejecutar las peticiones para haya un equilibrio de carga a lo largo del tiempo.", "isCorrect": false },
+          { "id": 3, "text": "Ajustando constantemente el porcentaje de uso de las CPUs disponibles para evitar sobrecargas.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Otros examenes",
     "questions": [
       {
         "text": "Prueba imagen",
