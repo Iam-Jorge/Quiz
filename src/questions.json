@@ -897,7 +897,7 @@
       },
       {
         "text": "El siguiente diagrama representa la ejecución de un sistema distribuido, donde S000 es el estado global inicial  ¿Cuántos procesos están implicados en la ejecución del sistema distribuido representado en el diagrama?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-21-2.JPG",
         "options": [
           { "id": 0, "text": "5", "isCorrect": false },
           { "id": 1, "text": "10", "isCorrect": false },
@@ -907,7 +907,7 @@
       },
       {
         "text": "En el estado global S311, ¿cuántos eventos han ocurrido?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-21-2.JPG",
         "options": [
           { "id": 0, "text": "5", "isCorrect": true },
           { "id": 1, "text": "8", "isCorrect": false },
@@ -917,7 +917,7 @@
       },
       {
         "text": " ¿Cuál sería el resultado de evaluar el predicado «definitivamente X» si el estado global S111 se evalúa como True y el resto de estados se evalúan como False?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-21-2.JPG",
         "options": [
           { "id": 0, "text": "True", "isCorrect": true },
           { "id": 1, "text": "False", "isCorrect": false },
@@ -927,7 +927,7 @@
       },
       {
         "text": "Indique cuál sería una posible ejecución de este sistema distribuido:",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-21-2.JPG",
         "options": [
           { "id": 0, "text": "S000 ->S001 ->S011 ->S111 ->S211 ->S311", "isCorrect": false },
           { "id": 1, "text": "S000 ->S010 ->S011 ->S112", "isCorrect": false },
@@ -937,7 +937,7 @@
       },
       {
         "text": "El estado global S221 es:",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-21-2.JPG",
         "options": [
           { "id": 0, "text": "Inconsistente.", "isCorrect": true },
           { "id": 1, "text": "Consistente.", "isCorrect": false },
