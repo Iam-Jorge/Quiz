@@ -2099,15 +2099,6 @@
         ]
       },
       {
-        "text": "",
-        "options": [
-          { "id": 0, "text": "", "isCorrect": false },
-          { "id": 1, "text": "", "isCorrect": false },
-          { "id": 2, "text": "", "isCorrect": false },
-          { "id": 3, "text": "", "isCorrect": false }
-        ]
-      },
-      {
         "text": "¿Cuál de las siguientes es una característica de IceStorm poco común en otros sistemas de propagación de eventos?",
         "options": [
           { "id": 0, "text": "Es posible crear y gestionar «topics» para la segregación de mensajes.", "isCorrect": false },
@@ -2199,8 +2190,8 @@
         "text": "En el algoritmo de Maekawa, entrar en la sección crítica cuesta:",
         "options": [
           { "id": 0, "text": "2√N", "isCorrect": true },
-          { "id": 1, "text": "2(N − 1)", "isCorrect": false },
-          { "id": 2, "text": "N − 1", "isCorrect": false }
+          { "id": 1, "text": "2(N - 1)", "isCorrect": false },
+          { "id": 2, "text": "N - 1", "isCorrect": false }
         ]
       },
       {
