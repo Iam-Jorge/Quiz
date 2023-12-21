@@ -1137,15 +1137,6 @@
         ]
       },
       {
-        "text": "",
-        "options": [
-          { "id": 0, "text": "", "isCorrect": false },
-          { "id": 1, "text": "", "isCorrect": false },
-          { "id": 2, "text": "", "isCorrect": false },
-          { "id": 3, "text": "", "isCorrect": false }
-        ]
-      },
-      {
         "text": " Respecto a su eficiencia ¿cuál es la diferencia principal entre los algoritmos de anillo para exclusión mutua y para elección?",
         "options": [
           { "id": 0, "text": "El algoritmo de elección requiere menos mensajes.", "isCorrect": false },
@@ -1398,15 +1389,6 @@
         ]
       },
       {
-        "text": "",
-        "options": [
-          { "id": 0, "text": "", "isCorrect": false },
-          { "id": 1, "text": "", "isCorrect": false },
-          { "id": 2, "text": "", "isCorrect": false },
-          { "id": 3, "text": "", "isCorrect": false }
-        ]
-      },
-      {
         "text": "En el algoritmo de Ricart y Agrawala, si lo ejecuto en una red que soporta multicast, el número de mensajes para acceder a la sección crítica...",
         "options": [
           { "id": 0, "text": "disminuye", "isCorrect": true },
@@ -1609,7 +1591,7 @@
           { "id": 0, "text": "*.*", "isCorrect": false },
           { "id": 1, "text": "ssdd.*.*", "isCorrect": false },
           { "id": 2, "text": "*.comunicacionindirecta", "isCorrect": false },
-          { "id": 3, "text": "a) y c) son correctas", "isCorrect": true }
+          { "id": 3, "text": "*.* y *.comunicacionindirecta son correctas", "isCorrect": true }
         ]
       },
       {
@@ -1715,7 +1697,7 @@
         "text": "El cálculo que se aplica en el algoritmo de Cristian trata de acotar...",
         "options": [
           { "id": 0, "text": "... el error causado por un ancho de banda asimético.", "isCorrect": false },
-          { "id": 1, "text": "... el error causado por un ancho de banda asimético.", "isCorrect": true },
+          { "id": 1, "text": "... el error causado por la latencia de la red.", "isCorrect": true },
           { "id": 2, "text": "... la cantidad de mensajes necesarios para la sincronización de un grupo.", "isCorrect": false },
           { "id": 3, "text": "... el número de nodos que forma parte del grupo de réplicas.", "isCorrect": false }
         ]
