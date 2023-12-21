@@ -1849,18 +1849,429 @@
     ]
   },
   {
-    "examName": "Otros examenes",
+    "examName": "Ex-Jun-18",
     "questions": [
       {
-        "text": "Prueba imagen",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/EX1Q1.JPG",
+        "text": "Se desea implementar exclusión mutua en un sistema distribuido formado por N procesos mediante el algoritmo del anillo con testigo. Los procesos se ordenan en el anillo mediante los ID de procesos i=0..N-1.Se dispone de la primitiva send(i, j, token) y receive(i,j,token) donde i es el identificador del proceso receptor y j el identificador del proceso emisor, con i,j=[0,N-1]. ¿Qué par de primitivas debería ejecutar el proceso i=2?",
         "options": [
-          { "id": 0, "text": "a", "isCorrect": false },
-          { "id": 1, "text": "b", "isCorrect": false },
-          { "id": 2, "text": "c", "isCorrect": false },
-          { "id": 3, "text": "d", "isCorrect": true }
+          { "id": 0, "text": "send(3, 2, token); receive(3, 2, token);", "isCorrect": false },
+          { "id": 1, "text": "send(3, 2, token); receive(2, 1, token);", "isCorrect": true },
+          { "id": 2, "text": "send(1, 2, token); receive(3, 2, token);", "isCorrect": false },
+          { "id": 3, "text": " send(2, 3, token); receive(2, 1, token);", "isCorrect": false }
         ]
       },
+      {
+        "text": "En la ejecución del algoritmo de Cristian un cliente envía un mensaje de sincronización y pasados 2 segundos recibe la respuesta con un tiempo de servidor Ts=10h.5min.3seg. ¿Cuál es el tiempo al que podría actualizar su hora este computador?",
+        "options": [
+          { "id": 0, "text": "10h.5min.3seg", "isCorrect": false },
+          { "id": 1, "text": "10h.5min.4seg", "isCorrect": false },
+          { "id": 2, "text": "10h.5min.5seg", "isCorrect": true },
+          { "id": 3, "text": "10h.5min.1seg", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Dados los procesos p1 y p2 con prefijos de historia h1 y h2 respectivamente, ¿qué tipo de corte forman la unión de ambos prefijos de historia?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-18.JPG",
+        "options": [
+            { "id": 0, "text": "Corte consistente", "isCorrect": true },
+            { "id": 1, "text": "Corte inconsistente", "isCorrect": false },
+            { "id": 2, "text": "Corte global alcanzable", "isCorrect": false },
+            { "id": 3, "text": "No se puede saber", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Llamamos frontera de un corte al último evento de cada proceso almacenado en ese corte, ¿Cuál es la frontera del corte con las historias descritas h1 y h2?",
+        "options": [
+            { "id": 0, "text": "leer fichero f, calcular estadísticas, send(p2, estadísticas), recibir(p1, estadísticas), send(p1, ack)", "isCorrect": false },
+            { "id": 1, "text": "send(p2, estadísticas), send(p1, ack)", "isCorrect": true },
+            { "id": 2, "text": "abrir fichero f, recibir(p1, estadísticas)", "isCorrect": false },
+            { "id": 3, "text": "calcular estadísticas, send(p2, estadísticas), recibir(p1, estadísticas), send(p1, ack)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes no es una aplicación del algoritmo de Chandy-Lamport?",
+        "options": [
+            { "id": 0, "text": "Recolección de basura", "isCorrect": false },
+            { "id": 1, "text": "Detección de interbloqueos", "isCorrect": false },
+            { "id": 2, "text": "Detección de terminación de un proceso", "isCorrect": false },
+            { "id": 3, "text": "Detección de eventos concurrentes", "isCorrect": true }
+        ]
+      },
+      {
+        "text": " ¿Qué es un sistema tolerante a fallos?",
+        "options": [
+            { "id": 0, "text": "Sistema muy robusto en el que no se producen fallos de ningún tipo", "isCorrect": false },
+            { "id": 1, "text": "Sistema que permite la ejecución continuada del sistema, posiblemente degradada, aún en presencia de fallos", "isCorrect": true },
+            { "id": 2, "text": "Sistema que cumple con todas las especificaciones del sistema en presencia de cualquier tipo de fallo", "isCorrect": false },
+            { "id": 3, "text": "Sistema que persigue la consistencia de la información", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué método de replicación no es un método pesimista?",
+        "options": [
+            { "id": 0, "text": "Copia primaria", "isCorrect": false },
+            { "id": 1, "text": "Réplicas activas", "isCorrect": false },
+            { "id": 2, "text": "Vectores de versiones", "isCorrect": true },
+            { "id": 3, "text": "Quorum", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Sea N=49 el número de réplicas hoja de un sistema distribuido. En un sistema de votación jerárquica ¿cuántas réplicas hay en el nivel intermedio?",
+        "options": [
+            { "id": 0, "text": "49", "isCorrect": false },
+            { "id": 1, "text": "7", "isCorrect": true },
+            { "id": 2, "text": "1", "isCorrect": false },
+            { "id": 3, "text": "56", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Dado un sistema compuesto por k=3 componentes en paralelo, donde la fiabilidad de cada componente es r(i)=0.8. ¿Cuál es la probabilidad del fallo Q(t) del sistema y cuál su fiabilidad R(t)?",
+        "options": [
+            { "id": 0, "text": "Q(t)=0.008, R(t)=0.992", "isCorrect": true },
+            { "id": 1, "text": "Q(t)=0.488, R(t)=0.512", "isCorrect": false },
+            { "id": 2, "text": "Q(t)=0.2, R(t)=2.4", "isCorrect": false },
+            { "id": 3, "text": "Q(t)=0.512, R(t)=0.488", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un sistema distribuido el proceso P4 envía dos mensajes multicast (m1, m2) a un grupo g compuesto por los procesos g=(P1, P2, P3). ¿Qué tipo de grupo es g?",
+        "options": [
+            { "id": 0, "text": "Grupo abierto", "isCorrect": true },
+            { "id": 1, "text": "Grupo cerrado", "isCorrect": false },
+            { "id": 2, "text": "Grupo IP multicast", "isCorrect": false },
+            { "id": 3, "text": "Grupo R-multicast", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En el mismo escenario, el proceso P1 envía dos mensajes multicast (m1, m2) y P2 envía (m3, m4). Los procesos P1 y P3 reciben (m1, m3, m2 y m4) y P2 y P4 reciben (m1, m4, m2 y m3). ¿Qué ordenación se está preservando en el sistema?",
+        "options": [
+            { "id": 0, "text": "Orden FIFO", "isCorrect": false },
+            { "id": 1, "text": "Orden causal", "isCorrect": false },
+            { "id": 2, "text": "Orden total", "isCorrect": false },
+            { "id": 3, "text": "No se preserva ningún orden", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes condiciones no se cumple en el multicast fiable?",
+        "options": [
+            { "id": 0, "text": "Integridad", "isCorrect": false },
+            { "id": 1, "text": "Validez", "isCorrect": false },
+            { "id": 2, "text": "Acuerdo uniforme", "isCorrect": false },
+            { "id": 3, "text": "Terminación", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Qué quiere decir que el emisor y el receptor en un sistema de comunicación indirecta están desacoplados en tiempo?",
+        "options": [
+            { "id": 0, "text": "Emisor y receptor no necesitan existir al mismo tiempo", "isCorrect": true },
+            { "id": 1, "text": "Emisor no necesita conocer la identidad del receptor y viceversa", "isCorrect": false },
+            { "id": 2, "text": "Emisor y receptor necesitan existir al mismo tiempo", "isCorrect": false },
+            { "id": 3, "text": "Emisor necesita conocer la identidad del receptor y viceversa", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué modelo de subscripción de un sistema publish-subscribe se usa cuando el filtro es una consulta definida sobre los valores de los atributos de cada evento?",
+        "options": [
+            { "id": 0, "text": "Basado en canal.", "isCorrect": false },
+            { "id": 1, "text": "Basado en tópicos.", "isCorrect": false },
+            { "id": 2, "text": "Basado en contenido.", "isCorrect": true },
+            { "id": 3, "text": "Basado en tipos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Sea el siguiente escenario para los procesos P0, P1 y P2: Indique cuáles son los relojes lógicos de Lamport de los eventos g, l y m:",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-18-2.JPG",
+        "options": [
+            { "id": 0, "text": "RL(g)= 4; RL(l)=4 ; RL(m)=5", "isCorrect": false },
+            { "id": 1, "text": "RL(g)= 3; RL(l)= 4; RL(m)=5", "isCorrect": false },
+            { "id": 2, "text": "RL(g)=4 ; RL(l)=3 ; RL(m)=5", "isCorrect": false },
+            { "id": 3, "text": "RL(g)=3 ; RL(l)=3 ; RL(m)=6", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Indique cuáles son los relojes vectoriales de los eventos d, i y ",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-18-2.JPG",
+        "options": [
+            { "id": 0, "text": "RV(d)= (4,3,1); RV(i)=(1,5,3); RV(m)=(1,5,4)", "isCorrect": true },
+            { "id": 1, "text": "RV(d)= (3,2,2); RV(i)=(2,4,4); RV(m)=(2,4,5)", "isCorrect": false },
+            { "id": 2, "text": "RV(d)= (3,3,3); RV(i)=(2,5,4) ; RV(m)=(1,6,4)", "isCorrect": false },
+            { "id": 3, "text": "RV(d)= (4,3,3); RV(i)=(3,5,3) ; RV(m)=(2,4,6)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Dado un conjunto de N nodos, con N=8, que usa el método de votación dinámica (quórum) para mantener la consistencia de las réplicas: Indique cuál de los siguientes opciones no es un quórum válido (R=réplicas de lectura y W=réplicas de escritura):",
+        "options": [
+            { "id": 0, "text": "R=3, W=6", "isCorrect": false },
+            { "id": 1, "text": "R=4, W=5", "isCorrect": false },
+            { "id": 2, "text": "R=5, W=3", "isCorrect": true },
+            { "id": 3, "text": "R=8, W=8", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Para un quorum R,W=5, con un porcentaje de lecturas p=80 %, un coste de lectura CL=5 y un coste de escritura tres veces el coste de lectura, ¿cuál es el coste medio de lecturas y escrituras?:",
+        "options": [
+            { "id": 0, "text": "45", "isCorrect": false },
+            { "id": 1, "text": "35", "isCorrect": true },
+            { "id": 2, "text": "13", "isCorrect": false },
+            { "id": 3, "text": "28", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Durante la ejecución del sistema se produce un fallo en la red que da lugar a dos particiones p1 = (1,2,3,5,6) y p2 = (4,7,8). En ese momento, todos los nodos en p1 y p2 tienen el valor NV=15 y SC=8. Determine los valores de NV y SC para los nodos 1, 5 y 8 tras intentar actualizar p1:",
+        "options": [
+            { "id": 0, "text": "Nodo 1=(NV=16, SC=5); Nodo 5=(NV=16,SC=5); Nodo 8=(NV=15,SC=8)", "isCorrect": true },
+            { "id": 1, "text": "Nodo 1=(NV=16, SC=5); Nodo 5=(NV=15,SC=8); Nodo 8=(NV=15,SC=8)", "isCorrect": false },
+            { "id": 2, "text": "Nodo 1=(NV=15, SC=8); Nodo 5=(NV=15,SC=8); Nodo 8=(NV=15,SC=8)", "isCorrect": false },
+            { "id": 3, "text": "Nodo 1=(NV=15, SC=5); Nodo 5=(NV=15,SC=5); Nodo 8=(NV=16,SC=8)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Considere el siguiente sistema distribuido formado por 4 procesos con IDs 1,2, 3 y 4. 20 Si el sistema usa exclusión mutua centralizada y todos los procesos envían un mensaje al coordinador para entrar en la sección crítica (SC) al mismo tiempo ¿cuántos mensajes son necesarios para que el proceso 4 logre entrar en la SC? Asuma que el coordinador ordena los mensajes de menor a mayor ID, es decir, atiende al proceso de menor ID primero y tenga en cuenta los cuatro mensajes de petición iniciales:",
+        "options": [
+            { "id": 0, "text": "10", "isCorrect": false },
+            { "id": 1, "text": "6", "isCorrect": false },
+            { "id": 2, "text": "8", "isCorrect": false },
+            { "id": 3, "text": "11", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Considere el siguiente sistema distribuido formado por 4 procesos con IDs 1,2, 3 y 4. Si el sistema usa exclusión mutua distribuida basada en anillo con testigo. ¿Cuál es el número de mensajes que deben transferirse para que el proceso con id 4 logre entrar en la sección crítica? Asuma que el anillo se ordena de menor a mayor id de proceso, el token que le da acceso se encuentra en el proceso con id 1 y el token se mueve en el sentido de las agujas del reloj:",
+        "options": [
+            { "id": 0, "text": "5", "isCorrect": false },
+            { "id": 1, "text": "1", "isCorrect": false },
+            { "id": 2, "text": "4", "isCorrect": false },
+            { "id": 3, "text": "3", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Considere el siguiente sistema distribuido formado por 4 procesos con IDs 1,2, 3 y 4. Si el sistema usa exclusión mutua distribuida basada en el algoritmo de Ricart y Agrawala y los procesos 1 y 3 con marcas de tiempo MT(1)=3, MT(3)=6, respectivamente, solicitan entrar en la sección crítica al mismo tiempo, ¿Cuál es el número de mensajes que deben transferirse para que el proceso 1 logre entrar en la sección crítica? Asuma que los procesos no envían mensajes a sí mismo y que no hay ningún proceso en la sección crítica:",
+        "options": [
+            { "id": 0, "text": "7", "isCorrect": false },
+            { "id": 1, "text": "9", "isCorrect": true },
+            { "id": 2, "text": "8", "isCorrect": false },
+            { "id": 3, "text": "11", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " Considere el siguiente sistema distribuido formado por 4 procesos con IDs 1,2, 3 y 4. En el escenario anterior, si el sistema dispone de primitivas multicast ¿Cuántos mensajes son necesarios?",
+        "options": [
+            { "id": 0, "text": "5", "isCorrect": true },
+            { "id": 1, "text": "4", "isCorrect": false },
+            { "id": 2, "text": "2", "isCorrect": false },
+            { "id": 3, "text": "7", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Ex-Ene-18",
+    "questions": [
+      {
+        "text": " ¿Cuál es el modelo de comunicación más adecuado para un sistema de estaciones meteorológicas que informan sobre temperatura, viento y presión a un conjunto indeterminado y dinámico de posibles clientes?",
+        "options": [
+          { "id": 0, "text": "Polling a una base de datos", "isCorrect": false },
+          { "id": 1, "text": "Un sistema publicador-subscriptor", "isCorrect": true },
+          { "id": 2, "text": "Un sistema de ficheros distribuido", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Por qué se denomina «comunicación indirecta»?",
+        "options": [
+          { "id": 0, "text": "Porque los receptores nunca reciben información generada en los productore", "isCorrect": false },
+          { "id": 1, "text": "Porque suele existir una entidad intermedia que reenvía los mensajes", "isCorrect": true },
+          { "id": 2, "text": "Porque el tiempo de propagación no se puede determinar a priori", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿A qué tipo de mensajes llamamos «eventos»?",
+        "options": [
+          { "id": 0, "text": "A los que transportan datos y nunca implican enviar un resultado hacia el emisor.", "isCorrect": true },
+          { "id": 1, "text": "A los que se producen por efecto de una magnitud física no precedible.", "isCorrect": false },
+          { "id": 2, "text": " A cualquier método cuyo mensaje se pueda transportar sobre UDP.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué es un sistema de subscripción «content-based»?",
+        "options": [
+          { "id": 0, "text": "El que permite al publicador indicar el broker qué subscriptores deben recibir los mensajes.", "isCorrect": false },
+          { "id": 1, "text": "El que permite al subscriptor decidir los mensajes que quiere recibir en función de lo que incluyen.", "isCorrect": true },
+          { "id": 2, "text": "El que permite al subscriptor indicar el contenido de los canales en el broker.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "",
+        "options": [
+          { "id": 0, "text": "", "isCorrect": false },
+          { "id": 1, "text": "", "isCorrect": false },
+          { "id": 2, "text": "", "isCorrect": false },
+          { "id": 3, "text": "", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes es una característica de IceStorm poco común en otros sistemas de propagación de eventos?",
+        "options": [
+          { "id": 0, "text": "Es posible crear y gestionar «topics» para la segregación de mensajes.", "isCorrect": false },
+          { "id": 1, "text": "Su modelo de programación consiste en invocar métodos de una interfaz.", "isCorrect": true },
+          { "id": 2, "text": "Dispone de un mecanismo de replicación en el que todos los publicadores pueden actuar como brokers.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué función realizan los «exchanges» en un sistema tipo AMQP?",
+        "options": [
+          { "id": 0, "text": "Intercambian mensajes entre colas del mismo tipo.", "isCorrect": false },
+          { "id": 1, "text": "Almacenan los mensajes en espera de ser enviados a un subscriptor.", "isCorrect": false },
+          { "id": 2, "text": "Aplican las políticas de envío a los subscriptores.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Por qué sincronización externa implica sincronización interna?",
+        "options": [
+          { "id": 0, "text": "Si los nodos utilizan la misma referencia de tiempo, estarán también sincronizados entre sí.", "isCorrect": true },
+          { "id": 1, "text": "Nodos con el mismo tipo de reloj físico tendrán la misma deriva.", "isCorrect": false },
+          { "id": 2, "text": "Nodos con el mismo tipo de reloj lógico tendrán el mismo sesgo.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué es el reloj software C(t)?",
+        "options": [
+          { "id": 0, "text": "Un reloj físico gestionado por cada proceso.", "isCorrect": false },
+          { "id": 1, "text": "Una interpretación que el sistema operativo hace del reloj hardware.", "isCorrect": true },
+          { "id": 2, "text": "Un identificador de proceso monótono creciente.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué algoritmo se suele utilizar para sincronizar relojes lógicos?",
+        "options": [
+          { "id": 0, "text": "Servidor central", "isCorrect": false },
+          { "id": 1, "text": "Cristian", "isCorrect": false },
+          { "id": 2, "text": " No se sincronizan", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Qué efecto influye más en el error cometido en una sincronización con el algoritmo de Cristian",
+        "options": [
+          { "id": 0, "text": "La frecuencia del procesador del servidor.", "isCorrect": false },
+          { "id": 1, "text": "El ancho de banda del enlace.", "isCorrect": false },
+          { "id": 2, "text": "La carga de la red.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "El algoritmo de Berkeley es para:",
+        "options": [
+          { "id": 0, "text": "Sincronización interna de relojes físicos.", "isCorrect": true },
+          { "id": 1, "text": "Sincronización externa de relojes lógicos.", "isCorrect": false },
+          { "id": 2, "text": "Sincronización externa de relojes físicos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué característica ofrecen los relojes vectoriales?",
+        "options": [
+          { "id": 0, "text": "Representan causalidad potencial.", "isCorrect": true },
+          { "id": 1, "text": "Evitan cortes inconsistentes.", "isCorrect": false },
+          { "id": 2, "text": "Reducen la sobrecarga de sincronización.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El algoritmo de Chang y Roberts permite:",
+        "options": [
+          { "id": 0, "text": "Implementar exclusión mutua distribuida.", "isCorrect": false },
+          { "id": 1, "text": "Elegir a un coordinador.", "isCorrect": true },
+          { "id": 2, "text": "Resolver un problema de consenso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Como ingeniero informático encargado de la implementación de un sistema distribuido dedicado al mantenimiento de la información del tiempo de un aeropuerto, tiene tres estaciones meteorológicas identificadas como A, B y C para que hagan de respaldo una de otra. Normalmente, solo la estación seleccionada como coordinadora manda los datos, si no actualiza los datos, se selecciona otra coordinadora de forma automática para que mande las actualizaciones. ¿Qué algoritmo ayudaría?",
+        "options": [
+          { "id": 0, "text": "Anillo", "isCorrect": false },
+          { "id": 1, "text": "Ricart y Agrawala", "isCorrect": false },
+          { "id": 2, "text": "García Molina (abusón)", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Cúal de los siguientes algoritmos consume ancho de banda incluso cuando no se usa?",
+        "options": [
+          { "id": 0, "text": "Anillo", "isCorrect": true },
+          { "id": 1, "text": "Servidor central", "isCorrect": false },
+          { "id": 2, "text": "Ricart Agrawala", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En el algoritmo de Maekawa, entrar en la sección crítica cuesta:",
+        "options": [
+          { "id": 0, "text": "2√N", "isCorrect": true },
+          { "id": 1, "text": "2(N − 1)", "isCorrect": false },
+          { "id": 2, "text": "N − 1", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué mecanismo permite implementar orden total en un mecanismo multicast?",
+        "options": [
+          { "id": 0, "text": " El protocolo IP por si solo ya te lo garantiza.", "isCorrect": false },
+          { "id": 1, "text": "Relojes lógicos de Lamport.", "isCorrect": false },
+          { "id": 2, "text": "Con un secuenciador basta.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Las difusiones relacionadas causalmente preservan el orden de la entrega, esto es:",
+        "options": [
+          { "id": 0, "text": "FIFO-mcast.", "isCorrect": false },
+          { "id": 1, "text": "FIFO y causal-mcast preservan el orden de la entrega en difusiones relacionadas.", "isCorrect": false },
+          { "id": 2, "text": "causal-mcast.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Dado el conjunto de N=5 nodos que emplean el método de votación dinámica (quórum) para mantener la consistencia de las réplicas. En un momento de la ejecución del sistema se produce un fallo en la red que da lugar a dos particiones con nodos (1, 2, 4) y (3, 5). En ese momento, todos los nodos tienen el valor NV=3 y SC=5 para una determinada réplica (e.d. (3, 5)). Determinar los valores de NV y SC para todos los nodos tras actualizar la partición (1, 2, 4). ",
+        "options": [
+          { "id": 0, "text": "Nodo 1=(3,5), Nodo 2=(3,5), Nodo 3=(3,5), Nodo 4=(3,5), Nodo 5=(3,5)", "isCorrect": false },
+          { "id": 1, "text": "Nodo 1=(4,3), Nodo 2=(4,3), Nodo 3=(3,5), Nodo 4=(4,3), Nodo 5=(3,5)", "isCorrect": true },
+          { "id": 2, "text": "Nodo 1=(2,4), Nodo 2=(2,4), Nodo 3=(3,4), Nodo 4=(2,4), Nodo 5=(3,4)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Indique cuál de los siguientes configuraciones de quorum no es válida, con N=7 nodos:",
+        "options": [
+          { "id": 0, "text": "R=3, W=4", "isCorrect": true },
+          { "id": 1, "text": "R=1, W=7", "isCorrect": true },
+          { "id": 2, "text": "R=4, W=4", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Cuál sería el coste medio en un sistema de votación (quorum) con N=8, donde R=3 y W=8, la probabilidad de lectura es 0.7, asumiendo que los costes de lectura y escritura son iguales?",
+        "options": [
+          { "id": 0, "text": "2,1 veces el coste de leer/escribir", "isCorrect": false },
+          { "id": 1, "text": "4,5 veces el coste de leer/escribir", "isCorrect": true },
+          { "id": 2, "text": "2,25 veces el coste de leer/escribir", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Dado un sistema serie compuesto por k=4 componentes, donde la probabilidad de fallo de cada componente i es p(i) = 0,1. ¿Cuál sería la fiabilidad de este sistema? ",
+        "options": [
+          { "id": 0, "text": "0,6561", "isCorrect": true },
+          { "id": 1, "text": "0,0001", "isCorrect": false },
+          { "id": 2, "text": "0,9999", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué tipo de fallo se produce cuando un sector de un disco de almacenamiento está corrupto y no se puede leer ni escribir en él?",
+        "options": [
+          { "id": 0, "text": "Intermitente", "isCorrect": false },
+          { "id": 1, "text": "Transitorio", "isCorrect": false },
+          { "id": 2, "text": " Permanente", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Indique cuál de las siguientes relaciones causa-efecto es correcta:",
+        "options": [
+          { "id": 0, "text": "Fallo-Error-Avería", "isCorrect": true },
+          { "id": 1, "text": "Error-Fallo-Avería", "isCorrect": false },
+          { "id": 2, "text": " Fallo-Avería-Error", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "...",
+    "questions": [
       {
         "text": "",
         "options": [
