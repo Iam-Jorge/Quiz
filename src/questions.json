@@ -1148,7 +1148,7 @@
       {
         "text": "¿Qué implica «multicast FIFO»?",
         "options": [
-          { "id": 0, "text": "Los mensajes enviados por un proceso llegarán a en el mismo orden que fueron enviados.", "isCorrect": false },
+          { "id": 0, "text": "Los mensajes enviados por un proceso llegarán a en el mismo orden que fueron enviados.", "isCorrect": true },
           { "id": 1, "text": "Si existe una relación causal entre dos mensajes multicast, su recepción respeta ese mismo orden.", "isCorrect": false },
           { "id": 2, "text": "Todos los mensajes recibidos por un proceso del grupo son confirmados individualmente al emisor.", "isCorrect": false },
           { "id": 3, "text": "Todos las la entregas correspondiente a un mismo envío llegarán a la vez a todos los procesos del grupo.", "isCorrect": false }
