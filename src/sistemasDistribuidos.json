@@ -2261,15 +2261,329 @@
     ]
   },
   {
-    "examName": "...",
+    "examName": "Ex-Ene-16",
     "questions": [
       {
-        "text": "",
+        "text": "En el contexto de un sistema distribuido ¿qué se considera «servicio»?",
         "options": [
-          { "id": 0, "text": "", "isCorrect": false },
-          { "id": 1, "text": "", "isCorrect": false },
-          { "id": 2, "text": "", "isCorrect": false },
-          { "id": 3, "text": "", "isCorrect": false }
+          { "id": 0, "text": "Un componente que gestiona recursos relacionados y proporciona una funcionalidad a usuarios y/o aplicaciones por medio de un interfaz.", "isCorrect": true },
+          { "id": 1, "text": "Un proceso vinculado a un host que puede identificar a los clientes en el contexto de una aplicación cliente-servidor.", "isCorrect": false },
+          { "id": 2, "text": "Una especificación formal de la interacción entre un conjunto de nodos en el paradigma de aplicaciones P2P multidispositivo.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuáles son las 3 características principales de todo sistema distribuido?",
+        "options": [
+          { "id": 0, "text": "Ausencia de reloj global, concurrencia y fallos independientes.", "isCorrect": true },
+          { "id": 1, "text": "Ausencia de reloj global, red de comunicaciones y memoria compartida.", "isCorrect": false },
+          { "id": 2, "text": "Ausencia de reloj global, concurrencia y memoria compartida.", "isCorrect": false },
+          { "id": 3, "text": "Sistema operativo, red de comunicaciones y middleware de tiempo real.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué caracteriza a un SD con un modelo de interacción síncrono?",
+        "options": [
+          { "id": 0, "text": "Cada modelo (o entidad) tiene su propio reloj local y deriva conocida.", "isCorrect": true },
+          { "id": 1, "text": "Un servidor central determina qué proceso (o entidad) puede enviar mensajes en un momento dado.", "isCorrect": false },
+          { "id": 2, "text": "Está basado en memoria compartida en lugar de en paso de mensajes.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuáles son los tipos de fallos principales que se consideran en un SD?",
+        "options": [
+          { "id": 0, "text": "Replicación, temporales y bizantinos.", "isCorrect": false },
+          { "id": 1, "text": "Omisión, temporales y arbitrarios.", "isCorrect": true },
+          { "id": 2, "text": "Arbitrarios, temporales y bizantinos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué protocolo de red utilizará una invocación RMI desde un cliente en Sidney a un objeto distribuido en Boston?",
+        "options": [
+          { "id": 0, "text": "XDR", "isCorrect": false },
+          { "id": 1, "text": "Chandy Lamport", "isCorrect": false },
+          { "id": 2, "text": "SMTP", "isCorrect": false },
+          { "id": 3, "text": "USB 3.0", "isCorrect": false },
+          { "id": 4, "text": "IP", "isCorrect": true },
+          { "id": 5, "text": "HTTP", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un computador A envía a las 12:00:18 (Tiempo de A) un mensaje para sincronizarse con un servidor de tiempo. Recibe la respuesta a las 12:00:40 (Tiempo de A) con hora 12:00:35 (Tiempo de servidor). Cuando actualice su reloj con el algoritmo de Cristian ¿qué error estará cometiendo?",
+        "options": [
+          { "id": 0, "text": "7.5 segundos", "isCorrect": false },
+          { "id": 1, "text": "11 segundos", "isCorrect": true },
+          { "id": 2, "text": "22 segundos", "isCorrect": false },
+          { "id": 3, "text": "35 segundos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un computador A envía a las 12:00:18 (Tiempo de A) un mensaje para sincronizarse con un servidor de tiempo. Recibe la respuesta a las 12:00:40 (Tiempo de A) con hora 12:00:35 (Tiempo de servidor), Cuando actualice su reloj con el algoritmo de Cristian ¿qué nueva hora se fijará en el computador A?",
+        "options": [
+          { "id": 0, "text": "12:00:35", "isCorrect": false },
+          { "id": 1, "text": "12:00:46", "isCorrect": true },
+          { "id": 2, "text": "12:00:57", "isCorrect": false },
+          { "id": 3, "text": "12:01:10", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Usted está implementando un mecanismo de recolección de basura en un sistema distribuido ¿qué algoritmo tiene que implementar para este propósito?",
+        "options": [
+          { "id": 0, "text": "Marzullo-Neiger", "isCorrect": true },
+          { "id": 1, "text": "Cristian", "isCorrect": false },
+          { "id": 2, "text": "García Molina", "isCorrect": false },
+          { "id": 3, "text": "Chang y Roberts", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Los relojes lógicos de Lamport nos permiten capturar el orden correcto si hay relación causal entre dos eventos.",
+        "options": [
+          { "id": 0, "text": "Verdadero", "isCorrect": true },
+          { "id": 1, "text": "Falso", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "De las situaciones siguientes ¿cuál requiere un mecanismo de exclusión mutua distribuida?",
+        "options": [
+          { "id": 0, "text": "El control de una grúa robotizada desde una estación base y varios operarios en planta.", "isCorrect": true },
+          { "id": 1, "text": "Un sistema de ficheros distribuido que dispone de implementaciones para diferentes sistemas operativos.", "isCorrect": false },
+          { "id": 2, "text": "Un broker de propagación de eventos.", "isCorrect": false },
+          { "id": 3, "text": "Una impresora compartida.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Por qué el algoritmo de Maekawa es más eficiente que los de anillo o Ricart y Agrawala?",
+        "options": [
+          { "id": 0, "text": "Utiliza mensajes más cortos.", "isCorrect": false },
+          { "id": 1, "text": "Utiliza grupos de procesos más pequeños.", "isCorrect": false },
+          { "id": 2, "text": "No requiere que todos los procesos voten.", "isCorrect": true },
+          { "id": 3, "text": "No es más eficiente que los otros dos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué caracteriza inequívocamente a un error bizantino?",
+        "options": [
+          { "id": 0, "text": "Errores en las comunicaciones.", "isCorrect": false },
+          { "id": 1, "text": "Errores en los procesos.", "isCorrect": false },
+          { "id": 2, "text": "Errores aleatorios en comunicaciones y procesos.", "isCorrect": false },
+          { "id": 3, "text": "Comportamiento aparentemente malicioso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En el algoritmo de García Molina si revive un proceso con un identificador mayor, éste será inmediatamente elegido como coordinador. ¿Por qué no puede continuar el anteriormente elegido?",
+        "options": [
+          { "id": 0, "text": "Es falso, puede continuar siendo coordinador el anteriormente elegido.", "isCorrect": false },
+          { "id": 1, "text": "Supondría un cuello de botella para el coordinador anterior.", "isCorrect": false },
+          { "id": 2, "text": "Los procesos que reviven no conocerían la identidad del coordinador anterior.", "isCorrect": true },
+          { "id": 3, "text": "Habría que transferir el estado del coordinador antiguo al nuevo.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En multidifusión ¿a qué nos referimos con un grupo cerrado?",
+        "options": [
+          { "id": 0, "text": "Sólo los miembros del grupo pueden enviar mensajes al grupo.", "isCorrect": true },
+          { "id": 1, "text": "Para formar parte del grupo los miembros deben conseguir exclusión mutua.", "isCorrect": false },
+          { "id": 2, "text": "Todos los procesos se ejecutan sobre computadores de una misma LAN.", "isCorrect": false },
+          { "id": 3, "text": "Los mensajes enviados al grupo tienen un tamaño predefinido.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué caracteriza a la multidifusión confiable (R-mcast)?",
+        "options": [
+          { "id": 0, "text": "Se dispone de soporte de los protocolos de red para la multidifusión.", "isCorrect": false },
+          { "id": 1, "text": "Se envía el mensaje a cada miembro del grupo usando un protocolo de transporte confiable.", "isCorrect": false },
+          { "id": 2, "text": "Todos los procesos del grupo reciben el mensaje una vez.", "isCorrect": true },
+          { "id": 3, "text": "Todos los mensajes van firmados digitalmente.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Por qué no es posible implementar algoritmos de consenso en sistemas asíncronos?",
+        "options": [
+          { "id": 0, "text": "Es imposible distinguir entre un enlace o proceso lento y un proceso caído.", "isCorrect": true },
+          { "id": 1, "text": "Los algoritmos de consenso requieren restricciones de tiempo real muy exigentes.", "isCorrect": false },
+          { "id": 2, "text": "Los algoritmos de consenso requieren un reloj físico global.", "isCorrect": false },
+          { "id": 3, "text": "En las redes asíncronas aparecen fallos no recuperables.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En la evaluación de sistemas transaccionales, puede no ser imprescindible aunque muy deseable para el correcto funcionamiento del sistema transaccional cumplir ciertas propiedades. Indique la opción correcta:",
+        "options": [
+          { "id": 0, "text": "Atomicidad es imprescindible.", "isCorrect": false },
+          { "id": 1, "text": "Consistencia es imprescindible", "isCorrect": false },
+          { "id": 2, "text": "Atomicidad y consistencia son imprescindibles.", "isCorrect": true },
+          { "id": 3, "text": "Ninguna de las propiedades es imprescindible.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El control de concurrencia en un sistema transaccional tiene como objetivo:",
+        "options": [
+          { "id": 0, "text": "Aumentar la concurrencia.", "isCorrect": true },
+          { "id": 1, "text": "Ejecutar secuencialmente las transacciones.", "isCorrect": false },
+          { "id": 2, "text": "Disminuir la concurrencia.", "isCorrect": false },
+          { "id": 3, "text": "Serializar todas las acciones.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Cuando una transacción utiliza un valor obsoleto para fijar un nuevo estado, estamos hablando de:",
+        "options": [
+          { "id": 0, "text": "Lectura inconsistente.", "isCorrect": false },
+          { "id": 1, "text": "Condición de carrera.", "isCorrect": false },
+          { "id": 2, "text": "Actualización perdida.", "isCorrect": true },
+          { "id": 3, "text": "Escritura sucia.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un sistema transaccional, marque la combinación de operaciones no conflictiva:",
+        "options": [
+          { "id": 0, "text": "Lectura-Lectura", "isCorrect": true },
+          { "id": 1, "text": "Escritura-Lectura", "isCorrect": false },
+          { "id": 2, "text": "Lectura-Escritura", "isCorrect": false },
+          { "id": 3, "text": "Escritura-Escritura", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En el Two-phase Commit Protocol ¿cuál es la siguiente orden en la secuencia de pasos a seguir para la consumación, una vez que el cliente pide la consumación al coordinador?",
+        "options": [
+          { "id": 0, "text": "El coordinador consulta a cada participante.", "isCorrect": true },
+          { "id": 1, "text": "El coordinador envía consumación a todos los participantes.", "isCorrect": false },
+          { "id": 2, "text": "El cliente envía consumación al resto de participantes.", "isCorrect": false },
+          { "id": 3, "text": "Los participantes envían consumación al cliente.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un sistema transaccional, el «recovery file» almacena la historia de todas las transacciones. Esto es:",
+        "options": [
+          { "id": 0, "text": "Logging", "isCorrect": true },
+          { "id": 1, "text": " Shadow version", "isCorrect": false },
+          { "id": 2, "text": "TPCP", "isCorrect": false },
+          { "id": 3, "text": "Concurrency control", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un sistema transaccional ¿cuál de las siguientes propuestas para la prevención de los interbloqueos presenta mas baja concurrencia?",
+        "options": [
+          { "id": 0, "text": "Control optimista.", "isCorrect": false },
+          { "id": 1, "text": "Adquiriendo/liberando bloqueos en orden.", "isCorrect": false },
+          { "id": 2, "text": "Timeouts.", "isCorrect": false },
+          { "id": 3, "text": "Bloqueo todo al principio.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Cuando predominan las transacciones de escritura ¿qué gestión de conflictos es la adecuada?",
+        "options": [
+          { "id": 0, "text": "Ordenación", "isCorrect": false },
+          { "id": 1, "text": "Bloqueo en dos fases", "isCorrect": true },
+          { "id": 2, "text": "Control optimista", "isCorrect": false },
+          { "id": 3, "text": "Ninguna", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Ex-Nov-15",
+    "questions": [
+      {
+        "text": " Desde el punto de vista de un sistema distribuido con alta escalabilidad sin fallos, ¿cuál es el aspecto mas débil del algoritmo de exclusión mutua con servidor central?",
+        "options": [
+          { "id": 0, "text": "En entornos de alta escalabilidad no proporciona liveness", "isCorrect": false },
+          { "id": 1, "text": "En entornos de alta escalabilidad, el alto número de mensajes para entrar y salir de la región crítica", "isCorrect": false },
+          { "id": 2, "text": "El servidor representa un cuello de botella", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "La utilización eficiente del ancho de banda en multidifusión es máxima cuando está soportada por el hardware:",
+        "options": [
+          { "id": 0, "text": "Verdadero", "isCorrect": true },
+          { "id": 1, "text": "Falso", "isCorrect": false },
+          { "id": 2, "text": "No hay ninguna relación entre el soporte hardware y la eficiencia del mecanismo de multidifusión.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un sistema de control de un UAV (vehículo aéreo no tripulado) tiene cuatro rotores controlados por una placa empotrada. Se comunican por WiFi con la placa central que está también en el UAV. El algoritmo de control que determina el nivel de potencia de los rotores está implementado por el proceso P1 en la placa central. Cada uno de los rotores está controlado por un proceso independiente (P2, P3, P4 y P5) ejecutado en su placa respectiva. Todos los rotores deben aumentar/disminuir su potencia exactamente al valor que calcule P1. De no ser así, el UAV se vuelve inestable. ¿Qué problema de coordinación implica?",
+        "options": [
+          { "id": 0, "text": "Consenso", "isCorrect": false },
+          { "id": 1, "text": "Generales bizantinos", "isCorrect": true },
+          { "id": 2, "text": "Consistencia", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un sistema distribuido con 4 procesos y un recurso compartido R, ningún proceso quiere acceso a R en el instante 0. En el instante 1, el proceso P1 solicita acceso a R. En cuanto a número de mensajes ¿cuál de los siguientes algoritmos es mejor para conseguir la exclusión mutua en ausencia de fallos?",
+        "options": [
+          { "id": 0, "text": "Servidor Central", "isCorrect": true },
+          { "id": 1, "text": "Anillo (formado por P2->P3->P4->P1->P2 y el toquen en P3)", "isCorrect": false },
+          { "id": 2, "text": "Ricart y Agrawala (El hardware soporta multicast)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "A nivel de implementación, multidifusión sobre el protocolo IP implica la utilización de",
+        "options": [
+          { "id": 0, "text": "SNMP", "isCorrect": false },
+          { "id": 1, "text": "TCP", "isCorrect": false },
+          { "id": 2, "text": "UDP", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Un middleware con RPC implementa un servicio de backup con la función bool WriteData(Vector v) que escribe de forma simultánea en 4 discos independientes situados en 4 centros de cálculo localizados en 4 ciudades distintas de Europa (para cumplir con la legislación europea), en su opinión ¿dicha interfaz y funcionalidad proporciona transparencia de replicación?",
+        "options": [
+          { "id": 0, "text": "Sí", "isCorrect": true },
+          { "id": 1, "text": "No", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Como ingeniero jefe de un equipo de desarrollo, en la implementación de un sistema distribuido, pretende minimizar el número de errores de programación de cara a aumentar la productividad de sus desarrolladores ¿qué herramienta de programación es más eficaz desde este punto de vista?",
+        "options": [
+          { "id": 0, "text": "Un middleware RMI", "isCorrect": true },
+          { "id": 1, "text": "La interfaz socket", "isCorrect": false },
+          { "id": 2, "text": "Ambas herramientas presentan la misma tasa de fallos en cuanto a programación y por lo tanto implican la misma productividad", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un conjunto de computadores han sido sincronizados con el algoritmo Berkeley. Pocos segundos después se puede ver que el reloj de uno de ellos se está adelantando. ¿Cuál podría ser el problema?",
+        "options": [
+          { "id": 0, "text": "Existe un proceso en ese computador que ha estado recibiendo o enviado muchos eventos.", "isCorrect": false },
+          { "id": 1, "text": "El oscilador de cuarzo tiene un defecto que le hace trabajar a una frecuencia mayor de lo normal.", "isCorrect": true },
+          { "id": 2, "text": "Dicho computador se comunica con el servidor por medio de una línea de alta latencia.", "isCorrect": false },
+          { "id": 3, "text": "Probablemente es un efecto aleatorio.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Completa la frase con la afirmación correcta respecto a los cortes consistentes: «Dado un conjunto de parejas de eventos causa-efecto...»",
+        "options": [
+          { "id": 0, "text": "Si el corte incluye la causa, debe incluir también la consecuencia.", "isCorrect": false },
+          { "id": 1, "text": "Si el corte incluye la consecuencia, debe incluir también la causa.", "isCorrect": true },
+          { "id": 2, "text": "Si la consecuencia precede a un tercer evento, debe incluirlo también si es un mensaje saliente.", "isCorrect": false },
+          { "id": 3, "text": "El corte debe incluir obligatoriamente todas las causas, pero ninguna de las consecuencias.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " Marca la afirmación correcta en relación a los relojes vectoriales:",
+        "options": [
+          { "id": 0, "text": "Cada vector incluye el identificador del propio proceso como enésimo componente", "isCorrect": false },
+          { "id": 1, "text": "El reloj tiene un componente por cada proceso del grupo.", "isCorrect": true },
+          { "id": 2, "text": "Todos los valores del vector local se actualizan al recibir un mensaje de otro proceso del grupo.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Marca la afirmación correcta en relación a los sistemas de propagación de eventos de publicación-subscripción",
+        "options": [
+          { "id": 0, "text": "Los publicadores no conocen las referencias de los subscriptores.", "isCorrect": true },
+          { "id": 1, "text": "Cada publicador es responsable de almacenar las referencias de sus subscriptores.", "isCorrect": false },
+          { "id": 2, "text": "Cada subscriptor es responsable de almacenar las referencias de sus publicadores.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál sería la definición más acertada de un sistema de colas de mensajes distribuidas",
+        "options": [
+          { "id": 0, "text": "El emisor coloca sus mensajes en una cola genérica y el broker los clasifica.", "isCorrect": false },
+          { "id": 1, "text": "Un broker central determina el receptor de cada mensaje de la cola distribuida", "isCorrect": true },
+          { "id": 2, "text": "Varios receptores reciben copias del mismo mensaje.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes es una característica de IceStorm poco común en otros sistemas de propagación de eventos?",
+        "options": [
+          { "id": 0, "text": "Es posible crear y gestionar «topics» para la segregación de mensajes.", "isCorrect": false },
+          { "id": 1, "text": "Cada publicador o subscriptor puede elegir el protocolo para el envío y recepción de invocaciones.", "isCorrect": true },
+          { "id": 2, "text": "Dispone de un mecanismo P2P para la gestión de canales sin necesitad de un broker central.", "isCorrect": false }
         ]
       }
     ]
