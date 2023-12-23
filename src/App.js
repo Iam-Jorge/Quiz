@@ -95,14 +95,18 @@ function App() {
           const selectedOption = question.options.find(option => option.id === userAnswer?.selectedOptionId);
           const correctOption = question.options.find(option => option.isCorrect);
   
-          return (
-            <div key={index} className="question-review">
-              <h3>{question.text}</h3>
-              {question.questionURL && <img src={question.questionURL} alt="Question" />}
-              <p>Tu respuesta: {selectedOption ? selectedOption.text : "No respondida"}</p>
-              <p>Respuesta correcta: {correctOption.text}</p>
-            </div>
-          );
+          // Mostrar solo si la respuesta es incorrecta
+          if (userAnswer && !selectedOption.isCorrect) {
+            return (
+              <div key={index} className="question-review">
+                <h3>{question.text}</h3>
+                {question.questionURL && <img src={question.questionURL} alt="Question" />}
+                <p>Tu respuesta: {selectedOption ? selectedOption.text : "No respondida"}</p>
+                <p>Respuesta correcta: {correctOption.text}</p>
+              </div>
+            );
+          }
+          return null;
         })}
   
         <button onClick={() => startExam(selectedExam)}>Repetir examen</button>
