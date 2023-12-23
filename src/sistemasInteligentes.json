@@ -265,5 +265,542 @@
         ]
       }
     ]
-  }
+  },
+  {
+    "examName": "Ex-Ene-16",
+    "questions": [
+      {
+        "text": "La figura 1 muestra un algoritmo simple de vuelta atrás para problemas de satisfacción de restricciones. Completa los huecos con los nombres de las dos funciones que lo forman y las llamadas correctas",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SI/Ex-Ene-16.JPG",
+        "options": [
+          { "id": 0, "text": "(1) BUSQUEDA-CON-VUELTA-ATRAS, (2) VUELTA-ATRAS-RECURSIVA, (3) VUELTA-ATRAS-RECURSIVA, (4) VUELTA ATRAS-RECURSIVA.", "isCorrect": true },
+          { "id": 1, "text": "(1) BUSQUEDA-CON-VUELTA-ATRAS, (2) BUSQUEDA-CON-VUELTA-ATRAS, (3) VUELTA-ATRAS-RECURSIVA, (4) VUELTA ATRAS-RECURSIVA", "isCorrect": false },
+          { "id": 2, "text": "(1) VUELTA-ATRAS-RECURSIVA, (2) VUELTA ATRAS-RECURSIVA, (3) BUSQUEDA-CON VUELTA-ATRAS, (4) BUSQUEDA-CONVUELTA-ATRÁS", "isCorrect": false },
+          { "id": 3, "text": "(1) VUELTA-ATRAS-RECURSIVA, (2) BUSQUEDA CON-VUELTA-ATRAS, (3) BUSQUEDA CON- VUELTA-ATRAS, (4) VUELTA-ATRÁS RECURSIVA", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Seleccione cuál de las siguientes sentencias es cierta en relación a los lenguajes SCRIPTS y ADL:",
+        "options": [
+          { "id": 0, "text": "Los lenguajes STRIPS permiten sólo literales positivos en estados, mientras que los ADL permiten tanto negativos como positivos", "isCorrect": true },
+          { "id": 1, "text": "Los lenguajes SRIPTS permiten tanto literales negativos como positivos en estados, al igual que los lenguajes ADL", "isCorrect": false },
+          { "id": 2, "text": "Los lenguajes STRIPS permiten sólo literales negativos en estados, mientras que los ADL permiten tanto negativos como positivos", "isCorrect": false },
+          { "id": 3, "text": "Todas las sentencias son falsas", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Se quiere abordar el problema de componer la canción más bonita en piano...",
+        "options": [
+          { "id": 0, "text": "Variables Notas [Do, Re, Mi, Fa, Sol, La, Si]; Dominio Pulsaciones [P1, P2,,P15]; Restricciones ['El sujeto está aburrido']", "isCorrect": false },
+          { "id": 1, "text": "Variables Pulsaciones [P1, P2,,,P15]; Dominio Notas [Do, Re, Mi, Fa, Sol, La, Si] ; Restricciones ['El sujeto está indiferente']", "isCorrect": false },
+          { "id": 2, "text": "Este problema no puede abordarse desde el punto de vista de la inteligencia artificial.", "isCorrect": false },
+          { "id": 3, "text": "Variables Pulsaciones [P1, P2,P15]; Dominio Notas [Do, Re, Mi, Fa, Sol, La, Si] ; Restricciones ['El sujeto está emocionado']", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "El árbol de juegos del algoritmo minimax puede ser acotado",
+        "options": [
+          { "id": 0, "text": "Sí, y consigue reducir el número de estados considerablemente, en el algoritmo minimax esta cota se determina mediante la poda alfa-beta.", "isCorrect": false },
+          { "id": 1, "text": "Sí, si establece una cota y cuando se alcanza se devuelve un valor por una función de utilidad. Es deseable cuando el espacio de estados es muy grande.", "isCorrect": true },
+          { "id": 2, "text": "No, porque para conocer los valores es necesario recorrer todo el árbol.", "isCorrect": false },
+          { "id": 3, "text": "No tendría ningún sentido, porque es en anchura.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un arco consistente...",
+        "options": [
+          { "id": 0, "text": "Es no dirigido.", "isCorrect": false },
+          { "id": 1, "text": "Es menos potente que la comprobación hacia delante.", "isCorrect": false },
+          { "id": 2, "text": "Proporciona un método rápido de propagación de restricciones.", "isCorrect": true },
+          { "id": 3, "text": "El arco inverso es consistente.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes opciones sobre poda alfa beta es la correcta?",
+        "options": [
+          { "id": 0, "text": "Beta es el valor de la mejor opción (valor más bajo) que hemos encontrado hasta ahora en cualquier punto elegido a lo largo del camino para MAX.", "isCorrect": false },
+          { "id": 1, "text": "Alfa es el valor de la mejor opción (valor más bajo) que hemos encontrado hasta ahora en cualquier punto elegido a lo largo del camino para MIN", "isCorrect": false },
+          { "id": 2, "text": "Beta es el valor de la mejor opción (valor más bajo) que hemos encontrado hasta ahora en cualquier punto elegido a lo largo del camino para MIN.", "isCorrect": true },
+          { "id": 3, "text": "Ninguna de las demás es correcta", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Indique la afirmación correcta respecto al funcionamiento del algoritmo minimax",
+        "options": [
+          { "id": 0, "text": "Ninguna de las demás es correcta.", "isCorrect": true },
+          { "id": 1, "text": "Para realizar los cálculos utiliza los valores minimax de cada estado anterior.", "isCorrect": false },
+          { "id": 2, "text": "Calcula la decisión minimax del estado anterior.", "isCorrect": false },
+          { "id": 3, "text": "La complejidad espacial es siempre O(m) siendo m la profundidad máxima.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Indique la afirmación correcta en relación al término efecto",
+        "options": [
+          { "id": 0, "text": "Un efecto es la unión de literales con dependencia funcional describiendo cómo el estado cambia cuando la acción es ejecutada.", "isCorrect": false },
+          { "id": 1, "text": "Un efecto es la unión de literales sin dependencia funcional describiendo cómo el estado cambia cuando la acción es ejecutada.", "isCorrect": true },
+          { "id": 2, "text": "Un efecto es la disyunción de literales sin dependencia funcional describiendo cómo el estado cambia cuando la acción es ejecutada.", "isCorrect": false },
+          { "id": 3, "text": "Un literal positivo P en el efecto se espera que sea verdadero en el estado actual desde el que se realiza la acción, mientras que un literal negativo P se espera que sea falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Por qué consigue menos eficiencia el algoritmo de búsqueda alfa-beta que el minimax?",
+        "options": [
+          { "id": 0, "text": "El algoritmo de búsqueda alfa-beta es más eficiente que el minimax.", "isCorrect": true },
+          { "id": 1, "text": "Porque el algoritmo de búsqueda alfa-beta recorre subárboles irrelevantes.", "isCorrect": false },
+          { "id": 2, "text": "Porque puede calcular distinto movimiento óptimo que el minimax.", "isCorrect": false },
+          { "id": 3, "text": "Ninguna de las demás es correcta.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes afirmaciones es falsa?",
+        "options": [
+          { "id": 0, "text": "La heurística 'mínimo grado restante' es un método para decidir qué variable elegir en una búsqueda con vuelta atrás.", "isCorrect": false },
+          { "id": 1, "text": "La heurística 'mínimos valores restantes' es llamada también heurística 'primero en fallar'.", "isCorrect": false },
+          { "id": 2, "text": "La primera elección siempre es proporcionada por la heurística 'mínimos valores restantes'.", "isCorrect": true },
+          { "id": 3, "text": "La heurística 'valor menos restringido' ayuda en la ordenación de los valores de las variables.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Ex-Ene-17",
+    "questions": [
+      {
+        "text": "En el lenguaje PDDL se definen:",
+        "options": [
+          { "id": 0, "text": "Objetos, predicados, acciones, estados, objetivo.", "isCorrect": false },
+          { "id": 1, "text": "Objetos, predicados, estado inicial, estado objetivo y acciones.", "isCorrect": true },
+          { "id": 2, "text": "Nombres, constantes, predicados, acciones y estado inicial.", "isCorrect": false },
+          { "id": 3, "text": "Variables, valores, acciones y restricciones.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un algoritmo minimax completo, sin cota de profundidad con valores de 1,0,-1. La elección de una jugada con valor 1 significa que:",
+        "options": [
+          { "id": 0, "text": "Garantiza que hay una secuencia ganadora.", "isCorrect": true },
+          { "id": 1, "text": "Jugada innecesaria, porque perdemos.", "isCorrect": false },
+          { "id": 2, "text": "Garantiza que al menos empatemos.", "isCorrect": false },
+          { "id": 3, "text": "Podemos no perder.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Los problemas de satisfacción de restricciones tienen la peculiaridad",
+        "options": [
+          { "id": 0, "text": "Que el número de variables es múltiplo de la profundidad de la solución.", "isCorrect": false },
+          { "id": 1, "text": "Que el orden de asignación de valor a variables puede variar.", "isCorrect": true },
+          { "id": 2, "text": "Que una variable siempre tiene restricciones unarias.", "isCorrect": false },
+          { "id": 3, "text": "Que las relaciones binarias son siempre simétricas.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En STRIP para intentar realizar un objetivo simple que no se verifica en el estado hay que realizar una acción que…",
+        "options": [
+          { "id": 0, "text": "Lo tenga en sus precondiciones.", "isCorrect": true },
+          { "id": 1, "text": "Pueda utilizarlo como parámetro.", "isCorrect": false },
+          { "id": 2, "text": "Lo tenga en su lista de acción.", "isCorrect": false },
+          { "id": 3, "text": "Lo tenga en su lista de supresión.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Según el algoritmo minimax con poda alfa beta, en un nodo min con un valor actual de 9 y un valor alfa de 6, cuál de los siguientes hijos provocará una poda si su valor es:",
+        "options": [
+          { "id": 0, "text": "5", "isCorrect": true },
+          { "id": 1, "text": "8", "isCorrect": false },
+          { "id": 2, "text": "7", "isCorrect": false },
+          { "id": 3, "text": "9", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un problema de satisfacción de restricciones PSR un estado viene representado por:",
+        "options": [
+          { "id": 0, "text": "Un conjunto de variables sin asignar", "isCorrect": false },
+          { "id": 1, "text": "Un conjunto de variables y valores", "isCorrect": false },
+          { "id": 2, "text": "Un conjunto de variables con sus valores asignados y un conjunto de variables sin asignar", "isCorrect": false },
+          { "id": 3, "text": "Un conjunto de variables y dominios.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En el algoritmo minimax si nuestro contrincante no realiza siempre la mejor jugada…",
+        "options": [
+          { "id": 0, "text": "No podemos garantizar que los resultados sean los esperados", "isCorrect": false },
+          { "id": 1, "text": "No influye en nada", "isCorrect": false },
+          { "id": 2, "text": "Podemos perder con una jugada ganadora", "isCorrect": true },
+          { "id": 3, "text": "Podemos ganar si empatábamos o perdíamos, o ganar más rápido.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La idea del arco consistente proporciona un mecanismo para…",
+        "options": [
+          { "id": 0, "text": "La propagación de restricciones", "isCorrect": true },
+          { "id": 1, "text": "La búsqueda en profundidad en PSR", "isCorrect": false },
+          { "id": 2, "text": "La resolución mínima de PSR", "isCorrect": false },
+          { "id": 3, "text": "La resolución de problemas de PSR", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Una acción en STRIP viene definida por:",
+        "options": [
+          { "id": 0, "text": "Nombres, parámetros, precondiciones y efectos (lista de adición y lista de supresión)", "isCorrect": true },
+          { "id": 1, "text": "Nombre, parámetros, precondiciones.", "isCorrect": false },
+          { "id": 2, "text": "Nombre y lista de adición y lista de supresión.", "isCorrect": false },
+          { "id": 3, "text": "Nombre, precondiciones y efectos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Según el algoritmo minimax con poda alfa-beta, en un nodo Max con un valor actual de 5 y un valor beta de 8, cuál de los siguientes hijos provocará una poda si su valor es:",
+        "options": [
+          { "id": 0, "text": "6", "isCorrect": false },
+          { "id": 1, "text": "4", "isCorrect": false },
+          { "id": 2, "text": "9", "isCorrect": true },
+          { "id": 3, "text": "7", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Ex-Ene-19",
+    "questions": [
+      {
+        "text": "Un algoritmo genético ...",
+        "options": [
+          { "id": 0, "text": "Maneja un conjunto de soluciones y utiliza selección, cruce y mutación de individuos.", "isCorrect": true },
+          { "id": 1, "text": "Maneja un conjunto de estados y utiliza selección, cruce y mutación de individuos.", "isCorrect": false },
+          { "id": 2, "text": "No es una técnica de búsqueda local.", "isCorrect": true },
+          { "id": 3, "text": "La población crece exponencialmente.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un problema de satisfacción de restricciones ...",
+        "options": [
+          { "id": 0, "text": "La profundidad del árbol de búsqueda es la misma que el número de variables del problema multiplicada por el número de valores de cada variable.", "isCorrect": false },
+          { "id": 1, "text": "En un nivel de profundidad x del árbol de búsqueda se representan asignaciones a todas las posibles variables.", "isCorrect": false },
+          { "id": 2, "text": "La máxima anchura del árbol es el número de variables.", "isCorrect": false },
+          { "id": 3, "text": "La profundidad del árbol de búsqueda es la misma que el número de variables del problema.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En un problema de satisfacción de restricciones podemos usar la heurística...",
+        "options": [
+          { "id": 0, "text": "Mínimos valores restantes, que elige aquella variable cuyo dominio inicial es menor.", "isCorrect": false },
+          { "id": 1, "text": "Grado heurístico, que elige aquella variable que tiene más restricciones.", "isCorrect": true },
+          { "id": 2, "text": "Valor menos restringido, que elige aquella variable con menos valores.", "isCorrect": false },
+          { "id": 3, "text": "Mínimos valores restantes, que elige aquella variable cuyo dominio inicial es mayor.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Cuando aplicamos el algoritmo AC3 de arcos consistentes en un problema de satisfacción de restricciones, diremos que todos los arcos son consistentes si se cumple que:",
+        "options": [
+          { "id": 0, "text": "Si la condición de parada del algoritmo se satisface en la primera iteración.", "isCorrect": false },
+          { "id": 1, "text": "Si todos los dominios tienen, al menos, un valor.", "isCorrect": true },
+          { "id": 2, "text": "Algún dominio no tiene valor.", "isCorrect": false },
+          { "id": 3, "text": "Los dominios son disjuntos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un arco consistente...",
+        "options": [
+          { "id": 0, "text": "Proporciona un método rápido de propagación de restricciones.", "isCorrect": true },
+          { "id": 1, "text": "Es no dirigido.", "isCorrect": false },
+          { "id": 2, "text": "Es menos potente que la comprobación hacia delante.", "isCorrect": false },
+          { "id": 3, "text": "El arco inverso es consistente.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Según el algoritmo MinMax con poda alfa-beta, en un nodo min con un valor actual de 12 y un valor alfa de 5, cuál de los siguientes hijos provocará una poda si su valor es:",
+        "options": [
+          { "id": 0, "text": "20.", "isCorrect": false },
+          { "id": 1, "text": "15.", "isCorrect": false },
+          { "id": 2, "text": "4.", "isCorrect": true },
+          { "id": 3, "text": "6.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Según el algoritmo MinMax con poda alfa-beta, en un nodo max con un valor actual de 5 y un valor beta de 10, cuál de los siguientes hijos provocará una poda si su valor es:",
+        "options": [
+          { "id": 0, "text": "7.", "isCorrect": false },
+          { "id": 1, "text": "5.", "isCorrect": false },
+          { "id": 2, "text": "4.", "isCorrect": false },
+          { "id": 3, "text": "15.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "El algoritmo MinMax...",
+        "options": [
+          { "id": 0, "text": "Es completo solamente si el árbol es finito.", "isCorrect": true },
+          { "id": 1, "text": "Es siempre completo.", "isCorrect": false },
+          { "id": 2, "text": "Tiene una complejidad espacial de O(bm).", "isCorrect": false },
+          { "id": 3, "text": "Tiene una complejidad temporal de O(b * m).", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En STRIP para intentar realizar un objetivo simple que no se verifica en el estado hay que realizar una acción que ...",
+        "options": [
+          { "id": 0, "text": "Tenga al objetivo en el estado.", "isCorrect": false },
+          { "id": 1, "text": "Tenga al objetivo en su lista de precondiciones.", "isCorrect": false },
+          { "id": 2, "text": "Tenga al objetivo en su lista de adición.", "isCorrect": true },
+          { "id": 3, "text": "Tenga al objetivo en su lista de supresión.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En STRIP ...",
+        "options": [
+          { "id": 0, "text": "Un objetivo debe contener literales positivos y negativos.", "isCorrect": false },
+          { "id": 1, "text": "Un estado debe contener literales positivos y negativos.", "isCorrect": false },
+          { "id": 2, "text": "El estado final debe ser igual al objetivo.", "isCorrect": false },
+          { "id": 3, "text": "El estado final debe contener a todos los literales del objetivo.", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Test-T4",
+    "questions": [
+      {
+        "text": "En un PSR modelado como un problema de búsqueda, un estado es una abstracción del mundo real:",
+        "options": [
+          { "id": 0, "text": "Falso.", "isCorrect": true },
+          { "id": 1, "text": "Verdadero.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Una solución de un PSR es una asignación de un valor a cada variable que satisfaga las restricciones:",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes algoritmos no es una técnica para la resolución de PSRs?:",
+        "options": [
+          { "id": 0, "text": "Búsqueda con Backtracking.", "isCorrect": false },
+          { "id": 1, "text": "Todas las demás respuestas son falsas.", "isCorrect": false },
+          { "id": 2, "text": "Comprobación Hacia Adelante.", "isCorrect": false },
+          { "id": 3, "text": "Arcos Consistentes.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Indica cuál no es una heurística en un PSR.",
+        "options": [
+          { "id": 0, "text": "Mínimos Valores Restantes", "isCorrect": false },
+          { "id": 1, "text": "Valor Menos Restrictivo.", "isCorrect": false },
+          { "id": 2, "text": "Grado.", "isCorrect": false },
+          { "id": 3, "text": "Arcos Consistentes.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Una red es arco consistente si:",
+        "options": [
+          { "id": 0, "text": "los dominios de las variables contienen un único valor.", "isCorrect": false },
+          { "id": 1, "text": "todos sus arcos son consistentes.", "isCorrect": false },
+          { "id": 2, "text": "los arcos asociados a las variables principales son consistentes y del resto parcialmente consistentes.", "isCorrect": true },
+          { "id": 3, "text": "todas las demás respuestas son falsas.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El alcance de una restricción es el conjunto de valores válidos del dominio de las variables afectadas por la restricción:",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "La restricción A=B, siendo A y B variables, es una relación unaria:",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Indica la respuesta verdadera relativa al algoritmo AC3:",
+        "options": [
+          { "id": 0, "text": "Se puede considerar una técnica de preprocesamiento.", "isCorrect": false },
+          { "id": 1, "text": "Todas las respuestas son verdaderas.", "isCorrect": true },
+          { "id": 2, "text": "A veces son capaces de encontrar también la solución del PSR.", "isCorrect": false },
+          { "id": 3, "text": "La idea es reducir el dominio de las variables al máximo antes de buscar una solución del PSR.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En AC3 un arco X,r(X,Y) necesita ser revisitado si el dominio de Y ha sido reducido:",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La comprobación hacia adelante proporciona una detección temprana de todos los fallos:",
+        "options": [
+          { "id": 0, "text": "Falso.", "isCorrect": true },
+          { "id": 1, "text": "Verdadero.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Test-T5",
+    "questions": [
+      {
+        "text": "¿Cuál de las siguientes definiciones se corresponde con la de Valor Minimax?:",
+        "options": [
+          { "id": 0, "text": "Mayor recompensa alcanzable contra la mejor jugada.", "isCorrect": true },
+          { "id": 1, "text": "Movimiento para cada posible respuesta del oponente.", "isCorrect": false },
+          { "id": 2, "text": "Minimización de la profundidad Máxima del árbol para acotar el tiempo de respuesta.", "isCorrect": false },
+          { "id": 3, "text": "Todas las demás respuestas son falsas.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En este tema se estudian las técnicas concretas asociadas a juegos no determinísticos con información perfecta:",
+        "options": [
+          { "id": 0, "text": "Falso.", "isCorrect": true },
+          { "id": 1, "text": "Verdadero.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un árbol de juegos el nodo raíz no tiene por qué ser siempre un nodo Max:",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Cada nueva jugada del computador se debe construir el árbol de juegos completo:",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Indica qué respuesta es falsa relativa a la limitación de recursos (tiempo y memoria) en la construcción de árboles de juegos:",
+        "options": [
+          { "id": 0, "text": "Se utiliza una función de evaluación que estima la deseabilidad de una jugada en vez de una función de utilidad.", "isCorrect": false },
+          { "id": 1, "text": "Sabiendo el tiempo máximo de respuesta por jugada o turno se puede determinar la profundidad del árbol a construir.", "isCorrect": false },
+          { "id": 2, "text": "No se puede limitar la profundidad del árbol de juegos porque el rendimiento disminuye de manera crítica.", "isCorrect": true },
+          { "id": 3, "text": "La calidad del comportamiento esperado se mantiene bajo cualquier transformación monótona de la función de evaluación.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La exploración en un árbol de juegos se corresponde con la estrategia de búsqueda:",
+        "options": [
+          { "id": 0, "text": "Primero en Profundidad.", "isCorrect": true },
+          { "id": 1, "text": "Primero en Anchura.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La complejidad temporal aproximada asociada a un árbol de juegos para el ajedrez sería:",
+        "options": [
+          { "id": 0, "text": "35*100.", "isCorrect": false },
+          { "id": 1, "text": "2*120.", "isCorrect": false },
+          { "id": 2, "text": "35^100.", "isCorrect": true },
+          { "id": 3, "text": "2^120.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Con una ordenación perfecta la poda alfa-beta puede triplicar la profundidad solucionable:",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En un árbol minimax para múltiples jugadores (más de 2):",
+        "options": [
+          { "id": 0, "text": "Cada nivel está asignado a un jugador.", "isCorrect": false },
+          { "id": 1, "text": "Todos los jugadores son Max.", "isCorrect": false },
+          { "id": 2, "text": "Todas las respuestas son verdaderas.", "isCorrect": true },
+          { "id": 3, "text": "La función de evaluación viene dada por un vector.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Indica qué respuesta es falsa relativa a la poda alfa-beta:",
+        "options": [
+          { "id": 0, "text": "Alfa es el mejor valor (para max) encontrado en el camino actual.", "isCorrect": false },
+          { "id": 1, "text": "Una ordenación concreta de los posibles movimientos mejora la efectividad de la poda.", "isCorrect": false },
+          { "id": 2, "text": "La poda afecta el resultado final.", "isCorrect": true },
+          { "id": 3, "text": "Beta es el mejor valor (para min) encontrado en el camino actual.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Test-T6",
+    "questions": [
+      {
+        "text": "En los problemas de aprendizaje por refuerzo, la retroalimentación es:",
+        "options": [
+          { "id": 0, "text": "obtenida mediante el algoritmo de iteración de valores.", "isCorrect": false },
+          { "id": 1, "text": "la secuencia de acciones que lleva a una mayor recompensa.", "isCorrect": false },
+          { "id": 2, "text": "Todas las demás respuestas son falsas.", "isCorrect": false },
+          { "id": 3, "text": "un valor escalar que puede retrasarse en el tiempo.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "La función de valor representa cómo de bueno es un estado para que un agente esté en él:",
+        "options": [
+          { "id": 0, "text": "Falso.", "isCorrect": false },
+          { "id": 1, "text": "Verdadero.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Indica qué respuesta es falsa relativa al algoritmo de iteración de valores:",
+        "options": [
+          { "id": 0, "text": "Su objetivo es determinar la política óptima para cada estado.", "isCorrect": false },
+          { "id": 1, "text": "La recompensa de un estado viene determinada por la elección de una política.", "isCorrect": true },
+          { "id": 2, "text": "Termina cuando se alcanza un nivel de convergencia aceptable.", "isCorrect": false },
+          { "id": 3, "text": "Se basa en la ecuación de Bellman.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Cuál de las siguientes frases se puede considerar como un posible resultado del aprendizaje:",
+        "options": [
+          { "id": 0, "text": "La velocidad se mejora: el agente puede hacer cosas más rápido.", "isCorrect": false },
+          { "id": 1, "text": "Todas las otras respuestas son verdaderas.", "isCorrect": true },
+          { "id": 2, "text": "El rango de comportamientos puede ser expandido: el agente puede hacer más cosas.", "isCorrect": false },
+          { "id": 3, "text": "La precisión en tareas es mejorada: el agente puede hacer las cosas mejor.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La explotación en aprendizaje por refuerzo utiliza el conocimiento ya aprendido para decidir cuál es la mejor acción:",
+        "options": [
+          { "id": 0, "text": "Falso.", "isCorrect": false },
+          { "id": 1, "text": "Verdadero.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Indique cuál de las siguientes afirmaciones es verdadera:",
+        "options": [
+          { "id": 0, "text": "En los Procesos de Decisión de Markov, la probabilidad de encontrar al sistema en un estado dado depende sólo del estado anterior.", "isCorrect": false },
+          { "id": 1, "text": "La función de política óptima es la política que maximiza la utilidad esperada.", "isCorrect": false },
+          { "id": 2, "text": "La función asociada a la política selecciona la acción apropiada dado el estado actual.", "isCorrect": false },
+          { "id": 3, "text": "Todas las respuestas son verdaderas.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En el algoritmo de Q-learning si la tasa de aprendizaje es 1, esto hará que el agente sólo considere la información más reciente:",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La Q-tabla tiene una entrada por cada par (estado, recompensa) válido:",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "El factor de descuento determina hasta qué punto la nueva información adquirida sobreescribe o substituye a la información anterior:",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En aprendizaje por refuerzo, el problema de atribución de la culpa plantea la dificultad de determinar qué acción era responsable de una recompensa o castigo:",
+        "options": [
+          { "id": 0, "text": "Falso.", "isCorrect": false },
+          { "id": 1, "text": "Verdadero.", "isCorrect": true }
+        ]
+      }
+    ]
+  }  
 ]
