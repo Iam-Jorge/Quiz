@@ -241,8 +241,8 @@
         "text": "Sobre el algoritmo MINIMAX marca la opción verdadera.",
         "options": [
           { "id": 0, "text": "El algoritmo MINIMAX realiza una búsqueda primero en profundidad completa del árbol de juegos.", "isCorrect": true },
-          { "id": 1, "text": "Si la profundidad máxima del árbol es m, y hay b movimientos legales en cada punto, entonces la complejidad en espacio del algoritmo MINIMAX es O(bm)", "isCorrect": false },
-          { "id": 2, "text": "Si la profundidad máxima del árbol es m, y hay b movimientos legales en cada punto, entonces la complejidad en espacio del algoritmo MINIMAX es O(bm)", "isCorrect": false },
+          { "id": 1, "text": "Si la profundidad máxima del árbol es m, y hay b movimientos legales en cada punto, entonces la complejidad en espacio del algoritmo MINIMAX es O(b^m)", "isCorrect": false },
+          { "id": 2, "text": "Si la profundidad máxima del árbol es m, y hay b movimientos legales en cada punto, entonces la complejidad en espacio del algoritmo MINIMAX es O(b*m)", "isCorrect": false },
           { "id": 3, "text": "El algoritmo MINIMAX realiza una búsqueda primero en anchura completa del árbol de juegos.", "isCorrect": false }
         ]
       },
@@ -528,8 +528,8 @@
         "options": [
           { "id": 0, "text": "Es completo solamente si el árbol es finito.", "isCorrect": true },
           { "id": 1, "text": "Es siempre completo.", "isCorrect": false },
-          { "id": 2, "text": "Tiene una complejidad espacial de O(bm).", "isCorrect": false },
-          { "id": 3, "text": "Tiene una complejidad temporal de O(b * m).", "isCorrect": true }
+          { "id": 2, "text": "Tiene una complejidad espacial de O(b^m).", "isCorrect": false },
+          { "id": 3, "text": "Tiene una complejidad temporal de O(b*m).", "isCorrect": true }
         ]
       },
       {
