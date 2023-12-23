@@ -1,0 +1,269 @@
+[
+  {
+    "examName": "Ex-Ene-14",
+    "questions": [
+      {
+        "text": "La probabilidad de intercambiar una solución por otra peor en el enfriamiento simulado…",
+        "options": [
+          { "id": 0, "text": "Aumenta proporcional al empeoramiento.", "isCorrect": false },
+          { "id": 1, "text": "Aumenta conforme avanza el algoritmo.", "isCorrect": false },
+          { "id": 2, "text": "Disminuye con la precisión de T.", "isCorrect": false },
+          { "id": 3, "text": "Disminuye conforme pasa el tiempo y empeora la solución alternativa.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "A la técnica de búsqueda de ascensión de colinas se le suele llamar:",
+        "options": [
+          { "id": 0, "text": "Búsqueda de mínimos.", "isCorrect": false },
+          { "id": 1, "text": "Búsqueda de máximos.", "isCorrect": false },
+          { "id": 2, "text": "Búsqueda local voraz", "isCorrect": true },
+          { "id": 3, "text": "Búsqueda por haz.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Para minimizar el costo en el temple simulado la solución local es intercambiada por una vecina si:",
+        "options": [
+          { "id": 0, "text": "Incremento de coste es positivo.", "isCorrect": false },
+          { "id": 1, "text": "Cuando T es cercana a 0.", "isCorrect": false },
+          { "id": 2, "text": "Si el valor de e(-ΔE/T) es menor que un valor aleatorio uniforme U.", "isCorrect": false },
+          { "id": 3, "text": "Si el valor de e(-ΔE/T) es mayor que un valor aleatorio uniforme U.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Se denomina heurística de mínimos valores restantes (MVR) a",
+        "options": [
+          { "id": 0, "text": "La heurística de elegir la variable de menor compromiso.", "isCorrect": false },
+          { "id": 1, "text": "La estrategia de elegir la variable con menor número de valores legales.", "isCorrect": true },
+          { "id": 2, "text": "La estrategia de elegir a la variable con mayor número de restricciones.", "isCorrect": false },
+          { "id": 3, "text": "La heurística de elegir la variable con menor número de valores posibles.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un algoritmo genético las etapas que se han de realizar para la obtención de una nueva generación son las siguientes y se han de realizar en el orden establecido.",
+        "options": [
+          { "id": 0, "text": "Selección, cruce y mutación.", "isCorrect": true },
+          { "id": 1, "text": "Elegir al mejor, duplicación y mutación.", "isCorrect": false },
+          { "id": 2, "text": "Selección y cruce.", "isCorrect": false },
+          { "id": 3, "text": "Cruce y Selección.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La idea del arco consistente proporciona un mecanismo rápido para…",
+        "options": [
+          { "id": 0, "text": "La propagación de restricciones.", "isCorrect": true },
+          { "id": 1, "text": "Satisfacer precondiciones abiertas", "isCorrect": false },
+          { "id": 2, "text": "La búsqueda en profundidad en PSR.", "isCorrect": false },
+          { "id": 3, "text": "La resolución de problemas de PSR.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En árbol mini-max la complejidad temporal es equivalente al de una búsqueda…",
+        "options": [
+          { "id": 0, "text": "Anchura de profundidad acotada", "isCorrect": true },
+          { "id": 1, "text": "La cota factorial", "isCorrect": false },
+          { "id": 2, "text": "A la profundidad de la cota", "isCorrect": false },
+          { "id": 3, "text": "Intermedia entre la profundidad de la cota y la de anchura acotada.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un problema de satisfacción de restricciones viene definido por",
+        "options": [
+          { "id": 0, "text": "Un conjunto de dominios de variables y restricciones de relaciones entre ellas.", "isCorrect": false },
+          { "id": 1, "text": "Un conjunto de restricciones de posibles valores para la solución del problema.", "isCorrect": false },
+          { "id": 2, "text": "Un conjunto de valores válidos y relaciones entre ellos.", "isCorrect": false },
+          { "id": 3, "text": "Un conjunto de variables y un conjunto de restricciones de valores válidos de dichas variables.", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Ex-Ene-15",
+    "questions": [
+      {
+        "text": "Nos encontramos en un nodo MIN con Alpha = 3, beta = 1000, v = 1000, y los sucesores 2,4,6 (el orden en el cual se exponen anteriormente no tiene por qué equivaler al orden de exploración). ¿Cuál de las siguientes afirmaciones es cierta?",
+        "options": [
+          { "id": 0, "text": "El orden de exploración no es conocido con los datos proporcionados, pero lo óptimo para esta situación sería 2,4,6.", "isCorrect": true },
+          { "id": 1, "text": "El orden de exploración será 2,4,6.", "isCorrect": false },
+          { "id": 2, "text": "El orden no implica ninguna mejora en la eficiencia.", "isCorrect": false },
+          { "id": 3, "text": "El orden de exploración será 6,4,2.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un arco consistente…",
+        "options": [
+          { "id": 0, "text": "Se caracteriza porque el arco inverso también consistente", "isCorrect": false },
+          { "id": 1, "text": "Es un arco no dirigido", "isCorrect": false },
+          { "id": 2, "text": "Proporciona un método rápido de programación de restricciones considerablemente más potente que la comprobación hacia delante.", "isCorrect": true },
+          { "id": 3, "text": "Proporciona un método rápido de propagación de restricciones considerablemente menos eficaz que la comprobación hacia delante.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Qué entendemos por 'solución' en un problema de satisfacción de restricciones (PSR)?",
+        "options": [
+          { "id": 0, "text": "Una asignación completa.", "isCorrect": true },
+          { "id": 1, "text": "La definición de un dominio D no vació de valores posibles.", "isCorrect": false },
+          { "id": 2, "text": "Camino que lleva a la asignación de un nodo del problema.", "isCorrect": false },
+          { "id": 3, "text": "Un nodo asignado correctamente que permite llegar a la asignación completa de todos los nodos restantes.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En el dominio de los PSR, ¿qué entendemos por una asignación consistente?",
+        "options": [
+          { "id": 0, "text": "Una asignación que no viola ninguna restricción.", "isCorrect": true },
+          { "id": 1, "text": "Una asignación de valores a un conjunto mínimo de variables.", "isCorrect": false },
+          { "id": 2, "text": "Una asignación que satisface todas las restricciones", "isCorrect": false },
+          { "id": 3, "text": "Una asignación de valores a todas las variables.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Nos proponemos enseñar a nuestro robot a conducir, para ello en primer lugar le enseñamos a cambiar de marcha. Contando con que el coche está arrancado y el robot está sentado como conductor, seleccione la opción correcta que corresponda con un enlace causal correcto:",
+        "options": [
+          { "id": 0, "text": "Embrague -EmbraguePisado-¿ Marcha", "isCorrect": true },
+          { "id": 1, "text": "PisarEmbrague", "isCorrect": false },
+          { "id": 2, "text": "PisarEmbrague – MeterMarcha-¿ MarchaMetida", "isCorrect": false },
+          { "id": 3, "text": "Ninguna de las anteriores", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Una condición abierta…",
+        "options": [
+          { "id": 0, "text": "Es aquella que establece enlaces de etapas anteriores con precondiciones de etapas temporales posteriores.", "isCorrect": false },
+          { "id": 1, "text": "Finaliza un plan", "isCorrect": false },
+          { "id": 2, "text": "Es una precondición de una etapa que no está ligada a ningún enlace causal.", "isCorrect": true },
+          { "id": 3, "text": "Determina si un plan está completo.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En qué partes se divide un esquema de acción?",
+        "options": [
+          { "id": 0, "text": "acción, efecto y nombre.", "isCorrect": false },
+          { "id": 1, "text": "precondición, efecto y parámetros.", "isCorrect": false },
+          { "id": 2, "text": "precondición, parámetros y acción.", "isCorrect": false },
+          { "id": 3, "text": "precondición, efecto y acción.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "De las heurísticas estudiadas en el tema, que nos ayudan a mejorar la eficiencia del Backtracking (Mínimos Valores Restantes, Grado Heurístico y Valor Más Restringido), marca la opción verdadera",
+        "options": [
+          { "id": 0, "text": "Grado Heurístico nos ayuda a decidir el orden para examinar los valores que asignar a una variable una vez elegida.", "isCorrect": true },
+          { "id": 1, "text": "MVR es por lo general una guía poderosa a la hora de elegir la siguiente variable, pero el Grado Heurístico puede ser útil como desempate en caso de que las variables tengan el mismo número de valores legales.", "isCorrect": false },
+          { "id": 2, "text": "MVR siempre nos ayuda en la elección de variable, puesto que su funcionamiento se basa en elegir la variable más restringida es decir con menos valores legales posibles para asignar.", "isCorrect": false },
+          { "id": 3, "text": "VMR nos ayuda en la elección de variable, puesto que su funcionamiento se basa en elegir la variable más restringida es decir con menos valores legales posibles para asignar.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En los problemas de planificación, la búsqueda hacia atrás tiene la ventaja de que",
+        "options": [
+          { "id": 0, "text": "Nunca falla.", "isCorrect": false },
+          { "id": 1, "text": "Nos permite considerar solamente acciones relevantes.", "isCorrect": true },
+          { "id": 2, "text": "Ninguna de las anteriores.", "isCorrect": false },
+          { "id": 3, "text": "llegamos antes a la solución.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Definimos la heurística de mínimos valores (MVR) como:",
+        "options": [
+          { "id": 0, "text": "La estrategia de elegir la variable con mayor número de valores legales.", "isCorrect": false },
+          { "id": 1, "text": "La estrategia de elegir la variable con menor número de valores legales.", "isCorrect": true },
+          { "id": 2, "text": "La estrategia de elegir la variable con mayor número de restricciones.", "isCorrect": false },
+          { "id": 3, "text": "La estrategia de elegir la variable con menor número de restricciones. ", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Ex-Jun-15",
+    "questions": [
+      {
+        "text": "Definimos un plan consistente como:",
+        "options": [
+          { "id": 0, "text": "Un plan en el cual no hay ciclos en las restricciones ordenadas", "isCorrect": false },
+          { "id": 1, "text": "Un plan en el cual no hay ciclos en las restricciones ordenadas y no existen conflictos con los enlaces causales.", "isCorrect": true },
+          { "id": 2, "text": "Un plan en el que se ha mencionado cada variable y además cumple con todas las restricciones (el equivalente de solución para el tema de planificación)", "isCorrect": false },
+          { "id": 3, "text": "Un plan en el que se ha mencionado cada variable (el equivalente de asignación completa para el tema de planificación)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La idea del arco consistente proporciona un mecanismo rápido para:",
+        "options": [
+          { "id": 0, "text": "El manejo de restricciones especiales", "isCorrect": false },
+          { "id": 1, "text": "La propagación de restricciones", "isCorrect": true },
+          { "id": 2, "text": "La búsqueda con vuelta atrás para PSR", "isCorrect": false },
+          { "id": 3, "text": "La comprobación hacia delante", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Una condición abierta…",
+        "options": [
+          { "id": 0, "text": "Es una precondición de una etapa que no está ligada a ningún enlace causal.", "isCorrect": true },
+          { "id": 1, "text": "Es aquella que establece enlaces de etapas anteriores con precondiciones de etapas temporales posteriores.", "isCorrect": false },
+          { "id": 2, "text": "Finaliza un plan", "isCorrect": false },
+          { "id": 3, "text": "determina si un plan está completo", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Marque la opción FALSA con respecto al algoritmo minimax (jugadores MAX y MIN) y la técnica de poda alfa-beta:",
+        "options": [
+          { "id": 0, "text": "β es el valor de la mejor opción (más abajo) hasta el momento a lo largo del camino para MIN", "isCorrect": false },
+          { "id": 1, "text": "La poda alfa-beta es una técnica de búsqueda que reduce el número de nodos evaluados en un árbol de juego por el algoritmo minimax.", "isCorrect": false },
+          { "id": 2, "text": "La técnica de poda alfa-beta, al podar ramas del árbol de juego, hace que varíe la decisión final tomada.", "isCorrect": true },
+          { "id": 3, "text": "α es el valor de la mejor opción (valor más alto) hasta el momento a lo largo del camino para MAX.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Si la profundidad máxima del árbol “m” y hay “b” movimientos legales, la complejidad temporal de un algoritmo MINIMAX es:",
+        "options": [
+          { "id": 0, "text": "O(bm)", "isCorrect": true },
+          { "id": 1, "text": "O(bm)", "isCorrect": false },
+          { "id": 2, "text": "O(n)", "isCorrect": false },
+          { "id": 3, "text": "Ninguna de las anteriores", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "De las heurísticas estudiadas en el tema, que nos ayudan a mejorar la eficiencia del Backtracking (Mínimos Valores Restantes, Grado Heurístico y Valor Más Restringido), marca la opción verdadera",
+        "options": [
+          { "id": 0, "text": "MVR es por lo general una guía poderosa a la hora de elegir la siguiente variable, pero el Grado Heurístico puede ser útil como desempate en caso de que las variables tengan el mismo número de valores legales.", "isCorrect": true },
+          { "id": 1, "text": "VMR nos ayuda en la elección de variable, puesto que su funcionamiento se basa en elegir la variable más restringida es decir con menos valores legales posibles para asignar.", "isCorrect": false },
+          { "id": 2, "text": "Grado Heurístico nos ayuda a decidir el orden para examinar los valores que asignar a una variable una vez elegida.", "isCorrect": false },
+          { "id": 3, "text": "MVR siempre nos ayuda en la elección de variable, puesto que su funcionamiento se basa en elegir la variable más restringida, es decir, con menos valores legales posibles para asignar.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué diferencia existe entre un plan de orden parcial y otro de orden total?",
+        "options": [
+          { "id": 0, "text": "En un plan de orden total los planes están formados por varias listas de pasos.", "isCorrect": false },
+          { "id": 1, "text": "Un plan de orden parcial se diferencia del plan de orden total en que, en lugar de especificar planes con acciones totalmente ordenadas de forma lineal, se especifican planes con acciones parcialmente ordenadas.", "isCorrect": true },
+          { "id": 2, "text": "Un plan totalmente ordenado es como un conjunto de planes parcialmente ordenados.", "isCorrect": false },
+          { "id": 3, "text": "Un plan de orden parcial considera de forma simultánea dos planes totalmente ordenados.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Sobre el algoritmo MINIMAX marca la opción verdadera.",
+        "options": [
+          { "id": 0, "text": "El algoritmo MINIMAX realiza una búsqueda primero en profundidad completa del árbol de juegos.", "isCorrect": true },
+          { "id": 1, "text": "Si la profundidad máxima del árbol es m, y hay b movimientos legales en cada punto, entonces la complejidad en espacio del algoritmo MINIMAX es O(bm)", "isCorrect": false },
+          { "id": 2, "text": "Si la profundidad máxima del árbol es m, y hay b movimientos legales en cada punto, entonces la complejidad en espacio del algoritmo MINIMAX es O(bm)", "isCorrect": false },
+          { "id": 3, "text": "El algoritmo MINIMAX realiza una búsqueda primero en anchura completa del árbol de juegos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Seleccione la opción verdadera",
+        "options": [
+          { "id": 0, "text": "La heurística MVR ('Mínimos valores restantes') selecciona la variable (de las no asignadas) que menor probabilidad de fallar pronto tenga", "isCorrect": false },
+          { "id": 1, "text": "La heurística 'valor menos restringido' escoge la variable (de las no asignadas) que con mayor probabilidad causara pronto un fallo", "isCorrect": false },
+          { "id": 2, "text": "La heurística 'mínimo grado restante' (grado heurístico) selecciona la variable (de las no asignadas) que esté implicada en el mayor número de restricciones", "isCorrect": true },
+          { "id": 3, "text": "En un PSR, una solución tiene que satisfacer todas las restricciones, pero no hace falta que sea completa", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Cuál de las siguientes afirmaciones relacionadas con PSR y tipos de búsqueda es falsa:",
+        "options": [
+          { "id": 0, "text": "La búsqueda con vuelta atrás es un tipo de búsqueda primero en profundidad.", "isCorrect": false },
+          { "id": 1, "text": "En los problemas de satisfacción de restricciones (PSR) se puede representar su estructura mediante un grafo de restricciones.", "isCorrect": false },
+          { "id": 2, "text": "Las heurísticas de mínimos valores restantes y mínimo grado restante no son mecanismos independientes del dominio a la hora de decidir que variables elegir en una búsqueda con vuelta atrás.", "isCorrect": true },
+          { "id": 3, "text": "La comprobación hacia delante es el método más simple para reducir en gran medida el factor de ramificación.", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

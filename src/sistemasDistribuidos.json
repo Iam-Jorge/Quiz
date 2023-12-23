@@ -58,7 +58,7 @@
       },
       {
         "text": "La figura de la izquierda representa el diagrama de eventos de un SD formado por tres procesos. Para cada evento se muestra su estado local, asumiendo que el valor inicial es 0 para todos los procesos. El diagrama de la derecha (que contiene un error) es el diagrama de transición de estados globales correspondiente: ¿Cuál sería el valor del reloj lógico vectorial del tercer evento de P2?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-23.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/SD/Ex-Jun-23.JPG",
         "options": [
           { "id": 0, "text": "(1,3,1) ", "isCorrect": false },
           { "id": 1, "text": "(2,3,1) ", "isCorrect": false },
@@ -68,7 +68,7 @@
       },
       {
         "text": "¿Cuántos eventos han ocurrido en el estado global S031?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-23.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-23.JPG",
         "options": [
           { "id": 0, "text": "2", "isCorrect": false },
           { "id": 1, "text": "4", "isCorrect": true },
@@ -78,7 +78,7 @@
       },
       {
         "text": "¿Cuáles son los valores de a, b y c después de ocurrir el segundo evento de P3?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-23.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-23.JPG",
         "options": [
           { "id": 0, "text": "a=3, b=3, c=2", "isCorrect": false },
           { "id": 1, "text": "a=3, b=2, c=2", "isCorrect": false },
@@ -234,7 +234,7 @@
       },
       {
         "text": "La figura de la izquierda representa el diagrama de eventos de un SD formado por tres procesos. Para cada evento se muestra su estado local, asumiendo que el valor inicial es 0 para todos los procesos. El diagrama de la derecha (que contiene un error) es el diagrama de transición de estados globales correspondiente: ¿Cuál sería el valor del reloj lógico vectorial del segundo evento de P3?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-23-1.JPG",
         "options": [
           { "id": 0, "text": "(3,2,2) ", "isCorrect": true },
           { "id": 1, "text": "(3,1,2)", "isCorrect": false },
@@ -244,7 +244,7 @@
       },
       {
         "text": "¿Cuántos eventos han ocurrido en el estado global S221?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-23-1.JPG",
         "options": [
           { "id": 0, "text": "2", "isCorrect": false },
           { "id": 1, "text": "4", "isCorrect": false },
@@ -254,7 +254,7 @@
       },
       {
         "text": "¿Cuáles son los valores de a, b y c después de ocurrir el segundo evento de P1?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-23-1.JPG",
         "options": [
           { "id": 0, "text": "a=2, b=2, c=1", "isCorrect": false },
           { "id": 1, "text": " a=2, b=3, c=1", "isCorrect": false },
@@ -264,7 +264,7 @@
       },
       {
         "text": "Dada la función g = a + c > b, ¿cuáles serían los resultados de evaluar los predicados «posiblemente(g)» y «definitivamente(g)»?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-23-1.JPG",
         "options": [
           { "id": 0, "text": "false, false", "isCorrect": false },
           { "id": 1, "text": "false, true", "isCorrect": false },
@@ -274,7 +274,7 @@
       },
       {
         "text": " ¿Qué transición se ha omitido en el diagrama de transición de estados globales?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-23-1.JPG",
         "options": [
           { "id": 0, "text": "S030 - S130", "isCorrect": true },
           { "id": 1, "text": "S011 - S111", "isCorrect": false },
@@ -302,7 +302,7 @@
       },
       {
         "text": "¿Cuántos mensajes son necesarios si el coordinador priorizase las peticiones de menor a mayor PID, es decir, atiende primero al proceso de menor PID? Suponga que todos los mensajes se reciben al mismo tiempo.",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-23-2.JPG",
         "options": [
           { "id": 0, "text": "5", "isCorrect": false },
           { "id": 1, "text": "8", "isCorrect": true },
@@ -339,7 +339,7 @@
       },
       {
         "text": "En el ejemplo anterior, si se usara el algoritmo de García-Molina y asumiendo que no ocurre ningún error durante el proceso de elección, ¿cuál sería el número de mensajes enviados en total por todos los procesos en el peor de los casos?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-23-3.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-23-3.JPG",
         "options": [
           { "id": 0, "text": "Menos de 12", "isCorrect": false },
           { "id": 1, "text": "12", "isCorrect": false },
@@ -823,7 +823,7 @@
       },
       {
         "text": "Dado el siguiente conjunto de eventos: Si a->e y e->i, ¿cuál de los siguientes órdenes especifica un orden causal?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-21-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-21-1.JPG",
         "options": [
           { "id": 0, "text": "p1 entrega m2,m1,m3, p2 entrega m1,m2,m3, p3 entrega m1,m2,m3", "isCorrect": false },
           { "id": 1, "text": "p1 entrega m1,m2,m3, p2 entrega m3,m2,m1, p3 entrega m1,m2,m3", "isCorrect": false },
@@ -833,7 +833,7 @@
       },
       {
         "text": " Si a->e y e->i, ¿Cuál de los siguientes órdenes especifica un orden total?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-21-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-21-1.JPG",
         "options": [
           { "id": 0, "text": "p1 entrega m2,m1,m3, p2 entrega m1,m2,m3, p3 entrega m1,m2,m3", "isCorrect": false },
           { "id": 1, "text": "p1 entrega m1,m2,m3, p2 entrega m3,m2,m1, p3 entrega m1,m2,m3", "isCorrect": false },
@@ -897,7 +897,7 @@
       },
       {
         "text": "El siguiente diagrama representa la ejecución de un sistema distribuido, donde S000 es el estado global inicial  ¿Cuántos procesos están implicados en la ejecución del sistema distribuido representado en el diagrama?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-21-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-21-2.JPG",
         "options": [
           { "id": 0, "text": "5", "isCorrect": false },
           { "id": 1, "text": "10", "isCorrect": false },
@@ -907,7 +907,7 @@
       },
       {
         "text": "En el estado global S311, ¿cuántos eventos han ocurrido?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-21-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-21-2.JPG",
         "options": [
           { "id": 0, "text": "5", "isCorrect": true },
           { "id": 1, "text": "8", "isCorrect": false },
@@ -917,7 +917,7 @@
       },
       {
         "text": " ¿Cuál sería el resultado de evaluar el predicado «definitivamente X» si el estado global S111 se evalúa como True y el resto de estados se evalúan como False?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-21-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-21-2.JPG",
         "options": [
           { "id": 0, "text": "True", "isCorrect": true },
           { "id": 1, "text": "False", "isCorrect": false },
@@ -927,7 +927,7 @@
       },
       {
         "text": "Indique cuál sería una posible ejecución de este sistema distribuido:",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-21-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-21-2.JPG",
         "options": [
           { "id": 0, "text": "S000 ->S001 ->S011 ->S111 ->S211 ->S311", "isCorrect": false },
           { "id": 1, "text": "S000 ->S010 ->S011 ->S112", "isCorrect": false },
@@ -937,7 +937,7 @@
       },
       {
         "text": "El estado global S221 es:",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-21-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-21-2.JPG",
         "options": [
           { "id": 0, "text": "Inconsistente.", "isCorrect": true },
           { "id": 1, "text": "Consistente.", "isCorrect": false },
@@ -1069,7 +1069,7 @@
       },
       {
         "text": "Considere el siguiente conjunto de eventos que tienen lugar en los procesos p1, p2 y p3 de un sistema distribuido:  ¿Cuál es el valor del reloj lógico (RL) de los eventos e, j y n?:",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-21-1.JPG",
         "options": [
           { "id": 0, "text": "RL(e)=5; RL(j)=6; RL(n)=7", "isCorrect": false },
           { "id": 1, "text": "RL(e)=7; RL(j)=7; RL(n)=8", "isCorrect": false },
@@ -1079,7 +1079,7 @@
       },
       {
         "text": " ¿Cuál es el valor del reloj vectorial de los eventos e, j y n?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-21-1.JPG",
         "options": [
           { "id": 0, "text": "RV(e)=[6,6,4]; RV(j)=[6,4,3]; RV(n)=[5,4,5]", "isCorrect": false },
           { "id": 1, "text": "RV(e)=[5,3,2]; RV(j)=[5,5,2]; RV(n)=[1,4,4]", "isCorrect": true },
@@ -1089,7 +1089,7 @@
       },
       {
         "text": " Si el valor del reloj vectorial de dos eventos a y b son RV(a)=[1,2,3] y RV(b)=[3,2,1], entonces:",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-21-1.JPG",
         "options": [
           { "id": 0, "text": "a->b", "isCorrect": false },
           { "id": 1, "text": "b->a", "isCorrect": false },
@@ -1099,7 +1099,7 @@
       },
       {
         "text": " Sea un corte C=[h1,h2,h3] donde h1, h2 y h3 son los prefijos de historia de p1, p2 y p3, respectivamente, definidos como h1=[a,b,c] y h3=[k,l,m,n], ¿cuál sería un prefijo de historia h2 válido para que C sea un corte consistente?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-1.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-21-1.JPG",
         "options": [
           { "id": 0, "text": " h2 = [f,g]", "isCorrect": false },
           { "id": 1, "text": "h2 = [f,g,h]", "isCorrect": false },
@@ -1109,7 +1109,7 @@
       },
       {
         "text": " Considere el siguiente diagrama de estados globales:  El estado S21 es un estado global..:",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-21-2.JPG",
         "options": [
           { "id": 0, "text": "inconsistente.", "isCorrect": false },
           { "id": 1, "text": "consistente e inalcanzable.", "isCorrect": false },
@@ -1119,7 +1119,7 @@
       },
       {
         "text": "Suponga que se evalúa un cierto predicado global P sobre este diagrama con el siguiente resultado: P(S00)=F, P(S01)=F, P(S10)=T, P(S11)=F,P(S21)=F, P(S22)=F, P(S32)=T, con F=False y T=True ¿cuál sería el resultado de evaluar definitivamente P?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-21-2.JPG",
         "options": [
           { "id": 0, "text": "True", "isCorrect": true },
           { "id": 1, "text": "False", "isCorrect": false },
@@ -1210,7 +1210,7 @@
       },
       {
         "text": " Está implementando un sistema de comunicación indirecta con ZeroC Ice. ¿Quién es mas lógico que implemente la siguiente interfaz?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-21-3.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-21-3.JPG",
         "options": [
           { "id": 0, "text": "El publicador", "isCorrect": false },
           { "id": 1, "text": "El consumidor", "isCorrect": false },
@@ -1333,7 +1333,7 @@
       },
       {
         "text": "Dada la siguiente figura, asumiendo que los relojes lógicos de Lamport de Pa y Pb están inicialmente a cero y cada evento relevante es representado con un circulo negro en cada proceso, ¿qué valores tendrán en el instante Tb?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-20.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-20.JPG",
         "options": [
           { "id": 0, "text": "RLb = 6 y RLa = 5", "isCorrect": false },
           { "id": 1, "text": "RLb = 5 y RLa = 6", "isCorrect": true },
@@ -1343,7 +1343,7 @@
       },
       {
         "text": "Dada la siguiente figura, ¿Qué corte es consistente?:",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-20-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-20-2.JPG",
         "options": [
           { "id": 0, "text": "Ca", "isCorrect": true },
           { "id": 1, "text": "Cb", "isCorrect": false },
@@ -1362,7 +1362,7 @@
       },
       {
         "text": "Dada la siguiente figura, asumiendo que los relojes lógicos vectoriales de Pa y Pb están inicialmente a cero y cada evento relevante es representado con un circulo negro en cada proceso, asuma (a,b) para indicar el número de evento del proceso a y del proceso b respectivamente ¿qué valores tendrán en el instante Tb?:",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-20-3.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-20-3.JPG",
         "options": [
           { "id": 0, "text": "RVb = (2,3) y RVa = (5,4)", "isCorrect": false },
           { "id": 1, "text": "RVb = (2,5) y RVa = (5,5)", "isCorrect": true },
@@ -1556,7 +1556,7 @@
     "questions": [
       {
         "text": "] Considere el siguiente sistema de comunicación indirecta implementado mediante RabbitMQ, donde P1 es publicador, X es ExChange, y C1, C2, C3 son consumidores de las colas Q1, Q2, Q3, respectivamente: ¿De qué tipo debe declararse el exchange X para conseguir un sistema publish-subscribe en el que C1, C2 y C3 se suscriben a todos los mensajes enviados por P1?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-20.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-20.JPG",
         "options": [
           { "id": 0, "text": "fanout", "isCorrect": true },
           { "id": 1, "text": "direct", "isCorrect": false },
@@ -1566,7 +1566,7 @@
       },
       {
         "text": "Se desea extender este sistema publish-subscribe a un conjunto de n suscriptores a todos los mensajes enviados por P1, ¿qué modificación tendría que realizar en el sistema?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-20.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-20.JPG",
         "options": [
           { "id": 0, "text": "Añadir tantos exchanges como subscriptores, conectar un subscriptor por exchange.", "isCorrect": false },
           { "id": 1, "text": "Añadir tantas colas como subscriptores, conectar el Exchange a las colas y conectar 1 subscriptor por cola.", "isCorrect": true },
@@ -1576,7 +1576,7 @@
       },
       {
         "text": "¿De qué tipo debe declararse el exchange X para conseguir que C1, C2 y C3 reciban sólo aquellos mensajes enviados por P1 cuya clave de enrutamiento equipare con una determinada expresión regular?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-20.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-20.JPG",
         "options": [
           { "id": 0, "text": "fanout", "isCorrect": false },
           { "id": 1, "text": "direct", "isCorrect": false },
@@ -1586,7 +1586,7 @@
       },
       {
         "text": "Indique la binding key que debería tener el binding entre un Exchange de tipo topic y una cola para conseguir enrutar todos los mensajes con routing key «ssdd.comunicacionindirecta»:",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Ene-20.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-20.JPG",
         "options": [
           { "id": 0, "text": "*.*", "isCorrect": false },
           { "id": 1, "text": "ssdd.*.*", "isCorrect": false },
@@ -1871,7 +1871,7 @@
       },
       {
         "text": "Dados los procesos p1 y p2 con prefijos de historia h1 y h2 respectivamente, ¿qué tipo de corte forman la unión de ambos prefijos de historia?",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-18.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-18.JPG",
         "options": [
             { "id": 0, "text": "Corte consistente", "isCorrect": true },
             { "id": 1, "text": "Corte inconsistente", "isCorrect": false },
@@ -1980,7 +1980,7 @@
       },
       {
         "text": "Sea el siguiente escenario para los procesos P0, P1 y P2: Indique cuáles son los relojes lógicos de Lamport de los eventos g, l y m:",
-        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/Ex-Jun-18-2.JPG",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Jun-18-2.JPG",
         "options": [
             { "id": 0, "text": "RL(g)= 4; RL(l)=4 ; RL(m)=5", "isCorrect": false },
             { "id": 1, "text": "RL(g)= 3; RL(l)= 4; RL(m)=5", "isCorrect": false },

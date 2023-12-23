@@ -1,47 +1,47 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./App.css";
-import examsData from './questions.json';
+import sistemasDistribuidos from './sistemasDistribuidos.json';
+import sistemasInteligentes from './sistemasInteligentes.json';
+import ingenieriaSoftwareII from './ingenieriaSoftwareII.json';
 
 function App() {
   const [showResults, setShowResults] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [userAnswers, setUserAnswers] = useState([]);
-  const [exams, setExams] = useState([]);
   const [selectedExam, setSelectedExam] = useState(null);
+  const [selectedSubject, setSelectedSubject] = useState(null);
 
-  useEffect(() => {
-    setExams(examsData);
-  }, []);
+  // Mapeo de asignaturas a sus archivos JSON correspondientes
+  const subjectToExams = {
+    "Sistemas Distribuidos": sistemasDistribuidos,
+    "Sistemas Inteligentes": sistemasInteligentes,
+    "Ingeniería del Software II": ingenieriaSoftwareII
+  };
 
-  const shuffleArray = (array) => {
-    let currentIndex = array.length, randomIndex;
-
-    while (currentIndex !== 0) {
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-
-      [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex], array[currentIndex]];
-    }
-
-    return array;
-  }
-
-  const goToMainMenu = () => {
+  const chooseAnotherExam = () => {
     setSelectedExam(null);
     setShowResults(false);
   };
 
-  const startExam = (exam) => {
-    setSelectedExam(exam);
-    setScore(0);
-    setCurrentQuestion(0);
-    setShowResults(false);
-    setUserAnswers([]);
+  const shuffleArray = (array) => {
+    let currentIndex = array.length, randomIndex;
+    while (currentIndex !== 0) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+    return array;
   };
 
-  const repeatExam = () => {
+  const startSubject = (subject) => {
+    setSelectedSubject(subject);
+    setSelectedExam(null);
+  };
+
+  const startExam = (exam) => {
+    setSelectedExam(exam);
     setScore(0);
     setCurrentQuestion(0);
     setShowResults(false);
@@ -64,17 +64,13 @@ function App() {
     }
   };
 
-  const chooseAnotherExam = () => {
-    setSelectedExam(null);
-  };
-
   const renderQuestionCard = () => {
     const question = selectedExam.questions[currentQuestion];
     const shuffledOptions = shuffleArray([...question.options]);
 
     return (
       <div className="question-card">
-        <h2>Pregunta: {currentQuestion + 1} / {selectedExam.questions.length}</h2>
+        <h2>Pregunta {currentQuestion + 1} de {selectedExam.questions.length}</h2>
         <h3 className="question-text">{question.text}</h3>
         {question.questionURL && <img src={question.questionURL} alt="Question" />}
         <ul>
@@ -93,45 +89,66 @@ function App() {
       <div className="final-results">
         <h1>Resultado</h1>
         <h2>{score} de {selectedExam.questions.length} correctas - {(score / selectedExam.questions.length) * 100}%</h2>
-        {userAnswers.map((answer) => {
-          const question = selectedExam.questions[answer.questionId];
-          const selectedOption = question.options.find(option => option.id === answer.selectedOptionId);
+        
+        {selectedExam.questions.map((question, index) => {
+          const userAnswer = userAnswers.find(answer => answer.questionId === index);
+          const selectedOption = question.options.find(option => option.id === userAnswer?.selectedOptionId);
           const correctOption = question.options.find(option => option.isCorrect);
   
-          if (!selectedOption.isCorrect) {
-            return (
-              <div key={answer.questionId}>
-                <h4>{question.text}</h4>
-                {question.questionURL && (
-                  <img src={question.questionURL} alt="Pregunta" style={{ maxWidth: '100%' }} />
-                )}
-                <p>Tu respuesta: {selectedOption.text}</p>
-                <p>Respuesta correcta: {correctOption.text}</p>
-              </div>
-            );
-          }
-          return null;
+          return (
+            <div key={index} className="question-review">
+              <h3>{question.text}</h3>
+              {question.questionURL && <img src={question.questionURL} alt="Question" />}
+              <p>Tu respuesta: {selectedOption ? selectedOption.text : "No respondida"}</p>
+              <p>Respuesta correcta: {correctOption.text}</p>
+            </div>
+          );
         })}
-        <button onClick={repeatExam}>Repetir examen</button>
+  
+        <button onClick={() => startExam(selectedExam)}>Repetir examen</button>
         <button onClick={chooseAnotherExam}>Elegir otro examen</button>
+      </div>
+    );
+  };
+
+  const renderExamSelection = () => {
+    const exams = subjectToExams[selectedSubject];
+    return (
+      <div>
+        <h2>Exámenes de {selectedSubject}</h2>
+        {exams.map((exam, index) => (
+          <button key={index} onClick={() => startExam(exam)}>
+            {exam.examName}
+          </button>
+        ))}
+        <button onClick={() => setSelectedSubject(null)}>Elegir otra asignatura</button>
+      </div>
+    );
+  };
+  
+  const renderSubjectSelection = () => {
+    return (
+      <div>
+        <h2>Elige una asignatura:</h2>
+        {Object.keys(subjectToExams).map((subject, index) => (
+          <button key={index} onClick={() => startSubject(subject)}>
+            {subject}
+          </button>
+        ))}
       </div>
     );
   };
 
   return (
     <div className="App">
-      <h1 onClick={goToMainMenu} style={{ cursor: 'pointer' }}>
-        Sistemas Distribuidos
+      <h1 onClick={() => setSelectedSubject(null)} style={{ cursor: 'pointer' }}>
+        Inicio
       </h1>
-      {selectedExam ? (
-        showResults ? renderResults() : renderQuestionCard()
-      ) : (
-        exams.map((exam, index) => (
-          <button key={index} onClick={() => startExam(exam)}>
-            {exam.examName}
-          </button>
-        ))
-      )}
+      {selectedSubject ? (
+        selectedExam ? (
+          showResults ? renderResults() : renderQuestionCard()
+        ) : renderExamSelection()
+      ) : renderSubjectSelection()}
     </div>
   );
 }
