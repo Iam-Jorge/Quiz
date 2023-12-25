@@ -1,16 +1,3602 @@
 [
-    {
-      "examName": "Ex-Jun-23",
-      "questions": [
+  {
+    "examName": "B01-L1",
+    "questions": [
+          {
+            "text": "Q01- ¿QUÉ ENUMERA LOS PROCESOS DE NEGOCIOS EN LAS EMPRESAS?:",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Requisitos de negocio.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Requisitos de calidad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Requisitos funcionales.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Requisitos de interesados.",
+                    "isCorrect": false
+                }
+            ]
+        },
         {
-          "text": "Marca cuál de las siguientes afirmaciones es cierta:",
-          "options": [
-            { "id": 0, "text": "En comunicación indirecta existe un desacoplamiento en espacio y tiempo entre los participantes.", "isCorrect": true },
-            { "id": 1, "text": "Implementar comunicación indirecta es apropiado para la difusión de eventos, pero cuando los receptores son bien conocidos y no suelen cambiar.", "isCorrect": false },
-            { "id": 2, "text": "En comunicación indirecta se utiliza un intermediario y todas las partes de la comunicación deben estar en ejecución.", "isCorrect": false },
-            { "id": 3, "text": "RMI implementa comunicación indirecta.", "isCorrect": false }
-          ]
+            "text": "Q02- ¿CUÁL DE ESTAS FASES REFIERE A LA FASE DE INICIO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Se identifican los riesgos más importantes, se planifica la fase de elaboración, además de estimarse el proyecto.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Se desarrolla todos/casi todos los casos de uso y se obtiene la línea base del proyecto.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Crea el producto en una versión prácticamente completo (pero con defectos que se solucionaran en la fase de transición).",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Integración final y corrección de los defectos que se encuentran en la entrega.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q03- ¿QUÉ RELACIONA EL TRIÁNGULO DE HIERRO O DE GESTIÓN DE PROYECTOS?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Coste, Tiempo, Alcance.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Coste, Tiempo, Calidad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Calidad, Tiempo, Esfuerzo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Esfuerzo, Calidad, Compromiso.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q04- ¿CUÁL SE REFIERE A LA FASE DE CONSTRUCCIÓN?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Se identifican los riesgos más importantes, se planifica la fase de elaboración, además de estimarse el proyecto.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Se desarrolla todos/casi todos los casos de uso y se obtiene la línea base del proyecto.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Crea el producto en una versión completa, que contiene todos los casos de uso (pero con defectos que se solucionaran en la fase de transición).",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Integración final y corrección de los defectos que se encuentran en la entrega.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q05- ¿QUÉ DETERMINAN LOS MODELOS DE CICLO DE VIDA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Determinan el conjunto de procesos necesarios para llevar a cabo en nuestro proyecto.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Determinan las entradas, salidas, herramientas utilizadas, forma de trabajo…",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Determinan el orden en el que se van a desarrollar las fases de nuestro proyecto.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Determinan quienes son los interesados y Stakeholders de nuestro proyecto.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q06- ¿CUÁL SE REFIERE A LA FASE DE TRANSICIÓN?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Se identifican los riesgos más importantes, se planifica la fase de elaboración, además de estimarse el proyecto.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Se desarrolla todos/casi todos los casos de uso y se obtiene la línea base del proyecto.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Crea el producto en una versión completa, que contiene todos los casos (pero con defectos que se solucionaran en la fase de transición).",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Integración final y corrección de los defectos que se encuentran en la entrega, el producto se convierte en la versión beta.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q07- ¿CUÁLES SON LAS FASES GENÉRICAS EN EL CICLO DE VIDA DEL SOFTWARE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Definición, Desarrollo, Despliegue, Mantenimiento.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Análisis, Diseño, Implementación, Mantenimiento.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Análisis de Requisitos, Diseño Inicial, Codificación, Pruebas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Inicio, Diseño, Construcción, Pruebas.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q08- ¿CUÁL SE REFIERE A LA FASE DE ELABORACIÓN?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Se identifican los riesgos más importantes, se planifica la fase de elaboración, además de estimarse el proyecto.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Se desarrolla todos/casi todos los casos de uso y se obtiene la línea base del proyecto, además de la arquitectura del sistema.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Crea el producto en una versión completa, que contiene todos los casos (pero con defectos que se solucionaran en la fase de transición).",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Integración final y corrección de los defectos que se encuentran en la entrega, el producto se convierte en la versión beta.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q09- EN EL MODELO DE CICLO DE VIDA EN CASCADA, ¿CUÁNDO SE ESTABLECE LA COMUNICACIÓN CON EL CLIENTE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Al principio y al final del ciclo.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Al principio y al final de cada fase del ciclo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Únicamente al principio del ciclo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Únicamente al final del ciclo.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q10- ¿CUÁL DE LAS SIGUIENTES AFIRMACIONES ES CORRECTA SOBRE LA DIFERENCIA ENTRE UN MODELO ITERATIVO Y UN MODELO INCREMENTAL?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Un modelo iterativo se basa en la entrega de tareas completas del producto, mientras que un modelo incremental abordará el problema global y lo irá mejorando con el paso del tiempo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Un modelo incremental se basa en dividir el proyecto en etapas, las cuales se irán completando de forma independiente secuencialmente, mientras que en un modelo iterativo el proyecto se irá mejorando de forma continua en su totalidad.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "En un modelo incremental, la comunicación con el cliente es menos importante que en un modelo iterativo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "En un modelo iterativo, las entregas son incrementales y funcionales, mientras que en un modelo incremental, se utilizan prototipos para su desarrollo.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q11- ¿CUÁL ES LA DEFINICIÓN DE PROCESO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Acción que transforma unas entradas en salidas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Forma en la que deben sucederse determinadas actividades.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Conjunto de actividades que se suceden siguiendo una ordenación temporal determinada.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Conjunto de tareas que se suceden siguiendo una determinada documentación.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q12- UNA CARACTERÍSTICA DESEABLE DE UNA METODOLOGÍA ES…",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Herramientas CASE.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Ausencia de reglas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "No promover la reutilización de software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Requiere una formación complicada.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q13- ¿CUÁL DE LAS SIGUIENTES AFIRMACIONES NO ES UNA VENTAJA DEL MODELO INCREMENTAL?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Se evitan los proyectos largos y se entrega “algo de valor” a los usuarios con cierta frecuencia",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "El usuario se involucra más",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "El resultado suele ser muy positivo",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Es muy útil con proyectos complejos que se entienden y que quedan bien definido desde el comienzo",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q14- EL MODELO EN CASCADA ES…",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Un modelo de ciclo de vida.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Un modelo de procesos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Una metodología de desarrollo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Una metodología ágil.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q15- EL ESTÁNDAR IEEE 1074 ES…",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Un proceso unificado de desarrollo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Un modelo de procesos.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Una metodología de desarrollo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Un modelo de ciclo de vida.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q16- CUÁL DE LAS SIGUIENTES AFIRMACIONES NO ES UN INCONVENIENTE DEL MODELO EN CASCADA",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "No refleja realmente el proceso de desarrollo del software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Perpetúa el fracaso de la industria del software en la comunicación con el usuario final.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Las revisiones de los proyectos de gran complejidad son muy difíciles.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Es más difícil estimar el coste total del proyecto",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q17- ¿CUÁL DE LOS SIGUIENTES NO ES UN ELEMENTO CENTRAL DE UN PROCESO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Un objetivo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Un conjunto de actividades.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Un coste.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Un conjunto de resultados.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q18- ISO 12207",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "debe ser seguida por toda empresa de desarrollo de software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "no es una herramienta útil para comparar empresas de software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "es suficiente para producir un producto software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "es un modelo de proceso.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q19- TENIENDO EN CUENTA QUE ESTAMOS TRABAJANDO EN UN PROYECTO UTILIZANDO EL MODELO DE CICLO DE VIDA INCREMENTAL, ¿CUÁL SERÍA UNO DE LOS PROBLEMAS QUE NOS PODEMOS ENCONTRAR?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Es más difícil estimar el coste final del proyecto global.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "No tendremos suficiente feedback de los clientes.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "No es muy flexible.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Proyectos de larga duración.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q20- ¿CUÁL NO ES UN MODELO DE CICLO DE VIDA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Modelo en espiral.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Modelo Incremental.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Modelo en forma de U.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Modelo en cascada.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q21- ¿CUÁL NO ES UN MODELO DE PROCESO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "IEEE 1074.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "ISO 12207.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "CMMI.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "IEEE 802.1Q.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q22- ¿CUÁL NO ES UNA METODOLOGÍA ORIENTADA A OBJETOS?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "OMT.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "SSDM.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "UDP.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Métrica v3 OO.",
+                    "isCorrect": false
+                }
+            ]
         }
-      ]
-    }
+    ]
+  },
+  {
+    "examName": "B01-L2",
+    "questions": [
+          {
+            "text": "Q01- EL GIT FLOW ES UN PROCESO DE:",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Almacenamientos de Incrementos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Ramificación.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Gestión de Cambios.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Construcción del Sistema.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q02- UNA LÍNEA DE CÓDIGO...",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Es una secuencia de versiones de código fuente con las versiones más recientes en la secuencia derivadas de las versiones anteriores.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Una definición de un sistema específico, por tanto especifica las versiones del componente.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Es evitar que el trabajo de varios programadores entren en conflicto por colisiones.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Es una versión de un sistema software que se distribuye a los clientes.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q03- ¿CÚAL ES EL OBJETIVO DEL BRANCHING?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Añadir características adicionales al proyecto.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Es evitar que el trabajo de varios programadores entren en conflicto por colisiones, de esta manera esposible independizar las líneas de trabajo y luego fusionarlas.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Es evitar la compartición de código entre desarrolladores.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Mantener una sola rama principal para todo el proyecto.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q04- UNA LÍNEA BASE...",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Es un informe final de un proyecto.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Es la primera etapa de un proyecto.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Es una definición de un sistema específico, por tanto especifica las versiones del componentese incluyen en el sistema más una especificación de las librerías usadas, archivos de configuración.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Es Un documento que describe la planificación de un proyecto.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q05- ¿QUÉ DEFINE MEJOR EL PROCESO DE GESTIÓN DE VERSIONES?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Proceso de hacer un seguimiento de las diferentes versiones de los componentes de software o elementos deconfiguración, y los sistemas donde se usan dichos componentes.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Proceso de crear un sistema ejecutable y completo, al compilar y vincular los componentes del sistema.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Proceso de gestionar la seguridad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Proceso de gestionar la parte hardware.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q06- ¿CUÁL NO ES UNA DE LAS ACTIVIDADES BÁSICAS DE LA GESTIÓN DE CONFIGURACIÓN?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Gestión del Cambio.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Gestión de Versiones.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Gestión de Liberación.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Gestión de Configuración.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q07- LA RELEASE ALPHA (LIBERACIÓN ALFA) ES...",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "es una línea base de características del código completas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "es una release interna y no están disponibles para los clientes.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "es la fase primaria para comenzar las pruebas de software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "es una release externa en la que participan Alfa-Testers.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q08- EN EL VERSIONAMIENTO SEMÁNTICO EL FORMATO DE CONJUNTO DE REGLAS PARA EL VERSIONADO ES...",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "M.R.P (Month.Release.Pending).",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "M.L.M (Marketing.Multilevel).",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "M.M.L.P (Marshall.Mathers.LP).",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "M.M.P (Major.Minor.Patch).",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q09- ¿QUÉ ANALIZA EL CCB?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Los costes y beneficios de los cambios propuestos.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Las probuestas inmediatas de cambio.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "La Configuración de Control de Branching.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Ninguna de las respuestas es correcta.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q10- ¿QUÉ ES EL VERSIONING (VERSIONADO)?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "La asignación de una release de versión a estados específicos de elementos de configuración del software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "La asignación de un delta o incremento de versión a estados específicos de elementos de configuración del software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "La asignación de un único identificador de versión a estados específicos de elementos de configuración del software.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "La asignación de un CM de versión a estados específicos de elementos de configuración del software.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q11- ¿QUÉ ES UN MÍNIMO PRODUCTO VIABLE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Un producto con todas las características posibles para atraer a un amplio público desde el principio.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Versión que contenga el conjunto de funcionalidades mínimas necesarias.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Versión con una gran cantidad de características adicionales que aumentan su complejidad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Un producto que nunca se lanza al mercado, solo se mantiene en desarrollo constante.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q12- ¿CUÁL ES EL SIGNIFICADO DE 'MANTENER LA INTEGRIDAD DE UN PRODUCTO'?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Proteger el producto de cambios que no sean aceptables o que puedan comprometer su calidad.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Actualizar constantemente el producto para agregar nuevas características.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Publicar el producto sin importar los posibles cambios o problemas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Ignorar por completo cualquier modificación en el producto.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q13- ¿CUÁL ES EL PROPÓSITO PRINCIPAL DE LA TRAZABILIDAD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Registrar cuántos productos se han vendido a lo largo del tiempo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Aumentar el costo de producción mediante el seguimiento de cada detalle del proceso.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Optimizar la producción reduciendo el tiempo necesario para cada fase del proceso.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Capacidad de rastrear todos los procesos, desde la adquisición de materias primas hasta la eliminación de productos, para identificar quién los produjo y cuándo.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q14- SEÑALA LA AFIRMACIÓN CORRECTA",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "El cliente es irrelevante en el proceso de desarrollo, ya que los cambios son impulsados internamente.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "El cliente es una fuente secundaria de cambios, y las decisiones se toman principalmente de manera interna.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "El cliente es el principal foco de cambios, y las decisiones se basan en sus necesidades y retroalimentación.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "El cliente no tiene influencia en absoluto en el proceso de desarrollo de productos o servicios.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q15- ¿QUÉ SIGNIFICA LA OPCIÓN CORRECTA REFERIDO AL TÉRMINO 'CHANGE REQUEST'(PETICIÓN DE CAMBIO)?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Es una solicitud de cambio que no requiere aprobación y puede ser implementada inmediatamente.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Es una solicitud de cambio realizada únicamente por el equipo de desarrollo sin involucrar a clientes internos o externos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Es una petición por parte de un cliente interno o externo para realizar un cambio en la línea base de configuración",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Es una solicitud de cambio que solo se aplica a la documentación, no a la configuración del software.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q16- ¿CUÁL DE LAS SIGUIENTES OPCIONES DESCRIBE MEJOR UN \"DELTAS O INCREMENTS\" EN EL DESARROLLO DE SOFTWARE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Un almacén de datos para la gestión de configuración.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Una versión de software con características mínimas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Cualquier incremento generado tras una iteración del desarrollo.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Un conjunto de elementos de configuración probados en el entorno de desarrollo.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q17- ¿QUÉ ES UNA CMDB (CONFIGURATION MANAGEMENT DATABASE)?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Un almacén de datos para mantener información sobre elementos de configuración y sus relaciones.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Una versión de un producto con características mínimas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Un conjunto de elementos de configuración probados en el entorno de desarrollo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Incrementos generados tras una iteración del desarrollo.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q18- ¿CUÁNDO SE DEBE INCREMENTAR LA VERSIÓN MAJOR SEGÚN LAS REGLAS DE VERSIONADO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Cuando se introducen arreglos compatibles con la versión anterior.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Cuando se incrementa la versión minor.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Cuando se introduce una nueva funcionalidad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Cuando se introduce un cambio no compatible con la versión anterior.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q19- ¿CUÁL ES EL PROPÓSITO PRINCIPAL DE LA ACTIVIDAD DE \"GESTIÓN DE VERSIONES\" EN LA GESTIÓN DE CONFIGURACIÓN?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Ensamblar componentes del programa.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Evitar interferencias entre cambios realizados por diferentes desarrolladores.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Estimar costos de cambios en el software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Preparar el software para la entrega externa.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q20- ¿QUÉ IMPLICA LA ACTIVIDAD DE \"CONSTRUCCIÓN DEL SISTEMA\" EN LA GESTIÓN DE CONFIGURACIÓN?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Seguimiento de las peticiones de cambios al software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Ensamblar los componentes del programa, datos y librerías.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Garantizar que los cambios no interfieran entre sí.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Hacer un seguimiento de las versiones del sistema entregadas al cliente.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q21- ¿CUÁL DE LAS SIGUIENTES VERSIONES DEFINE LA API PÚBLICA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Versión 1.1.1.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Version 0.0.0.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Versión 1.0.0.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Versión 0.1.1.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q22- ELIJA LA FRASE QUE DESCRIBE CORRECTAMENTE UNA RAMA DE DESARROLLO",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Siempre tiene un código listo para ser desplegado en el entorno de producción.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Se utiliza como base para crear las ramas de las nuevas funcionalidades.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Aquí se desarrollan las nuevas funcionalidades.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Aquí se prueba la versión de preproducción y se corrigen los defectos.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q23- ¿CUÁL ES EL OBJETIVO DE LA RAMA MAESTRA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Tiene codigo listo para ser desplegado en el ambiente de produccion.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Corregir los defectos detectados previamente.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Comprobar si los defectos han sido corregidos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Ninguna de las respuestas es correcta.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q24- ¿QUE ES UNA RAMA TEMATICA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Es otra forma de referirse a la rama maestra o principal.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Es una rama de corta duración que normalmente se utiliza para implementar una característica o corregir un error.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "En Git, es el tipo de referencia que se utiliza para marcar commits importantes en el historial de commits.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Es la rama que contiene código estable y desplegable.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q25- CUANDO SE USA SEMANTIC VERSIONING PARA NOMBRAR LAS DIFERENTES VERSIONES DE UNA API, ¿QUE NUMERO SE DEBE INCREMENTAR CUANDO SE HACEN CAMBIOS INCOMPATIBLES EN LA API?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Mayor.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Minor.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Patch.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "No se aumenta ningún número pero se añade una etiqueta.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q26- CUANDO USAS SEMANTIC VERSIONING PARA NOMBRAR LAS DIFERENTES VERSIONES DE UNA API, ¿QUE NUMERO DEBES INCREMENTAR PARA AÑADIR FUNCIONALIDAD DE FORMA COMPATIBLE CON VERSIONES ANTERIORES?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Mayor.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Minor.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Patch.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "No se aumenta ningún número pero se añade una etiqueta.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q27- UN PULL REQUEST",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Es un elemento obligatorio en todo flujo de trabajo git.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Es un hilo de discusión sobre commits en una rama determinada que quieren fusionarse con otra.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Se encuentra en todos los remotos de git.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Es un tipo de permiso otorgado a varios archivos en un repositorio.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q28- SIGNIFICADO CMDB",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Cybersecurity Monitoring and Defense Bureau.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Configuration Management Database.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Customer Management Database.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Cryptographic Message Decoding Beacon.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q29- ¿CUÁL NO ES UNA RAMA DEL GIT FLOW?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Rama de desarrollo",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Ramas de características",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Rama de release",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Rama de test",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q30- EN LO RESPECTO A LA GESTIÓN DE LA CONFIGURACIÓN UN CODELINE",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Es una linea de codigo en un lenguaje de programación",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Es un conjunto de versiones de un componente de software",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Es el conjunto de todo el codigo del sistema",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Ninguna es correcta",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q31- ¿CUÁL ES LE PROPÓSITO PRINCIPAL DE LA GESTIÓN DE CONFIGURACIÓN?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Garantizar que todos los empleados tengan acceso a la base de datos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Reducir los costos de desarrollo de software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Rastrear y controlar los cambios en la configuración del software.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Mejorar la velocidad de procesamiento de datos.",
+                    "isCorrect": false
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "examName": "B01-L3",
+    "questions": [
+          {
+            "text": "Q01- ¿CON QUÉ ESTA RELACIONADA LA MADUREZ Y LA CAPACIDAD?:",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "No necesitas la capacidad, y la madurez esta relacianada con la empresa.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "No necesitas la madurez, y la capacidad esta relacianada con los procesos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "La madurez esta relacianada con los procesos y la capacidad con la empresa.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "La capacidad esta relacionada con los procesos y la madurez con emperesa.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q02- ¿QUÉ TIPOS DE EVALUACIONES HAY?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Por capacidad y por madurez.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Por empresa y por calidad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Por madurez y por calidad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Por organización y por capacidad:",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q03- ¿QUÉ NIVEL DE MADUREZ ESTAREMOS SI TENEMOS LOS SIGUIENTES PROCESOS CON EL SIGUIENTE NIVEL CAPACIDAD P1",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Hemos alcanzado el nivel de madurez 1.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Hemos alcanzado el nivel de madurez 2.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Hemos alcanzado el nivel de madurez 3.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Hemos alcanzado el nivel de madurez 0.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q04- ¿CUÁL NO ES UN OBJETIVO DE LA MEJORA DE PROCESOS?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Definir los procesos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Medir el proceso.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Controlar el proceso.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Gestión técnica del proceso.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q05- ¿EN LA GESTIÓN DE CALIDAD DE PRODUCTO SOFTWARE DE CUANTAS CARACTERÍSTICAS DE CALIDAD DE SOFTWARE DISPONEMOS?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "7",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "8",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "6",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "4",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q06- ¿CMMI ES UN?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Modelo de referencia de procesos",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Modelo de evaluación de procesos",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Modelo de definición de procesos",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Modelo de mejora de procesos",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q07- ¿LA GRANULARIDAD DE LA EVALUACIÓN POR CAPACIDAD ES A NIVEL DE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Requisito",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Organización",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Software",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Proceso",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q08- ¿CUÁL DE LAS SIGUIENTES NO FORMA PARTE DEL CICLO DE MEJORA DE PROCESOS?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Utilizar el proceso",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Medir el proceso",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Añadir procesos",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Definir procesos",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q09- ¿QUÉ DOS PUNTOS DE VISTA TIENE LA CALIDAD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Consumidor y fabricante.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Desarrollador y proveedor.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Usuario y proveedor.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Consumidor y distribuidor.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q10- ¿CUÁLES SON LAS DOS PRINCIPALES DIMENSIONES DE CALIDAD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Producto y Publicidad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Producto y Proceso.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Publicidad y Proceso.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Posicionamiento y Personal.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q11- ¿CUÁL ES EL PROPOSITO PRINCIPAL DE LA NORMA 'ISO 25000'?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Establecer pautas para la evaluación de la calidad de software.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Definir estándares de codificación para desarrolladores.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Establecer normas para la creación de documentación técnica.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Especificar requisitos de seguridad para sistemas informáticos.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q12- ¿CUÁL ES ES UNA CARACTERÍSTICA DE LA COMPATIBILIDAD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Limitación.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Interoperabilidad.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Exclusividad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Resistencia a la integración.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q13- ¿CUÁL ES LA ACCIÓN TOMADA SOBRE UN PRODUCTO NO CONFORME PARA IMPEDIR SU USO PREVISTO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Defecto",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Corrección",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Reparación",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Desecho",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q14- ¿QUÉ CONSTITUYE UN CONJUNTO DE CARACTERÍSTICAS DE CALIDAD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Caracteristica de calidad",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Modelo de calidad",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Medición",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Mejora de la calidad",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q15- ¿CUÁL DE LAS SIGUIENTES CARACTERÍSTICAS NO ES DE PORTABILIDAD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Adaptabilidad",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Capacidad para ser instalado",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Reusabilidad",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Capacidad para ser reemplazado",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q16- ¿QUÉ REPRESENTA LAS INTENCIONES GLOBALES Y LA ORIENTACIÓN DE UNA ORGANIZACIÓN EN RELACIÓN CON LA CALIDAD, EXPRESADAS FORMALMENTE POR LA ALTA DIRECCIÓN?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Política de la calidad",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Sistema de gestión de la calidad",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Planificación de la calidad",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Objetivos de la calidad",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q17- ¿A QUE GRUPO DE EMPRESAS ESTA ORIENTAFO EL MODELOA  MMIS 2.0 AENOR-AQCLab?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Grandes Empresas internacionales",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Grandes Empresas nacionales",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "PYMEs y pequeños grupos de desarrollo",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Empresas publicas y grupos de desarrollo",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q18- ¿QUE PROCESO PERTENECE A LA ETAPA DE MADUREZ 2 DEL MODELO MMIS 2.0 AENOR-AQCLab?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Gestion de la cartera de proyectos",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Gestion del modelo de ciclo de vida",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Gestion de decisiones",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Definicion de Requisitos del Sistema",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q19-¿EL PROCESO DE CONTROL Y EVALUACION DEL PROYECTO DEL MODELO MMIS 2.0 AENOR-AQCLab A QUE ETAPA DE MADUREZ CORRESPONDE ORIGINALMENTE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Etapa madurez 1",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Etapa madurez 2",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Etapa madurez 3",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Etapa madurez 4",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q20-EL MODELO DE EVALUACION ISO 3300 ¿QUE RELACION TIENE CON EL ISO/IEC 15504?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "No tienen realmente relación",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Es una alternativa muy similar",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Lo sustituye y lo amplía",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Es simplemente una actualización",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q21- ¿CUAL DE ESTOS NO ES UN PROCESO DE GESTION TECNICA DEL MODELO ISO 12207",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Gestion de la calidad",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Gestion de decisiones",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Aseguramiento de calidad",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Gestión de la información",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q22- ¿CUAL DE ESTOS NO FORMA PARTE DEL CICLO DE MEJORA CONTINUA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Plan",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Do",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Check",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Done",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q23- ¿CUAL DE ESTOS ES UNA CARACTERÍSTICAS DEL CONCEPTO DE CALIDAD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Es multi-dimensional",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Es absoluta",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "No está sujeta a restricciones",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Los criterios de calidad son independientes",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q24- La familia ISO/IEC 33000 sustituye a",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "ISO/IEC 15501",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "ISO/IEC 15502",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "ISO/IEC 15503",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "ISO/IEC 15504",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q25- ¿QUÉ SIGNIFICA NO REPUDIO EN EL CONTEXTO DE LA SEGURIDAD INFORMÁTICA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Se refiere a la situación en la que algo hecho por alguien no puede ser negado por esa persona.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Propiedad de calidad que consiste en que la información está limitada a un conjunto de personas autorizadas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Propiedad de calidad que consiste en que se puede estar seguro de que la información de que se dispone ha sido modificada.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "No repudio no está relacionado con la seguridad informática.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q26- ¿CUÁL DE LAS SIGUIENTES PODRÍA SER UNA DEFINICIÓN DE CALIDAD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Aptitud para el uso.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Grado en que un conjunto de características inherentes cumple los requisitos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Pérdida económica que un producto provoca a la sociedad desde el momento de su expedición.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Todas las demás respuestas son correctas.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q27- ¿CUÁL DE LOS SIGUIENTES CONJUNTOS DE NORMAS TIENE QUE VER CON LA MEDICIÓN DE LA CALIDAD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "ISO/IEC 2500n.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "ISO/IEC 2502n.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "ISO/IEC 2501n.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Ninguna de ellas.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q28- EL CONTROL DE CALIDAD ES",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Parte de la Gestión de la Calidad destinada a cumplir el requisito de calidad.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Parte de la Gestión de la Calidad destinada a asegurar la fiabilidad o confianza en que se cumplirán los requisitos de calidad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Parte de la Gestión de la Calidad destinada a garantizar que el producto cumplirá los requisitos de calidad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Todas las demás respuestas son correctas.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q29- LA CORRECCIÓN ES",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Acción realizada sobre un producto para transformarlo en utilizable de acuerdo con el uso previsto.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Acción tomada sobre un producto no conforme para impedir su uso potencial previsto.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Tomar medidas para solucionar una no conformidad detectada.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Cualquiera de las respuestas anteriores es correcta.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q30- ¿QUÉ AFIRMACIÓN SOBRE LA LIBERACIÓN NO ES CIERTA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "El paquete de software publicado de una aplicación siempre contiene toda esa aplicación.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Es una versión de software formalmente puesta a disposición de la comunidad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Es una colección de elementos de configuración que se han añadido/modificado, probado e introducido en el software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "La versión alfa es la primera fase para comenzar a probar el software.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q31- ELIJA LA FRASE QUE DESCRIBA CORRECTAMENTE UNA RAMA DE DESARROLLO",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Siempre tiene un código listo para ser desplegado en el entorno de producción.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Se utiliza como base para crear las ramas de las nuevas funcionalidades.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Aquí se desarrollan las nuevas funcionalidades.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Aquí se prueba la versión de preproducción y se corrigen los defectos.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q32- ¿CUÁL ES EL ORDEN DE LOS PASOS DEL CICLO DE GESTIÓN DE CALIDAD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Plan-Do-Check-Act.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Act-Do-Check-Plan.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Plan-Check-Do-Act.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Plan-Act-Check-Do.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q33- ¿CUÁL DE LAS SIGUIENTES CARACTERÍSTICAS ESTÁ RELACIONADA CON EL CONCEPTO DE FIABILIDAD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Madurez.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Disponibilidad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Tolerancia a fallos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Todas son correctas.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q34- ¿CUÁL ES LA FRASE QUE DEBEMOS RECORDAR SI HABLAMOS DE LA CALIDAD DEL PRODUCTO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Hacer bien las cosas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Hacer las cosas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Hacer bien cosas buenas.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Hacer cosas buenas.",
+                    "isCorrect": false
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "examName": "B01-L4",
+    "questions": [
+          {
+            "text": "Q01- ¿CÚAL NO ES UN TIPO DE COBERTURA?:",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Cobertura de sentencia.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Cobertura de decisiones.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Cobertura de condiciones.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Cobertura de legalidad.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q02- ¿CÚAL NO ES UN NIVEL DE PRUEBA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Pruebas unitarias.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Pruebas de integración.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Pruebas de sistema.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Pruebas de equivalencia.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q03- ¿CÚAL NO ES UNA ESTRATEGIA DE COMBINACIÓN?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "AETG.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "POM.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "RANDOM.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "ANTIRANDOM",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q04- ¿CÚAL NO ES UNA METODOLOGÍA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "TDD.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "BDD.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "ATDD.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "PUD.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q05- ¿CÚAL NO ES UNA VENTAJA DE LA MUTACIÓN?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Conduce a mayores niveles de cobertura.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Permite descubrir ambigüedades en el código fuente probado.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "No es aplicable en todos los proyectos ya que implica la modificación de código fuente.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Se puede usar como indicador de lo bueno o malo que es un conjunto de casos de prueba.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q06- ¿QUÉ ES UN ERROR?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Equivocación realizada por una persona.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Error al realizar alguna actividad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Desvío respecto al comportamiento requerido del sistema.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Equivoacación al realizar un desvío sobre alguna actividad.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q07- ¿EN LAS PRUEBAS DE CAJA NEGRA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Se mide la eficiencia del sistema.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Se conoce estructura interna del programa.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Se realiza un análisis de errores.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Se conoce sus entradas y salidas.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q08- ¿CUÁL NO ES UN SUBTIPO DE PRUEBA DE REQUISITOS NO FUNCIONALES?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Pruebas de recuperación.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Pruebas de seguridad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Pruebas de comportamiento funional.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Pruebas de rendimiento.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q09- ¿UNA DECISIÓN ES...?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Un secuencia de instrucciones.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Una secuencia de condiciones.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Una secuencia de secuencias.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Ninguna de las anteriores.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q10- ¿CUÁL DE LAS SIGUIENTES NO NOS AYUDA A SELECCIONAR BUENOS VALORES DE LAS CLASES DE EQUIVALENCIA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Valores límite.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Variante inferior.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Variante pesada.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Conjetura de errores.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q11- ¿CUÁL DE LAS SIGUIENTES CARACTERÍSTICAS RELACIONADAS CON LAS PRUEBAS FUNCIONALES ES FALSA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Las entradas/salidas son conocidas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Los elementos bajo prueba se ejecutan con un conjunto de datos de entrada.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Los datos de salida se comparan con los datos esperados.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Los datos de salida no se observan.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q12- ¿QUÉ MODELO DE PRUEBAS DEBEMOS REALIZAR AL ANÁLISIS DE REQUISITOS?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Diseño de pruebas de aceptación.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Diseño de Pruebas de Sistema.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Diseño de Prueba de Integracion.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Diseño de Pruebas Unitarias.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q13- DESCRIBA LA SITUACION EN LA QUE ALCANZAMOS LA COBERTURA DE CONDICIONES EN UNA PRUEBA",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Se cumple cuando al menos una condición es evaluada como verdadera y falsa al menos una vez.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Se cumple cuando cada condición es evaluada como verdadera y falsa al menos una vez.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Se cumple cuando cada condición es evaluada como verdadera al menos una vez.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Se cumple cuando cada condición es evaluada como falsa al menos una vez.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q14- UN CASO DE PRUEBA NO ES",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Un conjunto de valores de entrada.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Un conjunto de resultados esperados.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Uno o varios conjuntos de pruebas.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Un conjunto de condiciones previas para la ejecución.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q15- CUAL NO ES UNA ESTRATEGIA PARA SELECCIONAR VALORES LÍMITE",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Variante ligera.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Variante pesada.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Variante alta.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Todas las demás son correctas.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q16- CUAL ES UNA DE LAS CARACTERISTICAS DE LAS PRUEBAS DE INTEGRACION",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Se suelen hacer pruebas de caja blanca y normalmente se",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Por su naturaleza siempre de caja negra y no suelen ser automatizadas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Por su naturaleza, son de caja negra y se pueden automatizar.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Se tiende a ir probando la arquitectura de software.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q17- CUAL NO ES UN CRITERIO DE COBERTURA",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Todos los impares",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Todas las tuplas de n elementos",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Cada uso",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Todos los pares",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q18- CUAL ESTRATEGIA DE COMBINACION TIENE EN CUENTA POSIBLES RESTRICCIONES ENTRE PARES",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Random",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "AETG",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "PROW",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Antirandom",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q19- CUANDO TIENE MAS EXITO UN TESTER",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Cuantos menos errores encuentra",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Cuantos mas errores encuentra",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Cuando le dedica mucho tiempo a testear un sistema",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Cuando testea mas sistemas en menos tiempo",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q20- EN LAS PRUEBAS DE CAJA BLANCA",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Se conoce estructura interna del programa a probar",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Se conoce sus entradas y salidas",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Se observan las salidas producidas",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Todas son correctas",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q21- ¿POR QUÉ NO ES APLICABLE EN TODOS LOS PROYECTOS LA TÉCNICA DE PRUEBAS DE MUTACIÓN?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Porque no conduce a mayores niveles de cobertura.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Porque no descubre ambigüedades en el código fuente.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Porque implica la modificación del código fuente, específicamente para pruebas de caja blanca.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Porque genera un número reducido de mutantes que no son efectivos para la prueba.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q22- ¿QUÉ PATRÓN SE UTILIZA COMÚNMENTE PARA DEFINIR LAS CARACTERÍSTICAS EN BEHAVIOUR-DRIVEN DEVELOPMENT (BDD)?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Given-When-Then.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Try-Catch-Finally.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "If-Else-End.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "While-Do-Until.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q23- ¿QUIÉN DEFINE LAS PRUEBAS DE ACEPTACIÓN EN ABDD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Los desarrolladores.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "El equipo de pruebas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "El cliente.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "El equipo de gestión de proyectos.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q24- ¿QUÉ DIFERENCIA LA ESTRATEGIA ANTIRANDOM AL ELEGIR LOS CASOS DE PRUEBA EN COMPARACIÓN CON OTRAS ESTRATEGIAS?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Selecciona casos de prueba basados en su similitud con los casos ya seleccionados.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Utiliza técnicas de aleatoriedad para generar casos de prueba.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Ordena al azar los parámetros para la elección de valores.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Genera casos de prueba con una diferencia basada en la distancia Hamming.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q25- ¿EN QUÉ TIPO DE METODOLOGÍAS SE UTILIZA COMÚNMENTE EL TEST-DRIVEN DEVELOPMENT (TDD)?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Metodologías predictivas.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Metodologías ágiles.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Metodologías tradicionales.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Metodologías incrementales.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q26- ¿CUÁL NO ES UN VALOR DE PRUEBA CORRECTO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Valores límite",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Variante ligera",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Variante pesada",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Variante espicial",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q27- ¿CUÁL DE ESTOS TERMINOS ES POR DEFINICIÓN CULPA DE UNA PERSONA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Error",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Defecto",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Fallo",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Falta",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q28- PRUEBAS EXHAUSTIVAS NO REQUIERE PROBAR",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Todas las combinaciones válidas e inválidas",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Todos los estados posibles del programa",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Todos los puntos de entrada de ejecución",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Todos los posibles errores de compilación",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q29- ¿CUÁL NO ES UN SUBTIPO DE PRUEBA DE SISTEMA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Pruebas de recuperación",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Pruebas de seguridad",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Pruebas de aguante",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Pruebas de rendimiento",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q30- ¿CUÁL ES LA DIFERENCIA ENTRE TEST CASE Y TEST SUITE EN PRUEBAS DE SOFTWARE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "El test case prueba un módulo y el test suite prueba todo.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "El test case mide la seguridad y el test suite mide el rendimiento.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "El test case prueba todo y el test suite prueba un módulo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "El test case mide el rendimiento y el test suite mide la seguridad.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q31- ¿CUÁL ES EL TIPO DE COBERTURA MÁS DIFÍCIL DE CONSEGUIR?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Cobertura de sentencia.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Cobertura de decisiones.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Cobertura de condiciones.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Cobertura múltiple de condiciones.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q32- ¿QUÉ NOMBRE RECIBE LA SUPOSICIÓN DE VALORES QUE PODRÍAN REVELAR COMPORTAMIENTOS INCORRECTOS EN EL SISTEMA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Cobertura de sentencia.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Conjetura de errores.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Estimación de errores.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Proposición de defectos.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q33- ¿CUÁL ES UN OBJETIVO DE LAS PRUEBAS DE MUTACIÓN?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Diseñar nuevas pruebas de software.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Añadir casos de prueba adicionales.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Lograr algún criterio de cobertura.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Conocer el negocio a través del sistema.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q34- ¿QUÉ SIGNIFICADO TIENEN LAS SIGLAS BDD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Behavior-Driven Development.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Binary Data Description.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Base Design Comunication.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Backward Data Deployment.",
+                    "isCorrect": false
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "examName": "B01-L5",
+    "questions": [
+          {
+            "text": "01- ¿CUÁL ES EL OBJETIVO DEL MANTENIMIENTO ADAPTIVO?:",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Orientado a la incorporación de nuevas funcionalidades",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Mejorar o añadir funcionalidad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Adaptarse a cambios en el entorno de trabajo.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Busca la mejora de la eficiencia de ejecución.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q02- ¿CUALES SON UN SUBTIPO DEL MANTENIMIENTO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Ampliación y Eficiencia.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Ampliación y Codificación.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Regresión y Eficiencia.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Codificación y Eficiencia.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q03- ¿QUÉ ES LA REINGENIERÍA DEL SOFTWARE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Lleva a cabo el mantenimiento evolutivo del grado de efectividad y eficiencia.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Hace posible llevar a cabo el mantenimiento evolutivo de sistemas de información existentes asumiendo riesgos y costes altos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Entre los procesos se encuentra el de mantenimiento y retirada del software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Hace posible llevar a cabo el mantenimiento evolutivo de sistemas de información existentes asumiendo riesgos y costes bajos.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q04- ¿CUÁL ES UNA DE LAS PRINCIPALES CAUSAS DE LOS DEFECTOS QUE CONDUCEN A MANTENIMIENTO CORRECTIVO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Especificación y Diseño.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Estandares.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Interfaz Software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Interfaz Hardware.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q05- ¿CÚAL ES EL OBJETIVO DEL MANTENIMIENTO PREDICTIVO (EVOLUTIVO)?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Localizar y eliminar defectos que potencialmente pueden causar fallos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Mejorar o añadir funcionalidad debido a cambios en los requisitos de un producto software.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Puede consistir en localizar el error y determinar su causa, o en comprender los requisitos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Cobertura de total del Software.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q06- ¿CÚAL NO ES UN TIPO DE FALLO CORRECTIVO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Procesamiento.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Rendimiento.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Programación.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Legal.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q07- ¿CÚAL NO ES CAMBIO QUE AFECTA A UN MANTENIMIENTO ADAPTATIVO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Rendimiento.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Arquitectura física del sistema informático.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Entorno de desarrollo del software.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Sistema operativo.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q08- ¿CÚAL NO ES UN TIPO DE MANTENIMIENTO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Mantemiento Perfectivo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Mantenimiento Correctivo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Mantenimiento Preventivo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Mantenimiento legislativo.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q09- ¿CÚAL ES LA TEORÍA DE LAS VENTANAS ROTAS?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Localizar y eliminar defectos que potencialmente pueden causar fallos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "La prevención de pequeños actos vandálicos en una zona como romper los cristales de una ventana previenen crímenes mayores.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Hace posible llevar a cabo el mantenimiento evolutivo de sistemas de información existentes asumiendo riesgos y costes altos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Hace posible llevar a cabo el mantenimiento evolutivo de sistemas de información existentes asumiendo riesgos y costes bajos.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q10- ¿CÚAL NO ES UNA NECESIDAD DE TENER MÉTRICAS O INDICADORES DE MANTENIBILIDAD?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Código duplicado.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Complejidad ciclomática.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "No es necesario tener métricas de mantenimiento se mantiene solo.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Tamaño de unidades.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q11- ADAPTAR EL SISTEMA A LOS CAMBIOS DEL ENTORNO ES",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Un mantenimiento adaptativo.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Un mantenimiento perfectivo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Un mantenimiento preventivo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Un mantenimiento correctivo.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q12- ¿CUÁL NO ES UNA SOLUCIÓN TÉCNICA DE MANTENIMIENTO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "La ingeniería inversa.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Reestructuración.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Ingeniería directa.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Todas las demás son soluciones técnicas de mantenimiento.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q13- ¿QUÉ TIPO DE MANTENIMIENTO TIENE UN COSTE RELATIVO MÁS ELEVADO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Correctivo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Preventivo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Adaptativo.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Perfectivo.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q14- ¿CUÁL DE LAS SIGUIENTES SITUACIONES SERÁ UNA BUENA PRÁCTICA DE GESTIÓN ESTRUCTURADA?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Conocer y comprender el flujo de control del programa.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Utilizar compiladores y analizadores.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Añadir comprobación de errores, pruebas de regresión, etc.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Todas son correctas.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q15- ¿POR QUÉ PUEDE SURGIR LA NECESIDAD DE MANTENIMIENTO DEL SOFTWARE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Obsolencia técnica del sistema.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Cambios en el sistema interconectado o en la infraestructura.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Evolución de las amenazas a la seguridad.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Todas las demás respuestas son correctas.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q16- ¿EN QUÉ CONSISTE LA ACTIVIDAD DE \"COMPRENSIÓN DEL CAMBIO\" DURANTE EL PROCESO DE MANTENIMIENTO DE SOFTWARE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Localizar errores y determinar su causa.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Diseñar cambios en el sistema.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Comprobar diseños alternativos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Reuniones de inspección.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q17- ¿QUÉ IMPLICA LA FASE DE \"DISEÑO DEL CAMBIO\" EN EL MANTENIMIENTO DE SOFTWARE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Codificar y probar componentes modificados.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Incluir un rediseño del sistema propuesto.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "text": "Inspeccionar cambios y diseños.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Comprobar la facilidad de operación.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q18- ¿CUÁL ES EL PROPÓSITO DE LAS PRUEBAS UNITARIAS DURANTE EL MANTENIMIENTO DE SOFTWARE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Inspeccionar los cambios realizados.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Comprobar otros diseños alternativos.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Codificar y probar cada componente modificado.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Evaluar la facilidad de operación.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q19- ¿QUÉ HACEN LAS PRUEBAS DE REGRESIÓN EN EL MANTENIMIENTO DE SOFTWARE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Verificar la adaptación del cambio a las necesidades del usuario.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Comprobar la integración de componentes modificados.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Evaluar casos de pruebas almacenados.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Someter el software modificado a pruebas previamente superadas.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q20- ¿QUÉ HACEN LAS PRUEBAS DE INTEGRACIÓN EN EL MANTENIMIENTO DE SOFTWARE?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Comprobar la adaptación del cambio a las necesidades del usuario.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Evaluar casos de pruebas previamente almacenados.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Verificar la integración de componentes modificados con el sistema.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "text": "Someter el software a pruebas de aceptación.",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Q21- ¿CUAL NO ES UN TIPO DE PRUEBA DE LAS ACTIVIDADES DE MANTENIMIENTO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Pruebas de Aceptacion.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "text": "Pruebas de Integracion.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Pruebas de Regresion.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Prubas de Rendimiento.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "text": "Q22- ¿QUE GRUPO DE LAS ACTIVIDADES DE MANTENIMIENTO CONLLEVAN MAYOR ESFUERZO?",
+            "options": [
+                {
+                    "id": 0,
+                    "text": "Implementacion.",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1,
+                    "text": "Diseño.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "text": "Analisis y Comprension.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "text": "Todas conllevan el mismo esfuerzo.",
+                    "isCorrect": false
+                }
+            ]
+        }
+    ]
+  }
 ]
