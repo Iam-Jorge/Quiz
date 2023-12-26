@@ -3598,5 +3598,231 @@
             ]
         }
     ]
+  },
+  {
+    "examName": "TestM",
+    "questions": [
+          {
+            "text": "En el modelo de Ciclo de Vida en cascada…",
+            "options": [
+                {"id": 0,"text": "Se divide el proceso de desarrollo en un conjunto de etapas secuenciales, y una etapa no puede empezar hasta que no haya terminado la anterior.","isCorrect": true},
+                {"id": 1,"text": "El sistema se va desarrollando en incrementos, y finalmente el sistema es el resultado de la integración de todos los componentes. ","isCorrect": false},
+                {"id": 2,"text": "Se genera un único documento al final del proyecto.","isCorrect": false},
+                {"id": 3,"text": "Se divide el proceso de desarrollo en un conjunto de etapas que pueden desarrollarse de forma paralela.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "Señala cuál de las siguientes NO es una característica deseable para una metodología",
+            "options": [
+                {"id": 0,"text": "Fomentar la reutilización del software","isCorrect": false},
+                {"id": 1,"text": "Estar soportada por las herramientas CASE","isCorrect": false},
+                {"id": 2,"text": "Estar enfocada únicamente a proyectos grandes","isCorrect": true},
+                {"id": 3,"text": "Fácil formación","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿En qué tres categorías se pueden clasificar las metodologías estructuradas?",
+            "options": [
+                {"id": 0,"text": "Orientadas a procesos, orientadas a datos y mixtas","isCorrect": true},
+                {"id": 1,"text": "Orientadas a objetos, orientadas a procesos y orientadas a datos","isCorrect": false},
+                {"id": 2,"text": "Orientadas a la formación, orientadas a datos y orientadas a procesos. ","isCorrect": false},
+                {"id": 3,"text": "Orientadas al cliente, orientadas a stakeholder y mixtas.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Qué ciclo de vida es útil para realizar una migración de software desde un entorno tecnológico obsoleto?",
+            "options": [
+                {"id": 0,"text": "Modelo en Cascada","isCorrect": true},
+                {"id": 1,"text": "Modelo Incremental","isCorrect": false},
+                {"id": 2,"text": "Modelo en Espiral","isCorrect": false},
+                {"id": 3,"text": "SCRUM","isCorrect": false}
+            ]
+        },
+        {
+            "text": "",
+            "options": [
+                {"id": 0,"text": "","isCorrect": false},
+                {"id": 1,"text": "","isCorrect": false},
+                {"id": 2,"text": "","isCorrect": false},
+                {"id": 3,"text": "","isCorrect": false}
+            ]
+        },
+        {
+            "text": "Señala la opción INCORRECTA relativa a la definición de Proceso de Desarrollo Software.",
+            "options": [
+                {"id": 0,"text": "Un proceso define quién está haciendo qué, cuándo y cómo para alcanzar un determinado objetivo.","isCorrect": false},
+                {"id": 1,"text": "Un proceso software debe evolucionar a medida que avanza la organización.","isCorrect": false},
+                {"id": 2,"text": "Un proceso de desarrollo software está limitado a las realidades que permiten las tecnologías, herramientas, personas y patrones de la organización","isCorrect": false},
+                {"id": 3,"text": "Un proceso software establece un camino para desarrollar software de manera sistemática, proporcionando un estándar de trabajo a la organización.","isCorrect": true}
+            ]
+        },
+        {
+            "text": "Las características básicas del Proceso Unificado de Desarrollo son:",
+            "options": [
+                {"id": 0,"text": "Centrado en la arquitectura, Iterativo e Incremental y Dirigido por Casos de Uso.","isCorrect": true},
+                {"id": 1,"text": "Centrado en la arquitectura, Dirigido por Casos de Uso y con Soporte al Mantenimiento.","isCorrect": false},
+                {"id": 2,"text": "Dirigido por Casos de Uso, Iterativo e Incremental y con Soporte al Mantenimiento.","isCorrect": false},
+                {"id": 3,"text": "Ninguna de las anteriores","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuáles son las cuatro fases destacadas en el PUD?",
+            "options": [
+                {"id": 0,"text": "Inicio, Elaboración, Construcción, Transición.","isCorrect": true},
+                {"id": 1,"text": "Análisis, Diseño, Implementación y Pruebas","isCorrect": false},
+                {"id": 2,"text": "Análisis de Requisitos, Diseño Inicial, Diseño detallado y Codificación.","isCorrect": false},
+                {"id": 3,"text": "Inicio, Diseño, Construcción y Entrega","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál es el objetivo de la Fase de Elaboración en el PUD?",
+            "options": [
+                {"id": 0,"text": "Crear el producto acorde con los casos de uso que la dirección y el cliente han acordado.","isCorrect": false},
+                {"id": 1,"text": "Diseñar la arquitectura del sistema","isCorrect": true},
+                {"id": 2,"text": "Entregar el producto. ","isCorrect": false},
+                {"id": 3,"text": "Identificar y priorizar los riesgos más importantes del proyecto","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál de los siguientes NO es un objetivo de la Fase de Inicio en el PUD?",
+            "options": [
+                {"id": 0,"text": "Realizar una estimación del proyecto de manera aproximada","isCorrect": false},
+                {"id": 1,"text": "Identificar y priorizar los riesgos más importantes del proyecto","isCorrect": false},
+                {"id": 2,"text": "Se especifican en detalle la mayoría de los casos de uso del producto","isCorrect": true},
+                {"id": 3,"text": "Se planifica en detalle la fase de elaboración","isCorrect": false}
+            ]
+        },
+        {
+            "text": "El objetivo de la disciplina de Despliegue es:",
+            "options": [
+                {"id": 0,"text": "Comprobar que el funcionamiento es el correcto analizando diversos aspectos: objetos como unidades, integración…","isCorrect": false},
+                {"id": 1,"text": "Plasmar un modelo de análisis y un modelo de diseño.","isCorrect": false},
+                {"id": 2,"text": "Crear la versión externa del producto, empaquetarla, distribuirla e instalarla.","isCorrect": true},
+                {"id": 3,"text": "Implementar los modelos de diseño","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál de las siguientes NO es una característica de SCRUM?",
+            "options": [
+                {"id": 0,"text": "El desarrollo del Software se realiza mediante iteraciones incrementales.","isCorrect": false},
+                {"id": 1,"text": "Es una metodología de gestión de proyectos, únicamente, de desarrollo software","isCorrect": true},
+                {"id": 2,"text": "Se celebran reuniones de coordinación a lo largo del proyecto","isCorrect": false},
+                {"id": 3,"text": "No se prescriben prácticas específicas de ingeniería. ","isCorrect": false}
+            ]
+        },
+        {
+            "text": "Cuando se utiliza SCRUM, el producto avanza en series de un mes de longitud llamados:",
+            "options": [
+                {"id": 0,"text": "product backlog","isCorrect": false},
+                {"id": 1,"text": "sprints","isCorrect": true},
+                {"id": 2,"text": "scrum master","isCorrect": false},
+                {"id": 3,"text": "product owner","isCorrect": false}
+            ]
+        },
+        {
+            "text": "Un equipo SCRUM está formado por:",
+            "options": [
+                {"id": 0,"text": "Un Jefe de proyecto, un Scrum Master y un Equipo de Desarrollo","isCorrect": false},
+                {"id": 1,"text": "Un Dueño del producto, un Scrum Master y un Equipo de desarrollo","isCorrect": true},
+                {"id": 2,"text": "Un Jefe de proyecto, un Dueño del producto y un Equipo de desarrollo","isCorrect": false},
+                {"id": 3,"text": "Clientes, un Dueño del producto y un Equipo de desarrollo","isCorrect": false}
+            ]
+        },
+        {
+            "text": "El ScrumMaster es el encargado de:",
+            "options": [
+                {"id": 0,"text": "Asegurar que el equipo permanece totalmente funcional y productivo.","isCorrect": true},
+                {"id": 1,"text": "Definir las características del producto.","isCorrect": false},
+                {"id": 2,"text": "Aceptar o rechazar los resultados del trabajo","isCorrect": false},
+                {"id": 3,"text": "Decidir sobre las fechas de publicación y su contenido","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál de las siguientes NO es una cualidad de la pila de producto o Product Backlog?",
+            "options": [
+                {"id": 0,"text": "Estimado","isCorrect": false},
+                {"id": 1,"text": "Iterativo","isCorrect": true},
+                {"id": 2,"text": "Grado de detalle Adecuado","isCorrect": false},
+                {"id": 3,"text": "Emergente","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuáles son las características de Calidad?",
+            "options": [
+                {"id": 0,"text": "Multidimensional, no es absoluta, Está sujeta a restricciones, Ligada a compromisos aceptables, los criterios de calidad son independientes.","isCorrect": false},
+                {"id": 1,"text": "Multidimensional, absoluta, Está sujeta a restricciones, Ligada a compromisos aceptables, los criterios de calidad no son independientes.","isCorrect": false},
+                {"id": 2,"text": "Multidimensional, no es absoluta, Está sujeta a restricciones, Ligada a compromisos aceptables, los criterios de calidad no son independientes.","isCorrect": true},
+                {"id": 3,"text": "Ninguna de las anteriores","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Qué marco genérico permite a una organización comprender el estado de sus propios procesos y determinar la idoneidad de sus procesos?",
+            "options": [
+                {"id": 0,"text": "ISO 33000","isCorrect": true},
+                {"id": 1,"text": "ISO 27001","isCorrect": false},
+                {"id": 2,"text": "ISO 9001","isCorrect": false},
+                {"id": 3,"text": "ISO 41000","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál de los siguientes es un propósito de la Gestión de Configuración (CM)?",
+            "options": [
+                {"id": 0,"text": "Todas son correctas","isCorrect": true},
+                {"id": 1,"text": "Registrar e informar de cada cambio y su estado en la implementación","isCorrect": false},
+                {"id": 2,"text": "Dar soporte a la auditoría de los productos, resultados, servicios o componentes para verificar la conformidad con respecto a los requisitos.","isCorrect": false},
+                {"id": 3,"text": "Identificar y documentar las características funcionales y físicas de cualquier producto, componente, resultado o servicio.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "",
+            "options": [
+                {"id": 0,"text": "","isCorrect": false},
+                {"id": 1,"text": "","isCorrect": false},
+                {"id": 2,"text": "","isCorrect": false},
+                {"id": 3,"text": "","isCorrect": false}
+            ]
+        },
+        {
+            "text": "La Línea Base (Baseline) de un proyecto es:",
+            "options": [
+                {"id": 0,"text": "Versión aprobada de un elemento de configuración que independientemente del medio, es formalmente designado y fijado en un momento específico de tiempo durante el ciclo de vida del elemento de configuración.","isCorrect": true},
+                {"id": 1,"text": "Grupo de personas responsables de evaluar y aceptar o rechazar los cambios propuestos a los elementos de configuración.","isCorrect": false},
+                {"id": 2,"text": "Disciplina del desarrollo del software que se centra en la identificación y documentación de las características físicas y funcionales de los elementos de configuración.","isCorrect": false},
+                {"id": 3,"text": "Tipo específico de repositorio para el mantenimiento de la información de la CM.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "Configuration Management Database (CMDB) es:",
+            "options": [
+                {"id": 0,"text": "Tipo específico de repositorio para el mantenimiento de la información de la CM","isCorrect": true},
+                {"id": 1,"text": "Un plan que describe qué proporciones de las funcionalidades de un sistema serán implementadas en cada release","isCorrect": false},
+                {"id": 2,"text": "Conjunto software liberada/publicada de una aplicación, que puede contener todo o parte de dicha aplicación","isCorrect": false},
+                {"id": 3,"text": "Identificador explícito de una versión de software insertado en cada elemento de configuración","isCorrect": false}
+            ]
+        },
+        {
+            "text": "",
+            "options": [
+                {"id": 0,"text": "","isCorrect": false},
+                {"id": 1,"text": "","isCorrect": false},
+                {"id": 2,"text": "","isCorrect": false},
+                {"id": 3,"text": "","isCorrect": false}
+            ]
+        }
+    ]
+  },
+  {
+    "examName": "Otros",
+    "questions": [
+        {
+            "text": "",
+            "options": [
+                {"id": 0,"text": "","isCorrect": false},
+                {"id": 1,"text": "","isCorrect": false},
+                {"id": 2,"text": "","isCorrect": false},
+                {"id": 3,"text": "","isCorrect": false}
+            ]
+        }
+    ]
   }
 ]
