@@ -2587,5 +2587,143 @@
         ]
       }
     ]
+  },
+  {
+    "examName": "Otros",
+    "questions": [
+      {
+        "text": "Atendiendo a la ejecución del siguiente sistema distribuido, ¿Qué reloj de Lamport tiene el evento e8?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Otros-1.JPG",
+        "options": [
+          { "id": 0, "text": "3", "isCorrect": true },
+          { "id": 1, "text": "4", "isCorrect": false },
+          { "id": 2, "text": "5", "isCorrect": false },
+          { "id": 2, "text": "6", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "A la vista de la siguiente ejecución de do transacciones concurrentes, ¿qué problem detecta en la ejecución?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Otros-2.JPG",
+        "options": [
+          { "id": 0, "text": "Ninguno", "isCorrect": false },
+          { "id": 1, "text": "Actualizaciones perdidas", "isCorrect": true },
+          { "id": 2, "text": "Lectura sucia", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "A la vista de la siguiente ejecución de dos transacciones concurrentes, ¿qué problema detecta en la ejecución?",
+        "options": [
+          { "id": 0, "text": "Ninguno", "isCorrect": false },
+          { "id": 1, "text": "Actualizaciones perdidas", "isCorrect": false },
+          { "id": 2, "text": "Lectura sucia", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En la prevención de escrituras prematuras, el retraso de lecturas y escrituras a objetos modificados por transacciones no consumadas..",
+        "options": [
+          { "id": 0, "text": "No sirve de nada", "isCorrect": false },
+          { "id": 1, "text": "Garantiza la condición de aislamiento pero reduce el paralelismo", "isCorrect": true },
+          { "id": 2, "text": "No Garantiza la condición de aislamiento pero aumenta el paralelismo.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Que algoritmo de los siguientes le permite seleccionar un proceso que actué de lider en un sistema distribuido?",
+        "options": [
+          { "id": 0, "text": "Chandy-Lampor", "isCorrect": false },
+          { "id": 1, "text": "Chang y Roberts", "isCorrect": true },
+          { "id": 2, "text": "Marzullo-Neiger", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Indique cual es el error cometido por un Cliente que se sincroniza con un Servidor atendiendo a los siguientes datos; El cliente envió el mensaje de sincronización en el instante 50 y recibió el mensaje de vuelta por parte del servidor en el instante 80 con un valor del tiempo del servidor de 49. Aplique el algoritmo de Cristian",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Otros-4.JPG",
+        "options": [
+          { "id": 0, "text": "15", "isCorrect": true },
+          { "id": 1, "text": "30", "isCorrect": false },
+          { "id": 2, "text": "64", "isCorrect": false },
+          { "id": 2, "text": "-1", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El reloj de Lamport del evento e6 es",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Otros-4.JPG",
+        "options": [
+          { "id": 0, "text": "[4,1]", "isCorrect": false },
+          { "id": 1, "text": "3", "isCorrect": true },
+          { "id": 2, "text": "[3,2]", "isCorrect": false },
+          { "id": 2, "text": "4", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El reloj de Vectorial del evento e6 es:",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Otros-4.JPG",
+        "options": [
+          { "id": 0, "text": "3", "isCorrect": false },
+          { "id": 1, "text": "[4,1]", "isCorrect": false },
+          { "id": 2, "text": "4", "isCorrect": false },
+          { "id": 2, "text": "[3,2]", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿El siguiente “corte1” es consistente para el sistema visualizado?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Otros-5.JPG",
+        "options": [
+          { "id": 0, "text": "Sí", "isCorrect": true },
+          { "id": 1, "text": "No", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿El siguiente “Corte 2” es consistente para el sistema visualizado?:",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Otros-6.JPG",
+        "options": [
+          { "id": 0, "text": "Sí", "isCorrect": false },
+          { "id": 1, "text": "No", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Cual de los siguientes algoritmos te permite salvar una “fotografía” instantánea de un sistema distribuido:",
+        "options": [
+          { "id": 0, "text": "Algoritmo Berkeley", "isCorrect": false },
+          { "id": 1, "text": "Algoritmo Marzullo-Neiger", "isCorrect": false },
+          { "id": 2, "text": "Algoritmo Cristian", "isCorrect": false },
+          { "id": 2, "text": "Algoritmo Chandy-Lamport", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Cual de los siguientes algoritmos te permite comprobar, partiendo del diagrama de estados globales consistentes, si la condición “no hay Interbloqueo” es segura para dicho diagrama. ",
+        "options": [
+          { "id": 0, "text": "Algoritmo Berkeley", "isCorrect": false },
+          { "id": 1, "text": "Algoritmo Marzullo-Neiger", "isCorrect": true },
+          { "id": 2, "text": "Algoritmo Cristian", "isCorrect": false },
+          { "id": 2, "text": "Algoritmo Chandy-Lamport", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un sistema distribuido existen 8 procesos conectados en anillo (P1->P2->P3->P4->P5->P6->P7->P8->P1) en el cual el testigo se encuentra actualmente en el proceso P7 (el cual no quiere el recurso) y el proceso P4 quiere acceder al recurso (es el único proceso que quiere acceder al recurso). Si cada mensaje tarda 10 milisegundos, cuanto tiempo tiene que esperar como máximo P4 para acceder a dicho recurso. ",
+        "options": [
+          { "id": 0, "text": "80", "isCorrect": false },
+          { "id": 1, "text": "50", "isCorrect": true },
+          { "id": 2, "text": "30", "isCorrect": false },
+          { "id": 2, "text": "70", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Qué condición NO se cumple en el sistema distribuido de la pregunta anterior:",
+        "options": [
+          { "id": 0, "text": "Seguridad", "isCorrect": false },
+          { "id": 1, "text": "Liveness", "isCorrect": false },
+          { "id": 2, "text": "Orden", "isCorrect": false },
+          { "id": 2, "text": " Todas las propiedades anteriores se cumplen", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Los requisitos deseables que debe cumplir un algoritmo de exclusión muta distribuida es:",
+        "options": [
+          { "id": 0, "text": "Seguridad, Liveness y Orden", "isCorrect": true },
+          { "id": 1, "text": "Seguridad y Pervivencia", "isCorrect": false },
+          { "id": 2, "text": "Seguridad y Orden", "isCorrect": false }
+        ]
+      }
+    ]
   }
 ]
