@@ -2598,7 +2598,7 @@
           { "id": 0, "text": "3", "isCorrect": true },
           { "id": 1, "text": "4", "isCorrect": false },
           { "id": 2, "text": "5", "isCorrect": false },
-          { "id": 2, "text": "6", "isCorrect": false }
+          { "id": 3, "text": "6", "isCorrect": false }
         ]
       },
       {
@@ -2641,7 +2641,7 @@
           { "id": 0, "text": "15", "isCorrect": true },
           { "id": 1, "text": "30", "isCorrect": false },
           { "id": 2, "text": "64", "isCorrect": false },
-          { "id": 2, "text": "-1", "isCorrect": false }
+          { "id": 3, "text": "-1", "isCorrect": false }
         ]
       },
       {
@@ -2651,7 +2651,7 @@
           { "id": 0, "text": "[4,1]", "isCorrect": false },
           { "id": 1, "text": "3", "isCorrect": true },
           { "id": 2, "text": "[3,2]", "isCorrect": false },
-          { "id": 2, "text": "4", "isCorrect": false }
+          { "id": 3, "text": "4", "isCorrect": false }
         ]
       },
       {
@@ -2661,7 +2661,7 @@
           { "id": 0, "text": "3", "isCorrect": false },
           { "id": 1, "text": "[4,1]", "isCorrect": false },
           { "id": 2, "text": "4", "isCorrect": false },
-          { "id": 2, "text": "[3,2]", "isCorrect": true }
+          { "id": 3, "text": "[3,2]", "isCorrect": true }
         ]
       },
       {
@@ -2686,7 +2686,7 @@
           { "id": 0, "text": "Algoritmo Berkeley", "isCorrect": false },
           { "id": 1, "text": "Algoritmo Marzullo-Neiger", "isCorrect": false },
           { "id": 2, "text": "Algoritmo Cristian", "isCorrect": false },
-          { "id": 2, "text": "Algoritmo Chandy-Lamport", "isCorrect": true }
+          { "id": 3, "text": "Algoritmo Chandy-Lamport", "isCorrect": true }
         ]
       },
       {
@@ -2695,7 +2695,7 @@
           { "id": 0, "text": "Algoritmo Berkeley", "isCorrect": false },
           { "id": 1, "text": "Algoritmo Marzullo-Neiger", "isCorrect": true },
           { "id": 2, "text": "Algoritmo Cristian", "isCorrect": false },
-          { "id": 2, "text": "Algoritmo Chandy-Lamport", "isCorrect": false }
+          { "id": 3, "text": "Algoritmo Chandy-Lamport", "isCorrect": false }
         ]
       },
       {
@@ -2704,7 +2704,7 @@
           { "id": 0, "text": "80", "isCorrect": false },
           { "id": 1, "text": "50", "isCorrect": true },
           { "id": 2, "text": "30", "isCorrect": false },
-          { "id": 2, "text": "70", "isCorrect": false }
+          { "id": 3, "text": "70", "isCorrect": false }
         ]
       },
       {
@@ -2713,7 +2713,7 @@
           { "id": 0, "text": "Seguridad", "isCorrect": false },
           { "id": 1, "text": "Liveness", "isCorrect": false },
           { "id": 2, "text": "Orden", "isCorrect": false },
-          { "id": 2, "text": " Todas las propiedades anteriores se cumplen", "isCorrect": true }
+          { "id": 3, "text": " Todas las propiedades anteriores se cumplen", "isCorrect": true }
         ]
       },
       {
