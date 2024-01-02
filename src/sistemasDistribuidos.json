@@ -3,7 +3,7 @@
     "examName": "Ex-Jun-23",
     "questions": [
       {
-        "text": "Marca cuál de las siguientes afirmaciones es cierta:",
+        "text": "Marca cuál de las siguientes afirmaciones cierta:",
         "options": [
           { "id": 0, "text": "En comunicación indirecta existe un desacoplamiento en espacio y tiempo entre los participantes.", "isCorrect": true },
           { "id": 1, "text": "Implementar comunicación indirecta es apropiado para la difusión de eventos, pero cuando los receptores son bien conocidos y no suelen cambiar.", "isCorrect": false },
