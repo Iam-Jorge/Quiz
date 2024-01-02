@@ -1,6 +1,6 @@
 [
   {
-    "examName": "Verdadero-Falso",
+    "examName": "V/F-1",
     "questions": [
       {
         "text": "En el proceso de refinamiento de un diseño, el proceso básico es pasar de una descripción funcional a una estructural.",
@@ -71,7 +71,12 @@
           { "id": 0, "text": "Verdadero.", "isCorrect": true },
           { "id": 1, "text": "Falso.", "isCorrect": false }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "examName": "V/F-2",
+    "questions": [
       {
         "text": "El intervalo de iniciación de una unidad funcional encauzada será uno sólo si existe el camino de anticipación correspondiente",
         "options": [
@@ -141,7 +146,12 @@
           { "id": 0, "text": "Verdadero.", "isCorrect": true },
           { "id": 1, "text": "Falso.", "isCorrect": false }
         ]
-      },
+      }
+    ]
+  }, 
+  {
+    "examName": "V/F-3",
+    "questions": [
       {
         "text": "La planificación global mediante la técnica de planificación de trazas permite mover instrucciones, aunque tengan dependencias de datos, más allá de los límites del bloque básico",
         "options": [
@@ -211,7 +221,12 @@
           { "id": 0, "text": "Verdadero.", "isCorrect": false },
           { "id": 1, "text": "Falso.", "isCorrect": true }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "examName": "V/F-4",
+    "questions": [
       {
         "text": "Los protocolos de coherencia caché basados en “fisgoneo” (snooping) están limitados por el anchode banda del bus de datos común",
         "options": [
@@ -281,7 +296,12 @@
           { "id": 0, "text": "Verdadero.", "isCorrect": false },
           { "id": 1, "text": "Falso.", "isCorrect": true }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "examName": "V/F-5",
+    "questions": [
       {
         "text": " La velocidad de los circuitos integrados crece más deprisa que su complejidad (cantidad de componentes.",
         "options": [
@@ -351,7 +371,12 @@
           { "id": 0, "text": "Verdadero.", "isCorrect": false },
           { "id": 1, "text": "Falso.", "isCorrect": true }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "examName": "V-F-6",
+    "questions": [
       {
         "text": "Si la relación rendimiento/coste de un producto es un 10% menor que la de otro producto similar, cabe esperar que se venderá un 10% menos.",
         "options": [
@@ -402,9 +427,9 @@
         ]
       }
     ]
-  },
+  }, 
   {
-    "examName": "Test",
+    "examName": "Test1",
     "questions": [
       {
         "text": "En sentido estricto, la ejecución concurrente de varios procesos consiste en:",
@@ -483,7 +508,12 @@
           { "id": 1, "text": "En torno a un 35% al año.", "isCorrect": true },
           { "id": 2, "text": "En torno a un 55% al año.", "isCorrect": false }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "examName": "Test2",
+    "questions": [
       {
         "text": "Según la ley de Amdahl, si una parte de un sistema consume la fracción F del tiempo que el sistema tarda en realizar una tarea, por mucho que aumente la ganancia en velocidad de esa parte, la ganancia en velocidad del sistema:",
         "options": [
@@ -562,7 +592,12 @@
           { "id": 1, "text": "Cuando I termina de ser procesada.", "isCorrect": false },
           { "id": 2, "text": "Cuando se sepa que I no puede provocar interrupción.", "isCorrect": false }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "examName": "Test3",
+    "questions": [
       {
         "text": "La latencia de una unidad funcional es:",
         "options": [
@@ -641,7 +676,12 @@
           { "id": 1, "text": "El compilador realizar una primera planificación estática del código con el fin de facilitar la labor del planificador hardware.", "isCorrect": false },
           { "id": 2, "text": "Los fallos de caché provocan la parada completa del procesador.", "isCorrect": true }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "examName": "Test4",
+    "questions": [
       {
         "text": "¿Cuál de las siguientes afirmaciones sobre los procesadores superescalares es falsa?:",
         "options": [
@@ -720,7 +760,12 @@
           { "id": 1, "text": "Es exclusivo de los computadores MIMD", "isCorrect": false },
           { "id": 2, "text": "Se suele dar en monoprocesadores y en computadores MIMD.", "isCorrect": true }
         ]
-      },
+      }
+    ]
+  } ,
+  {
+    "examName": "Test5",
+    "questions": [
       {
         "text": "Su IPC ideal es 1…",
         "options": [
@@ -786,5 +831,5 @@
         ]
       }
     ]
-  }    
+  }   
 ]
