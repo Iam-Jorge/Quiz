@@ -3,6 +3,7 @@ import "./App.css";
 import sistemasDistribuidos from './sistemasDistribuidos.json';
 import sistemasInteligentes from './sistemasInteligentes.json';
 import ingenieriaSoftwareII from './ingenieriaSoftwareII.json';
+import arquitecturaComputadores from './arquitecturaComputadores.json';
 
 function App() {
   const [showResults, setShowResults] = useState(false);
@@ -16,7 +17,8 @@ function App() {
   const subjectToExams = {
     "Sistemas Distribuidos": sistemasDistribuidos,
     "Sistemas Inteligentes": sistemasInteligentes,
-    "Ingeniería del Software II": ingenieriaSoftwareII
+    "Ingeniería del Software II": ingenieriaSoftwareII,
+    "Arquitectura de Computadores": arquitecturaComputadores
   };
 
   const chooseAnotherExam = () => {

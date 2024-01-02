@@ -1,0 +1,734 @@
+[
+  {
+    "examName": "Verdadero-Falso",
+    "questions": [
+      {
+        "text": "En el proceso de refinamiento de un diseño, el proceso básico es pasar de una descripción funcional a una estructural.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La relación entre el rendimiento de la CPU y el de memoria DRAM se ha mantenido con escasas variaciones en los últimos 25 años.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "La velocidad de los circuitos integrados crece más deprisa que su complejidad (cantidad de componentes)",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Con un tratamiento impreciso de las interrupciones, el rendimiento de la UCP es MAYOR que con un tratamiento preciso.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Para conseguir interrupciones precisas, el mecanismo básico consiste en que una instrucción sólo modifica irreversiblemente el estado cuando es seguro que ninguna de las instrucciones que van por delante de ella en el cauce pueda provocar interrupción.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Una arquitectura SIMD puede considerarse como una arquitectura de paralelismo funcional",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "La planificación de tareas conlleva que en los caminos no previstos, el rendimiento empeore por el código compensatorio",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La arquitectura y la implementación de computadores son aspectos independientes entre sí.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En el proceso de diseño de un artefacto complejo se elaboran descripciones del artefacto que, en general, son cada vez más detalladas.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "El movimiento especulativo de código respecto a una bifurcación sólo es beneficioso cuando el algoritmo sigue en la bifurcación el camino que se estimó más probable.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El intervalo de iniciación de una unidad funcional encauzada será uno sólo si existe el camino de anticipación correspondiente",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "El coste no recurrente dependerá del volumen de la producción.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Si la relación rendimiento/coste de un producto es un 10% menor que la de otro producto similar, cabe esperar que se venderá un 10% menos",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Cuando se describe la arquitectura externa de algo, se describe qué es lo que hace pero no cómo lo hace",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La ejecución concurrente es secuencial pero de apariencia paralela.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En general, el cambio de contexto entre threads (hebras) es más complejo que el cambio de contexto entre procesos.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Cuando se usa un buffer de almacenamiento para conseguir interrupciones precisas, las instrucciones de carga no deben tomar el dato de la caché si lo encuentran en el buffer de almacenamiento.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Con un tratamiento impreciso de las interrupciones, el rendimiento de la UCP es MENOR que con un tratamiento preciso.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En un procesador VLIW un fallo de caché provoca la detención del procesador para la operación que provocó el fallo, el resto de operaciones de la instrucción siguen ejecutándose.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Los procesadores superescalares suelen tener una frecuencia de reloj menor que los VLIW.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La planificación global mediante la técnica de planificación de trazas permite mover instrucciones, aunque tengan dependencias de datos, más allá de los límites del bloque básico",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Tanto un proceso como una hebra consisten en la tarea de ejecutar un código de modo que esa tarea pueda ejecutarse concurrentemente o en paralelo con otras",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Todos los procesadores con paralelismo ILP son encauzados",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Una hebra está formada por varios procesos.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "El sistema operativo no tiene en cuenta las mejoras arquitecturales del procesador para hacer un usoeficiente del procesador",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "A la hora de medir la eficiencia energética de dos procesador con respecto a un programa la métricamás adecuada es la potencia disipada",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La evolución de las técnicas de paralelismo han hecho que el programador que inicialmente teníaque ser consciente de la arquitectura a día de hoy pueda sacar provecho de los avances sinnecesidad de tener en cuenta la arquitectura sobre la que se trabaja",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Las extensiones de set de instrucciones SIMD se pueden asimilar al funcionamiento de unprocesador vectorial",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El procesador es el encargado de ejecutar el algoritmo de Warren antes de ejecutar el código",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En un procesador superescalar el IPC nunca puede ser mayor a 1",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Los protocolos de coherencia caché basados en “fisgoneo” (snooping) están limitados por el anchode banda del bus de datos común",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Cuando aplicamos el algoritmo de Warren al bloque básico que corresponde a unaiteración por el bucle, además de las dependencias en el bloque básico, también se tienenen cuenta las dependencias inter‐iteraciones (loop carried)",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En un procesador superescalar los fallos de cache provocan la parada completa delprocesador",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Existen técnicas hardware para hacer efectivo el código especulativo generado por elcompilador.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Generalmente, el tamaño de código es mayor en los procesadores superescalares que en los VLIW",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "La planificación de trazas conlleva que en los caminos no previstos el rendimientoempeore por el código compensatorio",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un MOV condicional requiere más tiempo para su ejecución que un MOV",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Una tabla de predicción de bifurcaciones (BHT) es una buena solución para predecir saltos indirectos.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En el proceso de refinamiento de un diseño, el proceso básico es pasar de una descripción funcional a una estructural. ",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La relación entre el rendimiento de la CPU y el de memoria DRAM se ha mantenido con escasas variaciones en los últimos 25 años.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": " La velocidad de los circuitos integrados crece más deprisa que su complejidad (cantidad de componentes.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Con un tratamiento impreciso de las interrupciones, el rendimiento de la CPU es mayor que con un tratamiento preciso.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Para conseguir interrupciones precisas, el mecanismo básico consiste en que una instrucción solo modifica irreversiblemente el estado cuando es seguro que ninguna de las instrucciones que van por delante de ella en el cauce pueda provocar una interrupción.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "La arquitectura SIMD puede considerarse arquitectura de paralelismo funcional.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "La planificación de trazas conlleva que en los caminos no previstos el rendimiento empeore por el código compensatorio.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La arquitectura e implementación de computadores son aspectos independientes entre sí.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En el proceso de diseño de un artefacto complejo se elaboran descripciones del artefacto, que en general, son cada vez más detallados.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El movimiento especulativo de código respecto a una bifurcación solo es beneficioso cuando el algoritmo sigue en la bifurcación el camino que se estimó más probable.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El intervalo de iniciación de una unidad funcional encauzada será uno solo si existe el camino de anticipación correspondiente.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "El coste no recurrente dependerá del volumen de la producción.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Si la relación rendimiento/coste de un producto es un 10% menor que la de otro producto similar, cabe esperar que se venderá un 10% menos.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Cuando se describe la arquitectura externa de algo se describe qué es lo que hace pero no cómo lo hace",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La ejecución concurrente es secuencial pero de apariencia paralela.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En general, el cambio de contexto entre threads (hebras) es más complejo que el cambio de contexto entre procesos",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Con un tratamiento impreciso de las interrupciones el rendimiento de la UCP es menor que con un tratamiento preciso.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En un procesador VLIW un fallo de caché provoca la detención del procesador para la operación que provocó el fallo, el resto de operaciones de la instrucción siguen ejecutándose.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": false },
+          { "id": 1, "text": "Falso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Los procesadores superescalares suelen tener una frecuencia de reloj menor que los VLIW.",
+        "options": [
+          { "id": 0, "text": "Verdadero.", "isCorrect": true },
+          { "id": 1, "text": "Falso.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Test",
+    "questions": [
+      {
+        "text": "En sentido estricto, la ejecución concurrente de varios procesos consiste en:",
+        "options": [
+          { "id": 0, "text": "Ejecutar cada proceso en un procesador distinto.", "isCorrect": false },
+          { "id": 1, "text": "Ejecutar todos los procesos en un mismo procesador de forma que cuando un proceso se esté ejecutando, los otros procesos ya hayan terminado o no hayan comenzado a ejecutarse.", "isCorrect": false },
+          { "id": 2, "text": "Ejecutar todos los procesos en un mismo procesador de forma que algunos procesos comiencen su ejecución al interrumpirse la ejecución de otros que, más tarde, reanudarán su ejecución.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En los computadores SIMD se replican:",
+        "options": [
+          { "id": 0, "text": "Las unidades aritmético-lógicas.", "isCorrect": true },
+          { "id": 1, "text": "Las unidades de control.", "isCorrect": false },
+          { "id": 2, "text": " Las cachés.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un diseño de una CPU encauzada en el que las modificaciones del estado sólo ocurran en las últimas etapas del cauce es beneficioso desde el punto de vista de:",
+        "options": [
+          { "id": 0, "text": "El tratamiento de las interrupciones.", "isCorrect": false },
+          { "id": 1, "text": "El tratamiento de las bifurcaciones.", "isCorrect": false },
+          { "id": 2, "text": "Ambos tratamientos.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En MIPS FP hay consistencia secuencial del procesador",
+        "options": [
+          { "id": 0, "text": "Débil", "isCorrect": true },
+          { "id": 1, "text": "Fuerte", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En la implementación de interrupciones precisas, la técnica de buffer de almacenamiento hace que:",
+        "options": [
+          { "id": 0, "text": "Las instrucciones cuyo operando destino está en memoria escriben sus resultados en el buffer, actualizándose posteriormente en memoria.", "isCorrect": true },
+          { "id": 1, "text": "Las instrucciones se detengan para evitar la modificación indeseada del estado del procesador.", "isCorrect": false },
+          { "id": 2, "text": "Las instrucciones modifiquen el estado de la memoria aunque instrucciones emitidas con anterioridad puedan provocar interrupción, pero la modificación es reversible", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes tipos de interrupción es más adecuado que lo tratemos como interrupción imprecisa?",
+        "options": [
+          { "id": 0, "text": "Excepción en instrucción de división.", "isCorrect": true },
+          { "id": 1, "text": "Excepción de instrucción de suma.", "isCorrect": false },
+          { "id": 2, "text": "Excepción de ejecución paso a paso.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El paralelismo entre hebras:",
+        "options": [
+          { "id": 0, "text": "Es exclusivo de computadores monoprocesador.", "isCorrect": false },
+          { "id": 1, "text": "Es exclusivo de los MIMD.", "isCorrect": false },
+          { "id": 2, "text": "Se puede dar en monoprocesadores y en computadores MIMD.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Es conveniente usar un buffer de historia para hacer preciso el estado de la memoria?",
+        "options": [
+          { "id": 0, "text": "Sí, es la mejor solución.", "isCorrect": false },
+          { "id": 1, "text": "No, cuando hubiera que restaurar el estado de la memoria se perdería un tiempo considerable (se habría leído de memoria una vez y se habría escrito dos veces).", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En el proceso de fabricación de un circuito integrado:",
+        "options": [
+          { "id": 0, "text": "Los costes no recurrentes (NRE: “Non-Recurring expense”) dependen del volumen de producción.", "isCorrect": false },
+          { "id": 1, "text": "Los costes recurrentes dependen de la complejidad del proceso de fabricación y coste del diseño.", "isCorrect": false },
+          { "id": 2, "text": "Los costes no recurrentes dependen del coste del diseño y de la fabricación de prototipos.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Las tendencias tecnológicas de los últimos años indican que la densidad de los circuitos integrados crece:",
+        "options": [
+          { "id": 0, "text": "Entre un 10% y un 20% al año.", "isCorrect": false },
+          { "id": 1, "text": "En torno a un 35% al año.", "isCorrect": true },
+          { "id": 2, "text": "En torno a un 55% al año.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Según la ley de Amdahl, si una parte de un sistema consume la fracción F del tiempo que el sistema tarda en realizar una tarea, por mucho que aumente la ganancia en velocidad de esa parte, la ganancia en velocidad del sistema:",
+        "options": [
+          { "id": 0, "text": "Siempre será menor que 1/(1-F).", "isCorrect": true },
+          { "id": 1, "text": "Siempre será mayor que 1/(1-F).", "isCorrect": false },
+          { "id": 2, "text": "Siempre será mayor que 1-F.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Las tendencias tecnológicas de los últimos años indican que la capacidad de las memorias Flash crece",
+        "options": [
+          { "id": 0, "text": "Entre un 10% y un 20% al año.", "isCorrect": false },
+          { "id": 1, "text": "Se duplica cada año.", "isCorrect": false },
+          { "id": 2, "text": "Entre un 50% y un 60% al año.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Dada la secuencia de instrucciones {L.D R2, 0(R10); S.D R4, 4(r6)} en un sistema donde hay consistencia de memoria débil",
+        "options": [
+          { "id": 0, "text": "Está siempre permitido alterar el orden de procesamiento de las dos instrucciones.", "isCorrect": false },
+          { "id": 1, "text": " Está permitido alterar el orden de procesamiento de las dos instrucciones, ya que el tiempo de ejecución se comprueba que R10 ≠ 4+R6.", "isCorrect": true },
+          { "id": 2, "text": "No está permitido alterar el orden de procesamiento de las dos instrucciones.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": ".En la arquitectura externa de MIPS, los riesgos por dependencias de datos entre una instrucción de carga y una de almacenamiento pueden ser del tipo:",
+        "options": [
+          { "id": 0, "text": "WAW, RAW y WAR.", "isCorrect": false },
+          { "id": 1, "text": "RAW y WAR.", "isCorrect": true },
+          { "id": 2, "text": "Sólo RAW.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": ".La construcción del grafo de dependencia de datos para un bloque básico de instrucciones, requiere:",
+        "options": [
+          { "id": 0, "text": "Del orden de n comparaciones.", "isCorrect": false },
+          { "id": 1, "text": "Del orden de n^2 comparaciones.", "isCorrect": true },
+          { "id": 2, "text": "Del orden de n^3 comparaciones.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La ley de Moore…",
+        "options": [
+          { "id": 0, "text": "Se ha cumplido hasta la actualidad, incluso con la tecnología de nm.", "isCorrect": false },
+          { "id": 1, "text": "Establecía que el número de transistores de un chip se duplicaría cada año.", "isCorrect": true },
+          { "id": 2, "text": "La estableció el cofundador de Intel Gordon Moore, a mediados de los 50.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes características se contemplan en el proyecto Intel's Teraflops Research Chip para conseguir un chip con alto rendimiento y bajo consumo eléctrico?",
+        "options": [
+          { "id": 0, "text": "Aumentar el rendimiento a base de incrementar la frecuencia del chip.", "isCorrect": false },
+          { "id": 1, "text": "Reducir el consumo y la disipación de calor utilizando un gran núcleo.", "isCorrect": false },
+          { "id": 2, "text": "Aumentar el rendimiento a base de utilizar arquitecturas multinúcleo.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Un proceso es:",
+        "options": [
+          { "id": 0, "text": "Un programa.", "isCorrect": false },
+          { "id": 1, "text": "La tarea de ejecutar un programa o un fragmento de programa.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En el tratamiento preciso de las interrupciones, antes de saltar a una rutina de interrupción (provocada por una instrucción I, que está en el cauce) …",
+        "options": [
+          { "id": 0, "text": "Las instrucciones que en un procesador secuencial se ejecutarían antes que I, se deben terminar de ejecutar.", "isCorrect": true },
+          { "id": 1, "text": "Todas las instrucciones que había en el cauce al generarse la interrupción deben terminar de ejecutarse.", "isCorrect": false },
+          { "id": 2, "text": "Las instrucciones que van más avanzadas que I, dentro del cauce, se deben terminar de ejecutar.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuándo se actualiza el fichero arquitectural con los valores de los operando destino de una instrucción I, almacenados en el fichero de futuro?",
+        "options": [
+          { "id": 0, "text": "Cuando I termina de ser procesada y ninguna instrucción emitida antes que I pueda provocar interrupción.", "isCorrect": true },
+          { "id": 1, "text": "Cuando I termina de ser procesada.", "isCorrect": false },
+          { "id": 2, "text": "Cuando se sepa que I no puede provocar interrupción.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La latencia de una unidad funcional es:",
+        "options": [
+          { "id": 0, "text": "El número de ciclos que deben transcurrir desde que se emitió la instrucción que produce el resultado en la unidad funcional antes de que pueda emitirse la instrucción que utiliza ese resultado.", "isCorrect": true },
+          { "id": 1, "text": "El número de ciclos que transcurren desde que se emitió la instrucción que produce el resultado en la unidad funcional hasta que puede emitirse la instrucción que utiliza ese resultado", "isCorrect": false },
+          { "id": 2, "text": "El número de etapas de la unidad funcional", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La arquitectura externa de un artefacto está formada por",
+        "options": [
+          { "id": 0, "text": "Las propiedades funcionales de sus componentes.", "isCorrect": false },
+          { "id": 1, "text": "Su estructura.", "isCorrect": false },
+          { "id": 2, "text": "Sus propiedades funcionales.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Por qué, para similar tecnología, los procesadores VLIW suelen tener más unidades de ejecución que los superescalares?",
+        "options": [
+          { "id": 0, "text": "Porque de ese modo se facilita la compilación.", "isCorrect": false },
+          { "id": 1, "text": "Porque suelen tener un reloj más rápido.", "isCorrect": false },
+          { "id": 2, "text": " Porque, al usar planificación estática, el hardware de los VLIW es más sencillo y ello permite integrar más unidades de ejecución en el chip.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En MIPS FP hay consistencia secuencial del procesador ",
+        "options": [
+          { "id": 0, "text": "Débil.", "isCorrect": true },
+          { "id": 1, "text": "Fuerte", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "MIPS FP detiene en ID una instrucción, J, afectada por riesgo WAW respecto a otra instrucción, I, ya emitida:",
+        "options": [
+          { "id": 0, "text": "Hasta que la instrucción I escribe su operando destino.", "isCorrect": false },
+          { "id": 1, "text": "Mientras I se encuentre realizando una suma de punto flotante, una multiplicación o una división. ", "isCorrect": true },
+          { "id": 2, "text": "Solo si I es más lenta que J y no ha terminado su ejecución.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La planificación predominante en los procesadores superescalares es:",
+        "options": [
+          { "id": 0, "text": "Estática", "isCorrect": false },
+          { "id": 1, "text": "Dinámica pura", "isCorrect": false },
+          { "id": 2, "text": "Dinámica reforzada por el compilador", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En MIPS FP el único tipo de dependencia de datos que no produce riesgo (hazard) es:",
+        "options": [
+          { "id": 0, "text": "RAW", "isCorrect": false },
+          { "id": 1, "text": "WAR", "isCorrect": true },
+          { "id": 2, "text": "WAW", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Si aumenta el voltaje:",
+        "options": [
+          { "id": 0, "text": "La potencia estática y la potencia dinámica aumentan en la misma proporción.", "isCorrect": false },
+          { "id": 1, "text": "La potencia estática aumenta en mayor proporción que la dinámica.", "isCorrect": false },
+          { "id": 2, "text": "La potencia estática aumenta en menor proporción que la dinámica.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes afirmaciones sobre los procesadores VLIW es falsa?",
+        "options": [
+          { "id": 0, "text": "Ofrecen mayor rendimiento que los procesadores superescalares, a cambio de complicar el compilador.", "isCorrect": true },
+          { "id": 1, "text": "Requieren de una mayor cantidad de memoria para almacenar las instrucciones.", "isCorrect": false },
+          { "id": 2, "text": "Los fallos de caché provocan la parada completa del procesador.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes afirmaciones sobre los procesadores superescalares es falsa?",
+        "options": [
+          { "id": 0, "text": "Son compatibles con versiones secuenciales de la misma arquitectura respecto del código binario que ejecutan.", "isCorrect": false },
+          { "id": 1, "text": "El compilador realizar una primera planificación estática del código con el fin de facilitar la labor del planificador hardware.", "isCorrect": false },
+          { "id": 2, "text": "Los fallos de caché provocan la parada completa del procesador.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes afirmaciones sobre los procesadores superescalares es falsa?:",
+        "options": [
+          { "id": 0, "text": "Los bucles son la principal fuente de paralelismo ILP.", "isCorrect": false },
+          { "id": 1, "text": "El desenrollado de un bucle implica la ejecución de un mayor número de instrucciones.", "isCorrect": true },
+          { "id": 2, "text": "La planificación de un bucle desenrollado suele requerir de un mayor número de registros.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes afirmaciones respecto al buffer de destino de las bifurcaciones (Branch Target Buffer) es falsa?",
+        "options": [
+          { "id": 0, "text": "se comporta como una cache de la dirección de salto asociada a una bifurcación", "isCorrect": false },
+          { "id": 1, "text": "se comprueba su contenido durante la etapa de decodificación de la instrucción", "isCorrect": true },
+          { "id": 2, "text": "si la predicción es acertada, la penalización es nula", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En el caso de la Planificación especulativa, es falso que:",
+        "options": [
+          { "id": 0, "text": "Las instrucciones pueden ser ejecutadas y comprometidas en distinto orden al original.", "isCorrect": true },
+          { "id": 1, "text": "Genera riesgos por dependencias WAR y WAW.", "isCorrect": false },
+          { "id": 2, "text": "equiere un tratamiento de interrupciones equivalente al de la ejecución ordenada.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La ley de Moore…",
+        "options": [
+          { "id": 0, "text": "Se ha cumplido hasta la actualidad, incluso con la tecnología de nm", "isCorrect": false },
+          { "id": 1, "text": "Establecía que el número de transistores de un chip se duplicaría cada año", "isCorrect": true },
+          { "id": 2, "text": "La estableció el cofundador de Intel Gordon Moore, a mediados de los 50", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes características se contemplan en el proyecto Intel’s Teraflops Research Chip para conseguir un chip con alto rendimiento y bajo consumo eléctrico?",
+        "options": [
+          { "id": 0, "text": "Aumentar el rendimiento a base de incrementar la frecuencia del chip", "isCorrect": false },
+          { "id": 1, "text": "Reducir el consumo y la disipación de calor utilizando un gran núcleo", "isCorrect": false },
+          { "id": 2, "text": "Aumentar el rendimiento a base de utilizar arquitecturas multinúcleo", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Un proceso es:",
+        "options": [
+          { "id": 0, "text": "Un programa", "isCorrect": false },
+          { "id": 1, "text": "La tarea de ejecutar un programa o un fragmento de programa", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En los computadores SIMD se replican:",
+        "options": [
+          { "id": 0, "text": "Las ALU ", "isCorrect": true },
+          { "id": 1, "text": "Las unidades de control", "isCorrect": false },
+          { "id": 2, "text": "Las cachés", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En la implementación de interrupciones precisas, la técnica de buffer de almacenamiento hace que:",
+        "options": [
+          { "id": 0, "text": "Las bifurcaciones cuyo operando destino está en memoria escriben sus resultados en el buffer, actualizándose posteriormente la memoria.", "isCorrect": false },
+          { "id": 1, "text": "Las instrucciones se detengan para evitar la modificación indeseada del estado de procesador", "isCorrect": false },
+          { "id": 2, "text": "Las instrucciones modifiquen el estado de memoria aunque instrucciones emitidas con anterioridad puedan provocar interrupción, pero la modificación es reversible.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes tipos de interrupción es más adecuada que lo tratemos como interrupción precisa?",
+        "options": [
+          { "id": 0, "text": "Excepción de instrucción de división.", "isCorrect": false },
+          { "id": 1, "text": "Excepción de instrucción de suma.", "isCorrect": false },
+          { "id": 2, "text": "Excepción de ejecución paso a paso.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "El paralelismo entre hebras:",
+        "options": [
+          { "id": 0, "text": "Es exclusivo de los computadores monoprocesadores.", "isCorrect": false },
+          { "id": 1, "text": "Es exclusivo de los computadores MIMD", "isCorrect": false },
+          { "id": 2, "text": "Se suele dar en monoprocesadores y en computadores MIMD.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Su IPC ideal es 1…",
+        "options": [
+          { "id": 0, "text": "VLIW", "isCorrect": true },
+          { "id": 1, "text": "RISC", "isCorrect": false },
+          { "id": 2, "text": "CISC", "isCorrect": false }
+        ]
+      }
+    ]
+  }    
+]
