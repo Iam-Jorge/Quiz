@@ -728,6 +728,62 @@
           { "id": 1, "text": "RISC", "isCorrect": false },
           { "id": 2, "text": "CISC", "isCorrect": false }
         ]
+      },
+      {
+        "text": "Se llama “wall-clock time” de un programa a:",
+        "options": [
+          { "id": 0, "text": "El tiempo de CPU del programa", "isCorrect": false },
+          { "id": 1, "text": "El tiempo de ejecución del programa", "isCorrect": true },
+          { "id": 2, "text": "La productividad (throughput)", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En las últimas décadas el ancho de banda ha mejorado más que la latencia:",
+        "options": [
+          { "id": 0, "text": "En las memorias (RAM y disco) pero no en las redes", "isCorrect": false },
+          { "id": 1, "text": "En las redes pero no en las memorias", "isCorrect": false },
+          { "id": 2, "text": "En las redes y en las memorias", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "El número medio de instrucciones por ciclo (IPC) es una medida de",
+        "options": [
+          { "id": 0, "text": "Latencia", "isCorrect": false },
+          { "id": 1, "text": "Productividad (throughput)", "isCorrect": true },
+          { "id": 2, "text": "Ninguna de las dos anteriores", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El concepto actual de arquitectura de computadores comprende tres aspectos:",
+        "options": [
+          { "id": 0, "text": "ISA, organización y hardware", "isCorrect": true },
+          { "id": 1, "text": "Arquitectura externa, ISA y arquitectura interna", "isCorrect": false },
+          { "id": 2, "text": "Arquitectura externa, organización y arquitectura interna", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Una interrupción debida a una violación de protección de memoria es",
+        "options": [
+          { "id": 0, "text": "Síncrona, solicitada y no enmascarable", "isCorrect": false },
+          { "id": 1, "text": "Asíncrona, forzada y con reanudación", "isCorrect": false },
+          { "id": 2, "text": "Síncrona, no enmascarable y con reanudación", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Con consistencia de memoria débil",
+        "options": [
+          { "id": 0, "text": "Dos instrucciones de acceso a memoria se pueden cambiar de orden libremente", "isCorrect": false },
+          { "id": 1, "text": "Dos instrucciones de acceso a memoria se pueden cambiar de orden solo si no hay dependencia de datos entre ellas", "isCorrect": true },
+          { "id": 2, "text": "Dos instrucciones de acceso a memoria no se pueden cambiar de orden", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En la implementación de interrupciones precisas, la técnica de buffer de almacenamiento hace que",
+        "options": [
+          { "id": 0, "text": "Las instrucciones cuyo operando destino está en memoria escriben sus resultados en el buffer, actualizándose posteriormente la memoria.", "isCorrect": true },
+          { "id": 1, "text": "Las instrucciones se detengan para evitar la modificación indeseada del estado del procesador.", "isCorrect": false },
+          { "id": 2, "text": "Las instrucciones modifiquen el estado de la memoria aunque instrucciones emitidas con anterioridad puedan provocar interrupción, pero la modificación es reversible.", "isCorrect": false }
+        ]
       }
     ]
   }    
