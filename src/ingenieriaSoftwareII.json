@@ -3596,6 +3596,123 @@
                     "isCorrect": false
                 }
             ]
+        },
+        {
+            "text": "¿QUE ES EL CODIGO HEREDADO?",
+            "options": [
+                {"id": 0,"text": "Codigo en uso heredado de otra empresa.","isCorrect": false},
+                {"id": 1,"text": "Codigo de aplicaciones cedido por programadores de otra empresa.","isCorrect": false},
+                {"id": 2,"text": "Codigo de aplicaciones desarrolladas hace algun tiempo.","isCorrect": true},
+                {"id": 3,"text": "Todas son correctas.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿DEBIDO AL CARACTER POCO ATRACTIVO DEL MANTENIMIENTO QUE DEFECTO OCURRE?",
+            "options": [
+                {"id": 0,"text": "Programadores sin motivacion.","isCorrect": false},
+                {"id": 1,"text": "Falta de recursos humanos.","isCorrect": false},
+                {"id": 2,"text": "Realizan algunas modificaciones defectuosas.","isCorrect": false},
+                {"id": 3,"text": "Raramente encuentran y corrigen defectos.","isCorrect": true}
+            ]
+        },
+        {
+            "text": "¿CUAL NO ES UN EJEMPLO DE INGENIERIA INVERSA?",
+            "options": [
+                {"id": 0,"text": "Codigo binario->Codigo fuente.","isCorrect": false},
+                {"id": 1,"text": "Codigo Java->Diagramas UML.","isCorrect": false},
+                {"id": 2,"text": "Codigo C++->Codigo Java.","isCorrect": true},
+                {"id": 3,"text": "Codigo JPA->Esquema base de Datos.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿CUÁL ES EL PROPÓSITO PRINCIPAL DE LA NORMA ISO 12207:2017?",
+            "options": [
+                {"id": 0,"text": "Describe los procesos de la vida del software.","isCorrect": true},
+                {"id": 1,"text": "Especificar requisitos de hardware para entornos de desarrollo de software.","isCorrect": false},
+                {"id": 2,"text": "Definir estándares de codificación para diferentes lenguajes de programación.","isCorrect": false},
+                {"id": 3,"text": "Proporcionar directrices específicas para el diseño gráfico de interfaces de usuario.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿CUÁLES SON LAS FASES DE LA REINGENIERÍA?",
+            "options": [
+                {"id": 0,"text": "Desarrollo, reestructuración y documentación.","isCorrect": false},
+                {"id": 1,"text": "Ingeniería inversa, reestructuración e ingeniería directa.","isCorrect": true},
+                {"id": 2,"text": "Programación detallada, ingeniería inversa e ingeniería directa.","isCorrect": false},
+                {"id": 3,"text": "Análisis de requisitos, implementación y pruebas.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿EN QUE CONSISTE EL PRINCIPIO DRY(Don't Repeat Yourself)?",
+            "options": [
+                {"id": 0,"text": "Reutilización de código.","isCorrect": false},
+                {"id": 1,"text": "Evitar código duplicado.","isCorrect": true},
+                {"id": 2,"text": "Ignorar la modularidad.","isCorrect": false},
+                {"id": 3,"text": "Ignorar la cohesión.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿QUÉ SON LAS SIGLAS FIRST(Testing)?",
+            "options": [
+                {"id": 0,"text": "Fast, Independent, Repeatable, Self-Validating, Timely.","isCorrect": true},
+                {"id": 1,"text": "Flexible, Integrated, Robust, Secure, Timely.","isCorrect": false},
+                {"id": 2,"text": "Fast, Inclusive, Rigorous, Self-Validating, Timely.","isCorrect": false},
+                {"id": 3,"text": "Fast, Intuitive, Reliable, Secure, Thorough.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿CUÁL ES EL PROPÓSITO PRINCIPAL DE LA NORMA ISO/IEC 25000:2014?",
+            "options": [
+                {"id": 0,"text": "Describe los procesos del ciclo de vida del software.","isCorrect": false},
+                {"id": 1,"text": "Describe el proceso de mantenimiento en detalle.","isCorrect": false},
+                {"id": 2,"text": "Requisitos de calidad y su evaluación.","isCorrect": true},
+                {"id": 3,"text": "Evalua el software.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿CUÁL no es un tipo de Mantenimiento?",
+            "options": [
+                {"id": 0,"text": "Mantenimiento Correctivo","isCorrect": false},
+                {"id": 1,"text": "Mantenimiento Ofensivo","isCorrect": true},
+                {"id": 2,"text": "Mantenimiento Adaptativo","isCorrect": false},
+                {"id": 3,"text": "Mantenimiento Perfectivo","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿CUAL ES LA ACTIVIDAD DE MANTENIMIENTO A LA QUE DEBE DEDICARSE MAS ESFUERZO?",
+            "options": [
+                {"id": 0,"text": "ANÁLISIS Y COMPRENSIÓN","isCorrect": false},
+                {"id": 1,"text": "DISEÑO","isCorrect": false},
+                {"id": 2,"text": "IMPLEMENTACIÓN","isCorrect": true},
+                {"id": 3,"text": "PRUEBAS","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿CUAL NO ES UN ESTANDAR?",
+            "options": [
+                {"id": 0,"text": "ISO 12207:2017","isCorrect": false},
+                {"id": 1,"text": "ISO/IEC 14764:2006","isCorrect": false},
+                {"id": 2,"text": "ISO/IEC 25000:2014","isCorrect": false},
+                {"id": 3,"text": "ISO/IPO 25000:2014","isCorrect": true}
+            ]
+        },
+        {
+            "text": "¿QUE SIGNIFICAN LAS SIGLAS F.I.R.S.T?",
+            "options": [
+                {"id": 0,"text": "Fast Independent Repeatable Self-Validating Timely","isCorrect": true},
+                {"id": 1,"text": "Fast Iterations Release Stable Technology","isCorrect": false},
+                {"id": 2,"text": "Full-stack Integrations Resonate Seamlessly Together","isCorrect": false},
+                {"id": 3,"text": "Fault-tolerant Infrastructure Resiliently Supports Teams","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿QUIEN NO FORMA PARTE DE LA ORGANIZACIÓN DE MANTENIMIENTO?",
+            "options": [
+                {"id": 0,"text": "Gestor de peticiones","isCorrect": false},
+                {"id": 1,"text": "Planificador","isCorrect": false},
+                {"id": 2,"text": "Equipo de Mantenimiento","isCorrect": false},
+                {"id": 3,"text": "Analista","isCorrect": true}
+            ]
         }
     ]
   },
@@ -3785,7 +3902,7 @@
     ]
   },
   {
-    "examName": "Otros",
+    "examName": "TestNav",
     "questions": [
         {
             "text": "",
