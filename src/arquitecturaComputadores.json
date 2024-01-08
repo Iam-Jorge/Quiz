@@ -829,6 +829,70 @@
           { "id": 1, "text": "Las instrucciones se detengan para evitar la modificación indeseada del estado del procesador.", "isCorrect": false },
           { "id": 2, "text": "Las instrucciones modifiquen el estado de la memoria aunque instrucciones emitidas con anterioridad puedan provocar interrupción, pero la modificación es reversible.", "isCorrect": false }
         ]
+      },
+      {
+        "text": "Un procesador reparte su tiempo entre varios procesos…",
+        "options": [
+          { "id": 0, "text": "Ejecución concurrente.", "isCorrect": true },
+          { "id": 1, "text": "Ejecución secuencial.", "isCorrect": false },
+          { "id": 2, "text": "Ejecución especulativa", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Casi todos los procesadores encauzados y superescalares utilizan una planificación…",
+        "options": [
+          { "id": 0, "text": "dinámica reforzada por el compilador.", "isCorrect": true },
+          { "id": 1, "text": "está optimizado pero con posibles riesgos por dependencias.", "isCorrect": false },
+          { "id": 2, "text": "encauzamiento y varias unidades de ejecución.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El código que genera el compilador…",
+        "options": [
+          { "id": 0, "text": "está optimizado pero con posibles riesgos por dependencias.", "isCorrect": false },
+          { "id": 1, "text": "no está optimizado pero con posibles riesgos por dependencias.", "isCorrect": false },
+          { "id": 2, "text": "está optimizado sin riesgos por dependencias.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Son procesadores ILP con varias unidades de ejecución…",
+        "options": [
+          { "id": 0, "text": "VLIW y Superescalar.", "isCorrect": false },
+          { "id": 1, "text": "Superescalar y Multicore", "isCorrect": false },
+          { "id": 2, "text": "VLIW y Multicore", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Al retornar de la rutina de interrupción hay que procesar desde el principio instrucciones que ya se procesaron parcialmente…",
+        "options": [
+          { "id": 0, "text": "Interrupciones imprecisas.", "isCorrect": false },
+          { "id": 1, "text": "Interrupciones precisas.", "isCorrect": true },
+          { "id": 2, "text": "Instrucciones de acceso a memoria.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Antes de saltar a la rutina de interrupción hay que guardar más información de estado que la que se guardaría en un procesador no encauzado…",
+        "options": [
+          { "id": 0, "text": "Interrupciones imprecisas.", "isCorrect": true },
+          { "id": 1, "text": "Interrupciones precisas.", "isCorrect": false },
+          { "id": 2, "text": "Instrucciones ambiguas", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Busy (switching, idle) …",
+        "options": [
+          { "id": 0, "text": "cantidad de tiempo, medida sobre un intervalo, en la que el procesador está haciendo trabajo útil (cambio de contexto, parado).", "isCorrect": true },
+          { "id": 1, "text": "cantidad de tiempo, medida sobre un intervalo, en la que el procesador no está haciendo trabajo útil (cambio de contexto, parado).", "isCorrect": false },
+          { "id": 2, "text": "cantidad de tiempo, medida sobre un intervalo, en la que el procesador está parado (cambio de contexto, parado).", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Herramientas HW utilizadas por los procesadores para conseguir ILP:",
+        "options": [
+          { "id": 0, "text": "Escalar: Encauzamiento. Superescalar: Encauzamiento y varias unidades de ejecución. VLIW: Encauzamiento y varias unidades de ejecución", "isCorrect": true },
+          { "id": 1, "text": "Escalar: Encauzamiento. Superescalar: Encauzamiento y varias unidades de ejecución.", "isCorrect": false },
+          { "id": 2, "text": "Escalar: ILP. Superescalar: Encauzamiento y varias unidades de ejecución. VLIW: Encauzamiento y varias unidades de ejecución", "isCorrect": false }
+        ]
       }
     ]
   }   

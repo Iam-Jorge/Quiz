@@ -3905,12 +3905,57 @@
     "examName": "TestNav",
     "questions": [
         {
-            "text": "",
+            "text": "¿Cual es el tipo de mantenimieto menos realizado?",
             "options": [
-                {"id": 0,"text": "","isCorrect": false},
-                {"id": 1,"text": "","isCorrect": false},
-                {"id": 2,"text": "","isCorrect": false},
-                {"id": 3,"text": "","isCorrect": false}
+                {"id": 0,"text": "perfectivo","isCorrect": false},
+                {"id": 1,"text": "predictivo","isCorrect": true},
+                {"id": 2,"text": "correctivo","isCorrect": false},
+                {"id": 3,"text": "adaptativo","isCorrect": false}
+            ]
+        },
+        {
+            "text": "El coste mas razonable o ideal del mantenimiento es",
+            "options": [
+                {"id": 0,"text": "10-25% del total del proyecto","isCorrect": false},
+                {"id": 1,"text": "20-35% del total del proyecto","isCorrect": false},
+                {"id": 2,"text": "50-65% del total del proyecto","isCorrect": false},
+                {"id": 3,"text": "65-80% del total del proyecto","isCorrect": true}
+            ]
+        },
+        {
+            "text": "Cual de los siguientes es un elemento que debe incluirse en la documentacion de los cambios relaizados en un sistema de softwarE?",
+            "options": [
+                {"id": 0,"text": "El esfuerzo dedicado al cambio","isCorrect": true},
+                {"id": 1,"text": "La experiencia del personal de amntenimiento que realizo el cambio","isCorrect": false},
+                {"id": 2,"text": "El tiempo que ha pasado el personal de mantenimiento trabajando en el sistema","isCorrect": false},
+                {"id": 3,"text": "El tiempo que ha pasado el personal de mantenimiento trabajando en el dominio de la aplicacion","isCorrect": false}
+            ]
+        },
+        {
+            "text": "Una version es",
+            "options": [
+                {"id": 0,"text": "Publicacion de un elemento de configuracion software, asociado a una compilacion completa","isCorrect": false},
+                {"id": 1,"text": "Publicacion de un elemento de configuracion software que no esta sujeto a implementacion","isCorrect": false},
+                {"id": 2,"text": "Una correcion de un error","isCorrect": false},
+                {"id": 3,"text": "Ninguna es correcta","isCorrect": true}
+            ]
+        },
+        {
+            "text": "Que caracteristica pueden tener las versiones pre-release segun las reglas de versionado",
+            "options": [
+                {"id": 0,"text": "Pueden consistir en caracteres alfanumericos y guiones","isCorrect": true},
+                {"id": 1,"text": "Debe tener una mejor precedencia que la version normal asociada","isCorrect": false},
+                {"id": 2,"text": "No pueden ser representadas por identificadores","isCorrect": false},
+                {"id": 3,"text": "Se indican adjuntando un signo '+' despues de la version del patch","isCorrect": false}
+            ]
+        },
+        {
+            "text": "Cual de las siguientes afirmaciones sobre PUD es falsa",
+            "options": [
+                {"id": 0,"text": "Es una metodologia desarrollo","isCorrect": false},
+                {"id": 1,"text": "Esta dirigido por casos de uso","isCorrect": false},
+                {"id": 2,"text": "Es iterativo e incremental","isCorrect": false},
+                {"id": 3,"text": "Todas son correctas","isCorrect": true}
             ]
         }
     ]
