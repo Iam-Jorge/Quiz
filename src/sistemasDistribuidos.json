@@ -1547,7 +1547,7 @@
     "examName": "Ex-Ene-20",
     "questions": [
       {
-        "text": "] Considere el siguiente sistema de comunicación indirecta implementado mediante RabbitMQ, donde P1 es publicador, X es ExChange, y C1, C2, C3 son consumidores de las colas Q1, Q2, Q3, respectivamente: ¿De qué tipo debe declararse el exchange X para conseguir un sistema publish-subscribe en el que C1, C2 y C3 se suscriben a todos los mensajes enviados por P1?",
+        "text": "Considere el siguiente sistema de comunicación indirecta implementado mediante RabbitMQ, donde P1 es publicador, X es ExChange, y C1, C2, C3 son consumidores de las colas Q1, Q2, Q3, respectivamente: ¿De qué tipo debe declararse el exchange X para conseguir un sistema publish-subscribe en el que C1, C2 y C3 se suscriben a todos los mensajes enviados por P1?",
         "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-20.JPG",
         "options": [
           { "id": 0, "text": "fanout", "isCorrect": true },
@@ -1836,6 +1836,211 @@
           { "id": 1, "text": "utiliza un esquema de replicacion pesimista.", "isCorrect": true },
           { "id": 2, "text": " es válido cuano hay pocos accesos concurrentes en escritura.", "isCorrect": false },
           { "id": 3, "text": "permite actualizaciones locales sin ningún tipo de restricciones.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Ex-Ene-19",
+    "questions": [
+      {
+        "text": "¿Qué condiciones imprescindibles se le exigen a un algoritmo de exclusión mutua distribuida para considerarlousable en un problema real?",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "Seguridad y orden", "isCorrect": false },
+          { "id": 1, "text": "Seguridad, liveness y orden son condiciones necesarias en cualquier problema real.", "isCorrect": false },
+          { "id": 2, "text": "Orden y liveness", "isCorrect": false },
+          { "id": 3, "text": "Seguridad y liveness", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Dada la siguiente figura, asumiendo que los relojes lógicos de Lamport de P1 y P2 están inicialmente a cero,¿qué valores tendrán en el instante Tb?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-19.JPG",
+        "options": [
+          { "id": 0, "text": "RLb = 4 y RLa = 3", "isCorrect": false },
+          { "id": 1, "text": "RLb = 3 y RLa = 4", "isCorrect": true },
+          { "id": 2, "text": "RLb = 2 y RLa = 3", "isCorrect": false },
+          { "id": 3, "text": "RLb = 2 y RLa = 2", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un problema de exclusión mutua centralizada, necesita implementar un acceso por orden de petición en elacceso a la sección crítica ¿Qué algoritmo de los siguientes garantiza el orden?",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "Servidor central", "isCorrect": false },
+          { "id": 1, "text": "Anillo con testigo", "isCorrect": false },
+          { "id": 2, "text": "Ricart y Agrawala", "isCorrect": true },
+          { "id": 3, "text": "Todos los algoritmos garantizan el orden", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Las diferencias en el ritmo de cambio entre dos relojes físicos está relacionado con el concepto de:",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "Sesgo", "isCorrect": false },
+          { "id": 1, "text": "Deriva", "isCorrect": true },
+          { "id": 2, "text": "Tasa de ocurrencia de eventos", "isCorrect": false },
+          { "id": 3, "text": "Frecuencia5", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En la siguiente figura, ¿qué valores tomarán los relojes vectoriales en Tb, si están inicialmente a 0, para losprocesos P1 (RVa) Y P2(RVb)?",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-19-2.JPG",
+        "options": [
+          { "id": 0, "text": "RVa =[4,4] , RVb = [4,4]", "isCorrect": false },
+          { "id": 1, "text": "RVa =[2,4] , RVb = [2,4]", "isCorrect": false },
+          { "id": 2, "text": "RVa =[5,4] , RVb = [3,5]", "isCorrect": false },
+          { "id": 3, "text": "RVa =[4,4] , RVb = [2,4]", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Señale qué afirmación es correcta para el concepto de corte consistente:",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "Al corte consistente es suficiente con incluir las causas e ignorar los efectos", "isCorrect": false },
+          { "id": 1, "text": "Al corte consistente le pueden faltar efectos, pero no causas", "isCorrect": true },
+          { "id": 2, "text": "Un corte consistente siempre tiene la causa y su efecto incluido", "isCorrect": false },
+          { "id": 3, "text": "Al corte consistente le pueden faltar causas, pero no efectos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El protocolo MQTT visto en clase, del cual se hizo un ejercicio, usa un modelo de comunicación indirecta deltipo:",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "Cola de mensajes", "isCorrect": false },
+          { "id": 1, "text": "Sistema basado en eventos distribuidos", "isCorrect": true },
+          { "id": 2, "text": "Memoria distribuida", "isCorrect": false },
+          { "id": 3, "text": "Comunicación uno a uno", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué métodos de replicación no aseguran una consistencia estricta?",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "Métodos optimistas", "isCorrect": true },
+          { "id": 1, "text": "Métodos pesimistas", "isCorrect": false },
+          { "id": 2, "text": "Ambos tipos de métodos aseguran una consistencia estricta", "isCorrect": false },
+          { "id": 3, "text": "Ambos tipos de métodos no aseguran una consistencia estricta", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué modelo de comunicación permite de forma mas natural implementar la diseminación de eventos a grannúmero de usuarios?",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "Comunicación indirecta", "isCorrect": true },
+          { "id": 1, "text": "Comunicación directa", "isCorrect": false },
+          { "id": 2, "text": "Algoritmo de Cristian", "isCorrect": false },
+          { "id": 3, "text": "Enrutado de eventos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Para un conjunto de 6 nodos, se define un método de votación (quorum) y usted debe definir el número decopias de lectura (R) y el número de copias de escritura (W) ¿qué números propondría para garantizar la consistencia?:",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "R=3, W=4", "isCorrect": true },
+          { "id": 1, "text": "R=2, W=3", "isCorrect": false },
+          { "id": 2, "text": "R=4, W=2", "isCorrect": false },
+          { "id": 3, "text": "R=3, W=3", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "A la hora de establecer un sistema de alta disponibilidad en su empresa para un servicio de alarmas, se hanadquirido 5 computadores y usted ha decidido un tamaño de W de 3 nodos y un tamaño de R de otros 3 nodos. Delsistema de log pasado, su servicio de alarmas recibe, generalmente un 50 por ciento de lectura y un 50 por ciento deescrituras. El coste de cada lectura son 2 unidades de tiempo y el coste de cada escritura son 4 unidades de tiempo.¿Cual es el coste total (rendimiento) de su sistema?:",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "3", "isCorrect": false },
+          { "id": 1, "text": "6", "isCorrect": false },
+          { "id": 2, "text": "12", "isCorrect": false },
+          { "id": 3, "text": "9", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En un entorno de microservicios, tres servicios A, B, C se invocan uno a otro para obtener el perfil de riesgode un cliente. La cadena de invocación es la siguiente (A->B->C), un cliente invoca A, éste invoca a B y finalmente seinvoca C que comunica al cliente original el perfil de riesgo del cliente. La fiabilidad de A, B y C es del 90 % y fallande forma independiente (atendiendo a los logs de fallo del sistema) ¿Qué fiabilidad tiene el sistema global?",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "0.9", "isCorrect": false },
+          { "id": 1, "text": "0.1", "isCorrect": false },
+          { "id": 2, "text": "0.271", "isCorrect": false },
+          { "id": 3, "text": "0.729", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En un cluster de 5 nodos (A,B,C,D,E) configurados mediante el método de votación dinámica, inicialmentetodos los nodos tienen una cardinalidad de actualizaciones de 5 (SC=5) y un número de versión de 10 (NV=10). Seproduce una partición P1 quedando dos nodos aislados (D y E) y el resto se quedan en otra partición P2 (A,B y C). Seintenta una escritura en la partición P1 ¿qué valores tienen de SC y NV después de este intento?:",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "SC=2 NV=10", "isCorrect": false },
+          { "id": 1, "text": "SC=5 NV=11", "isCorrect": false },
+          { "id": 2, "text": "SC=5 NV=10, La escritura no se puede realizar.", "isCorrect": true },
+          { "id": 3, "text": "SC=2 NV=11", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un sistema transaccional debe implementar las siguientes propiedades para garantizar su funcionalidad:",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "Atomicidad, Consistencia, Aislamiento y Liveness", "isCorrect": false },
+          { "id": 1, "text": "Atomicidad, Consistencia, Aislamiento y Concurrencia", "isCorrect": false },
+          { "id": 2, "text": "Atomicidad, Consistencia, Aislamiento y Durabilidad", "isCorrect": true },
+          { "id": 3, "text": "Atomicidad, Consistencia, Aislamiento, Durabilidad y Concurrencia", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "n un sistema transaccional con muchos conflictos y donde predominan las escrituras, ¿qué método de gestiónde concurrencia sugiere utilizar?",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "Ordenación", "isCorrect": false },
+          { "id": 1, "text": "Control optimista", "isCorrect": false },
+          { "id": 2, "text": "Bloqueo en dos fases", "isCorrect": true },
+          { "id": 3, "text": "Todos los métodos tienen la mismas prestaciones, da igual", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En una sincronización mediante el algoritmo de Cristian, un cliente manda un mensaje de sincronización a unservidor con su hora de cliente de Tc=10:00:00, le llega un mensaje de vuelta a las 10:00:20 con la hora de servidor deTs=10:00:05, ¿Qué hora debe configurar como objetivo para sincronizarse? ¿Qué error máximo está cometiendo?:",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "10:00:15, 10 segundos", "isCorrect": true },
+          { "id": 1, "text": "10:00:05, 20 segundos", "isCorrect": false },
+          { "id": 2, "text": "10:00:05, 10 segundos", "isCorrect": false },
+          { "id": 3, "text": "10:00:25, 10 segundos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Marque la afirmación verdadera:",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "Todas las otras afirmaciones son verdaderas.", "isCorrect": true },
+          { "id": 1, "text": "Los relojes vectoriales permiten representar de forma precisa la relación de causalidad potencial.", "isCorrect": false },
+          { "id": 2, "text": "Los relojes lógicos de Lamport imponen sólo una relación de orden parcial.", "isCorrect": false },
+          { "id": 3, "text": "En ausencia de un reloj global la relación causa-efecto es la única posibilidad de ordenar eventos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "RabbitMQ usa un modelo de comunicación indirecta del tipo:",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "Cola de mensajes", "isCorrect": true },
+          { "id": 1, "text": "Sistema basado en eventos distribuidos", "isCorrect": false },
+          { "id": 2, "text": "Memoria distribuida", "isCorrect": false },
+          { "id": 3, "text": "Comunicación uno a uno", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un sistema transaccional con pocos conflictos, ¿qué método de gestión de concurrencia sugiere utilizar?",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "Ordenación", "isCorrect": false },
+          { "id": 1, "text": "Control optimista", "isCorrect": true },
+          { "id": 2, "text": "Bloqueo en dos fases", "isCorrect": false },
+          { "id": 3, "text": "Todos los métodos tienen la mismas prestaciones, da igual", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un sistema con 18 nodos se configura mediante una red de comunicaciones por satélite mediante un contratode pago por uso (10 euros por MB), a continuación, se configura un algoritmo de exclusión mutua para controlar elacceso a una sección crítica. Durante el primer mes de funcionamiento, ningún nodo accede a la sección crítica ¿Quéalgoritmo le saldría mas caro haber configurado?",
+        "questionURL": "",
+        "options": [
+          { "id": 0, "text": "Servidor Central", "isCorrect": false },
+          { "id": 1, "text": "Ricart Agrawala", "isCorrect": false },
+          { "id": 2, "text": "Anillo", "isCorrect": true },
+          { "id": 3, "text": "Si no hay acceso a la sección crítica, todos los algoritmos hubieran salido igual de caro", "isCorrect": false }
         ]
       }
     ]
@@ -2248,6 +2453,201 @@
           { "id": 0, "text": "Fallo-Error-Avería", "isCorrect": true },
           { "id": 1, "text": "Error-Fallo-Avería", "isCorrect": false },
           { "id": 2, "text": " Fallo-Avería-Error", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Ex-Ene-17",
+    "questions": [
+      {
+        "text": "Dados los  procesos  p1  y p2,  con  prefijos  de  historia  h12y  h23,  respectivamente,  donde h12={abrir  fichero,  leer fichero} y h23={calcular media,recibir(p1,lectura),send(p1,media)}. El corte C=h12h23:",
+        "options": [
+          { "id": 0, "text": "Es un corte consistente.", "isCorrect": false },
+          { "id": 1, "text": "Es un corte inconsistente.", "isCorrect": true },
+          { "id": 2, "text": "No se puede sabercon los prefijos finitos de historia infinitos.", "isCorrect": false },
+          { "id": 3, "text": "Depende del orden de ejecución de los eventos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Considere  la  ejecucióndel  algoritmo  de  la  instantánea  de  Chandy-Lamport,  para  los  procesos  P1  y  P2  el estado inicial es S0={{100}, {50}} , donde {100} es el estado del proceso P1 y {50} es el estado inicial del proceso P2. El proceso P1 es el proceso iniciador. Tras la ejecución de la regla del iniciador por P1, y la regla del receptor por P2:",
+        "options": [
+          { "id": 0, "text": "P1= {S1={100}, C21=φ}, P2={S2={50}, C12= φ}}", "isCorrect": true },
+          { "id": 1, "text": "P1= {S1={0}, C21=φ}, P2={S2={0}, C12= φ}}", "isCorrect": false },
+          { "id": 2, "text": "P1 envía la marca a P2 pero P1 aún no ha registrado su estado.", "isCorrect": false },
+          { "id": 3, "text": "P1= {S1={100}, C21=φ}, y P1 envía la marca a P2.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La relación de causalidad potencial de Lamport, precede a,representa:",
+        "options": [
+          { "id": 0, "text": "Un orden parcial, con las propiedades reflexiva, simétrica y transitiva,", "isCorrect": false },
+          { "id": 1, "text": "Un orden parcial, con las propiedades reflexiva, anti-simétrica y transitiva", "isCorrect": true },
+          { "id": 2, "text": "Un orden total, con las propiedades reflexiva, anti-simétrica y transitiva.", "isCorrect": false },
+          { "id": 3, "text": "Ninguna de las anteriores es cierta.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En una red de área local formada por 4computadoresse utiliza el algoritmo de Berkeley para sincronización interna. Durante  la  ejecución  del  algoritmo,  el  reloj  del  computador  maestro  tiene  las  18h.26m.36s  y  los relojesde  los computadores esclavos tienenlos valores18h.27m.36s, 18h.25m.36s, y 18h.27m.12s. ¿Cuál es la hora a la que el maestro deberá actualizar los relojes?",
+        "options": [
+          { "id": 0, "text": "18h.26m.49s", "isCorrect": false },
+          { "id": 1, "text": "18h.26m.27s", "isCorrect": false },
+          { "id": 2, "text": "18h.26m.45s", "isCorrect": true },
+          { "id": 3, "text": "Ninguna de las anteriores es cierta", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Unaaplicación  cliente/servidor  que  se  implementa  con  RPCs  define  un  servicio  para  calcular  el  valor  máximo, mínimo y medio de las ventas generadas en cualquier mes del año pasado. La semántica más adecuada sería:",
+        "options": [
+          { "id": 0, "text": "Al menos una vez, dado que las operaciones son idempotentes.", "isCorrect": true },
+          { "id": 1, "text": "A lo más una vez, dado que las operaciones son no idempotentes.", "isCorrect": false },
+          { "id": 2, "text": "Es mejor no garantizar nada, dado que algunas operaciones son idempotentes y otras no", "isCorrect": false },
+          { "id": 3, "text": "Ninguna de las anteriores es cierta.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Una aplicación cliente invoca  diariamente  50 RPCs  del  servidor  X  y  25RPCs  del  servidor  Y.  El  servidor  X proporciona un enlace dinámico persistente y el servidor Y un enlace dinámico no-persistente. Suponiendo que no hay errores en la ejecución, ¿cuántos enlaces serán necesarios establecer entre el cliente y los dos servidores cada día?",
+        "options": [
+          { "id": 0, "text": "26", "isCorrect": true },
+          { "id": 1, "text": "75", "isCorrect": false },
+          { "id": 2, "text": "2", "isCorrect": false },
+          { "id": 3, "text": "Ninguna de las anteriores es cierta", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué es falso sobre el modelo publish-subscribe?:",
+        "options": [
+          { "id": 0, "text": "Publishersy suscribersdeben ejecutar síncronamente, en el mismo instante de tiempo.", "isCorrect": true },
+          { "id": 1, "text": "Es un modelo asíncrono, en el que publishers y suscriberspodrían ejecutar en distinto momento del tiempo.", "isCorrect": false },
+          { "id": 2, "text": "Se trata de un modelo desacoplado en espacio y tiempo.", "isCorrect": false },
+          { "id": 3, "text": "El servicio de eventos (broker) se encarga de relacionar procesos publishers y suscribers.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué es falso sobre el modelo distribuido de colas de mensajes?:",
+        "options": [
+          { "id": 0, "text": "Es un modelo de comunicación indirecta 1-1.", "isCorrect": false },
+          { "id": 1, "text": "Es un modelo de comunicación indirecta 1-n.", "isCorrect": true },
+          { "id": 2, "text": "Las  implementaciones  de  colas  de  mensajes  suelen  proporcionar  selección  por  prioridades  para  evitar  la semántica FIFO.", "isCorrect": false },
+          { "id": 3, "text": "Proporcionan un mecanismo de comunicación y sincronización entre procesos distribuidos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Marque la respuesta que contiene una propiedad que no se considera una característica de los Sistemas Distribuidos.",
+        "options": [
+          { "id": 0, "text": "Ausencia de reloj global, concurrencia de procesos, y fallos independientes.", "isCorrect": false },
+          { "id": 1, "text": "Heterogeneidad, escalabilidad y transparencia.", "isCorrect": false },
+          { "id": 2, "text": "Velocidad de ejecución, sistemas abiertos, seguridad.", "isCorrect": true },
+          { "id": 3, "text": "Consistencia, fiabilidad.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Considere la siguiente ejecución de los procesos P1, P2 y P3 de un sistema distribuido.",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/SD/Ex-Ene-17.JPG",
+        "options": [
+          { "id": 0, "text": "RV(a)=(0,0,0);RV(h)=(3,0,2);RV(f)=(0,2,1);RL(a)=1; RL(h)=4;y RL(f)=3.", "isCorrect": false },
+          { "id": 1, "text": "RV(b)=(2,0,1);RV(e)=(0,1,1);RV(g)=(0,0,1);RL(b)=2; RL(e)=1;y RL(g)=1", "isCorrect": false },
+          { "id": 2, "text": "RV(c)=(3,0,0);RV(g)=(0,0,1);RV(h)=(3,0,2);RL(a)=1; RL(h)=4y RL(f)=3.", "isCorrect": false },
+          { "id": 3, "text": "Ninguna de las anteriores es cierta.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Si RL(x)=3 y RL(y)=10, entonces:",
+        "options": [
+          { "id": 0, "text": "x->y", "isCorrect": false },
+          { "id": 1, "text": "y->x", "isCorrect": false },
+          { "id": 2, "text": "x||y", "isCorrect": false },
+          { "id": 3, "text": "No se puede saber", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En el algoritmo de exclusión mutua distribuida basado en anillo con testigo:",
+        "options": [
+          { "id": 0, "text": "Seguridad, liveness y orden se cumplen", "isCorrect": false },
+          { "id": 1, "text": "Seguridad, liveness se cumplen pero orden puede no cumplirse", "isCorrect": true },
+          { "id": 2, "text": "Seguridad se cumple pero liveness y orden no se cumplen", "isCorrect": false },
+          { "id": 3, "text": "No se cumple seguridad, ni liveness ni orden", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un sistema distribuido con N=4 procesos, donde las marcas de tiempo de los procesos son MT(1)=10, MT(2)=4, MT(3)=3 y MT(4)=1. ¿Cuántos mensajes se necesitan para que el proceso 2pueda entrar en la sección críticade acuerdo al algoritmo de Ricart y Agrawala, asumiendo que los procesos 2 y 4 solicitan entrar al mismo tiempo?",
+        "options": [
+          { "id": 0, "text": "N^2", "isCorrect": false },
+          { "id": 1, "text": "8", "isCorrect": false },
+          { "id": 2, "text": "13", "isCorrect": true },
+          { "id": 3, "text": "6", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Considere un grupo multicast formado por N procesos. Uno de los procesos del grupo envía un mensaje al grupo utilizando la primitiva R-mcast implementada sobre B-mcast. Asumiendo que todos los procesos reciben el mensaje original ¿cuántas retransmisionesdel mismo mensaje serán necesarias?",
+        "options": [
+          { "id": 0, "text": "0: Ninguna, dado que todos los procesos ya han recibido el mensaje.", "isCorrect": false },
+          { "id": 1, "text": "N-1: tantas como procesos reciban el mensajeexceptuando el proceso emisor.", "isCorrect": true },
+          { "id": 2, "text": "1: Sólo el proceso que envía el mensaje original transmite de nuevo el mensaje.", "isCorrect": false },
+          { "id": 3, "text": "Ninguna de las anterioreses cierta.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En un grupo IP multicast, ¿qué es falso?:",
+        "options": [
+          { "id": 0, "text": "Cualquier proceso que conozca la dirección multicast del grupo puede enviar un mensaje de difusión al grupo.", "isCorrect": false },
+          { "id": 1, "text": "Sólo los procesos que pertenecen al grupo IP multicast pueden enviar mensajes", "isCorrect": true },
+          { "id": 2, "text": "Los grupos sondinámicos, cualquier proceso puede entrar o salir del grupo.", "isCorrect": false },
+          { "id": 3, "text": "Un grupo IP multicast se representa por medio de una dirección IP de clase D.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Dados dos procesos  g1 y g2 que pertenecen a un grupo multidifusión abierto. Tras un período de tiempo, g1 entrega los mensajes {m2,m1,m3} y g2 entrega {m1,m2,m3}, donde m2,m3 se envíanal grupo en ese orden por el proceso p1 y m1 se envía al grupo por el proceso p2:",
+        "options": [
+          { "id": 0, "text": "Multicast fiable sin ordenación.", "isCorrect": false },
+          { "id": 1, "text": "Multicast fiable con orden total.", "isCorrect": false },
+          { "id": 2, "text": "Multicast fiable con orden FIFO y causal.", "isCorrect": true },
+          { "id": 3, "text": "Multicast no fiable.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuántos mensajes se necesitan enviar en el mejor de los casos para ejecutar una transacción distribuida con N=3 procesos que usa el protocolo de consumación Two Phase Commit?",
+        "options": [
+          { "id": 0, "text": "12", "isCorrect": false },
+          { "id": 1, "text": "6", "isCorrect": false },
+          { "id": 2, "text": "8", "isCorrect": false },
+          { "id": 3, "text": "Ninguna de las anteriores", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "La unión de un participante a un coordinador durante la ejecución de una transacción distribuida:",
+        "options": [
+          { "id": 0, "text": "Se realiza al principio de la transacción por el cliente, para indicaral coordinador quiénes son los participantes de la transacción.", "isCorrect": false },
+          { "id": 1, "text": "Cada  participante  solicita  al  coordinador  la  uniónla  primera  vez  que  es  accedido  por  el  cliente  de  la transacción", "isCorrect": true },
+          { "id": 2, "text": "El coordinador indica a los participantes quiénes van a participar en la transacción", "isCorrect": false },
+          { "id": 3, "text": "El joinpuede realizarlo tanto el cliente de la transacción como el participante", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes pares de operaciones son no conflictivas en el contexto de las transacciones?:",
+        "options": [
+          { "id": 0, "text": "T1: read(x); T2: read(y);", "isCorrect": true },
+          { "id": 1, "text": "T1: read(x); T2: write(x);", "isCorrect": false },
+          { "id": 2, "text": "T1: write(y);T2:write(y);", "isCorrect": false },
+          { "id": 3, "text": "T1: write(x);T2:write(x);", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál no es una ventaja de un servidor con estado?:",
+        "options": [
+          { "id": 0, "text": "Permite analizar el patrón de accesos de cada cliente.", "isCorrect": false },
+          { "id": 1, "text": "Mejor rendimiento en cuanto al uso de ancho de banda.", "isCorrect": false },
+          { "id": 2, "text": "Más tolerante a fallos.", "isCorrect": true },
+          { "id": 3, "text": "Mensajes de petición máscortos.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué implica la propiedad de atomicidad en una transacción distribuida?",
+        "options": [
+          { "id": 0, "text": "Las transacciones ejecutarán libre de interferencias", "isCorrect": false },
+          { "id": 1, "text": "Las transacciones se ejecutarán de manera secuencial", "isCorrect": false },
+          { "id": 2, "text": "Las transacciones siempre se ejecutarán", "isCorrect": false },
+          { "id": 3, "text": "Semántica de éxito o fallo: o se ejecuta completamente en todos los servidores implicados o en ninguno", "isCorrect": true }
         ]
       }
     ]
