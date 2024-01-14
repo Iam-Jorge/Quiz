@@ -847,22 +847,6 @@
         ]
       },
       {
-        "text": "El código que genera el compilador…",
-        "options": [
-          { "id": 0, "text": "está optimizado pero con posibles riesgos por dependencias.", "isCorrect": false },
-          { "id": 1, "text": "no está optimizado pero con posibles riesgos por dependencias.", "isCorrect": false },
-          { "id": 2, "text": "está optimizado sin riesgos por dependencias.", "isCorrect": false }
-        ]
-      },
-      {
-        "text": "Son procesadores ILP con varias unidades de ejecución…",
-        "options": [
-          { "id": 0, "text": "VLIW y Superescalar.", "isCorrect": false },
-          { "id": 1, "text": "Superescalar y Multicore", "isCorrect": false },
-          { "id": 2, "text": "VLIW y Multicore", "isCorrect": false }
-        ]
-      },
-      {
         "text": "Al retornar de la rutina de interrupción hay que procesar desde el principio instrucciones que ya se procesaron parcialmente…",
         "options": [
           { "id": 0, "text": "Interrupciones imprecisas.", "isCorrect": false },
