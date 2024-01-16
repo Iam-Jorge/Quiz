@@ -3957,6 +3957,766 @@
                 {"id": 2,"text": "Es iterativo e incremental","isCorrect": false},
                 {"id": 3,"text": "Todas son correctas","isCorrect": true}
             ]
+        },
+        {
+            "text": "¿En qué tipo de evaluación la organización obtiene una puntuación a nivel de proceso?",
+            "options": [
+                {"id": 0,"text": "Evaluación por capacidad","isCorrect": true},
+                {"id": 1,"text": "Evaluación por madurez","isCorrect": false},
+                {"id": 2,"text": "Evaluación por proceso","isCorrect": false},
+                {"id": 3,"text": "Evaluación madurez-proceso","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál de las siguientes actividades se encarga de ensamblar componentes de programa, datos y librerías, y compilarlos para crear un sistema ejecutable?",
+            "options": [
+                {"id": 0,"text": "Gestión del cambio","isCorrect": false},
+                {"id": 1,"text": "Gestión de versiones","isCorrect": false},
+                {"id": 2,"text": "Construcción del sistema","isCorrect": true},
+                {"id": 3,"text": "Gestión de Liberaciones / Entregas","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Qué cumple el mantenimiento de software según ISO 14764-2006?:",
+            "options": [
+                {"id": 0,"text": "Modificación para mejorar rendimiento.","isCorrect": false},
+                {"id": 1,"text": "Cambio para adaptarse al entorno.","isCorrect": false},
+                {"id": 2,"text": "Todas son correctas","isCorrect": true},
+                {"id": 3,"text": "Modificación post-entrega para corregir defectos.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Qué es la baseline?",
+            "options": [
+                {"id": 0,"text": "Un elemento de CM, consistente en la evaluación, coordinación, aprobación o desaprobación","isCorrect": false},
+                {"id": 1,"text": "Un conjunto de versiones de un componente de software y otros elementos de configuración de los cuales depende dicho componente","isCorrect": false},
+                {"id": 2,"text": "Una versión operativa del sistema o de un componente que incorpora un subconjunto específico de las capacidades que la versión final deberá tener","isCorrect": false},
+                {"id": 3,"text": "Una especificación o producto que ha sido formalmente revisado y sobre el que se ha alcanzado un acuerdo; y que por tanto sirve de base para futuros desarrollos","isCorrect": true}
+            ]
+        }
+    ]
+  },
+  {
+    "examName": "TestNav2",
+    "questions": [
+        {
+            "text": "En el contexto de la documentación de cambios en un proyecto de software, ¿cuál de los siguientes elementos proporciona información sobre las líneas de código añadidas, modificadas y eliminadas, así como los módulos examinados, añadidos, modificados y eliminados? ",
+            "options": [
+                {"id": 0,"text": "Descripción del cambio.","isCorrect": false},
+                {"id": 1,"text": "Localización.","isCorrect": false},
+                {"id": 2,"text": "Tamaño.","isCorrect": true},
+                {"id": 3,"text": "Tipo del cambio/mantenimiento a realizar.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "Una de las ventajas del ciclo de vida en espiral es:",
+            "options": [
+                {"id": 0,"text": "Trata de mejorar los ciclos de vida clásicos y prototipos","isCorrect": true},
+                {"id": 1,"text": "Se evitan los proyectos largos y se entrega 'algo de valor' a los usuarios con cierta frecuencia","isCorrect": false},
+                {"id": 2,"text": "Es muy útil cuando se realiza una migración de software desde un entorno tecnológico obsoleto ","isCorrect": false},
+                {"id": 3,"text": "La evaluación de los riesgos es una tarea simple","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿CUÁL no es un tipo de Mantenimiento?",
+            "options": [
+                {"id": 0,"text": "Mantenimiento Correctivo","isCorrect": false},
+                {"id": 1,"text": "Mantenimiento Ofensivo","isCorrect": true},
+                {"id": 2,"text": "Mantenimiento Adaptativo","isCorrect": false},
+                {"id": 3,"text": "Mantenimiento Perfectivo","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál de las siguientes características NO se corresponde con el Product Owner?:",
+            "options": [
+                {"id": 0,"text": "Representa la gestión del proyecto.","isCorrect": true},
+                {"id": 1,"text": "Es el principal responsable del producto.","isCorrect": false},
+                {"id": 2,"text": "Prioriza las características de acuerdo con el valor de mercado.","isCorrect": false},
+                {"id": 3,"text": "Decide sobre las fechas de publicación y sus contenidos.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Qué se considera la fase secundaria para comenzar las pruebas de software?:",
+            "options": [
+                {"id": 0,"text": "Release Alpha.","isCorrect": false},
+                {"id": 1,"text": "Release Beta.","isCorrect": true},
+                {"id": 2,"text": "Release Plan.","isCorrect": false},
+                {"id": 3,"text": "Release Estable/Inestable.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿QUÉ PERSONAS PRINCIPALMENTE INTERVIENEN EN UN PROYECTO SCRUM?:",
+            "options": [
+                {"id": 0,"text": "El gerente de proyecto, el patrocinador y los stakeholders.","isCorrect": false},
+                {"id": 1,"text": "El product owner, el scrum master y el equipo de desarrollo.","isCorrect": true},
+                {"id": 2,"text": "Los clientes, los proveedores y los consultores externos.","isCorrect": false},
+                {"id": 3,"text": "El analista de negocio, el director de tecnología y el equipo de diseño.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Qué tipo de pruebas se centran en comprobar que las unidades de prueba funcionan correctamente cuando se integran con otras clases?:",
+            "options": [
+                {"id": 0,"text": "Pruebas unitarias.","isCorrect": false},
+                {"id": 1,"text": "Pruebas de aceptación.","isCorrect": false},
+                {"id": 2,"text": "Pruebas de integración.","isCorrect": true},
+                {"id": 3,"text": "Pruebas de sistema.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "Indica cuál de las siguientes definiciones corresponde con el término Oráculo",
+            "options": [
+                {"id": 0,"text": "Agente (humano o mecánico) que decide si un programa se comportó adecuadamente ante un conjunto de datos","isCorrect": true},
+                {"id": 1,"text": "Agente (únicamente mecánico) que decide si un programa se comportó adecuadamente ante un conjunto de datos","isCorrect": false},
+                {"id": 2,"text": "Agente (humano o mecánico) que decide si un programa se comportó adecuadamente ante un dato","isCorrect": false},
+                {"id": 3,"text": "Agente (únicamente humano) que decide si un programa se comportó adecuadamente ante un conjunto de datos","isCorrect": false}
+            ]
+        },
+        {
+            "text": "El equilibrio entre coste y calidad es:",
+            "options": [
+                {"id": 0,"text": "No tienen relación.","isCorrect": false},
+                {"id": 1,"text": "Directamente proporcional.","isCorrect": false},
+                {"id": 2,"text": "Inversamente proporcional.","isCorrect": true},
+                {"id": 3,"text": "Depende de la situación del mercado.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿QUÉ ES UN ERROR?:",
+            "options": [
+                {"id": 0,"text": "Equivocación realizada por una persona.","isCorrect": true},
+                {"id": 1,"text": "Error al realizar alguna actividad.","isCorrect": false},
+                {"id": 2,"text": "Desvío respecto al comportamiento requerido del sistema.","isCorrect": false},
+                {"id": 3,"text": "Equivocación al realizar un desvío sobre alguna actividad.","isCorrect": false}
+            ]
+        }
+    ]
+  },
+  {
+    "examName": "TestNav3",
+    "questions": [
+        {
+            "text": "¿Qué caracteriza a las pruebas de Caja Blanca o Estructurales?",
+            "options": [
+                {"id": 0,"text": "No se tiene en cuenta la estructura interna del programa","isCorrect": false},
+                {"id": 1,"text": "La estructura interna del programa es desconocida","isCorrect": false},
+                {"id": 2,"text": "Se conoce la estructura interna del programa a probar","isCorrect": true},
+                {"id": 3,"text": "La ejecución del programa no se realiza por partes","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Qué significa la sigla CMMI en el contexto del modelo de referencia CMMI?",
+            "options": [
+                {"id": 0,"text": "Capability Maturity Model Integration","isCorrect": true},
+                {"id": 1,"text": "Certified Measurement and Management Integration","isCorrect": false},
+                {"id": 2,"text": "Comprehensive Methodology for Managing Integration","isCorrect": false},
+                {"id": 3,"text": "Continuous Monitoring and Measurement Integration","isCorrect": false}
+            ]
+        },
+        {
+            "text": "Cual NO es una estrategia de combinación:",
+            "options": [
+                {"id": 0,"text": "AETG.","isCorrect": false},
+                {"id": 1,"text": "PROW.","isCorrect": false},
+                {"id": 2,"text": "RANDOM.","isCorrect": false},
+                {"id": 3,"text": "EAGE.","isCorrect": true}
+            ]
+        },
+        {
+            "text": "¿Cúal NO es una caracteristica de las metodologías?",
+            "options": [
+                {"id": 0,"text": "Fácil formación.","isCorrect": false},
+                {"id": 1,"text": "No presentan reglas predefinidas.","isCorrect": true},
+                {"id": 2,"text": "Debe contener actividades que mejoren el proceso de desarrollo.","isCorrect": false},
+                {"id": 3,"text": "Tiene verificaciones intermedias.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Como debemos etiquetar a nuestra primera versión del software lanzado?:",
+            "options": [
+                {"id": 0, "text": "0.0.0.", "isCorrect": false},
+                {"id": 1, "text": "0.0.1.", "isCorrect": true},
+                {"id": 2, "text": "1.0.0.", "isCorrect": false},
+                {"id": 3, "text": "1.0.0.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál es el propósito del 'Control de la calidad' dentro de la gestión de calidad?",
+            "options": [
+                {"id": 0, "text": "Aumentar la capacidad de cumplir con los requisitos de la calidad.", "isCorrect": false},
+                {"id": 1, "text": "Proporcionar confianza en que se cumplirán los requisitos de la calidad.", "isCorrect": false},
+                {"id": 2, "text": "Dirigir y controlar una organización con respecto a la calidad.", "isCorrect": false},
+                {"id": 3, "text": "Cumplir los requisitos de la calidad.", "isCorrect": true}
+            ]
+        },
+        {
+            "text": "La fase del ciclo de lanzamiento que es la primera fase para comenzar las pruebas de software es:",
+            "options": [
+                {"id": 0, "text": "Release Alpha.", "isCorrect": true},
+                {"id": 1, "text": "Release Beta.", "isCorrect": false},
+                {"id": 2, "text": "Release Plan.", "isCorrect": false},
+                {"id": 3, "text": "Ninguna de las anteriores.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "Como se analiza la madurez de la empresa:",
+            "options": [
+                {"id": 0, "text": "Con el minimo nivel de madurez de los procesos.", "isCorrect": false},
+                {"id": 1, "text": "Con el maximo nivel de madurez de uno de los procesos.", "isCorrect": false},
+                {"id": 2, "text": "Con el minimo nivel de madurez de un proceso.", "isCorrect": false},
+                {"id": 3, "text": "Con el maximo nivel de madurez de todos los procesos.", "isCorrect": true}
+            ]
+        },
+        {
+            "text": "Un desvío respecto al comportamiento requerido del sistema es un:",
+            "options": [
+                {"id": 0, "text": "Error.", "isCorrect": false},
+                {"id": 1, "text": "Defecto.", "isCorrect": false},
+                {"id": 2, "text": "Fallo.", "isCorrect": true},
+                {"id": 3, "text": "FallA.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿CUÁL DE LAS SIGUIENTES NO FORMA PARTE DEL CICLO DE MEJORA DE PROCESOS?:",
+            "options": [
+                {"id": 0, "text": "Utilizar el proceso.", "isCorrect": false},
+                {"id": 1, "text": "Medir el proceso.", "isCorrect": false},
+                {"id": 2, "text": "Añadir procesos.", "isCorrect": true},
+                {"id": 3, "text": "Definir procesos.", "isCorrect": false}
+            ]
+        }
+    ]
+  },
+  {
+    "examName": "TestNav4",
+    "questions": [
+        {
+            "text": "¿Qué 4 tipos de mantenimiento existen?:",
+            "options": [
+                {"id": 0, "text": "Perfectivo, Correctivo, Preventivo y Adaptativo", "isCorrect": true},
+                {"id": 1, "text": "Perfectivo, Evolutivo, Preventivo y Adaptativo", "isCorrect": false},
+                {"id": 2, "text": "Evolutivo, Correctivo, Preventivo y Perfectivo", "isCorrect": false},
+                {"id": 3, "text": "Perfectivo, Correctivo, Evolucionado y Cambiante", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿CUÁL NO ES UN VALOR DE PRUEBA CORRECTO?:",
+            "options": [
+                {"id": 0, "text": "Valores límite", "isCorrect": false},
+                {"id": 1, "text": "Variante ligera", "isCorrect": false},
+                {"id": 2, "text": "Variante pesada", "isCorrect": false},
+                {"id": 3, "text": "Variante espacial", "isCorrect": true}
+            ]
+        },
+        {
+            "text": "¿Qué caracteriza al Software a medida en términos de liberalización?:",
+            "options": [
+                {"id": 0, "text": "Es una versión de un sistema software que se distribuye a los clientes.", "isCorrect": true},
+                {"id": 1, "text": "Entregas especiales para cada cliente.", "isCorrect": false},
+                {"id": 2, "text": "Modificaciones o parches a problemas informados por el cliente.", "isCorrect": false},
+                {"id": 3, "text": "Nueva versión del producto.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "EL ESTÁNDAR IEEE 1074 ES....",
+            "options": [
+                {"id": 0, "text": "Un proceso unificado de desarrollo.", "isCorrect": false},
+                {"id": 1, "text": "Un modelo de procesos.", "isCorrect": true},
+                {"id": 2, "text": "Una metodología de desarrollo.", "isCorrect": false},
+                {"id": 3, "text": "Un modelo de ciclo de vida.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Como se le puede llamar tambien al mantenimiento perfectivo?:",
+            "options": [
+                {"id": 0, "text": "Cambiante.", "isCorrect": false},
+                {"id": 1, "text": "Evolutivo.", "isCorrect": true},
+                {"id": 2, "text": "Rodante.", "isCorrect": false},
+                {"id": 3, "text": "Rotatorio.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿DEBIDO AL CARACTER POCO ATRACTIVO DEL MANTENIMIENTO QUE DEFECTO OCURRE?",
+            "options": [
+                {"id": 0, "text": "Programadores sin motivacion.", "isCorrect": true},
+                {"id": 1, "text": "Falta de recursos humanos.", "isCorrect": false},
+                {"id": 2, "text": "Realizan algunas modificaciones defectuosas.", "isCorrect": false},
+                {"id": 3, "text": "Raramente encuentran y corrigen defectos.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "El modelo en cascada, ¿cuándo sería útil usarlo?:",
+            "options": [
+                {"id": 0, "text": "Si tenemos un cliente que no tiene muy claro que quiere y después de cada fase quizás quiera cambiar algo.", "isCorrect": false},
+                {"id": 1, "text": "En proyectos complejos donde el cliente tenga claro lo que quiere y esté todo muy bien definido y especificado.", "isCorrect": true},
+                {"id": 2, "text": "Cuando no se tiene mucha comunicación con el cliente.", "isCorrect": false},
+                {"id": 3, "text": "Si se evitan proyectos largos y se entrega 'algo de valor' a los usuarios con cierta frecuencia.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuales son los objetivos de Mejoras de Proceso, que se basan en 4 responsabilidades claves?, selecciona la falsa:",
+            "options": [
+                {"id": 0, "text": "Mejorar el proceso.", "isCorrect": false},
+                {"id": 1, "text": "Medir el proceso", "isCorrect": false},
+                {"id": 2, "text": "Evaluar el proceso.", "isCorrect": true},
+                {"id": 3, "text": "Controlar el proceso.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál NO es un framework de pruebas?:",
+            "options": [
+                {"id": 0, "text": "JUnit.", "isCorrect": false},
+                {"id": 1, "text": "PyTest.", "isCorrect": false},
+                {"id": 2, "text": "UnitTest.", "isCorrect": false},
+                {"id": 3, "text": "gcc.", "isCorrect": true}
+            ]
+        },
+        {
+            "text": "¿Cual de las siguientes etapas NO pertenece al modelo de cascada?",
+            "options": [
+                {"id": 0, "text": "Codificación y Pruebas.", "isCorrect": false},
+                {"id": 1, "text": "Analisis de Requisitos del Sistema.", "isCorrect": false},
+                {"id": 2, "text": "Analisis de Riesgos.", "isCorrect": true},
+                {"id": 3, "text": "Diseño preliminar.", "isCorrect": false}
+            ]
+        }
+    ]
+  },
+  {
+    "examName": "TestNav5",
+    "questions": [
+        {
+            "text": "¿Qué es un modelo de referencia de procesos?:",
+            "options": [
+                {"id": 0, "text": "Un catálogo o colección estructurada de buenas prácticas que describen las características de un proceso efectivo.", "isCorrect": true},
+                {"id": 1, "text": "Un proceso utilizado como entrada o generado como salida.", "isCorrect": false},
+                {"id": 2, "text": "Un marco de referencia que contiene los procesos, las actividades y las tareas involucradas en el desarrollo, la explotación y el mantenimiento de un producto software.", "isCorrect": false},
+                {"id": 3, "text": "Una metodología de Desarrollo.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "En Semantic Versioning, ¿Cuándo debemos incrementar la versión major?:",
+            "options": [
+                {"id": 0, "text": "Cuando se incluye una funcionalidad compatible con la versión anterior.", "isCorrect": false},
+                {"id": 1, "text": "Cuando se arregla bugs compatibles con la versión anterior.", "isCorrect": false},
+                {"id": 2, "text": "Cuando el cambio sea compatible con la versión anterior.", "isCorrect": false},
+                {"id": 3, "text": "Cuando el cambio no sea compatible con la versión anterior.", "isCorrect": true}
+            ]
+        },
+        {
+            "text": "Que diferencia hay entre el Framework CMMI y el ISO33000:",
+            "options": [
+                {"id": 0, "text": "El ISO33000 se utiliza únicamente para el control de procesos y su desarrollo y el CMMI sirve para calcular su nivel de capacidad, es un modelo de referencia.", "isCorrect": true},
+                {"id": 1, "text": "Uno no se aplica en el desarrollo de software y el otro sí.", "isCorrect": false},
+                {"id": 2, "text": "El CMMI es un modelo de referencia y el ISO33000 es un modelo de evaluación de procesos.", "isCorrect": false},
+                {"id": 3, "text": "No hay diferencias, sirven para lo mismo.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál de las siguientes características pertenece a la calidad del producto software?",
+            "options": [
+                {"id": 0, "text": "Todas son correctas.", "isCorrect": true},
+                {"id": 1, "text": "Eficiencia de Desempeño.", "isCorrect": false},
+                {"id": 2, "text": "Compatibilidad.", "isCorrect": false},
+                {"id": 3, "text": "Mantenibilidad.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál de las siguientes características no es una característica de Scrum?.",
+            "options": [
+                {"id": 0,"text": "El desarrollo del Sw se realiza mediante iteraciones incrementales.","isCorrect": false},
+                {"id": 1,"text": "Se celebran reuniones de coordinación a lo largo del proyecto.","isCorrect": false},
+                {"id": 2,"text": "Scrum solo puede ir dirigido a proyectos Sw.","isCorrect": true},
+                {"id": 3,"text": "Se basa en entregas parciales.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Que diferencia hay entre liberación de software masivo y liberación de software a medida?:",
+            "options": [
+                {"id": 0,"text": "El software masivo se libera para un conjunto muy general de usuarios independientemente de sus caracteristicas mientras que el software a medida se libera para dispositivos o clientes concretos que solo ellos tendrán dicha liberación.","isCorrect": true},
+                {"id": 1,"text": "Son iguales solo que en el masivo se controlan las versiones con números diferentes.","isCorrect": false},
+                {"id": 2,"text": "El software masivo tiene una cantidad muy elevada de líneas de código mientras que el software a medida no.","isCorrect": false},
+                {"id": 3,"text": "Ninguna respuesta es correcta.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Quien se encarga de presentar las solicitudes de modificacion?",
+            "options": [
+                {"id": 0,"text": "Planificador","isCorrect": false},
+                {"id": 1,"text": "Solicitante","isCorrect": true},
+                {"id": 2,"text": "Equipo de mantenimiento","isCorrect": false},
+                {"id": 3,"text": "Responsable de mantenimiento","isCorrect": false}
+            ]
+        },
+        {
+            "text": "Dentro de la metodología SCRUM, ¿quién es el encargado de dirigir y facilitar las ceremonias y mantener y/o organizar la metodología?:",
+            "options": [
+                {"id": 0,"text": "El project manager.","isCorrect": false},
+                {"id": 1,"text": "El scrum master.","isCorrect": true},
+                {"id": 2,"text": "El ingeniero senior.","isCorrect": false},
+                {"id": 3,"text": "Todo el equipo de desarrollo.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "Objetivo del Mantenimiento Correctivo:",
+            "options": [
+                {"id": 0,"text": "Obtención de fallos.","isCorrect": false},
+                {"id": 1,"text": "Localizar y eliminar defectos que potencialmente pueden causar fallos.","isCorrect": true},
+                {"id": 2,"text": "Creación y eliminación de potenciales fallos","isCorrect": false},
+                {"id": 3,"text": "Todas las respuestas son falsas.","isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Bajo qué circunstancia se incrementa la versión major según las reglas de versionado?:",
+            "options": [
+                {"id": 0,"text": "Cuando se introduce una nueva funcionalidad compatible con la versión anterior.","isCorrect": false},
+                {"id": 1,"text": "Cuando se incrementa la versión minor.","isCorrect": false},
+                {"id": 2,"text": "Cuando se introduce cualquier cambio no compatible con la versión anterior en la API Pública.","isCorrect": true},
+                {"id": 3,"text": "Cuando se introduce un cambio interno que corrige un comportamiento erróneo.","isCorrect": false}
+            ]
+        }
+    ]
+  },
+  {
+    "examName": "TestNav6",
+    "questions": [
+        {
+            "text": "¿Cuál es un tipo de modelo de ciclo de vida?:",
+            "options": [
+                {"id": 0, "text": "PUD.", "isCorrect": false},
+                {"id": 1, "text": "Cascada.", "isCorrect": true},
+                {"id": 2, "text": "SCRUM.", "isCorrect": false},
+                {"id": 3, "text": "Ágil.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "En el contexto del desarrollo ágil de software, ¿qué representa un Sprint Backlog?",
+            "options": [
+                {"id": 0, "text": "Un conjunto de funcionalidades planificadas para un sprint específico.", "isCorrect": true},
+                {"id": 1, "text": "Una lista de todas las funcionalidades del producto.", "isCorrect": false},
+                {"id": 2, "text": "Una lista de defectos encontrados durante el sprint.", "isCorrect": false},
+                {"id": 3, "text": "Una evaluación del rendimiento del equipo de desarrollo.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál de las siguientes características no es una característica de Scrum?.",
+            "options": [
+                {"id": 0, "text": "El desarrollo del Sw se realiza mediante iteraciones incrementales.", "isCorrect": false},
+                {"id": 1, "text": "Se celebran reuniones de coordinación a lo largo del proyecto.", "isCorrect": false},
+                {"id": 2, "text": "Scrum solo puede ir dirigido a proyectos Sw.", "isCorrect": true},
+                {"id": 3, "text": "Se basa en entregas parciales.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "Señale la opción falsa sobre la organización del trabajo:",
+            "options": [
+                {"id": 0, "text": "Cada ciclo da lugar a una nueva versión del producto.", "isCorrect": true},
+                {"id": 1, "text": "El trabajo se estructura en ciclos.", "isCorrect": false},
+                {"id": 2, "text": "Cada ciclo tiene iteraciones, y cada iteración puede tener una o varias fases.", "isCorrect": false},
+                {"id": 3, "text": "Las fases pueden ser las siguientes: Inicio, Elaboración, Codificación y Transición.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "Cuál de las siguientes no es una disciplina del PUD:",
+            "options": [
+                {"id": 0, "text": "Requisitos.", "isCorrect": false},
+                {"id": 1, "text": "Despliegue.", "isCorrect": false},
+                {"id": 2, "text": "Gestión del proyecto.", "isCorrect": false},
+                {"id": 3, "text": "Presupuesto.", "isCorrect": true}
+            ]
+        },
+        {
+            "text": "Pregunta: ¿Cuál de las siguientes cualidades no pertenece al Product Backlog?:",
+            "options": [
+                {"id": 0, "text": "Estimado.", "isCorrect": false},
+                {"id": 1, "text": "Poco grado de detalle.", "isCorrect": true},
+                {"id": 2, "text": "Emergente.", "isCorrect": false},
+                {"id": 3, "text": "Buen grado de detalle.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "Cual no es una fase de un ciclo:",
+            "options": [
+                {"id": 0, "text": "Elaboración.", "isCorrect": false},
+                {"id": 1, "text": "Construcción.", "isCorrect": false},
+                {"id": 2, "text": "Diseño.", "isCorrect": true},
+                {"id": 3, "text": "Transición.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Qué es el branching (ramificación)?:",
+            "options": [
+                {"id": 0, "text": "Es la creación de una nueva línea base a partir de una versión existente.", "isCorrect": true},
+                {"id": 1, "text": "Es el proceso de división de un proyecto en iteraciones.", "isCorrect": false},
+                {"id": 2, "text": "Es dividir las tareas a realizar en una iteración para hacer un reparto justo.", "isCorrect": false},
+                {"id": 3, "text": "Es una metodología de la programación que nos permite dividir el problema en subproblemas.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "UNA LÍNEA DE CÓDIGO...:",
+            "options": [
+                {"id": 0, "text": "Es una secuencia de versiones de código fuente con las versiones más recientes en la secuencia derivadas de las versiones anteriores.", "isCorrect": true},
+                {"id": 1, "text": "Una definición de un sistema específico, por tanto especifica las versiones del componente.", "isCorrect": false},
+                {"id": 2, "text": "Es evitar que el trabajo de varios programadores entren en conflicto por colisiones.", "isCorrect": false},
+                {"id": 3, "text": "Es una versión de un sistema software que se distribuye a los clientes.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Qué es un 'Minimum Viable Product (Producto Mínimo Viable)' en desarrollo de software?",
+            "options": [
+                {"id": 0, "text": "Una versión de software con todas las características deseadas por los clientes.", "isCorrect": false},
+                {"id": 1, "text": "Una versión con las características mínimas pero suficientes para determinar si se satisfacen los requisitos más importantes de los clientes.", "isCorrect": true},
+                {"id": 2, "text": "Una colección de elementos de configuración que han sido probados e introducidos en el entorno de desarrollo.", "isCorrect": false},
+                {"id": 3, "text": "Una versión de software que se pone formalmente a disposición de la comunidad.", "isCorrect": false}
+            ]
+        }
+    ]
+  },
+  {
+    "examName": "TestNav7",
+    "questions": [
+        {
+            "text": "Una nueva liberación de un proceso de Liberación no podría incluir:",
+            "options": [
+                {"id": 0, "text": "Código ejecutable del sistema.", "isCorrect": false},
+                {"id": 1, "text": "Un programa de instalación para ayudar a instalar el sistema en el entorno operativo de destino.", "isCorrect": false},
+                {"id": 2, "text": "Documentación electrónica y escrita que describa al sistema.", "isCorrect": false},
+                {"id": 3, "text": "Todas las opciones anteriores las podría incluir.", "isCorrect": true}
+            ]
+        },
+        {
+            "text": "¿Cuál es el principal objetivo del branching en el contexto de gestión de configuración?",
+            "options": [
+                {"id": 0, "text": "Acelerar el proceso de construcción del sistema.", "isCorrect": false},
+                {"id": 1, "text": "Evitar que el trabajo de varios programadores entre en conflicto por colisiones.", "isCorrect": true},
+                {"id": 2, "text": "Coordinar y aplicar cambios a los elementos de la configuración después del establecimiento formal de su identificación de la configuración.", "isCorrect": false},
+                {"id": 3, "text": "Realizar la fase Alfa del ciclo de lanzamiento para comenzar las pruebas de software.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cómo se llama el proceso de creación de un ejecutable del sistema mediante la compilación y vinculación de los componentes del sistema, bibliotecas, archivos de configuración, etc.?",
+            "options": [
+                {"id": 0, "text": "System building.", "isCorrect": true},
+                {"id": 1, "text": "System branching.", "isCorrect": false},
+                {"id": 2, "text": "System versioning.", "isCorrect": false},
+                {"id": 3, "text": "System releasing.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál es la definición correcta de una baseline en el contexto software?",
+            "options": [
+                {"id": 0, "text": "Una colección de versiones de componentes que construyen un sistema, pero que pueden ser cambiadas según sea necesario.", "isCorrect": false},
+                {"id": 1, "text": "Una especificación o producto que ha sido revisado informalmente y puede ser cambiado sin restricciones.", "isCorrect": false},
+                {"id": 2, "text": "Una colección de versiones de componentes que construyen un sistema, controlada y no sujeta a cambios informales.", "isCorrect": true},
+                {"id": 3, "text": "Una especificación o producto que no ha sido revisado formalmente y puede ser cambiado solo con procedimientos informales.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Qué característica pueden tener las versiones pre-release según las reglas de versionado?",
+            "options": [
+                {"id": 0, "text": "Pueden consistir en caracteres alfanuméricos y guiones.", "isCorrect": true},
+                {"id": 1, "text": "Deben tener una mejor precedencia que la versión normal asociada.", "isCorrect": false},
+                {"id": 2, "text": "No pueden ser representadas por identificadores.", "isCorrect": false},
+                {"id": 3, "text": "Se indican adjuntando un signo '+' después de la versión patch.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "Una versión es:",
+            "options": [
+                {"id": 0, "text": "Publicación de un elemento de configuración software, asociado a una compilación completa.", "isCorrect": true},
+                {"id": 1, "text": "Publicación de un elemento de configuración software que no está sujeto a implementación.", "isCorrect": false},
+                {"id": 2, "text": "Una corrección de un error.", "isCorrect": false},
+                {"id": 3, "text": "Ninguna es correcta.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Que es el control de calidad?:",
+            "options": [
+                {"id": 0, "text": "Parte de la gestión de la calidad orientada al cumplimiento de los requisitos de la calidad.", "isCorrect": true},
+                {"id": 1, "text": "Parte de la gestión de procesos orientada al cumplimiento de los requisitos de la calidad.", "isCorrect": false},
+                {"id": 2, "text": "Parte en la que se verifica que la calidad del producto softwara es buena.", "isCorrect": false},
+                {"id": 3, "text": "Fase del PUD en la que se verifica que el producto cumple los requisitos necesarios para poder ser entregado al cliente.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Qué permite a una organización el Modelo de Evaluación ISO 33000?:",
+            "options": [
+                {"id": 0, "text": "Comprender el estado de sus propios procesos.", "isCorrect": true},
+                {"id": 1, "text": "Comprender el estado de procesos ajenos.", "isCorrect": false},
+                {"id": 2, "text": "Determinar la mejora de sus procesos.", "isCorrect": false},
+                {"id": 3, "text": "Determinar la idoneidad únicamente de sus procesos frente a un conjunto de requisitos.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿CUÁL DE LAS SIGUIENTES NO FORMA PARTE DEL CICLO DE MEJORA DE PROCESOS?:",
+            "options": [
+                {"id": 0, "text": "Utilizar el proceso", "isCorrect": false},
+                {"id": 1, "text": "Medir el proceso", "isCorrect": false},
+                {"id": 2, "text": "Añadir procesos", "isCorrect": true},
+                {"id": 3, "text": "Definir procesos", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "En el contexto de gestión de la calidad, la conformidad es:",
+            "options": [
+                {"id": 0,"text": "Que el software funcione.","isCorrect": false},
+                {"id": 1,"text": "Que al cliente le guste el producto.","isCorrect": false},
+                {"id": 2,"text": "El cumplimiento de un requisito.","isCorrect": true},
+                {"id": 3,"text": "Todas son correctas.","isCorrect": false}
+            ]
+        }
+    ]
+  },
+  {
+    "examName": "TestNav8",
+    "questions": [
+        {
+            "text": "¿Cuál sería una posible definición del concepto 'política de calidad'?:",
+            "options": [
+                {"id": 0, "text": "a. Intenciones y orientación de una organización expresadas por la alta dirección y relativas a la calidad.", "isCorrect": true},
+                {"id": 1, "text": "b. Sistema de gestión para dirigir y controlar una organización.", "isCorrect": false},
+                {"id": 2, "text": "c. Parte de la gestión de la calidad orientada a proporcionar confianza en que se cumplirán los requisitos.", "isCorrect": false},
+                {"id": 3, "text": "d. Acción tomada sobre un producto no conforme para convertirlo en aceptable para su utilización.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "La reingeniería del software hace posible...:",
+            "options": [
+                {"id": 0, "text": "a)....llevar a cabo el mantenimiento evolutivo de sistemas de información existentes asumiendo riesgos y costes bajos.", "isCorrect": true},
+                {"id": 1, "text": "b) ...levar a cabo la implementación de sistemas de información existentes asumiendo riesgos y costes bajos.", "isCorrect": false},
+                {"id": 2, "text": "c) llevar a cabo los requisitos de sistemas de información existentes asumiendo riesgos y costes bajos.", "isCorrect": false},
+                {"id": 3, "text": "d) Ninguna de las respuestas anteriores es correcta.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Que son las pruebas de regresión?:",
+            "options": [
+                {"id": 0, "text": "a) Aquellas que nos garantizan la seguridad de que las nuevas modificaciones del programa no rompen nada de lo construido anteriormente.", "isCorrect": true},
+                {"id": 1, "text": "b) Aquellas que garantizan que las nuevas modificaciones del programa siempre rompan algo de lo construido anteriormente.", "isCorrect": false},
+                {"id": 2, "text": "c) Aquellas que no tienen ninguna relación con la seguridad de las modificaciones en el programa.", "isCorrect": false},
+                {"id": 3, "text": "d) Aquellas que solo se aplican a situaciones específicas y no a cambios generales en el código.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "Cuando hablamos de un error al realizar cualquier actividad relacionada con el software y que lo detectan los testers, nos referimos a:",
+            "options": [
+                {"id": 0, "text": "a. Un error.", "isCorrect": false},
+                {"id": 1, "text": "b. Un fallo.", "isCorrect": false},
+                {"id": 2, "text": "c. Defecto o falta.", "isCorrect": true},
+                {"id": 3, "text": "d. Todas son correctas.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "Que es un valor limite",
+            "options": [
+                {"id": 0, "text": "a. Ultimo valor de un array bidimensional", "isCorrect": false},
+                {"id": 1, "text": "b. Ultimo valor de un array tridimensional.", "isCorrect": false},
+                {"id": 2, "text": "c. Se seleccionan los valores situados en los límites de las clases de equivalencia.", "isCorrect": true},
+                {"id": 3, "text": "d. Ninguna es correcta.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Qué criterio de cobertura consiste en que cada valor interesante debe utilizarse, al menos, en un caso de prueba?:",
+            "options": [
+                {"id": 0, "text": "a. El pairwise.", "isCorrect": false},
+                {"id": 1, "text": "b. El each use.", "isCorrect": true},
+                {"id": 2, "text": "c. El n-wise.", "isCorrect": false},
+                {"id": 3, "text": "d. No hay ningun criterio de cobertura así.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál es el enfoque conocido como 'MINIMAX' en el contexto de la selección de valores de prueba?:",
+            "options": [
+                {"id": 0, "text": "a. Utilizar la cantidad máxima de valores posibles.", "isCorrect": false},
+                {"id": 1, "text": "b. Utilizar la menor cantidad posible de valores.", "isCorrect": false},
+                {"id": 2, "text": "c. Enfocarse en valores límite exclusivamente.", "isCorrect": false},
+                {"id": 3, "text": "d. Maximizar la cobertura con valores significativos.", "isCorrect": true}
+            ]
+        },
+        {
+            "text": "¿Cuál de los siguientes NO es uno de los objetivos de las pruebas de mutación?:",
+            "options": [
+                {"id": 0, "text": "a. Diseñar nuevas pruebas de software.", "isCorrect": false},
+                {"id": 1, "text": "b. Corregir el código al ver que la prueba está mal.", "isCorrect": true},
+                {"id": 2, "text": "c. Evaluar la calidad de las pruebas ya existentes.", "isCorrect": false},
+                {"id": 3, "text": "d. Todas son correctas.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cual no es cambio que afecta a un mantenimienot adaptativo?",
+            "options": [
+                {"id": 0, "text": "a) Rendimiento", "isCorrect": true},
+                {"id": 1, "text": "b) Arquitectura física del sistema informático", "isCorrect": false},
+                {"id": 2, "text": "c) Entorno de desarrllo software", "isCorrect": false},
+                {"id": 3, "text": "d) Sistema operativo", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál es el objetivo del mantenimiento correctivo?:",
+            "options": [
+                {"id": 0, "text": "a) Añadir nuevas funcionalidades.", "isCorrect": false},
+                {"id": 1, "text": "b) Adaptarse a cambios en el entorno.", "isCorrect": false},
+                {"id": 2, "text": "c) Localizar y eliminar defectos.", "isCorrect": true},
+                {"id": 3, "text": "d) Mejorar la eficiencia del programa.", "isCorrect": false}
+            ]
+        }
+    ]
+  },
+  {
+    "examName": "TestNav9",
+    "questions": [
+        {
+            "text": "¿Qué precipitan las condiciones laborales inferiores en la gestión de Mantenimiento?:",
+            "options": [
+                {"id": 0, "text": "a Outsourcing", "isCorrect": false},
+                {"id": 1, "text": "b Mantenimiento precipitado, no documentado.", "isCorrect": false},
+                {"id": 2, "text": "c No estrategia sistemática.", "isCorrect": false},
+                {"id": 3, "text": "d Todas las opciones son correctas.", "isCorrect": true}
+            ]
+        },
+        {
+            "text": "¿Cuál de las siguientes actividades de mantenimiento implica la revisión y verificación de otros diseños, así como reuniones de inspección para asegurar la calidad del cambio propuesto?",
+            "options": [
+                {"id": 0, "text": "a. Análisis de impacto y de costes/beneficios.", "isCorrect": false},
+                {"id": 1, "text": "b. Comprensión del cambio.", "isCorrect": false},
+                {"id": 2, "text": "c. Diseño del cambio.", "isCorrect": false},
+                {"id": 3, "text": "d. Inspección, certificación y consultoría.", "isCorrect": true}
+            ]
+        },
+        {
+            "text": "¿Cual de los siguientes estandares no es valido?",
+            "options": [
+                {"id": 0, "text": "a. ISO 12207", "isCorrect": false},
+                {"id": 1, "text": "b. ISO/IEC 14764", "isCorrect": false},
+                {"id": 2, "text": "c. ISO/IEC 25000", "isCorrect": false},
+                {"id": 3, "text": "d. ECSI 33516", "isCorrect": true}
+            ]
+        },
+        {
+            "text": "¿Cuál de estos no es un fallo según el Mantenimiento Correctivo?",
+            "options": [
+                {"id": 0, "text": "a. Salidas incorrectas de un programa.", "isCorrect": false},
+                {"id": 1, "text": "b. Tiempo de respuesta demasiado alto en una búsqueda de información.", "isCorrect": false},
+                {"id": 2, "text": "c. Consistencias en el diseño de un programa", "isCorrect": true},
+                {"id": 3, "text": "d. Inconsistencias entre la funcionalidad de un programa y el manual de usuario", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "¿Cuál de las siguientes actividades se clasifica como un ejemplo de restructuración en el desarrollo de software?",
+            "options": [
+                {"id": 0, "text": "a. Escribir un nuevo código para agregar una funcionalidad adicional.", "isCorrect": false},
+                {"id": 1, "text": "b. Crear un nuevo diagrama de clases UML.", "isCorrect": false},
+                {"id": 2, "text": "c. Refactorizar el código mediante la extracción de un nuevo método común.", "isCorrect": true},
+                {"id": 3, "text": "d. Eliminar comentarios innecesarios del código fuente.", "isCorrect": false}
+            ]
+        },
+        {
+            "text": "Una dificultad que nos podemos encontrar en el Mantenimiento es:",
+            "options": [
+                {"id": 0, "text": "a. Recursos dedicados al mantenimiento.", "isCorrect": false},
+                {"id": 1, "text": "b. Código estructurado.", "isCorrect": false},
+                {"id": 2, "text": "c. Legacy code.", "isCorrect": true},
+                {"id": 3, "text": "d. Ninguna de las anteriores", "isCorrect": false}
+            ]
         }
     ]
   }
