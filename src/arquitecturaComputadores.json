@@ -905,10 +905,10 @@
         "text": "En el próximo fragmento de código se utilizan buffers de memoria como abstracción al gestionar los datos. Seleccione el fragmento de código para acceder a los datos del array A a través del host e imprimirlas por pantalla",
         "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3.JPG",
         "options": [
-          { "id": 0, "text": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3a.JPG", "isCorrect": true },
-          { "id": 1, "text": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3b.JPG", "isCorrect": false },
-          { "id": 2, "text": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3c.JPG", "isCorrect": false },
-          { "id": 3, "text": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3d.JPG", "isCorrect": false }
+          { "id": 0, "text": "host_accessor accA(bufA, read_only); for(int i = 0; i < accA.get_size(); i++) std::cout << accA[i] << '/n'", "isCorrect": true },
+          { "id": 1, "text": "accessor accBufA(bufA, read_only); for(int i = 0; i < accA.get_size(); i++) std::cout << accABufA[i] << '/n'", "isCorrect": false },
+          { "id": 2, "text": "for(int i = 0; i < bufA.get_size(); i++) std::cout << accA[i] << '/n'", "isCorrect": false },
+          { "id": 3, "text": "for(int i = 0; i < bufA.get_count(); i++) std::cout << accA[i] << '/n'", "isCorrect": false }
         ]
       },
       {
