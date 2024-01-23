@@ -762,7 +762,7 @@
         ]
       }
     ]
-  } ,
+  },
   {
     "examName": "Test5",
     "questions": [
@@ -879,5 +879,431 @@
         ]
       }
     ]
-  }   
+  },
+  {
+    "examName": "Examen Lab",
+    "questions": [
+      {
+        "text": "Indica cuál de las siguientes abstracciones son seria la mas recomendable para usar un movimiento de datos implícitos y explícitos:",
+        "options": [
+          { "id": 0, "text": "Buffers y Accessors", "isCorrect": true },
+          { "id": 1, "text": "USM con host allocation", "isCorrect": false },
+          { "id": 2, "text": "USM con shared allocation", "isCorrect": false },
+          { "id": 2, "text": "Ninguna sirve para los dos tipos de movimientos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En el siguiente fragmento de código se puede observar un error por el cual el programa no funcionaria correctamente, indica cuál es el problema:",
+        "options": [
+          { "id": 0, "text": "La cola debe ser en orden para que las instrucciones del kernel se ejecuten en orden", "isCorrect": false },
+          { "id": 1, "text": "Al detectar el Accessor del buffer B este se debe declarar con modo de acceso read_only", "isCorrect": false },
+          { "id": 2, "text": "Los accessores no son necesarios, los buffers pueden ser accedidos directamente", "isCorrect": false },
+          { "id": 2, "text": "Todas las respuestas son incorrectas", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En el próximo fragmento de código se utilizan buffers de memoria como abstracción al gestionar los datos. Seleccione el fragmento de código para acceder a los datos del array A a través del host e imprimirlas por pantalla",
+        "options": [
+          { "id": 0, "text": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3a.JPG", "isCorrect": true },
+          { "id": 1, "text": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3b.JPG", "isCorrect": false },
+          { "id": 2, "text": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3c.JPG", "isCorrect": false },
+          { "id": 2, "text": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3d.JPG", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Queremos migrar una aplicación de C++ a DPC++ para poder ejecutarlo en plataformas heterogéneas. Lo que más nos importa es que apliquemos una que sea migrada y se ejecute correctamente de la forma más sencilla posible, sin poner énfasis en el rendimiento de la aplicación (Qué opción es la más adecuada para gestionar los datos).",
+        "options": [
+          { "id": 0, "text": "Buffers y Accessors.", "isCorrect": false },
+          { "id": 1, "text": "USM asignado al device", "isCorrect": false },
+          { "id": 2, "text": "USM asignado al host", "isCorrect": true },
+          { "id": 2, "text": "Ninguna (cuadro de selección) es adecuada", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un accesor a buffer permite hacer el grafo de manera:",
+        "options": [
+          { "id": 0, "text": "Explicita", "isCorrect": false },
+          { "id": 1, "text": "Implícita", "isCorrect": true },
+          { "id": 2, "text": "Explicita e Implícita", "isCorrect": false },
+          { "id": 2, "text": "Un accesor no puede acceder a buffers", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Considerando el siguiente grafo, señale el fragmento de código que NO produciría dicho grafo, considerando que ha creado con la propiedad in_order.",
+        "questionURL": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q6.JPG",
+        "options": [
+          { "id": 0, "text": "a", "isCorrect": false },
+          { "id": 1, "text": "b", "isCorrect": false },
+          { "id": 2, "text": "c", "isCorrect": false },
+          { "id": 2, "text": "d", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Qué métodos podrías utilizar para mandar los trabajos en DPC?",
+        "options": [
+          { "id": 0, "text": "Colas", "isCorrect": true },
+          { "id": 1, "text": "Buffers y Kernels", "isCorrect": false },
+          { "id": 2, "text": "Kernels y Cola", "isCorrect": false },
+          { "id": 2, "text": "Kernels", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Señale la afirmación VERDADERA:",
+        "options": [
+          { "id": 0, "text": "El host puede actuar como device.", "isCorrect": true },
+          { "id": 1, "text": "El host es responsable de gestionar los datos, pero no de repartir los trabajos entre los devices.", "isCorrect": false },
+          { "id": 2, "text": "Dentro de un command group el host no puede ejecutar ningún tipo de código.", "isCorrect": false },
+          { "id": 2, "text": "El host es siempre el encargado de ejecutar los kernels.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un kernel es una instancia de un bloque de código que puede ser ejecutado con distintos datos de entrada, dentro de DPC++. ¿Con qué se indica el tamaño del espacio de ejecución que forman los kernels?",
+        "options": [
+          { "id": 0, "text": "Range", "isCorrect": true },
+          { "id": 1, "text": "Id", "isCorrect": false },
+          { "id": 2, "text": "Item", "isCorrect": false },
+          { "id": 2, "text": "Rango e Id", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En DPC:",
+        "options": [
+          { "id": 0, "text": "Los programas son single-source.", "isCorrect": true },
+          { "id": 1, "text": "Los programas son single-source únicamente si seleccionamos el host del dispositivo.", "isCorrect": false },
+          { "id": 2, "text": "El host no puede ejecutar la parte del device code.", "isCorrect": false },
+          { "id": 2, "text": "El single-source solo tiene sentido cuando se selecciona un dispositivo diferente al host como acelerador.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Examen Lab-GPT-1",
+    "questions": [
+      {
+        "text": "¿Qué característica de DPC++ permite la ejecución de código tanto en CPUs como en GPUs?",
+        "options": [
+          { "id": 0, "text": "Sincronización de hilos", "isCorrect": false },
+          { "id": 1, "text": "Abstracción de hardware", "isCorrect": true },
+          { "id": 2, "text": "Gestión automática de memoria", "isCorrect": false },
+          { "id": 3, "text": "Compilación condicional", "isCorrect": false }
+        ]
+      },      
+      {
+        "text": "¿Qué función de DPC++ se utiliza para manejar errores en tiempo de ejecución?",
+        "options": [
+          { "id": 0, "text": "try-catch blocks", "isCorrect": true },
+          { "id": 1, "text": "error flags", "isCorrect": false },
+          { "id": 2, "text": "debugger", "isCorrect": false },
+          { "id": 3, "text": "static_assert", "isCorrect": false }
+        ]
+      },      
+      {
+        "text": "¿Cuál es el propósito principal de la 'queue' en DPC++?",
+        "options": [
+          { "id": 0, "text": "Manejar la memoria del dispositivo", "isCorrect": false },
+          { "id": 1, "text": "Organizar la ejecución de kernels", "isCorrect": true },
+          { "id": 2, "text": "Sincronizar hilos", "isCorrect": false },
+          { "id": 3, "text": "Compilar el código", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué facilita la 'buffer' en DPC++?",
+        "options": [
+          { "id": 0, "text": "Depuración de código", "isCorrect": false },
+          { "id": 1, "text": "Gestión automática de la memoria del dispositivo", "isCorrect": true },
+          { "id": 2, "text": "Sincronización de hilos", "isCorrect": false },
+          { "id": 3, "text": "Optimización de código", "isCorrect": false }
+        ]
+      }
+      ,
+      {
+        "text": "¿En qué se diferencia la programación de un kernel en DPC++ comparada con la programación tradicional de CPU?",
+        "options": [
+          { "id": 0, "text": "Requiere una sintaxis especial", "isCorrect": false },
+          { "id": 1, "text": "No utiliza ciclos", "isCorrect": false },
+          { "id": 2, "text": "Se ejecuta en paralelo en múltiples hilos", "isCorrect": true },
+          { "id": 3, "text": "Utiliza un compilador diferente", "isCorrect": false }
+        ]
+      }
+      ,
+      {
+        "text": "¿Cuál es una ventaja principal de usar Memoria Compartida Unificada (USM) en DPC++?",
+        "options": [
+          { "id": 0, "text": "Aumenta la velocidad del CPU", "isCorrect": false },
+          { "id": 1, "text": "Simplifica el manejo de la memoria entre host y dispositivo", "isCorrect": true },
+          { "id": 2, "text": "Reduce el uso de la memoria", "isCorrect": false },
+          { "id": 3, "text": "Mejora la precisión de los cálculos", "isCorrect": false }
+        ]
+      }
+      ,
+      {
+        "text": "¿Cuál es una ventaja principal de usar Memoria Compartida Unificada (USM) en DPC++?",
+        "options": [
+          { "id": 0, "text": "Aumenta la velocidad del CPU", "isCorrect": false },
+          { "id": 1, "text": "Simplifica el manejo de la memoria entre host y dispositivo", "isCorrect": true },
+          { "id": 2, "text": "Reduce el uso de la memoria", "isCorrect": false },
+          { "id": 3, "text": "Mejora la precisión de los cálculos", "isCorrect": false }
+        ]
+      }
+      ,
+      {
+        "text": "¿Qué describe mejor a un 'evento' en DPC++?",
+        "options": [
+          { "id": 0, "text": "Una función que se ejecuta en el host", "isCorrect": false },
+          { "id": 1, "text": "Un objeto para controlar y monitorear la ejecución de un kernel", "isCorrect": true },
+          { "id": 2, "text": "Una herramienta para la gestión de memoria", "isCorrect": false },
+          { "id": 3, "text": "Un método para sincronizar hilos", "isCorrect": false }
+        ]
+      }
+      ,
+      {
+        "text": "¿Qué función cumple la 'clase de dispositivo' en DPC++?",
+        "options": [
+          { "id": 0, "text": "Definir las capacidades del hardware", "isCorrect": true },
+          { "id": 1, "text": "Gestionar la memoria del dispositivo", "isCorrect": false },
+          { "id": 2, "text": "Sincronizar la ejecución de los kernels", "isCorrect": false },
+          { "id": 3, "text": "Optimizar el código para diferentes arquitecturas", "isCorrect": false }
+        ]
+      }
+      ,
+      {
+        "text": "¿Cuál es la principal ventaja de utilizar 'lambdas' en DPC++?",
+        "options": [
+          { "id": 0, "text": "Mejorar la eficiencia de la memoria", "isCorrect": false },
+          { "id": 1, "text": "Facilitar la escritura de kernels paralelos", "isCorrect": true },
+          { "id": 2, "text": "Reducir la duración de la compilación", "isCorrect": false },
+          { "id": 3, "text": "Aumentar la compatibilidad con otros lenguajes", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+  ,
+  {
+    "examName": "Examen Lab-GPT-2",
+    "questions": [
+      {
+        "text": "¿Qué describe mejor a la 'programación heterogénea' en DPC++?",
+        "options": [
+          { "id": 0, "text": "Uso exclusivo de CPUs para la ejecución de programas", "isCorrect": false },
+          { "id": 1, "text": "Ejecución de programas únicamente en GPUs", "isCorrect": false },
+          { "id": 2, "text": "Utilización de diferentes tipos de procesadores para mejorar el rendimiento", "isCorrect": true },
+          { "id": 3, "text": "Programación paralela en un solo tipo de dispositivo", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué hace la función 'cl::sycl::queue::submit()' en DPC++?",
+        "options": [
+          { "id": 0, "text": "Envía una tarea al dispositivo para su ejecución", "isCorrect": true },
+          { "id": 1, "text": "Compila el código para el dispositivo", "isCorrect": false },
+          { "id": 2, "text": "Gestiona la memoria del dispositivo", "isCorrect": false },
+          { "id": 3, "text": "Sincroniza los datos entre el host y el dispositivo", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué característica de SYCL permite la programación de kernels independientes del hardware?",
+        "options": [
+          { "id": 0, "text": "Compilación en tiempo de ejecución", "isCorrect": false },
+          { "id": 1, "text": "Abstracción de hardware", "isCorrect": true },
+          { "id": 2, "text": "Gestión automática de memoria", "isCorrect": false },
+          { "id": 3, "text": "Optimización de rendimiento", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué tipo de operación se realiza con el siguiente fragmento de código en DPC++: 'auto deviceResult = buffer.get_access<cl::sycl::access::mode::read>();'?",
+        "options": [
+          { "id": 0, "text": "Escritura en el buffer del dispositivo", "isCorrect": false },
+          { "id": 1, "text": "Lectura de datos desde el buffer del dispositivo", "isCorrect": true },
+          { "id": 2, "text": "Reserva de memoria en el dispositivo", "isCorrect": false },
+          { "id": 3, "text": "Sincronización de datos entre host y dispositivo", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué estructura de DPC++ se utiliza para definir un rango de ejecución para los kernels?",
+        "options": [
+          { "id": 0, "text": "cl::sycl::queue", "isCorrect": false },
+          { "id": 1, "text": "cl::sycl::range", "isCorrect": true },
+          { "id": 2, "text": "cl::sycl::buffer", "isCorrect": false },
+          { "id": 3, "text": "cl::sycl::accessor", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En DPC++, ¿qué indica el 'handler' dentro de un bloque 'submit'?",
+        "options": [
+          { "id": 0, "text": "Gestiona la cola de ejecución", "isCorrect": false },
+          { "id": 1, "text": "Controla la ejecución de un kernel", "isCorrect": true },
+          { "id": 2, "text": "Administra la memoria del dispositivo", "isCorrect": false },
+          { "id": 3, "text": "Configura el entorno de ejecución", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cómo se utiliza 'cl::sycl::access::mode::read_write' en un 'accessor'?",
+        "options": [
+          { "id": 0, "text": "Para solo leer datos del buffer", "isCorrect": false },
+          { "id": 1, "text": "Para solo escribir datos en el buffer", "isCorrect": false },
+          { "id": 2, "text": "Para leer y escribir datos en el buffer", "isCorrect": true },
+          { "id": 3, "text": "Para sincronizar datos entre varios dispositivos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué representa el 'id' en un kernel de DPC++?",
+        "options": [
+          { "id": 0, "text": "El identificador único del dispositivo", "isCorrect": false },
+          { "id": 1, "text": "La posición del dato actual en el espacio de trabajo", "isCorrect": true },
+          { "id": 2, "text": "La dirección de memoria del dato procesado", "isCorrect": false },
+          { "id": 3, "text": "El número de hilos activos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cómo se manejan los eventos en DPC++ para la sincronización de tareas?",
+        "options": [
+          { "id": 0, "text": "Mediante variables globales", "isCorrect": false },
+          { "id": 1, "text": "Usando la clase 'event'", "isCorrect": true },
+          { "id": 2, "text": "A través de semáforos", "isCorrect": false },
+          { "id": 3, "text": "Con bucles de espera activa", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué tipo de operación realiza el siguiente fragmento de código en DPC++: 'q.submit([&](handler& h) { /*...*/ });'?",
+        "options": [
+          { "id": 0, "text": "Inicia una operación de entrada/salida", "isCorrect": false },
+          { "id": 1, "text": "Envía una tarea a la cola de ejecución", "isCorrect": true },
+          { "id": 2, "text": "Gestiona la memoria compartida", "isCorrect": false },
+          { "id": 3, "text": "Crea una nueva hebra de ejecución", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cómo se define un 'kernel' en un programa DPC++?",
+        "options": [
+          { "id": 0, "text": "Utilizando la directiva 'kernel'", "isCorrect": false },
+          { "id": 1, "text": "A través de una función lambda dentro de 'q.submit'", "isCorrect": true },
+          { "id": 2, "text": "Mediante una clase derivada de 'sycl::kernel'", "isCorrect": false },
+          { "id": 3, "text": "Con la palabra clave 'parallel_for'", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál es el efecto de 'parallel_for' en DPC++?",
+        "options": [
+          { "id": 0, "text": "Ejecuta un bucle en serie", "isCorrect": false },
+          { "id": 1, "text": "Distribuye un bucle en múltiples hilos de CPU", "isCorrect": false },
+          { "id": 2, "text": "Realiza un bucle en paralelo en un dispositivo de cómputo", "isCorrect": true },
+          { "id": 3, "text": "Paraleliza operaciones de entrada/salida", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cómo se caracteriza el 'modelo de ejecución' en DPC++?",
+        "options": [
+          { "id": 0, "text": "Secuencial y no determinista", "isCorrect": false },
+          { "id": 1, "text": "Paralelo y determinista", "isCorrect": true },
+          { "id": 2, "text": "Asíncrono y secuencial", "isCorrect": false },
+          { "id": 3, "text": "Paralelo y no determinista", "isCorrect": false }
+        ]
+      }
+      ,
+      {
+        "text": "En DPC++, ¿qué permite la 'especificación de recursos'?",
+        "options": [
+          { "id": 0, "text": "Optimizar el uso de la CPU", "isCorrect": false },
+          { "id": 1, "text": "Gestionar automáticamente la memoria", "isCorrect": false },
+          { "id": 2, "text": "Seleccionar el mejor dispositivo para ejecutar un kernel", "isCorrect": true },
+          { "id": 3, "text": "Depurar el código más eficientemente", "isCorrect": false }
+        ]
+      }                           
+    ]
+  },
+  {
+    "examName": "Examen Lab-GPT-3",
+    "questions": [
+      {
+        "text": "¿Cómo se define un 'kernel' en un programa DPC++?",
+        "options": [
+          { "id": 0, "text": "Utilizando la directiva 'kernel'", "isCorrect": false },
+          { "id": 1, "text": "A través de una función lambda dentro de 'q.submit'", "isCorrect": true },
+          { "id": 2, "text": "Mediante una clase derivada de 'sycl::kernel'", "isCorrect": false },
+          { "id": 3, "text": "Con la palabra clave 'parallel_for'", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál es el efecto de 'parallel_for' en DPC++?",
+        "options": [
+          { "id": 0, "text": "Ejecuta un bucle en serie", "isCorrect": false },
+          { "id": 1, "text": "Distribuye un bucle en múltiples hilos de CPU", "isCorrect": false },
+          { "id": 2, "text": "Realiza un bucle en paralelo en un dispositivo de cómputo", "isCorrect": true },
+          { "id": 3, "text": "Paraleliza operaciones de entrada/salida", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cómo se caracteriza el 'modelo de ejecución' en DPC++?",
+        "options": [
+          { "id": 0, "text": "Secuencial y no determinista", "isCorrect": false },
+          { "id": 1, "text": "Paralelo y determinista", "isCorrect": true },
+          { "id": 2, "text": "Asíncrono y secuencial", "isCorrect": false },
+          { "id": 3, "text": "Paralelo y no determinista", "isCorrect": false }
+        ]
+      }
+      ,
+      {
+        "text": "En DPC++, ¿qué permite la 'especificación de recursos'?",
+        "options": [
+          { "id": 0, "text": "Optimizar el uso de la CPU", "isCorrect": false },
+          { "id": 1, "text": "Gestionar automáticamente la memoria", "isCorrect": false },
+          { "id": 2, "text": "Seleccionar el mejor dispositivo para ejecutar un kernel", "isCorrect": true },
+          { "id": 3, "text": "Depurar el código más eficientemente", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué efecto tiene la función 'q.wait();' en un programa DPC++?",
+        "options": [
+          { "id": 0, "text": "Inicia una nueva cola de ejecución", "isCorrect": false },
+          { "id": 1, "text": "Detiene la ejecución del programa hasta que se complete una tarea", "isCorrect": true },
+          { "id": 2, "text": "Libera la memoria utilizada por la cola", "isCorrect": false },
+          { "id": 3, "text": "Genera un informe de rendimiento", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué representa 'nd_range' en el contexto de DPC++?",
+        "options": [
+          { "id": 0, "text": "Un rango de números en una distribución normal", "isCorrect": false },
+          { "id": 1, "text": "Una solicitud de red no determinística", "isCorrect": false },
+          { "id": 2, "text": "Un rango para la ejecución de un kernel con estructura de trabajo jerárquica", "isCorrect": true },
+          { "id": 3, "text": "Un rango de fechas para programación de tareas", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué función realiza 'sycl::event' en DPC++?",
+        "options": [
+          { "id": 0, "text": "Maneja eventos de usuario", "isCorrect": false },
+          { "id": 1, "text": "Crea una nueva instancia de un evento", "isCorrect": false },
+          { "id": 2, "text": "Representa un evento de ejecución de un comando, permitiendo la sincronización y seguimiento", "isCorrect": true },
+          { "id": 3, "text": "Envía notificaciones de eventos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué error se evitaría con el siguiente fragmento de código en DPC++: 'auto e = q.submit([&](handler& h) { h.single_task<class myKernel>([=]() { /*...*/ }); });'?",
+        "options": [
+          { "id": 0, "text": "Error de acceso a memoria no sincronizada", "isCorrect": false },
+          { "id": 1, "text": "Error de ejecución simultánea de kernels no compatibles", "isCorrect": true },
+          { "id": 2, "text": "Error de memoria insuficiente en el dispositivo", "isCorrect": false },
+          { "id": 3, "text": "Error de tiempo de espera excedido", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En DPC++, ¿qué indica 'sycl::info::device::vendor'?",
+        "options": [
+          { "id": 0, "text": "La versión del dispositivo", "isCorrect": false },
+          { "id": 1, "text": "El nombre del fabricante del dispositivo", "isCorrect": true },
+          { "id": 2, "text": "La cantidad de memoria del dispositivo", "isCorrect": false },
+          { "id": 3, "text": "El número de modelos de dispositivo disponibles", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué se logra con la implementación de 'h.depends_on(e);' en un comando de DPC++?",
+        "options": [
+          { "id": 0, "text": "Inicia una nueva tarea independientemente de otras", "isCorrect": false },
+          { "id": 1, "text": "Establece una dependencia de una tarea con respecto a un evento 'e'", "isCorrect": true },
+          { "id": 2, "text": "Finaliza la ejecución de todas las tareas", "isCorrect": false },
+          { "id": 3, "text": "Elimina la dependencia de una tarea con respecto a un evento", "isCorrect": false }
+        ]
+      }
+    ]
+  } 
 ]
