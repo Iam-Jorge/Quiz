@@ -889,7 +889,7 @@
           { "id": 0, "text": "Buffers y Accessors", "isCorrect": true },
           { "id": 1, "text": "USM con host allocation", "isCorrect": false },
           { "id": 2, "text": "USM con shared allocation", "isCorrect": false },
-          { "id": 2, "text": "Ninguna sirve para los dos tipos de movimientos", "isCorrect": false }
+          { "id": 3, "text": "Ninguna sirve para los dos tipos de movimientos", "isCorrect": false }
         ]
       },
       {
@@ -898,7 +898,7 @@
           { "id": 0, "text": "La cola debe ser en orden para que las instrucciones del kernel se ejecuten en orden", "isCorrect": false },
           { "id": 1, "text": "Al detectar el Accessor del buffer B este se debe declarar con modo de acceso read_only", "isCorrect": false },
           { "id": 2, "text": "Los accessores no son necesarios, los buffers pueden ser accedidos directamente", "isCorrect": false },
-          { "id": 2, "text": "Todas las respuestas son incorrectas", "isCorrect": true }
+          { "id": 3, "text": "Todas las respuestas son incorrectas", "isCorrect": true }
         ]
       },
       {
@@ -907,7 +907,7 @@
           { "id": 0, "text": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3a.JPG", "isCorrect": true },
           { "id": 1, "text": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3b.JPG", "isCorrect": false },
           { "id": 2, "text": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3c.JPG", "isCorrect": false },
-          { "id": 2, "text": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3d.JPG", "isCorrect": false }
+          { "id": 3, "text": "https://raw.githubusercontent.com/Iam-Jorge/Quiz/master/public/images/ARCO/EX-LAB1-Q3d.JPG", "isCorrect": false }
         ]
       },
       {
@@ -916,7 +916,7 @@
           { "id": 0, "text": "Buffers y Accessors.", "isCorrect": false },
           { "id": 1, "text": "USM asignado al device", "isCorrect": false },
           { "id": 2, "text": "USM asignado al host", "isCorrect": true },
-          { "id": 2, "text": "Ninguna (cuadro de selección) es adecuada", "isCorrect": false }
+          { "id": 3, "text": "Ninguna (cuadro de selección) es adecuada", "isCorrect": false }
         ]
       },
       {
@@ -925,7 +925,7 @@
           { "id": 0, "text": "Explicita", "isCorrect": false },
           { "id": 1, "text": "Implícita", "isCorrect": true },
           { "id": 2, "text": "Explicita e Implícita", "isCorrect": false },
-          { "id": 2, "text": "Un accesor no puede acceder a buffers", "isCorrect": false }
+          { "id": 3, "text": "Un accesor no puede acceder a buffers", "isCorrect": false }
         ]
       },
       {
@@ -935,7 +935,7 @@
           { "id": 0, "text": "a", "isCorrect": false },
           { "id": 1, "text": "b", "isCorrect": false },
           { "id": 2, "text": "c", "isCorrect": false },
-          { "id": 2, "text": "d", "isCorrect": true }
+          { "id": 3, "text": "d", "isCorrect": true }
         ]
       },
       {
@@ -944,7 +944,7 @@
           { "id": 0, "text": "Colas", "isCorrect": true },
           { "id": 1, "text": "Buffers y Kernels", "isCorrect": false },
           { "id": 2, "text": "Kernels y Cola", "isCorrect": false },
-          { "id": 2, "text": "Kernels", "isCorrect": false }
+          { "id": 3, "text": "Kernels", "isCorrect": false }
         ]
       },
       {
@@ -953,7 +953,7 @@
           { "id": 0, "text": "El host puede actuar como device.", "isCorrect": true },
           { "id": 1, "text": "El host es responsable de gestionar los datos, pero no de repartir los trabajos entre los devices.", "isCorrect": false },
           { "id": 2, "text": "Dentro de un command group el host no puede ejecutar ningún tipo de código.", "isCorrect": false },
-          { "id": 2, "text": "El host es siempre el encargado de ejecutar los kernels.", "isCorrect": false }
+          { "id": 3, "text": "El host es siempre el encargado de ejecutar los kernels.", "isCorrect": false }
         ]
       },
       {
@@ -962,7 +962,7 @@
           { "id": 0, "text": "Range", "isCorrect": true },
           { "id": 1, "text": "Id", "isCorrect": false },
           { "id": 2, "text": "Item", "isCorrect": false },
-          { "id": 2, "text": "Rango e Id", "isCorrect": false }
+          { "id": 3, "text": "Rango e Id", "isCorrect": false }
         ]
       },
       {
@@ -971,7 +971,7 @@
           { "id": 0, "text": "Los programas son single-source.", "isCorrect": true },
           { "id": 1, "text": "Los programas son single-source únicamente si seleccionamos el host del dispositivo.", "isCorrect": false },
           { "id": 2, "text": "El host no puede ejecutar la parte del device code.", "isCorrect": false },
-          { "id": 2, "text": "El single-source solo tiene sentido cuando se selecciona un dispositivo diferente al host como acelerador.", "isCorrect": false }
+          { "id": 3, "text": "El single-source solo tiene sentido cuando se selecciona un dispositivo diferente al host como acelerador.", "isCorrect": false }
         ]
       }
     ]
@@ -1170,44 +1170,7 @@
           { "id": 2, "text": "Gestiona la memoria compartida", "isCorrect": false },
           { "id": 3, "text": "Crea una nueva hebra de ejecución", "isCorrect": false }
         ]
-      },
-      {
-        "text": "¿Cómo se define un 'kernel' en un programa DPC++?",
-        "options": [
-          { "id": 0, "text": "Utilizando la directiva 'kernel'", "isCorrect": false },
-          { "id": 1, "text": "A través de una función lambda dentro de 'q.submit'", "isCorrect": true },
-          { "id": 2, "text": "Mediante una clase derivada de 'sycl::kernel'", "isCorrect": false },
-          { "id": 3, "text": "Con la palabra clave 'parallel_for'", "isCorrect": false }
-        ]
-      },
-      {
-        "text": "¿Cuál es el efecto de 'parallel_for' en DPC++?",
-        "options": [
-          { "id": 0, "text": "Ejecuta un bucle en serie", "isCorrect": false },
-          { "id": 1, "text": "Distribuye un bucle en múltiples hilos de CPU", "isCorrect": false },
-          { "id": 2, "text": "Realiza un bucle en paralelo en un dispositivo de cómputo", "isCorrect": true },
-          { "id": 3, "text": "Paraleliza operaciones de entrada/salida", "isCorrect": false }
-        ]
-      },
-      {
-        "text": "¿Cómo se caracteriza el 'modelo de ejecución' en DPC++?",
-        "options": [
-          { "id": 0, "text": "Secuencial y no determinista", "isCorrect": false },
-          { "id": 1, "text": "Paralelo y determinista", "isCorrect": true },
-          { "id": 2, "text": "Asíncrono y secuencial", "isCorrect": false },
-          { "id": 3, "text": "Paralelo y no determinista", "isCorrect": false }
-        ]
-      }
-      ,
-      {
-        "text": "En DPC++, ¿qué permite la 'especificación de recursos'?",
-        "options": [
-          { "id": 0, "text": "Optimizar el uso de la CPU", "isCorrect": false },
-          { "id": 1, "text": "Gestionar automáticamente la memoria", "isCorrect": false },
-          { "id": 2, "text": "Seleccionar el mejor dispositivo para ejecutar un kernel", "isCorrect": true },
-          { "id": 3, "text": "Depurar el código más eficientemente", "isCorrect": false }
-        ]
-      }                           
+      }                         
     ]
   },
   {
