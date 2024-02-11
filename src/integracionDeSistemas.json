@@ -1,0 +1,859 @@
+[
+  {
+    "examName": "Parcial 1 - Mayo 2018",
+    "questions": [
+      {
+        "text": "Los recursos TI (Tecnologías de la Información) en una organización incluyen...",
+        "options": [
+          { "id": 0, "text": "Sólo la infraestructura TIC (hardware, ordenadores, redes,...)", "isCorrect": false },
+          { "id": 1, "text": "Los procesos de negocio", "isCorrect": false },
+          { "id": 2, "text": "La infraestructura más los programas que dan soporte a los procesos de negocio", "isCorrect": true },
+          { "id": 3, "text": "Sólo los programas que dan soporte a los procesos de negocio", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un módulo de un software ERP...",
+        "options": [
+          { "id": 0, "text": "Modela una actividad concreta dentro de la organización", "isCorrect": false },
+          { "id": 1, "text": "Da soporte a la actividad de un departamento", "isCorrect": false },
+          { "id": 2, "text": "Da soporte a un proceso de negocio comprendiendo un conjunto de actividades", "isCorrect": true },
+          { "id": 3, "text": "Una técnica de integración de islas tecnológicas", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué no es parte del contexto/entorno de una organización?",
+        "options": [
+          { "id": 0, "text": "Proveedores", "isCorrect": false },
+          { "id": 1, "text": "Clientes", "isCorrect": false },
+          { "id": 2, "text": "Recursos humanos", "isCorrect": true },
+          { "id": 3, "text": "Socios/accionistas", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La implantación de un ERP en una organización se suele caracterizar por...",
+        "options": [
+          { "id": 0, "text": "La simplicidad", "isCorrect": false },
+          { "id": 1, "text": "Involucra a sólo personal técnico", "isCorrect": false },
+          { "id": 2, "text": "Su complejidad al tener que adaptarse a la organización", "isCorrect": true },
+          { "id": 3, "text": "No alterar la manera de trabajar", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes características de un ERP supone un riesgo en cuanto al éxito de su implantación en una organización?",
+        "options": [
+          { "id": 0, "text": "Modularidad", "isCorrect": false },
+          { "id": 1, "text": "Automatización de tareas", "isCorrect": false },
+          { "id": 2, "text": "Aceptación por parte de los usuarios", "isCorrect": true },
+          { "id": 3, "text": "Configurabilidad", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuáles de las siguientes funcionalidades no son propias de un SCM estrictamente hablando?",
+        "options": [
+          { "id": 0, "text": "Gestión de fabricación", "isCorrect": false },
+          { "id": 1, "text": "Gestión de campañas de marketing", "isCorrect": true },
+          { "id": 2, "text": "Gestión de logística", "isCorrect": false },
+          { "id": 3, "text": "Gestión de compras", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Si quiero que mi proyecto de integración se implante con el menor riesgo posible optaría por una estrategia...",
+        "options": [
+          { "id": 0, "text": "Etapas planificadas", "isCorrect": false },
+          { "id": 1, "text": "Big-Bang", "isCorrect": false },
+          { "id": 2, "text": "Phase-Rollout", "isCorrect": true },
+          { "id": 3, "text": "Incremental", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En cambio, si quiero adelantar cuanto antes las ganancias derivadas de la nueva forma de trabajar optaría por una estrategia...",
+        "options": [
+          { "id": 0, "text": "Etapas planificadas", "isCorrect": false },
+          { "id": 1, "text": "Big-Bang", "isCorrect": true },
+          { "id": 2, "text": "Phase-Rollout", "isCorrect": false },
+          { "id": 3, "text": "Incremental", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Si una organización es de tipo “horizontal” se estructura alrededor de:",
+        "options": [
+          { "id": 0, "text": "Departamentos", "isCorrect": false },
+          { "id": 1, "text": "Equipos de trabajo especializados", "isCorrect": false },
+          { "id": 2, "text": "Unidades de negocio", "isCorrect": false },
+          { "id": 3, "text": "Ninguna de las respuestas anteriores es correcta", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Las organizaciones de tipo “horizontal” tienen múltiples ventajas respecto a las jerárquicas o “verticales”. Pero, ¿cuál es una desventaja de las primeras respecto de estas últimas?",
+        "options": [
+          { "id": 0, "text": "La atención al cliente empeora", "isCorrect": false },
+          { "id": 1, "text": "Existe duplicidad de recursos y un riesgo de estar infrautilizados", "isCorrect": true },
+          { "id": 2, "text": "Aumentan los costes", "isCorrect": false },
+          { "id": 3, "text": "Los tiempos de los procesos de toma de decisiones son más rápidos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes factores no supone un obstáculo en un proyecto de integración?",
+        "options": [
+          { "id": 0, "text": "Resistencia al cambio", "isCorrect": false },
+          { "id": 1, "text": "Mayor control de los recursos", "isCorrect": true },
+          { "id": 2, "text": "Incapacidad de disponer de los datos", "isCorrect": false },
+          { "id": 3, "text": "Falta de personal especializado", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes factores no es un beneficio derivado de la integración de sistemas?",
+        "options": [
+          { "id": 0, "text": "Control de costes", "isCorrect": false },
+          { "id": 1, "text": "Mejora de la productividad", "isCorrect": false },
+          { "id": 2, "text": "Estandarización de la información", "isCorrect": false },
+          { "id": 3, "text": "Re-centralización de la gestión los recursos TI de la organización", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En una arquitectura SOA el proveedor del servicio es el responsable de:",
+        "options": [
+          { "id": 0, "text": "Ejecutar los servicios ofertados", "isCorrect": false },
+          { "id": 1, "text": "Pedir que se registre un servicio", "isCorrect": false },
+          { "id": 2, "text": "Coordinar la ejecución de servicios", "isCorrect": false },
+          { "id": 3, "text": "Todas las respuestas anteriores son correctas", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Cuál o cuáles de las tres principales técnicas/estrategias de integración de datos sufre de un problema de latencia en la recuperación de información?",
+        "options": [
+          { "id": 0, "text": "Consolidación y Federación", "isCorrect": false },
+          { "id": 1, "text": "Federación y Propagación", "isCorrect": false },
+          { "id": 2, "text": "Consolidación y Propagación", "isCorrect": false },
+          { "id": 3, "text": "Sólo Federación", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿En cuál o cuáles de las tres principales técnicas/estrategias de integración de datos no sufriremos un problema de exactitud/sincronización?",
+        "options": [
+          { "id": 0, "text": "Sólo Federación", "isCorrect": true },
+          { "id": 1, "text": "Sólo Consolidación", "isCorrect": false },
+          { "id": 2, "text": "Sólo Propagación", "isCorrect": false },
+          { "id": 3, "text": "Consolidación y Propagación", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En las soluciones de consolidación de datos se hace uso de tecnologías como ECM (Enterprise Content Management) o ETL. Pero ¿qué significan estas últimas siglas?",
+        "options": [
+          { "id": 0, "text": "Enterprise Transformation Language", "isCorrect": false },
+          { "id": 1, "text": "Extract Transform Load", "isCorrect": true },
+          { "id": 2, "text": "Enterprise Transactional Language", "isCorrect": false },
+          { "id": 3, "text": "Extract Transport Load", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes afirmaciones respecto a la relación “modelo de programación/middleware” no es correcta?",
+        "options": [
+          { "id": 0, "text": "Objetos/ZeroC ICE", "isCorrect": false },
+          { "id": 1, "text": "Procedimiento/Xerox RPC (Remote Procedure Call)", "isCorrect": false },
+          { "id": 2, "text": "Agentes/CORBA", "isCorrect": true },
+          { "id": 3, "text": "Componente/Microsoft DCOM", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "BPEL es un estándar para la composición de servicios web. Pero ¿qué tipo de mecanismo concreto implementa?",
+        "options": [
+          { "id": 0, "text": "Síncrono", "isCorrect": false },
+          { "id": 1, "text": "Asíncrono", "isCorrect": false },
+          { "id": 2, "text": "Estático", "isCorrect": true },
+          { "id": 3, "text": "Dinámico", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En la tecnología de servicios web ¿qué tecnología/lenguaje de las relacionadas a continuación está más relacionada con el broker o intermediario?",
+        "options": [
+          { "id": 0, "text": "SOAP", "isCorrect": false },
+          { "id": 1, "text": "WSDL", "isCorrect": false },
+          { "id": 2, "text": "UUDI", "isCorrect": true },
+          { "id": 3, "text": "BPEL", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La descripción WSDL de un servicio web proporciona información suficiente para...",
+        "options": [
+          { "id": 0, "text": "Qué funcionalidad proporciona el servicio", "isCorrect": false },
+          { "id": 1, "text": "Registrarlo en el directorio de servicios", "isCorrect": false },
+          { "id": 2, "text": "Saber interpretar los mensajes SOAP", "isCorrect": false },
+          { "id": 3, "text": "La primera y tercera son correctas", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Para qué podrías utilizar una tecnología como EDI (Electronic Data Interchange)?",
+        "options": [
+          { "id": 0, "text": "Para implementar una solución de integración basada en base de datos compartida", "isCorrect": false },
+          { "id": 1, "text": "Para implementar una solución de integración basada en intercambio de ficheros y paso de mensajes", "isCorrect": true },
+          { "id": 2, "text": "Para implementar una solución de integración basada en intercambio de ficheros", "isCorrect": false },
+          { "id": 3, "text": "Para implementar una solución de integración basada en paso de mensajes", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "A la hora de implementar una arquitectura en capas optamos por el desarrollo de clientes thin o tontos cuando...",
+        "options": [
+          { "id": 0, "text": "Los dispositivos de accesos sean homogéneos", "isCorrect": false },
+          { "id": 1, "text": "Cuando el acceso al sistema se haga desde un puesto fijo como el ordenador de la oficina", "isCorrect": false },
+          { "id": 2, "text": "Los dispositivos de acceso sean móviles o tengan diferentes características", "isCorrect": true },
+          { "id": 3, "text": "La capa de presentación deba asumir funcionalidad compleja como la interpretación de datos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Si hablando de una solución de integración orientada a datos con capacidad para gestionar grandes volúmenes de mensajes (que debo encaminarlos y procesarlos) y de alto rendimiento estoy hablando de…",
+        "options": [
+          { "id": 0, "text": "Enterprise Service Bus", "isCorrect": true },
+          { "id": 1, "text": "Servicios Web", "isCorrect": false },
+          { "id": 2, "text": "Business Process Execution Language", "isCorrect": false },
+          { "id": 3, "text": "Remote Procedure Call", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Dentro de lo que son los sistemas de mensajería ¿qué rol juega principalmente el contenedor de servicios web Apache AXIS2 utilizado en las clases?",
+        "options": [
+          { "id": 0, "text": "Canal de mensajes", "isCorrect": false },
+          { "id": 1, "text": "Filtro de mensajes", "isCorrect": false },
+          { "id": 2, "text": "Router de mensajes", "isCorrect": false },
+          { "id": 3, "text": "Traductor de mensajes", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Si debo transmitir la misma información a varios receptores ¿qué tipo de solución es la más elegante?",
+        "options": [
+          { "id": 0, "text": "Utilizar un canal publish-subscriber", "isCorrect": true },
+          { "id": 1, "text": "Utilizar un canal punto a punto con cada receptor y controlar el proceso desde el emisor", "isCorrect": false },
+          { "id": 2, "text": "Utilizar un buzón y que los clientes pregunten por nuevos mensajes", "isCorrect": false },
+          { "id": 3, "text": "Yo no recomendaría ninguna de las soluciones que se proponen", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Parcial 1 - Marzo 2018",
+    "questions": [
+      {
+        "text": "El Sistema de Informático en una organización incluye...",
+        "options": [
+          { "id": 0, "text": "Sólo la infraestructura TIC", "isCorrect": false },
+          { "id": 1, "text": "Los procesos de negocio", "isCorrect": false },
+          { "id": 2, "text": "La infraestructura TIC más las soluciones software que dan soporte a los procesos de negocio", "isCorrect": true },
+          { "id": 3, "text": "Las soluciones software que dan soporte a los procesos de negocio", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un proceso de negocio es...",
+        "options": [
+          { "id": 0, "text": "Una actividad concreta dentro de la organización", "isCorrect": false },
+          { "id": 1, "text": "Un módulo dentro de un software ERP", "isCorrect": false },
+          { "id": 2, "text": "Una secuencia de actividades dentro de la organización", "isCorrect": true },
+          { "id": 3, "text": "Una técnica de integración de islas tecnológicas", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué característica/s de un sistema ERP favorecen su implantación en una organización?",
+        "options": [
+          { "id": 0, "text": "Modularidad", "isCorrect": false },
+          { "id": 1, "text": "Configurabilidad", "isCorrect": false },
+          { "id": 2, "text": " Alta especialización", "isCorrect": false },
+          { "id": 3, "text": "La primera y segunda respuestas son correctas", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes factores no es motivo para iniciar un proyecto de integración en una organización?",
+        "options": [
+          { "id": 0, "text": "Un cambio en la estrategia de la organización", "isCorrect": false },
+          { "id": 1, "text": "Mejora de la atención al cliente/proveedores", "isCorrect": false },
+          { "id": 2, "text": "Reducción de costes", "isCorrect": false },
+          { "id": 3, "text": "Cambio en la estructura de la organización", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Qué diferencia el software CRM y SCM? ",
+        "options": [
+          { "id": 0, "text": "CRM utiliza un único SGBD y el SCM múltiples fuentes", "isCorrect": false },
+          { "id": 1, "text": "CRM se centra sólo en el cliente mientras que SCM cubre toda la cadena de valor.", "isCorrect": true },
+          { "id": 2, "text": "SCM se basa en servicios web y RPC para integrar los módulos.", "isCorrect": false },
+          { "id": 3, "text": "CRM es una aplicación de gestión y SCM un tipo de ERP", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "- Si quiero que mi proyecto de integración se implante rápidamente, pero con un mayor riesgo, optaría por una estrategia...",
+        "options": [
+          { "id": 0, "text": "Etapas planificadas", "isCorrect": false },
+          { "id": 1, "text": "Big-Bang", "isCorrect": true },
+          { "id": 2, "text": "Phase-Rollout", "isCorrect": false },
+          { "id": 3, "text": "Incremental", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En cambio, si quiero que mi proyecto de integración cueste lo menos posible, optaría por una estrategia...",
+        "options": [
+          { "id": 0, "text": "Etapas planificadas", "isCorrect": false },
+          { "id": 1, "text": "Big-Bang", "isCorrect": true },
+          { "id": 2, "text": "Phase-Rollout", "isCorrect": false },
+          { "id": 3, "text": "Incremental", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Si una organización es de tipo “horizontal”, se estructura alrededor de:",
+        "options": [
+          { "id": 0, "text": "Departamentos", "isCorrect": false },
+          { "id": 1, "text": "Procesos", "isCorrect": true },
+          { "id": 2, "text": "Unidades de negocio", "isCorrect": false },
+          { "id": 3, "text": "Equipos de trabajo especializados", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La integración de sistemas debe abordarse en todos los niveles (técnicos y organizacionales) y “entre” todos los niveles. Pero, el éxito de integración en un nivel depende del inmediatamente inferior. ¿Cuál es el primer nivel que abordar en la capa de infraestructura TIC?",
+        "options": [
+          { "id": 0, "text": "Datos", "isCorrect": true },
+          { "id": 1, "text": "Aplicaciones", "isCorrect": false },
+          { "id": 2, "text": "Redes de interconexión y servidores", "isCorrect": false },
+          { "id": 3, "text": "Procesos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "A la hora de abordar la integración a nivel de datos, es más que suficiente...",
+        "options": [
+          { "id": 0, "text": "Llegar a un acuerdo sobre las entidades y sus relaciones (sintaxis)", "isCorrect": false },
+          { "id": 1, "text": "Utilizar una única tecnología para el SGBD", "isCorrect": false },
+          { "id": 2, "text": "Desarrollar una capa única de acceso a la capa de persistencia", "isCorrect": false },
+          { "id": 3, "text": "Definir tanto la sintaxis como la forma de interpretar dichos datos (semántica)", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En una arquitectura SOA, el actor broker o intermediario es el encargado de:",
+        "options": [
+          { "id": 0, "text": "Ejecutar los servicios ofertados", "isCorrect": false },
+          { "id": 1, "text": "Mantener un directorio de servicios y un servicio de búsqueda", "isCorrect": true },
+          { "id": 2, "text": "Pedir que se registre un servicio", "isCorrect": false },
+          { "id": 3, "text": " Asegurar que los servicios se ejecutan y coordinan según lo especificado", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "- ¿Cuál o cuáles de las tres principales técnicas/estrategias de integración de datos no sufre de un problema de latencia en la recuperación de información?",
+        "options": [
+          { "id": 0, "text": "Consolidación y Federación", "isCorrect": false },
+          { "id": 1, "text": "Federación y Propagación", "isCorrect": false },
+          { "id": 2, "text": "Consolidación y Propagación", "isCorrect": true },
+          { "id": 3, "text": "Sólo Federación", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿En cuál o cuáles de las tres principales técnicas/estrategias de integración de datos podríamos sufrir un problema de exactitud/sincronización?",
+        "options": [
+          { "id": 0, "text": "Consolidación y Federación", "isCorrect": false },
+          { "id": 1, "text": "Federación y Propagación", "isCorrect": false },
+          { "id": 2, "text": "Consolidación y Propagación", "isCorrect": true },
+          { "id": 3, "text": "Sólo Consolidación", "isCorrect": false }
+        ]
+      },
+      {
+        "text": " ¿Cuál de las siguientes características no es propia de un servicio?",
+        "options": [
+          { "id": 0, "text": "Dependencia", "isCorrect": true },
+          { "id": 1, "text": "Autonomía", "isCorrect": false },
+          { "id": 2, "text": "Ausencia de estado", "isCorrect": false },
+          { "id": 3, "text": "Heterogeneidad", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Se puede considerar una Arquitectura Orientada a Servicio un middleware?",
+        "options": [
+          { "id": 0, "text": "No, ya que carece de ciertas funcionalidades propias de los middlewares", "isCorrect": false },
+          { "id": 1, "text": "No", "isCorrect": false },
+          { "id": 2, "text": "Sí, siempre y cuando de soporte a varios modelos de programación", "isCorrect": false },
+          { "id": 3, "text": "Si", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "BPEL es un estándar para la composición de servicios web. Pero ¿qué tipo de mecanismo concreto implementa?",
+        "options": [
+          { "id": 0, "text": "Síncrono", "isCorrect": false },
+          { "id": 1, "text": "Asíncrono", "isCorrect": false },
+          { "id": 2, "text": "Estático", "isCorrect": true },
+          { "id": 3, "text": "Dinámico", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En la tecnología de servicios web, ¿qué tecnología juega un papel importante en el descubrimiento de los servicios?",
+        "options": [
+          { "id": 0, "text": "BPEL", "isCorrect": false },
+          { "id": 1, "text": "WSDL", "isCorrect": false },
+          { "id": 2, "text": "UDDI", "isCorrect": true },
+          { "id": 3, "text": "SOAP", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En la interacción entre el proveedor del servicio y el consumidor de un servicio web, ¿cuál es el transporte de los mensajes?",
+        "options": [
+          { "id": 0, "text": "HTTP", "isCorrect": true },
+          { "id": 1, "text": "WSDL", "isCorrect": false },
+          { "id": 2, "text": "SOAP", "isCorrect": false },
+          { "id": 3, "text": "TCP/IP", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes elementos no es parte de un mensaje SOAP?",
+        "options": [
+          { "id": 0, "text": "Sobre o envelop", "isCorrect": false },
+          { "id": 1, "text": "Cuerpo o body", "isCorrect": false },
+          { "id": 2, "text": "Cabecera o header", "isCorrect": false },
+          { "id": 3, "text": "Reglas de codificación de datos o enconding rules", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "- Suponga que le encargan el desarrollo de una extensión para un sistema de información heredado (sólo consulta vía web). Se tiene acceso al código fuente, pero el programa usa una librería de terceros (de la que no tenemos el código fuente) para almacenamiento de datos que guarda la información en un formato del cuál no sabemos nada. ¿Qué estrategia emplearía para abordar el proceso de desarrollo?",
+        "options": [
+          { "id": 0, "text": "Utilizaría, indistintamente, los patrones de integración File Transfer o Shared Database ", "isCorrect": false },
+          { "id": 1, "text": "En primer lugar, sería necesario modificar el sistema actual para almacenar la información en un formato común y accesible", "isCorrect": true },
+          { "id": 2, "text": "Propondría el desarrollo de un sistema de información adaptado a los nuevos requisitos", "isCorrect": false },
+          { "id": 3, "text": "tilizaría una solución basada en intercambio de mensajes para solicitar al sistema heredado la información necesaria por cada consulta de cliente", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un modelo de arquitectura de integración empresarial de tres capas se compone de:",
+        "options": [
+          { "id": 0, "text": "Modelo-Vista-Controlador", "isCorrect": false },
+          { "id": 1, "text": "Cliente-Lógica/Aplicación-Datos", "isCorrect": false },
+          { "id": 2, "text": "Cliente-Presentación-Datos", "isCorrect": false },
+          { "id": 3, "text": "Presentación-Lógica/Aplicación/Datos", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Para implementar un ESB (Enterprise System Bus), ¿qué tipo de canales/patrones se tendrían que utilizar?",
+        "options": [
+          { "id": 0, "text": "Punto a punto + router", "isCorrect": false },
+          { "id": 1, "text": "Publish-Subscribe", "isCorrect": false },
+          { "id": 2, "text": "Bus de mensajes", "isCorrect": false },
+          { "id": 3, "text": "Cualquiera de las tres opciones mostradas", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Dentro de lo que son los sistemas de mensajería, ¿qué rol juega principalmente el contenedor de servicios web Apache AXIS2 utilizado en las clases?",
+        "options": [
+          { "id": 0, "text": "Canal de mensajes", "isCorrect": false },
+          { "id": 1, "text": "Filtro de mensajes", "isCorrect": false },
+          { "id": 2, "text": "Router de mensajes", "isCorrect": false },
+          { "id": 3, "text": "Traductor de mensaje", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Qué estilo de integración sería más adecuado teniendo en cuenta la naturaleza de procesos de negocio?",
+        "options": [
+          { "id": 0, "text": "Intercambio de ficheros", "isCorrect": false },
+          { "id": 1, "text": "Base de datos compartida", "isCorrect": false },
+          { "id": 2, "text": "Invocación a procedimiento remoto", "isCorrect": false },
+          { "id": 3, "text": "ESB", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Parcial 2 - Mayo 2018",
+    "questions": [
+      {
+        "text": "¿Cuál de las siguientes técnicas de evaluación tiene elevados costes?",
+        "options": [
+          { "id": 0, "text": "Modelado analítico", "isCorrect": false },
+          { "id": 1, "text": "Simulación", "isCorrect": false},
+          { "id": 2, "text": "Monitorización", "isCorrect": true },
+          { "id": 3, "text": "Ninguna tiene elevados costes", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes no es un parámetro de calidad de un monitor?",
+        "options": [
+          { "id": 0, "text": "Precisión", "isCorrect": false },
+          { "id": 1, "text": "Rapidez", "isCorrect": true },
+          { "id": 2, "text": "Capacidad de reducción de datos", "isCorrect": false },
+          { "id": 3, "text": "Resolución", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué tipo de monitor tiene una anchura de palabra finita?",
+        "options": [
+          { "id": 0, "text": "Hardware", "isCorrect": true },
+          { "id": 1, "text": "Software", "isCorrect": false },
+          { "id": 2, "text": "Híbrido", "isCorrect": false },
+          { "id": 3, "text": "Ninguno tiene un ancho finito", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿En qué tipo de monitor su analizador es un programa software?",
+        "options": [
+          { "id": 0, "text": "Hardware", "isCorrect": false },
+          { "id": 1, "text": "Software", "isCorrect": false },
+          { "id": 2, "text": "Híbrido", "isCorrect": false },
+          { "id": 3, "text": "En todos los anteriores", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Un monitor de contabilidad puede registrar información sobre...",
+        "options": [
+          { "id": 0, "text": "Reinicios del sistema", "isCorrect": true },
+          { "id": 1, "text": "Temperatura del procesador", "isCorrect": false },
+          { "id": 2, "text": "Las dos anteriores son ciertas", "isCorrect": false },
+          { "id": 3, "text": "Las dos primeras son falsas", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "No es un objetivo de la evaluación de un sistema informático:",
+        "options": [
+          { "id": 0, "text": "Identificar los problemas que el sistema tiene", "isCorrect": false },
+          { "id": 1, "text": "Ajustar los parámetros del sistema", "isCorrect": false },
+          { "id": 2, "text": "Planificar la capacidad del sistema", "isCorrect": false },
+          { "id": 3, "text": "Todas son objetivos de la evaluación de un sistema informático", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes son factores que pueden tenerse en cuenta a la hora de establecer los acuerdos de nivel de servicio?",
+        "options": [
+          { "id": 0, "text": "Tiempo máximo de respuesta", "isCorrect": false },
+          { "id": 1, "text": "Cociente entre el tiempo media de respuesta del sistema y el tiempo medio de reflexión", "isCorrect": false },
+          { "id": 2, "text": "Utilización máxima del procesador", "isCorrect": false },
+          { "id": 3, "text": "Todas las anteriores son ciertas", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "A la hora de establecer la capacidad adecuada un factor que no hace falta tener en cuenta:",
+        "options": [
+          { "id": 0, "text": "Los costes de mantenimiento del sistema", "isCorrect": false },
+          { "id": 1, "text": "El sistema de monitorización prevista para el sistema", "isCorrect": true },
+          { "id": 2, "text": "La satisfacción de uso del sistema", "isCorrect": false },
+          { "id": 3, "text": "La arquitectura del sistema", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿En qué nivel de gestión y planificación de la capacidad se encuentra una empresa que implementa un método automático de predicción de la carga mediante regresión lineal?",
+        "options": [
+          { "id": 0, "text": "Nivel 1", "isCorrect": false },
+          { "id": 1, "text": "Nivel 2", "isCorrect": false },
+          { "id": 2, "text": "Nivel 3", "isCorrect": true },
+          { "id": 3, "text": "Nivel 4", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes no es un proceso de planificación de la capacidad de un SI?",
+        "options": [
+          { "id": 0, "text": "Dotar de instrumentación al sistema", "isCorrect": false },
+          { "id": 1, "text": "Caracterizar la carga", "isCorrect": false },
+          { "id": 2, "text": "Evaluar el alcance del sistema", "isCorrect": true },
+          { "id": 3, "text": "Monitorizar la utilización del sistema", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál no es un tipo de patrón de datos históricos?",
+        "options": [
+          { "id": 0, "text": "Regresión", "isCorrect": true },
+          { "id": 1, "text": "Estacional", "isCorrect": false },
+          { "id": 2, "text": "Cíclico", "isCorrect": false },
+          { "id": 3, "text": "Estacionario", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El tiempo transcurrido desde que un trabajo llega para ser atendido por una estación hasta que termina de usarla es el:",
+        "options": [
+          { "id": 0, "text": "Tiempo de espera", "isCorrect": false },
+          { "id": 1, "text": "Tiempo de servicio", "isCorrect": false },
+          { "id": 2, "text": "Tiempo de respuesta", "isCorrect": true },
+          { "id": 3, "text": "Tiempo de reflexión", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El peor tiempo de respuesta se alcanza:",
+        "options": [
+          { "id": 0, "text": "Al llegar y sobrepasar el punto de saturación (capacidad nominal)", "isCorrect": false },
+          { "id": 1, "text": "Antes de alcanzar el punto de saturación", "isCorrect": false },
+          { "id": 2, "text": "Depende de otros factores unas veces antes y otras después del punto de saturación", "isCorrect": false },
+          { "id": 3, "text": "Ninguna de las anteriores es cierta", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "El primer paso en el proceso de planificación de la capacidad de un sistema informático es:",
+        "options": [
+          { "id": 0, "text": "Instrumentalizar el sistema", "isCorrect": true },
+          { "id": 1, "text": "Caracterizar la carga", "isCorrect": false },
+          { "id": 2, "text": "Monitorizar el sistema", "isCorrect": false },
+          { "id": 3, "text": "Predecir el rendimiento bajo distintas alternativas", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Si me encuentro en las fases iniciales de diseño de mi sistema de información debo utilizar la siguiente técnica de evaluación:",
+        "options": [
+          { "id": 0, "text": "Monitorización", "isCorrect": false },
+          { "id": 1, "text": "Simulación", "isCorrect": false },
+          { "id": 2, "text": "Analítica", "isCorrect": true },
+          { "id": 3, "text": "Híbrida", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La métrica a utilizar para ofrecer una medida de la fiabilidad de nuestro sistema se llama:",
+        "options": [
+          { "id": 0, "text": "Productividad", "isCorrect": false },
+          { "id": 1, "text": "MTBE", "isCorrect": true },
+          { "id": 2, "text": "MTBF", "isCorrect": false },
+          { "id": 3, "text": "MTTR", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La planificación de la capacidad tiene como objetivo:",
+        "options": [
+          { "id": 0, "text": "Predecir futuros cuellos de botella en el sistema", "isCorrect": false },
+          { "id": 1, "text": "Optimizar la inversión en infraestructura TIC", "isCorrect": false },
+          { "id": 2, "text": "Maximizar la productividad", "isCorrect": false },
+          { "id": 3, "text": "Todas las anteriores son correctas", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿En qué nivel de gestión y planificación de la capacidad se encuentra una empresa que realiza medidas de tendencia y medición en periodos pico?",
+        "options": [
+          { "id": 0, "text": "Nivel 1", "isCorrect": true },
+          { "id": 1, "text": "Nivel 2", "isCorrect": false },
+          { "id": 2, "text": "Nivel 3", "isCorrect": false },
+          { "id": 3, "text": "Nivel 4", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuáles de las siguientes variables no podría considerarse una Natural Forecast Unit?",
+        "options": [
+          { "id": 0, "text": "Número de empleados", "isCorrect": false },
+          { "id": 1, "text": "Número de clientes registrados", "isCorrect": false },
+          { "id": 2, "text": "Volumen de compras", "isCorrect": false },
+          { "id": 3, "text": "Número de correos electrónicos procesados", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Parcial 1- Abril 2019",
+    "questions": [
+      {
+        "text": "El Sistema Informático en una organización incluye...",
+        "options": [
+          { "id": 0, "text": "Sólo la infraestructura TIC", "isCorrect": false },
+          { "id": 1, "text": "Los procesos de negocio", "isCorrect": false },
+          { "id": 2, "text": "La infraestructura TIC más las soluciones software que dan soporte a los procesos de negocio", "isCorrect": true },
+          { "id": 3, "text": "Las soluciones software que dan soporte a los procesos de negocio", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un proceso de negocio es...",
+        "options": [
+          { "id": 0, "text": "Una actividad concreta dentro de la organización", "isCorrect": false },
+          { "id": 1, "text": "Un módulo dentro de un software ERP", "isCorrect": false },
+          { "id": 2, "text": "Una secuencia de actividades dentro de la organización", "isCorrect": true },
+          { "id": 3, "text": "Una técnica de integración de islas tecnológicas", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué no es parte del contexto/entorno de una organización?",
+        "options": [
+          { "id": 0, "text": "Proveedores", "isCorrect": false },
+          { "id": 1, "text": "Clientes", "isCorrect": false },
+          { "id": 2, "text": "Recursos Humanos", "isCorrect": true },
+          { "id": 3, "text": "Socios/accionistas", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Qué característica/s de un sistema ERP favorecen su implantación en una organización?",
+        "options": [
+          { "id": 0, "text": "Modularidad", "isCorrect": false },
+          { "id": 1, "text": "Configurabilidad", "isCorrect": false },
+          { "id": 2, "text": "Alta especialización", "isCorrect": false },
+          { "id": 3, "text": "La primera y segunda respuestas son correctas", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes factores no es motivo para iniciar un proyecto de integración en una organización?",
+        "options": [
+          { "id": 0, "text": "Un cambio en la estrategia de la organización", "isCorrect": false },
+          { "id": 1, "text": "Mejora de la atención al cliente/proveedores", "isCorrect": false },
+          { "id": 2, "text": "Reducción de costes", "isCorrect": false },
+          { "id": 3, "text": "Cambio en la estructura de la organización", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿Qué diferencia el software CRM y SCM?",
+        "options": [
+          { "id": 0, "text": "CRM utiliza un único SGBD y el SCM múltiples fuentes.", "isCorrect": false },
+          { "id": 1, "text": "CRM se centra sólo en el cliente mientras que SCM cubre toda la cadena de valor.", "isCorrect": true },
+          { "id": 2, "text": "SCM se basa en servicios web y RPC para integrar los módulos.", "isCorrect": false },
+          { "id": 3, "text": "CRM es una aplicación de gestión y SCM un tipo de ERP", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Si quiero que mi proyecto de integración se implante rápidamente pero con un mayor riesgo optaría por una estrategia...",
+        "options": [
+          { "id": 0, "text": "Etapas planificadas", "isCorrect": false },
+          { "id": 1, "text": "Big-Bang", "isCorrect": true },
+          { "id": 2, "text": "Phase-Rollout", "isCorrect": false },
+          { "id": 3, "text": "Incremental", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En cambio si quiero que mi proyecto de integración cueste lo menos posible optaría por una estrategia...",
+        "options": [
+          { "id": 0, "text": "Etapas planificadas", "isCorrect": false },
+          { "id": 1, "text": "Big-Bang", "isCorrect": true },
+          { "id": 2, "text": "Phase-Rollout", "isCorrect": false },
+          { "id": 3, "text": "Incremental", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Si una organización es de tipo “horizontal” se estructura alrededor de:",
+        "options": [
+          { "id": 0, "text": "Departamentos", "isCorrect": false },
+          { "id": 1, "text": "Procesos", "isCorrect": true },
+          { "id": 2, "text": "Unidades de negocio", "isCorrect": false },
+          { "id": 3, "text": "Equipos de trabajo especializados", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La integración de sistemas debe abordarse en todos los niveles (técnicos y organizacionales) y 'entre' todos los niveles. Pero el éxito de integración en un nivel depende del inmediatamente inferior. ¿Cuál es el primer nivel que abordar en la capa de infraestructura TIC?",
+        "options": [
+          { "id": 0, "text": "Datos", "isCorrect": true },
+          { "id": 1, "text": "Aplicaciones", "isCorrect": false },
+          { "id": 2, "text": "Redes de interconexión y servidores", "isCorrect": false },
+          { "id": 3, "text": "Procesos", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "A la hora de abordar la integración a nivel de datos es más que suficiente...",
+        "options": [
+          { "id": 0, "text": "Llegar a un acuerdo sobre las entidades y sus relaciones (sintaxis)", "isCorrect": false },
+          { "id": 1, "text": "Utilizar una única tecnología para el SGBD", "isCorrect": false },
+          { "id": 2, "text": "Desarrollar una capa única de acceso a la capa de persistencia", "isCorrect": false },
+          { "id": 3, "text": "Definir tanto la sintaxis como la forma de interpretar dichos datos (semántica)", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "En una arquitectura SOA el actor broker o intermediario es el encargado de:",
+        "options": [
+          { "id": 0, "text": "Ejecutar los servicios ofertados", "isCorrect": false },
+          { "id": 1, "text": "Mantener un directorio de servicios y un servicio de búsqueda", "isCorrect": true },
+          { "id": 2, "text": "Pedir que se registre un servicio", "isCorrect": false },
+          { "id": 3, "text": "Asegurar que los servicios se ejecutan y coordinan según lo especificado", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál o cuáles de las tres principales técnicas/estrategias de integración de datos no sufre de un problema de latencia en la recuperación de información?",
+        "options": [
+          { "id": 0, "text": "Consolidación y Federación", "isCorrect": false },
+          { "id": 1, "text": "Federación y Propagación", "isCorrect": false },
+          { "id": 2, "text": "Consolidación y Propagación", "isCorrect": true },
+          { "id": 3, "text": "Sólo Federación", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿En cuál o cuáles de las tres principales técnicas/estrategias de integración de datos podríamos sufrir un problema de exactitud/sincronización?",
+        "options": [
+          { "id": 0, "text": "Consolidación y Federación", "isCorrect": false },
+          { "id": 1, "text": "Federación y Propagación", "isCorrect": false },
+          { "id": 2, "text": "Consolidación y Propagación", "isCorrect": true },
+          { "id": 3, "text": "Sólo Consolidación", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes características no es propia de un servicio?",
+        "options": [
+          { "id": 0, "text": "Dependencia", "isCorrect": true },
+          { "id": 1, "text": "Autonomía", "isCorrect": false },
+          { "id": 2, "text": "Ausencia de estado", "isCorrect": false },
+          { "id": 3, "text": "Heterogeneidad", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Se puede considerar una Arquitectura Orientada a Servicio un middleware?",
+        "options": [
+          { "id": 0, "text": "No, ya que carece de ciertas funcionalidades propias de los middlewares", "isCorrect": false },
+          { "id": 1, "text": "No", "isCorrect": false },
+          { "id": 2, "text": " Sí, siempre y cuando de soporte a varios modelos de programación", "isCorrect": false },
+          { "id": 3, "text": "Si", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "BPEL es un estándar para la composición de servicios web. Pero ¿qué tipo de mecanismo de composición concreto implementa?",
+        "options": [
+          { "id": 0, "text": "Síncrono", "isCorrect": false },
+          { "id": 1, "text": "Asíncrono", "isCorrect": false },
+          { "id": 2, "text": "Estático", "isCorrect": true },
+          { "id": 3, "text": "Dinámico", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En la tecnología de servicios web, ¿qué tecnología juega un papel importante en el descubrimiento de los servicios?",
+        "options": [
+          { "id": 0, "text": "BPEL", "isCorrect": false },
+          { "id": 1, "text": "WSDL", "isCorrect": false },
+          { "id": 2, "text": "UDDI", "isCorrect": true },
+          { "id": 3, "text": "SOAP", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En la interacción entre el proveedor del servicio y el consumidor de un servicio web, ¿cuál es el transporte de los mensajes?",
+        "options": [
+          { "id": 0, "text": "HTTP", "isCorrect": true },
+          { "id": 1, "text": "WSDL", "isCorrect": false },
+          { "id": 2, "text": "SOAP", "isCorrect": false },
+          { "id": 3, "text": "TCP/IP", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de los siguientes elementos no es parte de un mensaje SOAP?",
+        "options": [
+          { "id": 0, "text": "Sobre o envelop", "isCorrect": false },
+          { "id": 1, "text": "Cuerpo o body", "isCorrect": false },
+          { "id": 2, "text": "Cabecera o header", "isCorrect": false },
+          { "id": 3, "text": "Reglas de codificación de datos o enconding rules", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Un módulo de un software ERP...",
+        "options": [
+          { "id": 0, "text": "Modela una actividad concreta dentro de la organización", "isCorrect": false },
+          { "id": 1, "text": "Da soporte a la actividad de un departamento ", "isCorrect": false },
+          { "id": 2, "text": "Da soporte a un proceso de negocio, comprendiendo un conjunto de actividades", "isCorrect": true },
+          { "id": 3, "text": "Una técnica de integración de islas tecnológicas ", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La descripción WSDL de un servicio web proporciona información suficiente para..",
+        "options": [
+          { "id": 0, "text": "Qué funcionalidad proporciona el servicio", "isCorrect": false },
+          { "id": 1, "text": "Registrarlo en el directorio de servicios", "isCorrect": false },
+          { "id": 2, "text": "Saber interpretar los mensajes SOAP", "isCorrect": false },
+          { "id": 3, "text": "La primera y tercera son correctas", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "¿En cuál o cuáles de las tres principales técnicas/estrategias de integración de datos no sufriremos un problema de exactitud/sincronización?",
+        "options": [
+          { "id": 0, "text": "Sólo Federación ", "isCorrect": true },
+          { "id": 1, "text": "Sólo Consolidación", "isCorrect": false },
+          { "id": 2, "text": "Sólo Propagación", "isCorrect": false },
+          { "id": 3, "text": "Consolidación y Propagación", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En las soluciones de consolidación de datos, se hace uso de tecnologías como ECM (Enterprise Content Management) o ETL. Pero, ¿qué significan estas últimas siglas?",
+        "options": [
+          { "id": 0, "text": "Enterprise Transformation Language", "isCorrect": false },
+          { "id": 1, "text": "Extract Transform Load", "isCorrect": true },
+          { "id": 2, "text": "Enterprise Transactional Language", "isCorrect": false },
+          { "id": 3, "text": "Extract Transport Load", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes características de un ERP supone un riesgo en cuanto al éxito de su implantación en una organización?",
+        "options": [
+          { "id": 0, "text": "Modularidad", "isCorrect": false },
+          { "id": 1, "text": "Automatización de tareas", "isCorrect": false },
+          { "id": 2, "text": "Aceptación por parte de los usuarios", "isCorrect": true },
+          { "id": 3, "text": "Configurabilidad", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

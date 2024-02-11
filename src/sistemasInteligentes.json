@@ -553,6 +553,100 @@
     ]
   },
   {
+    "examName": "Ex-Ene-23",
+    "questions": [
+      {
+        "text": "¿Se puede obtener la solución de un PSR mediante el algoritmo AC3?",
+        "options": [
+          { "id": 0, "text": "No, sólo se puede determinar si no hay solución.", "isCorrect": false },
+          { "id": 1, "text": "No, es un algoritmo para la reducción de los dominios de las variables y no para la búsqueda de soluciones.", "isCorrect": false },
+          { "id": 2, "text": "Sí, pero sólo cuando todos los dominios tienen un único valor se puede extraer una solución.", "isCorrect": true },
+          { "id": 3, "text": "Todas las respuestas anteriores son erróneas.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Dado un arco X ⟶ Y que refleja la relación X < Y, marque los dominios que lo hacen consistente.",
+        "options": [
+          { "id": 0, "text": "X=[3, 4, 10],Y=[9, 7]", "isCorrect": false },
+          { "id": 1, "text": "X=[8, 1, 6],Y=[10, 5]", "isCorrect": true },
+          { "id": 2, "text": "X=[6, 11, 5],Y=[9, 2, 10]", "isCorrect": false },
+          { "id": 3, "text": "X=[5, 11, 1, 7],Y=[8, 9, 10, 4]", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "El algoritmo de ascensión de colinas:",
+        "options": [
+          { "id": 0, "text": "Es un método de maximización local o minimización local.", "isCorrect": true },
+          { "id": 1, "text": "Pertenece al subgrupo de técnicas de búsqueda de localizada.", "isCorrect": false },
+          { "id": 2, "text": "En cada iteración siempre escoge el vecino mejor.", "isCorrect": false },
+          { "id": 3, "text": "Es un método de maximización.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En PSR con 5 variables con dominios de tres valores:",
+        "options": [
+          { "id": 0, "text": "La complejidad temporal es 3^5 = 243.", "isCorrect": true },
+          { "id": 1, "text": "La complejidad temporal es 5^3 = 125", "isCorrect": false },
+          { "id": 2, "text": "La profundidad es 3 y el factor de ramificación es 5", "isCorrect": false },
+          { "id": 3, "text": "Todas las respuestas anteriores son erróneas.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En enfriamiento simulado, la probabilidad de intercambiar la solución actual por una mejor...",
+        "options": [
+          { "id": 0, "text": "se incrementa en proporción a como es mejor la solución.", "isCorrect": false },
+          { "id": 1, "text": "es siempre 1.", "isCorrect": true },
+          { "id": 2, "text": "decrece en el tiempo y de como de mala es la solución.", "isCorrect": false },
+          { "id": 3, "text": "depende de la función de decrecimiento de T.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "En Minimax:",
+        "options": [
+          { "id": 0, "text": "La función de evaluación se aplica al estado final.", "isCorrect": false },
+          { "id": 1, "text": "La función de utilidad obtiene la valoración del estado del Max.", "isCorrect": false },
+          { "id": 2, "text": "La función de utilidad se aplica a un estado en la profundidad máxima.", "isCorrect": false },
+          { "id": 3, "text": "Ninguna respuesta es correcta.", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Sea un mundo grid de 3x3 (filas x columnas) con un muro en la casilla (1,1), donde se recibe un refuerzo R de -0.03 en todas las casillas excepto en la casilla (0,3) que es 1 y en (1,3) que es -1. Se usa un modelo de transición con una probabilidad de 0.8 de realizar un movimiento (arriba, abajo, izquierda y derecha) y 0.1 sus movimientos perpendiculares. Si el movimiento sale del grid o choca contra el muro el agente se mantiene en la misma casilla. Mediante la técnica de iteración de valores calcular U_t(0,0) sabiendo que γ = 0.8, U_t-1(0,0) es 0.1814, U_t-1(1,0) es -0.0866 y U_t-1(0,1) es 0.4444",
+        "options": [
+          { "id": 0, "text": "0.2619", "isCorrect": true },
+          { "id": 1, "text": "0.3619", "isCorrect": false },
+          { "id": 2, "text": "0.1619", "isCorrect": false },
+          { "id": 3, "text": "0.0619", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Dado un árbol de juego, con un nodo MAX con unos valores V=-1, α = 3, β = 5. Según el algoritmo de poda α - β ¿Qué valor de sus hijos producirá una poda?",
+        "options": [
+          { "id": 0, "text": "4", "isCorrect": false },
+          { "id": 1, "text": "3", "isCorrect": false },
+          { "id": 2, "text": "8", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "Dado un arco X ⟶ Y que refleja la relación X < Y, marque los dominios que lo hacen inconsistente.",
+        "options": [
+          { "id": 0, "text": "X=[0, 9],Y=[1, 10]", "isCorrect": false },
+          { "id": 1, "text": "X=[3, 9, 4],Y=[8, 3, 6]", "isCorrect": true },
+          { "id": 2, "text": "X=[1, 0, 4],Y=[8, 2, 6, 0]", "isCorrect": false },
+          { "id": 3, "text": "X=[4, 5, 7],Y=[8, 7]", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Indica cuál de las siguientes frases es falsa:",
+        "options": [
+          { "id": 0, "text": "El algoritmo de iteración de valores se basa en la utilidad esperada.", "isCorrect": false },
+          { "id": 1, "text": "Una política determina la acción apropiada dada el estado actual.", "isCorrect": false },
+          { "id": 2, "text": "La política óptima es la política que maximiza la utilidad esperada.", "isCorrect": false },
+          { "id": 3, "text": "En los Procesos de Decisión de Markov, la probabilidad de entrar en el estado actual en un estado depende de los estados previos.", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
     "examName": "Test-T4",
     "questions": [
       {

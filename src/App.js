@@ -4,6 +4,7 @@ import sistemasDistribuidos from './sistemasDistribuidos.json';
 import sistemasInteligentes from './sistemasInteligentes.json';
 import ingenieriaSoftwareII from './ingenieriaSoftwareII.json';
 import arquitecturaComputadores from './arquitecturaComputadores.json';
+import integracionDeSistemas from './integracionDeSistemas.json';
 
 function App() {
   const [showResults, setShowResults] = useState(false);
@@ -18,7 +19,8 @@ function App() {
     "Sistemas Distribuidos": sistemasDistribuidos,
     "Sistemas Inteligentes": sistemasInteligentes,
     "Ingeniería del Software II": ingenieriaSoftwareII,
-    "Arquitectura de Computadores": arquitecturaComputadores
+    "Arquitectura de Computadores": arquitecturaComputadores,
+    "Integración de Sistemas": integracionDeSistemas,
   };
 
   const chooseAnotherExam = () => {
